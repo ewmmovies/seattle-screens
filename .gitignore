@@ -183,3 +183,4 @@ cython_debug/
 *.tmp
 .pytest_cache/
 local/.profile/
+*.zip

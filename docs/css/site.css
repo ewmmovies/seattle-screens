@@ -1,0 +1,375 @@
+/* Seattle Screens — SPEC.md section 9. Black, white and one purple; two typefaces; no bold. */
+
+@font-face {
+  font-family: "Fraunces";
+  /* Light (300), SOFT 100, WONK 0 baked in; optical size kept. Subset to Latin. OFL licence in fonts/OFL.txt. */
+  src: url("../fonts/Fraunces-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --accent: #8b4dff;
+  --serif: "Fraunces", Georgia, serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --rail: 150px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--white);
+  color: var(--black);
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+h1, h2, h3, h4, b, strong, th { font-weight: inherit; }
+h1, h2, h3, p, ul { margin: 0; }
+
+a { color: inherit; }
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.serif {
+  font-family: var(--serif);
+  font-weight: 300;
+  font-variation-settings: "SOFT" 100, "WONK" 0;
+}
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* ---------------------------------------------------------------- page frame */
+
+.page {
+  max-width: 1300px;
+  margin: 30px auto 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  flex: 0 0 var(--rail);
+  width: var(--rail);
+  text-align: center;
+  background: var(--white);
+}
+
+.site-name {
+  display: block;
+  font-size: 24px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 8px;
+}
+
+.site-name span { display: block; }
+
+.site-descriptor {
+  font-size: 11px;
+  text-transform: uppercase;
+  margin: 10px 8px 20px;
+}
+
+.menu-button { display: none; }
+
+.site-nav ul { list-style: none; padding: 0; }
+
+.site-nav li { border-top: 1px solid var(--black); }
+.site-nav li:last-child { border-bottom: 1px solid var(--black); }
+
+.site-nav a {
+  display: block;
+  padding: 12px 4px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-nav a[aria-current="page"] { color: var(--accent); }
+
+main {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: calc(100vh - 30px);
+  padding: 0 10px;
+  border-left: 1px solid var(--black); /* the rule between rail and content, full height */
+}
+
+.site-footer {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 40px 0 30px;
+}
+
+/* ---------------------------------------------------------------- headings */
+
+.page-title {
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.page-title > span,
+.date-button {
+  display: inline-block;
+  border-bottom: 1px solid var(--black);
+}
+
+.section-label {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--accent);
+  border-top: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+  padding: 14px 0;
+  margin-top: 20px;
+}
+
+/* ---------------------------------------------------------------- date navigator */
+
+.date-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.date-nav .page-title { margin: 0; }
+
+.date-button { font-size: inherit; line-height: inherit; }
+
+.arrow {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+.arrow::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+}
+
+.arrow-prev::before { border-right: 16px solid var(--black); }
+.arrow-next::before { border-left: 16px solid var(--black); }
+
+.arrow:disabled { cursor: default; visibility: hidden; }
+
+.date-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 1px;
+  height: 1px;
+}
+
+/* ---------------------------------------------------------------- venue blocks */
+
+.venue-block {
+  padding-top: 20px;
+  border-bottom: 2px dashed var(--black);
+}
+
+.venue-name {
+  font-size: 30px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.venue-name a { text-decoration: none; }
+.venue-name a:hover { text-decoration: underline; }
+
+.venue-name + .stale { margin: -22px 0 24px; }
+
+.stale {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--accent);
+}
+
+/* ---------------------------------------------------------------- screening grid */
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cell {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 0 20px 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px dashed var(--black);
+  border-right: 2px dashed var(--black);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cell:nth-child(3n),
+.cell:last-child { border-right: 0; }
+
+.cell-body { flex: 1 0 auto; margin-bottom: 50px; }
+
+.small {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.series { color: var(--accent); margin-bottom: 6px; }
+
+.title {
+  font-size: 20px;
+  line-height: 26px;
+  overflow-wrap: anywhere;
+}
+
+.title a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+.meta { margin-top: 6px; }
+
+.film-glyph {
+  display: inline-block;
+  width: 13px;
+  height: 11px;
+  margin-left: 4px;
+  vertical-align: -1px;
+}
+
+.notes { margin-top: 8px; font-size: 14px; line-height: 18px; }
+.notes p + p { margin-top: 2px; }
+
+.showtimes { margin: 0; }
+
+.times > a, .times > span { display: inline-block; margin: 0 4px; padding: 6px 0; }
+.times a { text-decoration: none; }
+.times a:hover { text-decoration: underline; }
+.times .sold-out { text-decoration: line-through; color: var(--black); }
+.nowrap { white-space: nowrap; }
+.times .noted { color: var(--accent); }
+
+.footnotes { margin-top: 4px; color: var(--accent); }
+
+.message {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  padding: 60px 0;
+}
+
+/* ---------------------------------------------------------------- venues page */
+
+.card-grid { padding-top: 20px; }
+.card-grid .cell { padding-bottom: 30px; }
+.card-grid .cell-body { margin-bottom: 0; }
+.card-grid .neighborhood { color: var(--accent); margin-top: 6px; }
+.card-grid .address { font-size: 14px; line-height: 18px; margin-top: 10px; }
+.card-grid .address a { text-decoration-thickness: 1px; }
+.card-grid .card-links { margin-top: 10px; }
+.card-grid .card-links a { display: inline-block; padding: 6px 0; }
+.card-grid .updated { margin-top: 10px; }
+
+/* ---------------------------------------------------------------- responsive (9.4) */
+
+@media (max-width: 999px) {
+  .cell { flex-basis: 50%; max-width: 50%; }
+  .cell:nth-child(3n) { border-right: 2px dashed var(--black); }
+  .cell:nth-child(2n),
+  .cell:last-child { border-right: 0; }
+}
+
+@media (max-width: 639px) {
+  .page { display: block; margin-top: 0; }
+
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: auto;
+    min-height: 0;
+    border-right: 0;
+    border-bottom: 2px solid var(--black);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0 0 0 10px;
+  }
+
+  .site-name { font-size: 18px; padding: 0; }
+  .site-name span { display: inline; }
+  .site-descriptor { display: none; }
+
+  .menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 52px;
+    height: 48px;
+    padding: 0 12px;
+  }
+
+  .menu-button span { display: block; height: 2px; background: var(--black); }
+
+  .site-nav { display: none; flex: 0 0 100%; }
+  .site-nav.open { display: block; }
+  .site-nav li:first-child { border-top: 2px solid var(--black); }
+  .site-nav li:last-child { border-bottom: 0; }
+  .site-nav a { padding: 14px 10px; min-height: 48px; }
+
+  main { padding: 20px 10px 0; border-left: 0; min-height: 0; }
+
+  .page-title { font-size: 26px; line-height: 32px; }
+  .date-nav { justify-content: space-between; gap: 4px; }
+
+  .cell,
+  .cell:nth-child(3n) {
+    flex-basis: 100%;
+    max-width: 100%;
+    border-right: 0;
+  }
+
+  .times > a, .times > span { padding: 13px 0; }
+}

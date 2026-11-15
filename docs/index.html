@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Listings — Seattle Screens</title>
+  <link rel="preload" href="fonts/Fraunces-Light.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <a class="site-name" href="index.html"><span>Seattle</span> <span>Screens</span></a>
+      <p class="site-descriptor">Screenings at Seattle-area theaters</p>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html" aria-current="page">Listings</a></li>
+          <li><a href="venues.html">Venues</a></li>
+          <li><a href="posts.html">Posts</a></li>
+          <li><a href="search.html">Search</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="date-nav">
+        <button class="arrow arrow-prev" id="prev-day" type="button" aria-label="Previous day"></button>
+        <h1 class="page-title serif">
+          <button class="date-button" id="date-button" type="button" aria-label="Choose a date">&nbsp;</button>
+        </h1>
+        <button class="arrow arrow-next" id="next-day" type="button" aria-label="Next day"></button>
+        <label class="visually-hidden" for="date-input">Date</label>
+        <input class="date-input" id="date-input" type="date" tabindex="-1">
+      </div>
+      <h2 class="section-label">Screenings</h2>
+      <div id="listings" aria-live="polite"></div>
+      <footer class="site-footer">A personal project. Not affiliated with Screen Slate.</footer>
+    </main>
+  </div>
+  <script src="js/common.js"></script>
+  <script src="js/listings.js"></script>
+</body>
+</html>
