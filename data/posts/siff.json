@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-15T12:14:45-08:00",
+  "scraped_at": "2026-11-15T12:39:16-08:00",
   "posts": [
     {
       "id": "siff|/media/news/pr-fest26-awards-announcement",
@@ -19,7 +19,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest26-4th-world-media",
@@ -38,7 +42,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest26-the-ascent-space-needle-climb",
@@ -57,7 +65,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest26-full-lineup",
@@ -76,7 +88,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest26-closing-night",
@@ -95,7 +111,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest26-first-look",
@@ -114,7 +134,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest26-opening-night",
@@ -133,7 +157,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest26-press-accreditation",
@@ -152,7 +180,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-doc-grant-2025-awardees",
@@ -171,7 +203,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-docfest-2025-audience-award-winner",
@@ -190,7 +226,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/docfest-2025-lineup",
@@ -209,7 +249,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/unstoppable-seattle",
@@ -228,7 +272,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest25-awards-announcement",
@@ -247,7 +295,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-siff-doc-grant",
@@ -266,7 +318,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest25-lineup-announcement",
@@ -285,7 +341,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest25-4th-world",
@@ -304,7 +364,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest25-closing-night",
@@ -323,7 +387,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest25-opening-night",
@@ -342,7 +410,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-nffty",
@@ -361,7 +433,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest25-first-look",
@@ -380,7 +456,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest25-press-accreditation",
@@ -399,7 +479,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest25-art-venue-announcement",
@@ -418,7 +502,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-noir-city-2025-lineup",
@@ -437,7 +525,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-cinema-italian-style-2024-lineup",
@@ -456,7 +548,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-doc-audience-winner",
@@ -475,7 +571,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-doc-grant",
@@ -494,7 +594,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-docfest-2024",
@@ -513,7 +617,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-call-for-entries",
@@ -532,7 +640,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-agfa",
@@ -551,7 +663,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-powell-and-pressburger",
@@ -570,7 +686,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest24-program-announcement",
@@ -589,7 +709,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest24-4th-world-and-cinedigenous",
@@ -608,7 +732,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest24-closing-night",
@@ -627,7 +755,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest24-opening-night",
@@ -646,7 +778,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest24-media-accreditation",
@@ -665,7 +801,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest24-first-look",
@@ -684,7 +824,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-fest24-art-venue-announcement",
@@ -703,7 +847,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-board-members-update",
@@ -722,7 +870,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/news/pr-noir-city-2024",
@@ -741,7 +893,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "siff|/media/blog/film-notes-pierrot-le-fou-(1965)",
@@ -760,7 +916,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
     }
   ]
 }
