@@ -107,6 +107,8 @@ def build_features(posts: list[dict]) -> dict:
         "kind": p.get("category"),
         "when": p.get("date_label") or "",
         "byline": p.get("byline") or "",
+        "description": p.get("description") or "",
+        "months": p.get("months") or "",
         "image": p.get("image"),
         "image_fallback": p.get("image_fallback"),
     } for p in (series + programs)[:MAX_FEATURES]]

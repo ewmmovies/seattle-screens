@@ -133,6 +133,8 @@ class Post:
     image: str | None = None  # the Beacon's own card image, loaded from its servers (not copied)
     image_fallback: str | None = None  # the original file, if the resized copy stops working
     byline: str | None = None  # series tagline, or "4 films" for a program
+    description: str | None = None  # first sentences of the Beacon page's description (lead item)
+    months: str | None = None  # "November 2026 – January 2027": first and last scheduled month
 
     @property
     def id(self) -> str:

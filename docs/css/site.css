@@ -487,11 +487,13 @@ main {
 .feature-lead .feature-title { font-size: 30px; line-height: 36px; margin: 6px 0 20px; }
 .feature-lead .feature-frame {
   display: grid;
-  grid-template-columns: 40px minmax(0, 800px) 40px;
-  justify-content: center;
+  grid-template-columns: 24px minmax(0, 1fr) 24px; /* full width, matching the row below */
   column-gap: 8px;
 }
-.feature-lead .byline { margin: 24px 0 26px; }
+.feature-lead .feature-text { max-width: 760px; margin: 22px auto 26px; text-align: center; }
+.feature-lead .feature-description { font-size: 18px; line-height: 25px; }
+.feature-lead .byline { margin-top: 0; }
+.feature-lead .feature-description + .feature-months { margin-top: 14px; }
 
 /* Row of up to three */
 .features-row {

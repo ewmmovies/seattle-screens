@@ -41,7 +41,12 @@
     return el("a", { className: "feature-link feature-lead", href: item.url, target: "_blank", rel: "noopener" },
       el("h3", { className: "feature-title serif" }, item.title),
       el("div", { className: "feature-frame" }, kind, image(item) || el("span"), when),
-      item.byline ? el("p", { className: "byline" }, item.byline) : null);
+      el("div", { className: "feature-text" },
+        // The page's first sentences when it has a description; otherwise the tagline or film count.
+        item.description
+          ? el("p", { className: "feature-description serif" }, item.description)
+          : (item.byline ? el("p", { className: "byline" }, item.byline) : null),
+        item.months ? el("p", { className: "byline feature-months" }, `Scheduled ${item.months}`) : null));
   }
 
   function smallItem(item) {

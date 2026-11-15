@@ -37,6 +37,8 @@ def test_nwff_news():
         "image": None,
         "image_fallback": None,
         "byline": None,
+        "description": None,
+        "months": None,
     }
     assert len(first.summary) <= 240 and first.summary.endswith("…")
     assert first.summary.startswith("Seattle, WA – Northwest Film Forum")
@@ -104,6 +106,19 @@ def test_beacon_card_images_and_film_count():
     assert beacon.count_films(load("beacon_program_surplus-reality.html")) == 4
 
 
+def test_beacon_detail_sentences_and_months():
+    detail = beacon.parse_detail(load("beacon_series_shadowland.html"))
+    assert detail["films"][0] == "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers"
+    assert len(detail["films"]) == 4
+    long = ("What happens after all the time is spent? Rather than spending time like it's some debased currency, "
+            "the Beacon invites you to hold the heavy body of time in your arms. Slow cinema is not a genre. "
+            "It is a style, a mode, a pace. Experiencing time is a symptom of cinema's very essence.")
+    kept = beacon.first_sentences(long)
+    assert kept.startswith("What happens") and kept.endswith("a pace.")  # four sentences
+    assert beacon.month_range(["2026-12-03", "2026-11-15", "2027-01-04"]) == "November 2026 – January 2027"
+    assert beacon.month_range(["2026-11-15"]) == "November 2026" and beacon.month_range([]) is None
+
+
 def test_tasveer_feed():
     posts = tasveer.parse_feed(load("tasveer_feed.xml"))
     assert [p.published for p in posts] == ["2025-06-16", "2024-12-03", "2024-02-13"]
@@ -152,6 +167,10 @@ def test_feed_end_to_end(tmp_path):
                 return "<p>No date on this page</p>"
             if url.startswith(beacon.PROGRAMS_URL + "/"):
                 return load("beacon_program_surplus-reality.html")
+            if url.startswith(beacon.SERIES_URL + "/"):
+                return load("beacon_series_shadowland.html")
+            if url == "https://thebeacon.film/calendar":
+                return (Path(__file__).parent / "fixtures" / "beacon" / "calendar.html").read_text(encoding="utf-8")
             return load(pages[url])
 
     code = run.run(sources=[], post_sources=[beacon, nwff, siff, tasveer], data_dir=tmp_path / "data",
@@ -182,5 +201,10 @@ def test_feed_end_to_end(tmp_path):
     ]  # series first, at most four, Coming Soon left out
     assert features[0]["byline"] == "The emotional otherworlds of classic cinema."
     assert features[2]["byline"] == "4 films" and features[2]["when"] == "November 2026"
+    assert features[0]["description"] == ("The emotional otherworlds of classic cinema. "
+                                          "Unspooling the ribbon of dreams every Sunday afternoon.")
+    # Martha Ivers (in Shadowland) is on the calendar fixture on Nov 15 and 16 only.
+    assert features[0]["months"] == "November 2026"
+    assert features[2]["description"] == ""  # this program's page has no description
     assert features[0]["image"].startswith("https://thebeacon.film/_vercel/image?url=")
     assert features[0]["image_fallback"] == "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SHADOWLAND2.png"

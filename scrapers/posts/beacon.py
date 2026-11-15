@@ -9,8 +9,12 @@
 
 Now-playing series and programs also feed the "At the Beacon" block on the
 listings page (scrapers/build.py writes docs/data/features.json). Each keeps its
-card image URL; for programs, the program page is read (cached a week) to count
-its films for the byline.
+card image URL. Its own page is read (cached a week) for the first sentences of
+its description and its list of films; programs show the film count. The
+"Scheduled" months are the first and last month in which those films appear on
+the Beacon's calendar from today on. The Beacon publishes no start or end dates,
+and the calendar lists only upcoming screenings, so for a series that began
+earlier the range starts at the current month.
 """
 from __future__ import annotations
 
@@ -62,11 +66,54 @@ def card_images(card) -> tuple[str | None, str | None]:
     return resized, original if original and original.startswith("https://") else None
 
 
-def count_films(html: str) -> int:
-    """Program page -> number of different films linked under it."""
+def film_urls(html: str) -> list[str]:
+    """Series or program page -> its films' calendar pages (absolute, no query)."""
     soup = BeautifulSoup(html, "html.parser")
     main = soup.select_one("main") or soup
-    return len({a["href"].split("?")[0] for a in main.select('a[href*="/calendar/movie/"]')})
+    urls = []
+    for link in main.select('a[href*="/calendar/movie/"]'):
+        url = urljoin(BASE_URL + "/", link["href"].split("?")[0])
+        if url not in urls:
+            urls.append(url)
+    return urls
+
+
+def count_films(html: str) -> int:
+    """Program page -> number of different films linked under it."""
+    return len(film_urls(html))
+
+
+_SENTENCE_END = re.compile(r"(?<=[.!?])[\"'”’)]*\s+(?=[A-Z0-9\"“‘(])")
+
+
+def first_sentences(text: str, most: int = 4, limit: int = 420) -> str:
+    """The first one to four sentences, stopping before ~420 characters."""
+    sentences = [s.strip() for s in _SENTENCE_END.split(clean_ws(text)) if s.strip()]
+    kept: list[str] = []
+    for sentence in sentences[:most]:
+        if kept and len(" ".join(kept + [sentence])) > limit:
+            break
+        kept.append(sentence)
+    out = " ".join(kept)
+    return out if len(out) <= limit + 200 else out[: limit].rsplit(" ", 1)[0] + "…"
+
+
+def parse_detail(html: str) -> dict:
+    """Series or program page -> {'description': first sentences, 'films': [calendar URLs]}."""
+    soup = BeautifulSoup(html, "html.parser")
+    node = soup.select_one(".entry-description")
+    return {"description": first_sentences(node.get_text(" ")) if node else "", "films": film_urls(html)}
+
+
+def month_range(dates: list[str]) -> str | None:
+    """['2026-11-15', '2027-01-04'] -> 'November 2026 – January 2027'."""
+    if not dates:
+        return None
+    names = [None, "January", "February", "March", "April", "May", "June", "July", "August",
+             "September", "October", "November", "December"]
+    label = lambda d: f"{names[int(d[5:7])]} {d[:4]}"  # noqa: E731
+    first, last = label(min(dates)), label(max(dates))
+    return first if first == last else f"{first} – {last}"
 
 
 def _sentence(text: str) -> str:
@@ -140,16 +187,32 @@ def fetch(ctx: Context) -> list[Post]:
     ctx.save_fixture("beacon_programs.html", programs)
     series = ctx.http.get_text(SERIES_URL)
     ctx.save_fixture("beacon_series.html", series)
-    programs_now = parse_programs(programs)
-    for post in programs_now:
-        if not post.now_playing:
-            continue
+    posts = parse_series(series) + parse_programs(programs)
+    now = [p for p in posts if p.now_playing]
+    if not now:
+        return posts
+
+    # Scheduled dates for every film, from the full calendar (one request).
+    scheduled: dict[str, list[str]] = {}
+    try:
+        from ..sources.beacon import CALENDAR_URL, parse_calendar
+        for entry in parse_calendar(ctx.http.get_text(CALENDAR_URL), ctx.today):
+            scheduled.setdefault(entry.url, []).append(entry.date)
+    except Exception as error:  # noqa: BLE001 - only the month range is lost
+        print(f"[posts/beacon] calendar unavailable, no month ranges: {error}", file=sys.stderr)
+
+    for post in now:
         def load(url=post.url):
             try:
-                return count_films(ctx.http.get_text(url))
-            except requests.HTTPError as error:  # only the film count is lost
-                print(f"[posts/beacon] program page skipped: {error}", file=sys.stderr)
-                return 0
-        films = ctx.cached(post.url, load)
-        post.byline = f"{films} films" if films > 1 else ("1 film" if films == 1 else None)
-    return parse_series(series) + programs_now
+                return parse_detail(ctx.http.get_text(url))
+            except requests.HTTPError as error:  # only the description and film list are lost
+                print(f"[posts/beacon] page skipped: {error}", file=sys.stderr)
+                return {"description": "", "films": []}
+        detail = ctx.cached("detail:" + post.url, load)
+        films = detail.get("films") or []
+        post.description = detail.get("description") or None
+        dates = [d for f in films for d in scheduled.get(f, []) if d >= ctx.today.isoformat()]
+        post.months = month_range(dates) or (post.date_label if post.category == "Program" else None)
+        if post.category == "Program":
+            post.byline = f"{len(films)} films" if len(films) > 1 else ("1 film" if films else None)
+    return posts
