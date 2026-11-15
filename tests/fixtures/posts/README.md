@@ -11,3 +11,4 @@ entries of each index page, markup as sent minus images.
   carry no dates anywhere; programs carry a month ("NOVEMBER 2026").
 - `tasveer_feed.xml`: https://tasveer.org/feed/ (Tasveer's own blog). Its newest post is from June
   2025, so it currently adds nothing under the six-month rule.
+- `beacon_program_surplus-reality.html`: the film links from one program page (for the film count).

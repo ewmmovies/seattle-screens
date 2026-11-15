@@ -6,11 +6,19 @@
 - https://thebeacon.film/series: cards under Now Playing and Past Series. Series have
   no date anywhere, so only the ones under Now Playing are kept, marked as current
   (decided with Elijah 2026-11-15: they lead the feed, past series are left out).
+
+Now-playing series and programs also feed the "At the Beacon" block on the
+listings page (scrapers/build.py writes docs/data/features.json). Each keeps its
+card image URL; for programs, the program page is read (cached a week) to count
+its films for the byline.
 """
 from __future__ import annotations
 
 import re
+import sys
+from urllib.parse import parse_qs, urljoin, urlparse
 
+import requests
 from bs4 import BeautifulSoup
 
 from ..context import Context
@@ -43,6 +51,24 @@ def _sections(html: str, what: str):
         yield clean_ws(heading.get_text()) if heading else "", section.select("a.card[href]")
 
 
+def card_images(card) -> tuple[str | None, str | None]:
+    """The card's image: (resized copy on thebeacon.film, original file). Both are the
+    Beacon's own URLs; the site loads them from there and never copies them."""
+    img = card.select_one("img[src]")
+    if img is None:
+        return None, None
+    resized = urljoin(BASE_URL + "/", img["src"])
+    original = (parse_qs(urlparse(resized).query).get("url") or [None])[0]
+    return resized, original if original and original.startswith("https://") else None
+
+
+def count_films(html: str) -> int:
+    """Program page -> number of different films linked under it."""
+    soup = BeautifulSoup(html, "html.parser")
+    main = soup.select_one("main") or soup
+    return len({a["href"].split("?")[0] for a in main.select('a[href*="/calendar/movie/"]')})
+
+
 def _sentence(text: str) -> str:
     """'SLOW CINEMA AND ITS REVERBERATIONS.' -> 'Slow cinema and its reverberations.'"""
     text = clean_ws(text)
@@ -62,6 +88,7 @@ def parse_programs(html: str) -> list[Post]:
             if title is None or not match or match.group(1).lower() not in MONTHS:
                 continue  # no readable month: no date, so not listed
             month, year = MONTHS[match.group(1).lower()], int(match.group(2))
+            image, fallback = card_images(card)
             posts.append(Post(
                 source=SOURCE_ID,
                 source_name=SOURCE_NAME,
@@ -71,6 +98,9 @@ def parse_programs(html: str) -> list[Post]:
                 date_label=f"{match.group(1).capitalize()} {year}",
                 category="Program",
                 summary={"now playing": "Now playing.", "coming soon": "Coming soon."}.get(status, ""),
+                now_playing=status == "now playing",
+                image=image,
+                image_fallback=fallback,
             ))
     return posts
 
@@ -85,6 +115,8 @@ def parse_series(html: str) -> list[Post]:
             meta = card.select_one(".card-meta")
             if title is None:
                 continue
+            image, fallback = card_images(card)
+            tagline = _sentence(meta.get_text()) if meta else ""
             posts.append(Post(
                 source=SOURCE_ID,
                 source_name=SOURCE_NAME,
@@ -93,8 +125,12 @@ def parse_series(html: str) -> list[Post]:
                 published=None,
                 date_label="Now playing",
                 category="Series",
-                summary=_sentence(meta.get_text()) if meta else "",
+                summary=tagline,
                 current=True,
+                now_playing=True,
+                image=image,
+                image_fallback=fallback,
+                byline=tagline or None,
             ))
     return posts
 
@@ -104,4 +140,16 @@ def fetch(ctx: Context) -> list[Post]:
     ctx.save_fixture("beacon_programs.html", programs)
     series = ctx.http.get_text(SERIES_URL)
     ctx.save_fixture("beacon_series.html", series)
-    return parse_series(series) + parse_programs(programs)
+    programs_now = parse_programs(programs)
+    for post in programs_now:
+        if not post.now_playing:
+            continue
+        def load(url=post.url):
+            try:
+                return count_films(ctx.http.get_text(url))
+            except requests.HTTPError as error:  # only the film count is lost
+                print(f"[posts/beacon] program page skipped: {error}", file=sys.stderr)
+                return 0
+        films = ctx.cached(post.url, load)
+        post.byline = f"{films} films" if films > 1 else ("1 film" if films == 1 else None)
+    return parse_series(series) + programs_now

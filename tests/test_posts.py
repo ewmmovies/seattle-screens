@@ -33,6 +33,10 @@ def test_nwff_news():
         "first_seen": None,
         "date_label": None,
         "current": False,
+        "now_playing": False,
+        "image": None,
+        "image_fallback": None,
+        "byline": None,
     }
     assert len(first.summary) <= 240 and first.summary.endswith("…")
     assert first.summary.startswith("Seattle, WA – Northwest Film Forum")
@@ -89,6 +93,17 @@ def test_beacon_programs_and_series():
         post.validate()
 
 
+def test_beacon_card_images_and_film_count():
+    series = beacon.parse_series(load("beacon_series.html"))
+    assert series[0].image == ("https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com"
+                               "%2Fbeacon%2Fcommon%2FTB_TIMEASASYMPTOM_%25281%2529.png&w=2048&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs")
+    assert series[0].image_fallback == "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_TIMEASASYMPTOM_%281%29.png"
+    programs = beacon.parse_programs(load("beacon_programs.html"))
+    assert [p.now_playing for p in programs[:3]] == [True, True, False]
+    assert programs[3].image is None  # past programs: no image kept in the fixture, none needed
+    assert beacon.count_films(load("beacon_program_surplus-reality.html")) == 4
+
+
 def test_tasveer_feed():
     posts = tasveer.parse_feed(load("tasveer_feed.xml"))
     assert [p.published for p in posts] == ["2025-06-16", "2024-12-03", "2024-02-13"]
@@ -135,6 +150,8 @@ def test_feed_end_to_end(tmp_path):
                 return f'<p class="small"> {release_dates[url]} <br></p>'
             if "/media/news/" in url:
                 return "<p>No date on this page</p>"
+            if url.startswith(beacon.PROGRAMS_URL + "/"):
+                return load("beacon_program_surplus-reality.html")
             return load(pages[url])
 
     code = run.run(sources=[], post_sources=[beacon, nwff, siff, tasveer], data_dir=tmp_path / "data",
@@ -156,3 +173,14 @@ def test_feed_end_to_end(tmp_path):
     assert not any(p["published"] is None and not p.get("current") for p in posts)  # undated release dropped
     assert "SIFF announces winning projects of 2026 Courageous Documentary Filmmaking Grants" in titles
     assert "NWFF Announces Recipients, Jurors, for Collective Power Fund 2025" not in titles  # January: too old
+
+    features = json.loads((site / "features.json").read_text())["features"]
+    assert [(f["kind"], f["title"]) for f in features] == [
+        ("Series", "Shadowland"), ("Series", "Time as a Symptom"),
+        ("Program", "Surplus Reality: How William Greaves Constructed a Stage, Sabotaged It and Mined Truth Out of the Wreckage"),
+        ("Program", "The Very Living End: Frank Tashlin and the American Nervous Breakdown"),
+    ]  # series first, at most four, Coming Soon left out
+    assert features[0]["byline"] == "The emotional otherworlds of classic cinema."
+    assert features[2]["byline"] == "4 films" and features[2]["when"] == "November 2026"
+    assert features[0]["image"].startswith("https://thebeacon.film/_vercel/image?url=")
+    assert features[0]["image_fallback"] == "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SHADOWLAND2.png"

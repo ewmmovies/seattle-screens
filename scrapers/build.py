@@ -91,11 +91,35 @@ def build_posts(posts: list[dict], today: date) -> dict:
     return {"generated_at": now_pacific_iso(), "posts": (current + dated)[:MAX_POSTS]}
 
 
+MAX_FEATURES = 4
+
+
+def build_features(posts: list[dict]) -> dict:
+    """Up to four Beacon series and programs now playing; series first (SPEC addition 2026-11-15)."""
+    unique = {post["id"]: post for post in posts}.values()
+    now = [p for p in unique if p.get("source") == "beacon" and p.get("now_playing")]
+    series = sorted((p for p in now if p.get("category") == "Series"), key=lambda p: p.get("title", ""))
+    programs = sorted((p for p in now if p.get("category") == "Program"), key=lambda p: p.get("title", ""))
+    programs.sort(key=lambda p: p.get("published") or "", reverse=True)  # newest month first, then A-Z
+    features = [{
+        "title": p["title"],
+        "url": p["url"],
+        "kind": p.get("category"),
+        "when": p.get("date_label") or "",
+        "byline": p.get("byline") or "",
+        "image": p.get("image"),
+        "image_fallback": p.get("image_fallback"),
+    } for p in (series + programs)[:MAX_FEATURES]]
+    return {"generated_at": now_pacific_iso(), "features": features}
+
+
 def build(data_dir: Path = DATA_DIR, site_data_dir: Path = SITE_DATA_DIR, today: date | None = None) -> None:
     today = today or today_pacific()
     venues = read_json(site_data_dir / "venues.json", [])
     screenings = build_screenings(_load_files(data_dir / "sources", "screenings"), [v["id"] for v in venues], today)
-    posts = build_posts(_load_files(data_dir / "posts", "posts"), today)
+    all_posts = _load_files(data_dir / "posts", "posts")
+    posts = build_posts(all_posts, today)
+    features = build_features(all_posts)
     status = read_json(data_dir / "status.json", {})
     status.setdefault("sources", {})
     status.setdefault("posts", {})
@@ -103,6 +127,7 @@ def build(data_dir: Path = DATA_DIR, site_data_dir: Path = SITE_DATA_DIR, today:
 
     write_json(site_data_dir / "screenings.json", screenings)
     write_json(site_data_dir / "posts.json", posts)
+    write_json(site_data_dir / "features.json", features)
     write_json(site_data_dir / "status.json", status)
     print(
         f"Built {len(screenings['screenings'])} screenings "

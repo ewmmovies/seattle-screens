@@ -444,6 +444,88 @@ main {
 .card-grid .card-links a { display: inline-block; padding: 6px 0; }
 .card-grid .updated { margin-top: 10px; }
 
+/* ---------------------------------------------------------------- At the Beacon (added 2026-11-15) */
+/* Modelled on the Articles block: a lead item with side labels, then up to three
+   smaller items in a row, then two heavy rules before the listings. */
+
+.features[hidden], .features-row[hidden], .double-rule[hidden] { display: none; }
+
+.features-heading {
+  font-size: 30px;
+  line-height: 34px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.feature-link { display: block; text-decoration: none; color: inherit; }
+.feature-link:hover .feature-title { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+
+.feature-title { font-size: 20px; line-height: 26px; text-align: center; }
+
+.side-label {
+  writing-mode: vertical-rl;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  align-self: center;
+}
+
+.side-label.kind { transform: rotate(180deg); color: var(--accent); }
+
+.feature-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--white);
+}
+
+.byline { font-size: 14px; line-height: 16px; text-transform: uppercase; text-align: center; }
+
+/* Lead item */
+.feature-lead .feature-title { font-size: 30px; line-height: 36px; margin: 6px 0 20px; }
+.feature-lead .feature-frame {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 800px) 40px;
+  justify-content: center;
+  column-gap: 8px;
+}
+.feature-lead .byline { margin: 24px 0 26px; }
+
+/* Row of up to three */
+.features-row {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-top: 2px solid var(--black);
+  border-bottom: 2px solid var(--black);
+}
+
+.features-row > li { flex: 1 1 0; min-width: 0; padding: 10px 0 0; display: flex; }
+.feature-small { display: flex; flex-direction: column; width: 100%; }
+.feature-small .feature-frame { flex: 1 0 auto; }
+.features-row > li + li { border-left: 2px solid var(--black); }
+
+.feature-small .feature-frame {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) 24px;
+  column-gap: 6px;
+  padding: 0 4px;
+  min-height: 130px;
+}
+.feature-small .feature-middle { display: flex; flex-direction: column; justify-content: space-between; gap: 16px; padding-bottom: 14px; }
+.feature-small .side-label { align-self: start; }
+.feature-small .feature-image { margin-top: 0; }
+
+.double-rule {
+  height: 16px;
+  border-top: 5px solid var(--black);
+  border-bottom: 5px solid var(--black);
+  margin: 24px 0 30px;
+}
+
 /* ---------------------------------------------------------------- posts page (7.5) */
 
 .post-grid { padding-top: 20px; }
@@ -519,4 +601,12 @@ main {
   .controls { gap: 10px 20px; }
   .filter-panel { padding: 12px; }
   .search-form { flex-wrap: nowrap; }
+  .features-heading { font-size: 24px; line-height: 28px; }
+  .feature-lead .feature-title { font-size: 24px; line-height: 30px; }
+  .feature-lead .feature-frame,
+  .feature-small .feature-frame { grid-template-columns: 22px minmax(0, 1fr) 22px; column-gap: 8px; }
+  .features-row { flex-direction: column; }
+  .features-row > li + li { border-left: 0; border-top: 2px solid var(--black); }
+  .feature-small .feature-image { display: none; } /* phones: lead image only, so the listings stay near the top */
+  .feature-small .feature-frame { min-height: 0; }
 }
