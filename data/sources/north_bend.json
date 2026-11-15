@@ -1,0 +1,318 @@
+{
+  "source": "north_bend",
+  "scraped_at": "2026-11-15T11:18:33-08:00",
+  "screenings": [
+    {
+      "id": "north-bend|2026-11-15|mrs-miniver",
+      "venue_id": "north-bend",
+      "date": "2026-11-15",
+      "title": "Mrs. Miniver",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/mrs-miniver-sunday-nov-15th-3pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Love & War",
+      "directors": [],
+      "year": 1942,
+      "runtime_min": 134,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/mrs-miniver-sunday-nov-15th-3pm"
+    },
+    {
+      "id": "north-bend|2026-11-15|godzilla-minus-zero",
+      "venue_id": "north-bend",
+      "date": "2026-11-15",
+      "title": "Godzilla Minus Zero",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/godzilla-minus-zero-sunday-nov-15th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 135,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/godzilla-minus-zero-sunday-nov-15th-7pm"
+    },
+    {
+      "id": "north-bend|2026-11-18|alien-private-eye",
+      "venue_id": "north-bend",
+      "date": "2026-11-18",
+      "title": "Alien Private Eye",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/alien-private-eye-wednesday-nov-18th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Analog Anomalies",
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [
+        "Free admission"
+      ],
+      "url": "https://tix.northbendtheatre.com/event/alien-private-eye-wednesday-nov-18th-7pm"
+    },
+    {
+      "id": "north-bend|2026-11-19|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-19",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-19th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-19th-7pm"
+    },
+    {
+      "id": "north-bend|2026-11-20|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-20",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-3pm",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-3pm"
+    },
+    {
+      "id": "north-bend|2026-11-21|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-21",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-3pm",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-3pm"
+    },
+    {
+      "id": "north-bend|2026-11-22|teton-gravity-research-presents-actually-it-is-rocket-science-the-31st-annual-tgr-ski-film",
+      "venue_id": "north-bend",
+      "date": "2026-11-22",
+      "title": "Teton Gravity Research presents: Actually, It Is Rocket Science The 31st Annual TGR Ski Film",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/teton-gravity-research-presents-actually-it-is-rocket-science-the-31st-annual-tgr-ski-film-sunday-nov-22nd-3pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Mountain Film Festival",
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/teton-gravity-research-presents-actually-it-is-rocket-science-the-31st-annual-tgr-ski-film-sunday-nov-22nd-3pm"
+    },
+    {
+      "id": "north-bend|2026-11-22|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-22",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-22nd-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-22nd-7pm"
+    },
+    {
+      "id": "north-bend|2026-11-26|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-26",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-26th-5pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-26th-5pm"
+    },
+    {
+      "id": "north-bend|2026-11-27|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-27",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-27th-3pm",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-27th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-27th-3pm"
+    },
+    {
+      "id": "north-bend|2026-11-28|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-28",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-28th-7pm",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-28th-7pm46",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-28th-7pm"
+    },
+    {
+      "id": "north-bend|2026-11-29|the-way-out-matchstick-productions",
+      "venue_id": "north-bend",
+      "date": "2026-11-29",
+      "title": "The Way Out- Matchstick Productions",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-way-out--matchstick-productions-sunday-november-29th-3pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Mountain Film Festival",
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-way-out--matchstick-productions-sunday-november-29th-3pm"
+    },
+    {
+      "id": "north-bend|2026-11-29|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-29",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-29th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-29th-7pm"
+    }
+  ]
+}

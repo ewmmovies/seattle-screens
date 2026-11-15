@@ -1,0 +1,173 @@
+{
+  "https://tix.northbendtheatre.com/event/alien-private-eye-wednesday-nov-18th-7pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-18",
+      "time": "19:00",
+      "year": null,
+      "runtime_min": null
+    }
+  },
+  "https://tix.northbendtheatre.com/event/godzilla-minus-zero-sunday-nov-15th-7pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-15",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 135
+    }
+  },
+  "https://tix.northbendtheatre.com/event/mrs-miniver-sunday-nov-15th-3pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-15",
+      "time": "15:00",
+      "year": 1942,
+      "runtime_min": 134
+    }
+  },
+  "https://tix.northbendtheatre.com/event/teton-gravity-research-presents-actually-it-is-rocket-science-the-31st-annual-tgr-ski-film-sunday-nov-22nd-3pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-22",
+      "time": "15:00",
+      "year": null,
+      "runtime_min": null
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-way-out--matchstick-productions-sunday-november-29th-3pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-29",
+      "time": "15:00",
+      "year": null,
+      "runtime_min": null
+    }
+  },
+  "https://tix.northbendtheatre.com/event/warren-millers-days-off-sunday-dec-13th-3pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-12-13",
+      "time": "15:00",
+      "year": null,
+      "runtime_min": null
+    }
+  },
+  "https://tix.northbendtheatre.com/event/warren-millers-days-off-sunday-dec-13th-7pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-12-13",
+      "time": "19:00",
+      "year": null,
+      "runtime_min": null
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-19th-7pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-19",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-3pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-20",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-7pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-20",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-3pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-21",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-7pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-21",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-22nd-7pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-22",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-26th-5pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-26",
+      "time": "17:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-27th-3pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-27",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-27th-7pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-27",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-28th-7pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-28",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-28th-7pm46": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-28",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  },
+  "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-29th-7pm": {
+    "fetched": "2026-11-15",
+    "data": {
+      "date": "2026-11-29",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 159
+    }
+  }
+}

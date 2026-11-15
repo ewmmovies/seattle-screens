@@ -1,0 +1,561 @@
+{
+  "source": "tasveer",
+  "scraped_at": "2026-11-15T11:19:17-08:00",
+  "screenings": [
+    {
+      "id": "tasveer|2026-11-15|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-15",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "13:30",
+          "ticket_url": null,
+          "note": "Open captions",
+          "sold_out": false
+        },
+        {
+          "time": "17:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-15|la-bola-negra",
+      "venue_id": "tasveer",
+      "date": "2026-11-15",
+      "title": "La Bola Negra",
+      "showtimes": [
+        {
+          "time": "13:50",
+          "ticket_url": null,
+          "note": "Open captions; English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Javier Calvo",
+        "Javier Ambrossi"
+      ],
+      "year": 2026,
+      "runtime_min": 155,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-15|once-upon-a-time-in-harlem",
+      "venue_id": "tasveer",
+      "date": "2026-11-15",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "14:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Greaves",
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
+    },
+    {
+      "id": "tasveer|2026-11-15|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-15",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "16:10",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
+    },
+    {
+      "id": "tasveer|2026-11-16|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-16",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-16|la-bola-negra",
+      "venue_id": "tasveer",
+      "date": "2026-11-16",
+      "title": "La Bola Negra",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Javier Calvo",
+        "Javier Ambrossi"
+      ],
+      "year": 2026,
+      "runtime_min": 155,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-16|once-upon-a-time-in-harlem",
+      "venue_id": "tasveer",
+      "date": "2026-11-16",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Greaves",
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
+    },
+    {
+      "id": "tasveer|2026-11-16|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-16",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:50",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
+    },
+    {
+      "id": "tasveer|2026-11-17|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-17",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": "Open captions",
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-17|la-bola-negra",
+      "venue_id": "tasveer",
+      "date": "2026-11-17",
+      "title": "La Bola Negra",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": "Open captions; English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Javier Calvo",
+        "Javier Ambrossi"
+      ],
+      "year": 2026,
+      "runtime_min": 155,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-17|once-upon-a-time-in-harlem",
+      "venue_id": "tasveer",
+      "date": "2026-11-17",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Greaves",
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
+    },
+    {
+      "id": "tasveer|2026-11-17|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-17",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:50",
+          "ticket_url": null,
+          "note": "Open captions",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
+    },
+    {
+      "id": "tasveer|2026-11-18|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-18",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-18|la-bola-negra",
+      "venue_id": "tasveer",
+      "date": "2026-11-18",
+      "title": "La Bola Negra",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Javier Calvo",
+        "Javier Ambrossi"
+      ],
+      "year": 2026,
+      "runtime_min": 155,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-18|once-upon-a-time-in-harlem",
+      "venue_id": "tasveer",
+      "date": "2026-11-18",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Greaves",
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
+    },
+    {
+      "id": "tasveer|2026-11-18|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-18",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:50",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
+    },
+    {
+      "id": "tasveer|2026-11-19|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-19",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-19|la-bola-negra",
+      "venue_id": "tasveer",
+      "date": "2026-11-19",
+      "title": "La Bola Negra",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Javier Calvo",
+        "Javier Ambrossi"
+      ],
+      "year": 2026,
+      "runtime_min": 155,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-19|once-upon-a-time-in-harlem",
+      "venue_id": "tasveer",
+      "date": "2026-11-19",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Greaves",
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
+    },
+    {
+      "id": "tasveer|2026-11-19|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-19",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:50",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
+    }
+  ]
+}

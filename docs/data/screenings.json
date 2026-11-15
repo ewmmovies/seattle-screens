@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:00:09-08:00",
+  "generated_at": "2026-11-15T11:19:22-08:00",
   "range": {
     "start": "2026-11-14",
     "end": "2026-12-06"
@@ -327,6 +327,50 @@
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "north-bend|2026-11-15|mrs-miniver",
+      "venue_id": "north-bend",
+      "date": "2026-11-15",
+      "title": "Mrs. Miniver",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/mrs-miniver-sunday-nov-15th-3pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Love & War",
+      "directors": [],
+      "year": 1942,
+      "runtime_min": 134,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/mrs-miniver-sunday-nov-15th-3pm"
+    },
+    {
+      "id": "north-bend|2026-11-15|godzilla-minus-zero",
+      "venue_id": "north-bend",
+      "date": "2026-11-15",
+      "title": "Godzilla Minus Zero",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/godzilla-minus-zero-sunday-nov-15th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 135,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/godzilla-minus-zero-sunday-nov-15th-7pm"
     },
     {
       "id": "nwff|2026-11-15|zi",
@@ -679,6 +723,117 @@
       "url": "https://www.siff.net/cinema/in-theaters/romanian-film-festival-seattle-13th-edition/the-wall"
     },
     {
+      "id": "tasveer|2026-11-15|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-15",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "13:30",
+          "ticket_url": null,
+          "note": "Open captions",
+          "sold_out": false
+        },
+        {
+          "time": "17:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-15|la-bola-negra",
+      "venue_id": "tasveer",
+      "date": "2026-11-15",
+      "title": "La Bola Negra",
+      "showtimes": [
+        {
+          "time": "13:50",
+          "ticket_url": null,
+          "note": "Open captions; English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Javier Calvo",
+        "Javier Ambrossi"
+      ],
+      "year": 2026,
+      "runtime_min": 155,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-15|once-upon-a-time-in-harlem",
+      "venue_id": "tasveer",
+      "date": "2026-11-15",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "14:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Greaves",
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
+    },
+    {
+      "id": "tasveer|2026-11-15|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-15",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "16:10",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
+    },
+    {
       "id": "beacon|2026-11-16|the-strange-love-of-martha-ivers",
       "venue_id": "beacon",
       "date": "2026-11-16",
@@ -1000,6 +1155,117 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
+      "id": "tasveer|2026-11-16|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-16",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-16|la-bola-negra",
+      "venue_id": "tasveer",
+      "date": "2026-11-16",
+      "title": "La Bola Negra",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Javier Calvo",
+        "Javier Ambrossi"
+      ],
+      "year": 2026,
+      "runtime_min": 155,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-16|once-upon-a-time-in-harlem",
+      "venue_id": "tasveer",
+      "date": "2026-11-16",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Greaves",
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
+    },
+    {
+      "id": "tasveer|2026-11-16|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-16",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:50",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
     },
     {
       "id": "beacon|2026-11-17|will-success-spoil-rock-hunter",
@@ -1353,6 +1619,117 @@
       "url": "https://www.siff.net/programs-and-events/nouvelles-femmes/my-night-at-mauds"
     },
     {
+      "id": "tasveer|2026-11-17|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-17",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": "Open captions",
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-17|la-bola-negra",
+      "venue_id": "tasveer",
+      "date": "2026-11-17",
+      "title": "La Bola Negra",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": "Open captions; English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Javier Calvo",
+        "Javier Ambrossi"
+      ],
+      "year": 2026,
+      "runtime_min": 155,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-17|once-upon-a-time-in-harlem",
+      "venue_id": "tasveer",
+      "date": "2026-11-17",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Greaves",
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
+    },
+    {
+      "id": "tasveer|2026-11-17|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-17",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:50",
+          "ticket_url": null,
+          "note": "Open captions",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
+    },
+    {
       "id": "beacon|2026-11-18|nationtime",
       "venue_id": "beacon",
       "date": "2026-11-18",
@@ -1527,6 +1904,30 @@
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "north-bend|2026-11-18|alien-private-eye",
+      "venue_id": "north-bend",
+      "date": "2026-11-18",
+      "title": "Alien Private Eye",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/alien-private-eye-wednesday-nov-18th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Analog Anomalies",
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [
+        "Free admission"
+      ],
+      "url": "https://tix.northbendtheatre.com/event/alien-private-eye-wednesday-nov-18th-7pm"
     },
     {
       "id": "nwff|2026-11-18|seattle-film-societys-film-discussion-group",
@@ -1716,6 +2117,117 @@
       "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/sweetheart"
     },
     {
+      "id": "tasveer|2026-11-18|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-18",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-18|la-bola-negra",
+      "venue_id": "tasveer",
+      "date": "2026-11-18",
+      "title": "La Bola Negra",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Javier Calvo",
+        "Javier Ambrossi"
+      ],
+      "year": 2026,
+      "runtime_min": 155,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-18|once-upon-a-time-in-harlem",
+      "venue_id": "tasveer",
+      "date": "2026-11-18",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Greaves",
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
+    },
+    {
+      "id": "tasveer|2026-11-18|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-18",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:50",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
+    },
+    {
       "id": "beacon|2026-11-19|will-success-spoil-rock-hunter",
       "venue_id": "beacon",
       "date": "2026-11-19",
@@ -1853,6 +2365,28 @@
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "north-bend|2026-11-19|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-19",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-19th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-19th-7pm"
     },
     {
       "id": "nwff|2026-11-19|sfcs-at-10-the-witch",
@@ -2076,6 +2610,117 @@
       "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/a-year-of-school"
     },
     {
+      "id": "tasveer|2026-11-19|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-19",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-19|la-bola-negra",
+      "venue_id": "tasveer",
+      "date": "2026-11-19",
+      "title": "La Bola Negra",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Javier Calvo",
+        "Javier Ambrossi"
+      ],
+      "year": 2026,
+      "runtime_min": 155,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-19|once-upon-a-time-in-harlem",
+      "venue_id": "tasveer",
+      "date": "2026-11-19",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Greaves",
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
+    },
+    {
+      "id": "tasveer|2026-11-19|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-19",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:50",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
+    },
+    {
       "id": "beacon|2026-11-20|once-upon-a-time-in-harlem",
       "venue_id": "beacon",
       "date": "2026-11-20",
@@ -2213,6 +2858,34 @@
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "north-bend|2026-11-20|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-20",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-3pm",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-3pm"
     },
     {
       "id": "nwff|2026-11-20|love-streams",
@@ -2540,6 +3213,34 @@
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "north-bend|2026-11-21|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-21",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-3pm",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-3pm"
     },
     {
       "id": "nwff|2026-11-21|love-streams",
@@ -2923,6 +3624,50 @@
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "north-bend|2026-11-22|teton-gravity-research-presents-actually-it-is-rocket-science-the-31st-annual-tgr-ski-film",
+      "venue_id": "north-bend",
+      "date": "2026-11-22",
+      "title": "Teton Gravity Research presents: Actually, It Is Rocket Science The 31st Annual TGR Ski Film",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/teton-gravity-research-presents-actually-it-is-rocket-science-the-31st-annual-tgr-ski-film-sunday-nov-22nd-3pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Mountain Film Festival",
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/teton-gravity-research-presents-actually-it-is-rocket-science-the-31st-annual-tgr-ski-film-sunday-nov-22nd-3pm"
+    },
+    {
+      "id": "north-bend|2026-11-22|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-22",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-22nd-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-22nd-7pm"
     },
     {
       "id": "nwff|2026-11-22|love-streams",
@@ -3937,6 +4682,28 @@
       "url": "https://www.majesticbay.com/"
     },
     {
+      "id": "north-bend|2026-11-26|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-26",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-26th-5pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-26th-5pm"
+    },
+    {
       "id": "siff-downtown|2026-11-26|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-11-26",
@@ -3995,6 +4762,34 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/five-minutes-to-live"
+    },
+    {
+      "id": "north-bend|2026-11-27|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-27",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-27th-3pm",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-27th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-27th-3pm"
     },
     {
       "id": "siff-downtown|2026-11-27|elsinore",
@@ -4110,6 +4905,34 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/perdita-durango"
+    },
+    {
+      "id": "north-bend|2026-11-28|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-28",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-28th-7pm",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-28th-7pm46",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-28th-7pm"
     },
     {
       "id": "nwff|2026-11-28|tokyo-story",
@@ -4290,6 +5113,50 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/baxter-vera-baxter"
+    },
+    {
+      "id": "north-bend|2026-11-29|the-way-out-matchstick-productions",
+      "venue_id": "north-bend",
+      "date": "2026-11-29",
+      "title": "The Way Out- Matchstick Productions",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-way-out--matchstick-productions-sunday-november-29th-3pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Mountain Film Festival",
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-way-out--matchstick-productions-sunday-november-29th-3pm"
+    },
+    {
+      "id": "north-bend|2026-11-29|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "north-bend",
+      "date": "2026-11-29",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-29th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 159,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-29th-7pm"
     },
     {
       "id": "nwff|2026-11-29|tokyo-story",
