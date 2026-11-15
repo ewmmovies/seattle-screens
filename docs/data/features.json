@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-11-15T12:05:29-08:00",
+  "features": [
+    {
+      "title": "Shadowland",
+      "url": "https://thebeacon.film/series/shadowland",
+      "kind": "Series",
+      "when": "Now playing",
+      "byline": "The emotional otherworlds of classic cinema.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_SHADOWLAND2.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SHADOWLAND2.png"
+    },
+    {
+      "title": "Time as a Symptom",
+      "url": "https://thebeacon.film/series/time-as-a-symptom",
+      "kind": "Series",
+      "when": "Now playing",
+      "byline": "Slow cinema and its reverberations.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_TIMEASASYMPTOM_%25281%2529.png&w=2048&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_TIMEASASYMPTOM_%281%29.png"
+    },
+    {
+      "title": "Surplus Reality: How William Greaves Constructed a Stage, Sabotaged It and Mined Truth Out of the Wreckage",
+      "url": "https://thebeacon.film/programs/surplus-reality",
+      "kind": "Program",
+      "when": "November 2026",
+      "byline": "4 films",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792704250199-tb-greaves.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png"
+    },
+    {
+      "title": "The Very Living End: Frank Tashlin and the American Nervous Breakdown",
+      "url": "https://thebeacon.film/programs/the-very-living-end-frank-tashlin-and-the-american-nervous-breakdown",
+      "kind": "Program",
+      "when": "November 2026",
+      "byline": "3 films",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792627436888-tb-tashlin.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-15T11:51:40-08:00",
+  "scraped_at": "2026-11-15T12:05:28-08:00",
   "posts": [
     {
       "id": "siff|/media/news/pr-fest26-awards-announcement",
@@ -13,7 +13,11 @@
       "summary": "SIFF closed out its 52nd Seattle International Film Festival today, announcing the winners of the 2026 Juried Competition Awards & Golden Space Needle Audience Awards.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest26-4th-world-media",
@@ -26,7 +30,11 @@
       "summary": "This nine-month fellowship uplifts narrative sovereignty, community-centered storytelling, and new pathways for impact and distribution.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest26-the-ascent-space-needle-climb",
@@ -39,7 +47,11 @@
       "summary": "Adaptive athlete and The Ascent subject Mandy Horvath will attempt to become the first amputee on record to crawl the 832-step interior stairwell of the Seattle Space Needle in a charitable climb supporting cancer research and awareness…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest26-full-lineup",
@@ -52,7 +64,11 @@
       "summary": "203 films from 71 countries, including 18 World, 12 North American, 10 U.S. Premieres make up the Festival’s lineup, with 67% of films without distribution",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest26-closing-night",
@@ -65,7 +81,11 @@
       "summary": "The 52nd annual Seattle International Film Festival will reach its conclusion with A24’s The Invite on May 17, 2026 at SIFF Cinema Downtown at 7pm.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest26-first-look",
@@ -78,7 +98,11 @@
       "summary": "Today SIFF shared the first six titles scheduled to screen at the Festival, including: Gregg Araki’s I Want Your Sex; Sundance Award Winning documentary Nuisance Bear; Gaua, an epic historical fantasy drama; the Hong Kong action…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest26-opening-night",
@@ -91,7 +115,11 @@
       "summary": "The Seattle International Film Festival will open for an electrifying 52nd year with Boots Riley’s I Love Boosters as the catalyst of the Festival's annual offering of cinema experiences from around the world.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest26-press-accreditation",
@@ -104,7 +132,11 @@
       "summary": "SIFF is now accepting press accreditation applications for the 52nd Seattle International Film Festival, returning May 7-17, 2026.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-doc-grant-2025-awardees",
@@ -117,7 +149,11 @@
       "summary": "SIFF announced the winning projects of the second year of its SIFF Grant for Courageous Documentary Filmmaking program, distributing $450,000 in funding to documentary filmmakers across Washington State.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-docfest-2025-audience-award-winner",
@@ -130,7 +166,11 @@
       "summary": "‘Steal This Story, Please!’ takes home 2025 SIFF DocFest Audience Award.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/docfest-2025-lineup",
@@ -143,7 +183,11 @@
       "summary": "SIFF announces lineup for fifth annual DocFest returning to SIFF Cinema Uptown October 16-23.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/unstoppable-seattle",
@@ -156,7 +200,11 @@
       "summary": "Unstoppable Tour Comes to SIFF in Seattle on July 6. Slamdance’s 2025 groundbreaking showcase amplifies disabled filmmakers.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest25-awards-announcement",
@@ -169,7 +217,11 @@
       "summary": "SIFF closed out its 51st Seattle International Film Festival today, announcing the winners of the 2025 Juried Competition Awards & Golden Space Needle Audience Awards.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-siff-doc-grant",
@@ -182,7 +234,11 @@
       "summary": "SIFF announces the continuation of its SIFF Grant for Courageous Documentary Filmmaking, a grant program awarding nearly $2M over the next five years—including $450,000 this year—for Washington State documentary filmmakers.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest25-lineup-announcement",
@@ -195,7 +251,11 @@
       "summary": "“Our lineup reflects our two main focuses this year: international and independent voices”; 73% of the Festival’s 245 films are currently without US distribution and feature titles from 74 countries/regions around the globe communicating…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest25-4th-world",
@@ -208,7 +268,11 @@
       "summary": "2025 marks the 10th anniversary of 4th World Media Lab as part of the Seattle International Film Festival, running in person May 15th to 25th and online May 26th to June 1st.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest25-closing-night",
@@ -221,7 +285,11 @@
       "summary": "The film will screen at SIFF Cinema Downtown and be followed by an audience Q&A with writer & director Eva Victor and a Closing Night Party at the Museum of History & Industry (MOHAI).",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest25-opening-night",
@@ -234,7 +302,11 @@
       "summary": "The 51st Seattle International Film Festival will open with Darren Thornton’s comedy Four Mothers. The Festival’s Opening Night Film & Party will take place Thursday, May 15 at The Paramount Theatre followed by a party inside the theater…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-nffty",
@@ -247,7 +319,11 @@
       "summary": "NFFTY, the National Film Festival for Talented Youth, and SIFF, home of the Seattle International Film Festival, announced a new phase of their partnership at opening night of NFFTY’s 2025 Festival this evening at the SIFF Cinema Uptown.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest25-first-look",
@@ -260,7 +336,11 @@
       "summary": "Today SIFF shared the first six titles scheduled to screen at the Festival, including: Kiyoshi Kurosawa’s Cloud; Sundance award winners DJ Ahmet and Seeds; Sally, a documentary following the first woman in space; Ferzan Özpetek’s…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest25-press-accreditation",
@@ -273,7 +353,11 @@
       "summary": "SIFF is now accepting press accreditation applications for the 51st Seattle International Film Festival, returning in person May 15-25 & virtually on the SIFF Channel May 26-June 1.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest25-art-venue-announcement",
@@ -286,7 +370,11 @@
       "summary": "Local theaters join SIFF venues to host in-person screenings as art is revealed for the festival, screening May 15-25 across Seattle.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-noir-city-2025-lineup",
@@ -299,7 +387,11 @@
       "summary": "Single tickets are on sale to SIFF members on January 22 and to the public on January 24. Passes are on sale now.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-cinema-italian-style-2024-lineup",
@@ -312,7 +404,11 @@
       "summary": "SIFF’s weeklong Italian film festival returns for its 16th year, showcasing a striking lineup of 15 films.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-doc-audience-winner",
@@ -325,7 +421,11 @@
       "summary": "SIFF announced today that Devo, Chris Smith’s documentary on the unfiltered truth about the radical and deeply political band, took home the inaugural SIFF DocFest Audience Award voted on by festival attendees. SIFF’s fourth annual…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-doc-grant",
@@ -338,7 +438,11 @@
       "summary": "Today SIFF announced the winning projects of its new SIFF Grant for Courageous Documentary Filmmaking program, with $400,000 in funding distributed to Washington State documentary filmmakers.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-docfest-2024",
@@ -351,7 +455,11 @@
       "summary": "SIFF’s fourth annual DocFest will return on October 3 and run through October 10, screening 15 films at SIFF Cinema Uptown. Tickets for the festival, a celebration of documentary films from around the world, are on sale now to SIFF…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-call-for-entries",
@@ -364,7 +472,11 @@
       "summary": "SIFF announces its call for submissions for the 51st annual Seattle International Film Festival running May 15-25, 2025 at SIFF Cinemas and venues throughout the city.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-agfa",
@@ -377,7 +489,11 @@
       "summary": "AGFA and SIFF are celebrating 15 Years of the American Genre Film Archive with AGFA August, a two-week retrospective celebrating genre films and the power of outsider art, to be held at SIFF Cinema Egyptian August 1-8 & 23-30.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-powell-and-pressburger",
@@ -390,7 +506,11 @@
       "summary": "The British Film Institute, SIFF, and Greg Olson Productions introduce Enchanted Evenings: The Boundless Cinema of Michael Powell and Emeric Pressburger. The series will present ten restored Powell and Pressburger films weekly on…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest24-program-announcement",
@@ -403,7 +523,11 @@
       "summary": "261 films with 18 World, 26 North American, and 14 U.S. Premieres make up the lineup for the Festival’s 50th anniversary, screening at venues across Seattle, including SIFF’s newly opened SIFF Cinema Downtown.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest24-4th-world-and-cinedigenous",
@@ -416,7 +540,11 @@
       "summary": "The 50th Seattle International Film Festival will see the return of 4th World Media Lab and the Festival’s cINeDIGENOUS program, amplifying Indigenous filmmakers from across the globe. The cINeDIGENOUS program will screen films throughout…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest24-closing-night",
@@ -429,7 +557,11 @@
       "summary": "The 50th Seattle International Film Festival will close with Greg Kwedar’s Sing Sing from A24 on Saturday, May 18 at SIFF Cinema Downtown and will be followed by a party at the Museum of History & Industry (MOHAI) to celebrate the close…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest24-opening-night",
@@ -442,7 +574,11 @@
       "summary": "50th Seattle International Film Festival to open with Magnolia Pictures’ Thelma from Josh Margolin. Lead actress June Squibb to be honored with the 2024 Golden Space Needle Award for Outstanding Contribution to Cinema.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest24-media-accreditation",
@@ -455,7 +591,11 @@
       "summary": "SIFF is now accepting press accreditation applications for the 50th Seattle International Film Festival, returning in person May 9-19 at venues across Seattle and virtually on the SIFF Channel May 20–27.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest24-first-look",
@@ -468,7 +608,11 @@
       "summary": "SIFF shares first six titles to screen at the 50th Seattle International Film Festival, returning May 9-19. Sundance & Venice Film Festival Award Winners lead the selections, to be followed by the Festival’s full lineup on April 17, 2024.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-fest24-art-venue-announcement",
@@ -481,7 +625,11 @@
       "summary": "Local theaters join SIFF venues to host in-person screenings as art is revealed for the festival, screening May 9-19 across Seattle.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-board-members-update",
@@ -494,7 +642,11 @@
       "summary": "SIFF announces seven new members of its 2024 Board of Directors, joining the organization after the opening of its newest venue, SIFF Cinema Downtown in December of 2023 and ahead of its 50th annual Seattle International Film Festival in…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/news/pr-noir-city-2024",
@@ -507,7 +659,11 @@
       "summary": "Single tickets are on sale to SIFF members on January 24 and to the public on January 26. Passes are on sale now.",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "siff|/media/blog/film-notes-pierrot-le-fou-(1965)",
@@ -520,7 +676,11 @@
       "summary": "Pierrot le Fou (1965) film notes by John Trafton for the Nouvelles Femmes series, presented by Alliance Française, SIFF, and Greg Olson Productions. Series curated and written by Greg Olson. Inspired by the work of Ericka Knudson, author…",
       "first_seen": "2026-11-15T11:33:25-08:00",
       "date_label": null,
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     }
   ]
 }
