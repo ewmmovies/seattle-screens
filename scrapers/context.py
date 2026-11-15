@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from datetime import date
+from typing import Callable
 from pathlib import Path
 
 from .http import Http
@@ -25,3 +26,17 @@ class Context:
             return
         self.fixtures_dir.mkdir(parents=True, exist_ok=True)
         (self.fixtures_dir / name).write_text(text, encoding="utf-8")
+
+    def cached(self, key: str, loader: Callable[[], object], max_age_days: int = 7):
+        """Detail-page cache (SPEC.md 4.4): reuse what was fetched in the last week."""
+        entry = self.cache.get(key)
+        if entry:
+            try:
+                age = (self.today - date.fromisoformat(entry["fetched"])).days
+            except (KeyError, TypeError, ValueError):
+                age = max_age_days
+            if age < max_age_days:
+                return entry["data"]
+        data = loader()
+        self.cache[key] = {"fetched": self.today.isoformat(), "data": data}
+        return data
