@@ -65,17 +65,37 @@ def build_screenings(records: list[dict], venue_order: list[str], today: date) -
     }
 
 
-def build_posts(posts: list[dict]) -> dict:
+POST_MONTHS = 6  # only posts released in the last six months are shown
+
+
+def months_before(day: date, months: int) -> date:
+    """Same day of the month, `months` earlier (clamped: Aug 31 -> Feb 28)."""
+    year, month = divmod(day.year * 12 + day.month - 1 - months, 12)
+    month += 1
+    for last in (31, 30, 29, 28):
+        try:
+            return date(year, month, min(day.day, last))
+        except ValueError:
+            continue
+    raise ValueError(day)
+
+
+def build_posts(posts: list[dict], today: date) -> dict:
+    """Posts released in the last six months, newest first. Undated posts are dropped,
+    except series that are running now (current), which lead the feed."""
+    cutoff = months_before(today, POST_MONTHS).isoformat()
     unique = {post["id"]: post for post in posts}.values()
-    ordered = sorted(unique, key=lambda p: p.get("published") or (p.get("first_seen") or "")[:10], reverse=True)
-    return {"generated_at": now_pacific_iso(), "posts": ordered[:MAX_POSTS]}
+    current = sorted((p for p in unique if p.get("current")), key=lambda p: p.get("title", ""))
+    dated = [p for p in unique if not p.get("current") and (p.get("published") or "") >= cutoff]
+    dated.sort(key=lambda p: (p["published"], p.get("title", "")), reverse=True)
+    return {"generated_at": now_pacific_iso(), "posts": (current + dated)[:MAX_POSTS]}
 
 
 def build(data_dir: Path = DATA_DIR, site_data_dir: Path = SITE_DATA_DIR, today: date | None = None) -> None:
     today = today or today_pacific()
     venues = read_json(site_data_dir / "venues.json", [])
     screenings = build_screenings(_load_files(data_dir / "sources", "screenings"), [v["id"] for v in venues], today)
-    posts = build_posts(_load_files(data_dir / "posts", "posts"))
+    posts = build_posts(_load_files(data_dir / "posts", "posts"), today)
     status = read_json(data_dir / "status.json", {})
     status.setdefault("sources", {})
     status.setdefault("posts", {})

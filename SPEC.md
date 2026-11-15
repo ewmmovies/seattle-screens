@@ -16,7 +16,7 @@ Version 1.0, 2026-11-14. Source of truth for the build. Read BRIEF.md and SURVEY
 | Data | Scrapers write JSON into the repo; the front end fetches it. |
 | Regal | Not scraped in GitHub Actions (Cloudflare blocks it). Regal venues always appear on the Venues page with a link out. Regal listings come from an optional scraper that runs on Elijah's Windows PC (section 8). The site must be complete and correct without it. |
 | North Bend non-film events | Included, labelled "Live event". |
-| Posts feed | NWFF and SIFF only. No Tasveer, no Regal, no social media. |
+| Posts feed | Changed 2026-11-15 with Elijah: NWFF news, SIFF blog and press releases, Tasveer's own blog (tasveer.org/feed; not its Press page), and the Beacon's programs (labelled PROGRAM, dated by month) and series (labelled SERIES). Only posts released in the last 6 months; posts with no release date are left out, except Beacon series under Now Playing, which have no dates and lead the feed. Newest first. No Regal, no social media. SIFF press-release dates are read from each release's own page. |
 | Time zone | `America/Los_Angeles` for every date and time, in scrapers and in the browser. |
 | Branding | Site name "Seattle Screens". No Screen Slate name, wordmark, logo, tagline or anniversary banner anywhere except the required footer line. |
 | Indexing | `<meta name="robots" content="noindex, nofollow">` on every page. No robots.txt (a project site under `username.github.io/repo/` cannot use one, and blocking crawlers would stop them seeing the noindex tag). |

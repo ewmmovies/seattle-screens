@@ -66,7 +66,7 @@ def test_status_is_copied_and_posts_written(tmp_path):
     assert status["sources"]["nwff"] == {"ok": False, "error": "boom"}
     assert "generated_at" in status
     posts = json.loads((site / "posts.json").read_text())["posts"]
-    assert [p["title"] for p in posts] == ["B", "A"]
+    assert [p["title"] for p in posts] == ["A"]  # B has no date, so it is not listed
 
 
 def test_missing_files_do_not_fail_the_build(tmp_path):

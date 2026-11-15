@@ -6,7 +6,9 @@ from types import SimpleNamespace
 import pytest
 
 from scrapers import build, run
-from scrapers.posts import nwff, siff
+from datetime import date
+
+from scrapers.posts import beacon, nwff, siff, tasveer
 
 FIXTURES = Path(__file__).parent / "fixtures" / "posts"
 
@@ -29,6 +31,8 @@ def test_nwff_news():
         "category": "News",
         "summary": first.summary,
         "first_seen": None,
+        "date_label": None,
+        "current": False,
     }
     assert len(first.summary) <= 240 and first.summary.endswith("…")
     assert first.summary.startswith("Seattle, WA – Northwest Film Forum")
@@ -67,9 +71,61 @@ def test_layout_change_is_an_error():
         siff.parse_blog("<html><body>new site</body></html>")
 
 
+TODAY = date(2026, 11, 15)
+
+
+def test_beacon_programs_and_series():
+    programs = beacon.parse_programs(load("beacon_programs.html"))
+    assert len(programs) == 7
+    first = programs[0]
+    assert first.title == "Surplus Reality: How William Greaves Constructed a Stage, Sabotaged It and Mined Truth Out of the Wreckage"
+    assert (first.published, first.date_label, first.category, first.summary) == ("2026-11-01", "November 2026", "Program", "Now playing.")
+    assert programs[2].summary == "Coming soon."
+    series = beacon.parse_series(load("beacon_series.html"))
+    assert [s.title for s in series] == ["Time as a Symptom", "Shadowland"]  # past series left out
+    assert series[0].current and series[0].published is None and series[0].category == "Series"
+    assert series[0].summary == "Slow cinema and its reverberations."
+    for post in programs + series:
+        post.validate()
+
+
+def test_tasveer_feed():
+    posts = tasveer.parse_feed(load("tasveer_feed.xml"))
+    assert [p.published for p in posts] == ["2025-06-16", "2024-12-03", "2024-02-13"]
+    assert posts[1].title == "19th Tasveer Festival & Market 2024" and posts[0].category == "Blog"
+    assert posts[0].url.startswith("https://tasveer.org/desiqueer")
+
+
+def test_six_month_window_and_order():
+    posts = [
+        {"id": "a", "title": "Old", "published": "2026-05-14"},
+        {"id": "b", "title": "Edge", "published": "2026-05-15"},
+        {"id": "c", "title": "New", "published": "2026-11-10"},
+        {"id": "d", "title": "Undated", "published": None},
+        {"id": "e", "title": "Series", "published": None, "current": True},
+        {"id": "f", "title": "Coming", "published": "2026-12-01"},
+    ]
+    out = [p["title"] for p in build.build_posts(posts, TODAY)["posts"]]
+    assert out == ["Series", "Coming", "New", "Edge"]  # current first, then newest first; old and undated dropped
+
+
+def test_months_before_clamps():
+    assert build.months_before(date(2026, 8, 31), 6) == date(2026, 2, 28)
+    assert build.months_before(date(2026, 3, 15), 6) == date(2025, 9, 15)
+
+
+def test_series_stop_being_current_when_they_leave_now_playing():
+    stored = [{"id": "beacon|/series/old", "title": "Old", "current": True, "first_seen": "2026-10-01T00:00:00-07:00"}]
+    merged = run.merge_posts([], stored, "2026-11-15T00:00:00-08:00")
+    assert merged[0]["current"] is False
+
+
 def test_feed_end_to_end(tmp_path):
-    """Runner stores both feeds; build merges them newest first, undated posts by first-seen date."""
+    """Runner stores every feed; build keeps the last six months, newest first."""
     release_dates = {"https://www.siff.net/media/news/pr-doc-grant-awardees-2026": "9/22/2026"}
+    pages = {nwff.NEWS_URL: "nwff_news.html", siff.BLOG_URL: "siff_blog.html", siff.NEWS_URL: "siff_news.html",
+             beacon.PROGRAMS_URL: "beacon_programs.html", beacon.SERIES_URL: "beacon_series.html",
+             tasveer.FEED_URL: "tasveer_feed.xml"}
 
     class Http:
         request_count = 0
@@ -79,22 +135,24 @@ def test_feed_end_to_end(tmp_path):
                 return f'<p class="small"> {release_dates[url]} <br></p>'
             if "/media/news/" in url:
                 return "<p>No date on this page</p>"
-            return load({nwff.NEWS_URL: "nwff_news.html", siff.BLOG_URL: "siff_blog.html",
-                         siff.NEWS_URL: "siff_news.html"}[url])
+            return load(pages[url])
 
-    code = run.run(sources=[], post_sources=[nwff, siff], data_dir=tmp_path / "data", venue_ids=set(), http=Http())
+    code = run.run(sources=[], post_sources=[beacon, nwff, siff, tasveer], data_dir=tmp_path / "data",
+                   venue_ids=set(), http=Http(), today=TODAY)
     assert code == 0
     status = json.loads((tmp_path / "data" / "status.json").read_text())["posts"]
-    assert status["nwff"]["ok"] and status["siff"]["count"] == 5
-    site = tmp_path / "docs" / "data"
-    build.build(tmp_path / "data", site)
-    posts = json.loads((site / "posts.json").read_text())["posts"]
-    assert len(posts) == 8
+    assert all(status[s]["ok"] for s in ("beacon", "nwff", "siff", "tasveer"))
     cache = json.loads((tmp_path / "data" / "cache" / "posts_siff.json").read_text())
     assert len(cache) == 2  # release dates are remembered between runs
-    grant = next(p for p in posts if "Courageous" in p["title"])
-    assert grant["published"] == "2026-09-22"  # read from the release's own page
-    # The release with no readable date falls back to today's first-seen date, so it leads.
-    assert posts[0]["published"] is None and posts[0]["category"] == "Press release"
-    dated = [p["published"] for p in posts if p["published"]]
-    assert dated == sorted(dated, reverse=True)
+
+    site = tmp_path / "docs" / "data"
+    build.build(tmp_path / "data", site, TODAY)
+    posts = json.loads((site / "posts.json").read_text())["posts"]
+    titles = [p["title"] for p in posts]
+    assert titles[:2] == ["Shadowland", "Time as a Symptom"]  # current series lead
+    dated = [p["published"] for p in posts[2:]]
+    assert dated == sorted(dated, reverse=True) and min(dated) >= "2026-05-15"
+    assert not any(p["source"] == "tasveer" for p in posts)  # newest Tasveer post is June 2025
+    assert not any(p["published"] is None and not p.get("current") for p in posts)  # undated release dropped
+    assert "SIFF announces winning projects of 2026 Courageous Documentary Filmmaking Grants" in titles
+    assert "NWFF Announces Recipients, Jurors, for Collective Power Fund 2025" not in titles  # January: too old

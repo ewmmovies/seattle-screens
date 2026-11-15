@@ -126,6 +126,8 @@ class Post:
     category: str | None = None
     summary: str = ""
     first_seen: str | None = None  # set by the runner the first time it sees the post
+    date_label: str | None = None  # shown instead of the date, e.g. "November 2026" for a month-long program
+    current: bool = False  # undated but running now (Beacon series): kept, and listed first
 
     @property
     def id(self) -> str:

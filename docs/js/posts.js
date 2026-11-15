@@ -1,4 +1,5 @@
-/* Posts page (SPEC.md section 7.5): combined NWFF and SIFF feed, newest first. No images. */
+/* Posts page (SPEC.md section 7.5, as changed 2026-11-15): NWFF, SIFF, Tasveer and the Beacon's
+   programs and series. The build keeps the last six months, newest first, with running series on top. */
 "use strict";
 
 (() => {
@@ -15,10 +16,11 @@
 
   function cell(post) {
     const url = SS.safeUrl(post.url);
-    const date = shortDate(post.published);
+    const date = post.date_label || shortDate(post.published);
+    const source = [post.source_name || post.source, post.category].filter(Boolean).join(" · ");
     return el("li", { className: "cell" },
       el("div", { className: "cell-body" },
-        el("p", { className: "small post-source" }, post.source_name || post.source),
+        el("p", { className: "small post-source" }, source),
         el("h3", { className: "title serif" }, url ? SS.externalLink(url, post.title) : post.title),
         date ? el("p", { className: "small post-date" }, date) : null,
         post.summary ? el("p", { className: "post-summary" }, post.summary) : null));

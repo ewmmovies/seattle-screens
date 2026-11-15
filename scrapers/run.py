@@ -179,7 +179,7 @@ def run_source(
 
 def merge_posts(new: list[Post], stored: list[dict], seen_at: str) -> list[dict]:
     """Keep stored posts, add new ones by id, cap at POSTS_PER_SOURCE (newest first)."""
-    by_id = {post["id"]: post for post in stored}
+    by_id = {post["id"]: {**post, "current": False} for post in stored}  # only today's fetch is current
     for post in new:
         data = post.to_dict()
         previous = by_id.get(data["id"])
