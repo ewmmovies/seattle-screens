@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-15T11:51:39-08:00",
+  "scraped_at": "2026-11-15T12:05:24-08:00",
   "posts": [
     {
       "id": "beacon|/series/time-as-a-symptom",
@@ -13,7 +13,11 @@
       "summary": "Slow cinema and its reverberations.",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "Now playing",
-      "current": true
+      "current": true,
+      "now_playing": true,
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_TIMEASASYMPTOM_%25281%2529.png&w=2048&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_TIMEASASYMPTOM_%281%29.png",
+      "byline": "Slow cinema and its reverberations."
     },
     {
       "id": "beacon|/series/shadowland",
@@ -26,7 +30,11 @@
       "summary": "The emotional otherworlds of classic cinema.",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "Now playing",
-      "current": true
+      "current": true,
+      "now_playing": true,
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_SHADOWLAND2.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SHADOWLAND2.png",
+      "byline": "The emotional otherworlds of classic cinema."
     },
     {
       "id": "beacon|/programs/surplus-reality",
@@ -39,7 +47,11 @@
       "summary": "Now playing.",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "November 2026",
-      "current": false
+      "current": false,
+      "now_playing": true,
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792704250199-tb-greaves.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png",
+      "byline": "4 films"
     },
     {
       "id": "beacon|/programs/the-very-living-end-frank-tashlin-and-the-american-nervous-breakdown",
@@ -52,7 +64,11 @@
       "summary": "Now playing.",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "November 2026",
-      "current": false
+      "current": false,
+      "now_playing": true,
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792627436888-tb-tashlin.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png",
+      "byline": "3 films"
     },
     {
       "id": "beacon|/programs/love-is-a-country-of-two-and-trespassers-will-be-shot",
@@ -65,7 +81,11 @@
       "summary": "Coming soon.",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "November 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792950181821-zz.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792950181821-zz.png",
+      "byline": null
     },
     {
       "id": "beacon|/programs/the-night-they-all-came-out-of-their-coffins-at-once-monster-crossovers-team-ups-pile-ups",
@@ -78,7 +98,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "October 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/god-hath-given-you-one-face-and-you-make-yourselves-another-movies-without-a-face",
@@ -91,7 +115,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "September 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/there-is-no-need-to-build-a-labyrinth-when-the-entire-universe-is-one-infinite-recursion-ontological-vertigo-and-the-territory-yielding-to-the-map",
@@ -104,7 +132,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "September 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/base-metals-pure-gold-the-scores-of-ennio-morricone",
@@ -117,7 +149,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "July 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/gasoline-twilight-all0the-mad-maxes",
@@ -130,7 +166,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "June 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/bleak-week-cinema-of-despair",
@@ -143,7 +183,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "June 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/in-the-midst-of-the-end-of-the-world-antonio-reis-margarida-cordeiro",
@@ -156,7 +200,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "May 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/once-upon-a-time-in-beirut-the-cinema-of-jocelyne-saab",
@@ -169,7 +217,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "May 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/heres-your-list-of-friends-in-the-order-they-died-teen-anarchy-japan",
@@ -182,7 +234,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "April 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/no-one-gets-laid-until-we-finish-our-movie-late-era-john-waters",
@@ -195,7 +251,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "March 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/anything-you-dont-control-can-be-used-as-a-weapon-against-you-radical-blaxploitation",
@@ -208,7 +268,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "March 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/a-void-in-the-cosmos-and-from-there-you-sing-early-pasolini",
@@ -221,7 +285,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "February 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/super-krime",
@@ -234,7 +302,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "January 2026",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/sublime-perversion-4-films-by-joaeo-cesar-monteiro",
@@ -247,7 +319,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "November 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/gen-x-files",
@@ -260,7 +336,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "November 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/forget-everything-adore-me-and-adore-my-flesh-the-cinema-of-monika-treut",
@@ -273,7 +353,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "October 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/destroy-me-more-self-destruction-and-mutual-annihilation-as-a-transcendental-art",
@@ -286,7 +370,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "September 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/the-market-has-a-mind-and-its-dreaming-of-you-sex-violence-corporate-cyber-paranoia",
@@ -299,7 +387,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "August 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/always-has-been-a-history-of-the-american-sickness",
@@ -312,7 +404,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "July 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/obayashi-the-kadokawa-years",
@@ -325,7 +421,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "June 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/the-films-of-frederick-wiseman",
@@ -338,7 +438,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "April 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/the-absurd-mystery-of-the-strange-forces-of-existence-lynchian-cinema",
@@ -351,7 +455,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "March 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/thank-you-for-your-lie-films-by-max-ophuls",
@@ -364,7 +472,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "February 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/a-fleeting-wisp-of-glory-once-and-future-kings",
@@ -377,7 +489,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "January 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/every-time-we-say-goodbye-films-by-bruce-weber",
@@ -390,7 +506,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "January 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/potentially-ill-advised-films-about-assassinating-your-political-leaders",
@@ -403,7 +523,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "January 2025",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/films-by-mike-leigh",
@@ -416,7 +540,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "December 2024",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/movies-are-not-impossible-to-make-a-case-study",
@@ -429,7 +557,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "November 2024",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/against-civilization",
@@ -442,7 +574,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "September 2024",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/derek-jarman-do-we-continue-to-grow-marigolds-even-as-the-emergency-sirens-blare",
@@ -455,7 +591,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "September 2024",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/the-ten-pillars-of-beacon",
@@ -468,7 +608,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "July 2024",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/you-are-receiving-this-broadcast-as-a-dream-john-carpenters-apocalypse-trilogy",
@@ -481,7 +625,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "June 2024",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/everyone-is-guilty-patricia-highsmith-adaptations",
@@ -494,7 +642,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "June 2024",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/the-revolt-of-the-artist-against-the-real-michelangelo-antonioni",
@@ -507,7 +659,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "June 2024",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     },
     {
       "id": "beacon|/programs/the-best-tool-for-outlaws-is-and-always-will-be-cinema-the-films-of-jean-pierre-bekolo",
@@ -520,7 +676,11 @@
       "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "May 2024",
-      "current": false
+      "current": false,
+      "now_playing": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null
     }
   ]
 }
