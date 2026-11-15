@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T12:39:19-08:00",
+  "generated_at": "2026-11-15T12:52:19-08:00",
   "lead": [
     {
       "title": "Shadowland",
@@ -20,7 +20,7 @@
       "kind": "Series",
       "when": "Now playing",
       "byline": "Slow cinema and its reverberations.",
-      "description": "What happens after all the time is spent? Rather than spending time like itâs some debased currency, The Beacon Cinema invites you to hold the heavy body of time in your arms, look deep into her eyes and find meaning again. Letâs get one thing out of the way; slow cinema is not a genre or movement. Itâs a style, a mode, a pace that is not limited to a period or place.",
+      "description": "What happens after all the time is spent?",
       "months": "November 2026 – December 2026",
       "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_TIMEASASYMPTOM_%25281%2529.png&w=2048&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_TIMEASASYMPTOM_%281%29.png"
@@ -94,7 +94,7 @@
       "kind": "Program",
       "when": "November 2026",
       "byline": "3 films",
-      "description": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots. Fortunately, former Looney Tunes animator Frank Tashlin was on hand to document the collapse of Western civilization in the brightest colors Hollywood could manufacture.",
+      "description": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots.",
       "months": "November 2026",
       "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792627436888-tb-tashlin.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png"

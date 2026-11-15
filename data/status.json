@@ -1,49 +1,49 @@
 {
   "sources": {
     "siff": {
-      "last_attempt": "2026-11-15T12:38:45-08:00",
+      "last_attempt": "2026-11-15T12:51:40-08:00",
       "venue_ids": [
         "siff-uptown",
         "siff-downtown",
         "siff-film-center"
       ],
-      "last_success": "2026-11-15T12:38:45-08:00",
+      "last_success": "2026-11-15T12:51:40-08:00",
       "count": 80,
       "ok": true,
       "error": null
     },
     "beacon": {
-      "last_attempt": "2026-11-15T12:38:39-08:00",
+      "last_attempt": "2026-11-15T12:51:34-08:00",
       "venue_ids": [
         "beacon"
       ],
-      "last_success": "2026-11-15T12:38:39-08:00",
+      "last_success": "2026-11-15T12:51:34-08:00",
       "count": 38,
       "ok": true,
       "error": null
     },
     "majestic_bay": {
-      "last_attempt": "2026-11-15T12:38:39-08:00",
+      "last_attempt": "2026-11-15T12:51:35-08:00",
       "venue_ids": [
         "majestic-bay"
       ],
-      "last_success": "2026-11-15T12:38:39-08:00",
+      "last_success": "2026-11-15T12:51:35-08:00",
       "count": 40,
       "ok": true,
       "error": null
     },
     "nwff": {
-      "last_attempt": "2026-11-15T12:38:41-08:00",
+      "last_attempt": "2026-11-15T12:51:37-08:00",
       "venue_ids": [
         "nwff"
       ],
-      "last_success": "2026-11-15T12:38:41-08:00",
+      "last_success": "2026-11-15T12:51:37-08:00",
       "count": 34,
       "ok": true,
       "error": null
     },
     "admiral": {
-      "last_attempt": "2026-11-15T12:38:38-08:00",
+      "last_attempt": "2026-11-15T12:51:33-08:00",
       "venue_ids": [
         "admiral"
       ],
@@ -53,21 +53,21 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://api-v3.mobilemoviegoing.cloud/include/app/getShowtimesByDayDisplay.php"
     },
     "north_bend": {
-      "last_attempt": "2026-11-15T12:38:41-08:00",
+      "last_attempt": "2026-11-15T12:51:36-08:00",
       "venue_ids": [
         "north-bend"
       ],
-      "last_success": "2026-11-15T12:38:41-08:00",
+      "last_success": "2026-11-15T12:51:36-08:00",
       "count": 13,
       "ok": true,
       "error": null
     },
     "tasveer": {
-      "last_attempt": "2026-11-15T12:39:06-08:00",
+      "last_attempt": "2026-11-15T12:52:01-08:00",
       "venue_ids": [
         "tasveer"
       ],
-      "last_success": "2026-11-15T12:39:06-08:00",
+      "last_success": "2026-11-15T12:52:01-08:00",
       "count": 20,
       "ok": true,
       "error": null
@@ -75,47 +75,47 @@
   },
   "posts": {
     "nwff": {
-      "last_attempt": "2026-11-15T12:39:14-08:00",
-      "last_success": "2026-11-15T12:39:14-08:00",
+      "last_attempt": "2026-11-15T12:52:13-08:00",
+      "last_success": "2026-11-15T12:52:13-08:00",
       "count": 10,
       "ok": true,
       "error": null
     },
     "siff": {
-      "last_attempt": "2026-11-15T12:39:16-08:00",
-      "last_success": "2026-11-15T12:39:16-08:00",
+      "last_attempt": "2026-11-15T12:52:17-08:00",
+      "last_success": "2026-11-15T12:52:17-08:00",
       "count": 58,
       "ok": true,
       "error": null
     },
     "beacon": {
-      "last_attempt": "2026-11-15T12:39:11-08:00",
-      "last_success": "2026-11-15T12:39:11-08:00",
+      "last_attempt": "2026-11-15T12:52:07-08:00",
+      "last_success": "2026-11-15T12:52:07-08:00",
       "count": 45,
       "ok": true,
       "error": null
     },
     "tasveer": {
-      "last_attempt": "2026-11-15T12:39:18-08:00",
+      "last_attempt": "2026-11-15T12:52:19-08:00",
       "last_success": null,
       "count": 0,
       "ok": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://tasveer.org/feed/"
     },
     "nwff_programs": {
-      "last_attempt": "2026-11-15T12:39:14-08:00",
-      "last_success": "2026-11-15T12:39:14-08:00",
+      "last_attempt": "2026-11-15T12:52:13-08:00",
+      "last_success": "2026-11-15T12:52:13-08:00",
       "count": 15,
       "ok": true,
       "error": null
     },
     "siff_programs": {
-      "last_attempt": "2026-11-15T12:39:17-08:00",
-      "last_success": "2026-11-15T12:39:17-08:00",
+      "last_attempt": "2026-11-15T12:52:18-08:00",
+      "last_success": "2026-11-15T12:52:18-08:00",
       "count": 17,
       "ok": true,
       "error": null
     }
   },
-  "generated_at": "2026-11-15T12:39:18-08:00"
+  "generated_at": "2026-11-15T12:52:19-08:00"
 }
