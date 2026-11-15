@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>News — Seattle Screens</title>
+  <link rel="preload" href="fonts/Fraunces-Light.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <a class="site-name" href="index.html"><span>Seattle</span> <span>Screens</span></a>
+      <p class="site-descriptor">Screenings at Seattle-area theaters</p>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Listings</a></li>
+          <li><a href="venues.html">Venues</a></li>
+          <li><a href="news.html" aria-current="page">News</a></li>
+          <li><a href="search.html">Search</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="page-title serif"><span>News</span></h1>
+      <h2 class="section-label">Happening Now</h2>
+      <div id="happening"></div>
+      <h2 class="section-label">Latest News</h2>
+      <div id="posts"></div>
+      <footer class="site-footer">A personal project. Not affiliated with Screen Slate.</footer>
+    </main>
+  </div>
+  <script src="js/common.js"></script>
+  <script src="js/news.js"></script>
+</body>
+</html>

@@ -8,7 +8,7 @@ import pytest
 from scrapers import build, run
 from datetime import date
 
-from scrapers.posts import beacon, nwff, siff, tasveer
+from scrapers.posts import beacon, nwff, nwff_programs, siff, siff_programs, tasveer
 
 FIXTURES = Path(__file__).parent / "fixtures" / "posts"
 
@@ -39,6 +39,10 @@ def test_nwff_news():
         "byline": None,
         "description": None,
         "months": None,
+        "happening": False,
+        "venue_label": None,
+        "next_date": None,
+        "listed": True,
     }
     assert len(first.summary) <= 240 and first.summary.endswith("…")
     assert first.summary.startswith("Seattle, WA – Northwest Film Forum")
@@ -185,26 +189,113 @@ def test_feed_end_to_end(tmp_path):
     build.build(tmp_path / "data", site, TODAY)
     posts = json.loads((site / "posts.json").read_text())["posts"]
     titles = [p["title"] for p in posts]
-    assert titles[:2] == ["Shadowland", "Time as a Symptom"]  # current series lead
-    dated = [p["published"] for p in posts[2:]]
+    assert "Shadowland" not in titles  # series and programs live under Happening Now
+    dated = [p["published"] for p in posts]
     assert dated == sorted(dated, reverse=True) and min(dated) >= "2026-05-15"
     assert not any(p["source"] == "tasveer" for p in posts)  # newest Tasveer post is June 2025
     assert not any(p["published"] is None and not p.get("current") for p in posts)  # undated release dropped
     assert "SIFF announces winning projects of 2026 Courageous Documentary Filmmaking Grants" in titles
     assert "NWFF Announces Recipients, Jurors, for Collective Power Fund 2025" not in titles  # January: too old
 
-    features = json.loads((site / "features.json").read_text())["features"]
-    assert [(f["kind"], f["title"]) for f in features] == [
-        ("Series", "Shadowland"), ("Series", "Time as a Symptom"),
-        ("Program", "Surplus Reality: How William Greaves Constructed a Stage, Sabotaged It and Mined Truth Out of the Wreckage"),
-        ("Program", "The Very Living End: Frank Tashlin and the American Nervous Breakdown"),
-    ]  # series first, at most four, Coming Soon left out
-    assert features[0]["byline"] == "The emotional otherworlds of classic cinema."
-    assert features[2]["byline"] == "4 films" and features[2]["when"] == "November 2026"
-    assert features[0]["description"] == ("The emotional otherworlds of classic cinema. "
-                                          "Unspooling the ribbon of dreams every Sunday afternoon.")
-    # Martha Ivers (in Shadowland) is on the calendar fixture on Nov 15 and 16 only.
-    assert features[0]["months"] == "November 2026"
-    assert features[2]["description"] == ""  # this program's page has no description
-    assert features[0]["image"].startswith("https://thebeacon.film/_vercel/image?url=")
-    assert features[0]["image_fallback"] == "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SHADOWLAND2.png"
+    features = json.loads((site / "features.json").read_text())
+    # No SIFF/NWFF screenings in this run, so the row holds only the Beacon's programs.
+    assert [f["title"] for f in features["lead"]] == ["Shadowland", "Time as a Symptom"]
+    assert [f["kind"] for f in features["row"]] == ["Program", "Program"]
+    lead = features["lead"][0]
+    assert lead["description"] == ("The emotional otherworlds of classic cinema. "
+                                   "Unspooling the ribbon of dreams every Sunday afternoon.")
+    assert lead["months"] == "November 2026"  # Martha Ivers is on the calendar fixture on Nov 15 and 16
+    assert lead["image"].startswith("https://thebeacon.film/_vercel/image?url=")
+    assert lead["image_fallback"] == "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SHADOWLAND2.png"
+    assert features["row"][0]["byline"] == "4 films" and features["row"][0]["when"] == "November 2026"
+    assert features["row"][0]["venue"] == "The Beacon"
+    # Happening items never appear in Latest News.
+    assert not any(p.get("happening") for p in posts)
+
+
+# --- Happening Now: SIFF Programs & Events, NWFF festivals and series ---------------
+
+
+def test_siff_programs_page():
+    posts = siff_programs.parse_page(load("siff_programs.html"))
+    kinds = {p.title: p.category for p in posts}
+    assert kinds["Nouvelles Femmes"] == "Series" and kinds["Book Club"] == "Program"
+    assert kinds["Seattle International Film Festival"] == "Festival"
+    assert "SIFF Grant for Courageous Documentary Filmmaking" not in kinds  # grant section skipped
+    nf = next(p for p in posts if p.title == "Nouvelles Femmes")
+    assert nf.url == "https://www.siff.net/french-new-wave" and nf.venue_label == "SIFF" and nf.happening
+    assert nf.image == "https://www.siff.net/images/CINEMA/2026/Nouvelles%20Femmes/CIN_NouvellesFemmes_Digital_1600x900.png"
+    assert nf.byline.startswith("Bursting with exuberant joie de vivre")
+    pnw = next(p for p in posts if p.title == "PNW Awards")
+    assert pnw.url == "https://www.siff.net/sfcs"
+    for post in posts:
+        post.validate()
+
+
+def test_nwff_current_only():
+    series = nwff_programs.parse_page(load("nwff_series.html"), "Series")
+    assert [p.title for p in series] == ["The Disabled List", "Evergreens", "Truth To Fiction", "Unstreamable"]
+    un = series[-1]
+    assert un.url == "https://nwfilmforum.org/series/unstreamable-scarecrow-jas-keimig/"
+    assert un.image.endswith("series_unstreamable_hero-2550x900.jpg") and un.image_fallback.endswith("-900x318.jpg")
+    assert un.byline == ("Unstreamable curates weird, horny, forgotten cinema that, for one reason or another, "
+                         "is unavailable on any US streaming service.")
+    assert un.venue_label == "NWFF" and un.category == "Series"
+    festivals = nwff_programs.parse_page(load("nwff_festivals.html"), "Festival")
+    assert [p.title for p in festivals] == ["Cadence Video Poetry Festival", "Local Sightings Film Festival"]
+    with pytest.raises(nwff_programs.ParseError):
+        nwff_programs.parse_page("<html><h3>Upcoming</h3></html>", "Series")
+
+
+def test_series_names_match_loosely_but_not_wrongly():
+    m = build._names_match
+    assert m("Book Club", "SIFF Book Club") and m("Community Screenings", "Community Screening")
+    assert m("Local Sightings Film Festival", "Local Sightings Film Festival 2026")
+    assert not m("Movie Club", "SIFF Book Club") and not m("Evergreens", "Evergreen Terrace")
+    assert not m("SIFF Cinema", "Cinema Italian Style")
+
+
+def _shot(venue, day, series):
+    return {"venue_id": venue, "date": day, "series": series, "title": "x", "showtimes": [{"time": "19:00"}]}
+
+
+def test_happening_now_layout():
+    siff_items = [p.to_dict() for p in siff_programs.parse_page(load("siff_programs.html"))]
+    nwff_items = [p.to_dict() for p in nwff_programs.parse_page(load("nwff_series.html"), "Series")]
+    nwff_items += [p.to_dict() for p in nwff_programs.parse_page(load("nwff_festivals.html"), "Festival")]
+    beacon_items = [p.to_dict() for p in beacon.parse_series(load("beacon_series.html"))
+                    + beacon.parse_programs(load("beacon_programs.html"))]
+    screenings = [
+        _shot("siff-uptown", "2026-11-17", "Nouvelles Femmes"),
+        _shot("siff-downtown", "2026-11-20", "SIFF Book Club"),
+        _shot("siff-uptown", "2026-12-20", "The Open Road"),        # beyond three weeks: not happening
+        _shot("nwff", "2026-11-21", "Unstreamable"),
+        _shot("nwff", "2026-11-18", "Truth To Fiction"),
+        _shot("siff-uptown", "2026-11-16", "Unstreamable"),         # wrong theater: does not count for NWFF
+    ]
+    out = build.build_features(siff_items + nwff_items + beacon_items, screenings, TODAY)
+    assert [c["title"] for c in out["lead"]] == ["Shadowland", "Time as a Symptom"]
+    assert out["lead"][0]["when"] == "Now playing" and out["lead"][0]["kind"] == "Series"
+    row = [(c["venue"], c["title"], c["when"]) for c in out["row"]]
+    assert row == [
+        ("SIFF", "Nouvelles Femmes", "Next: Nov 17"),
+        ("NWFF", "Truth To Fiction", "Next: Nov 18"),
+        ("The Beacon", "Surplus Reality: How William Greaves Constructed a Stage, Sabotaged It and Mined Truth Out of the Wreckage", "November 2026"),
+        ("SIFF", "Book Club", "Next: Nov 20"),
+        ("NWFF", "Unstreamable", "Next: Nov 21"),
+        ("The Beacon", "The Very Living End: Frank Tashlin and the American Nervous Breakdown", "November 2026"),
+    ]  # theaters alternate; within a theater, soonest first
+
+
+def test_no_beacon_series_falls_back_to_a_program():
+    programs = [p.to_dict() for p in beacon.parse_programs(load("beacon_programs.html"))]
+    out = build.build_features(programs, [], TODAY)
+    assert [c["kind"] for c in out["lead"]] == ["Program"]
+    assert len(out["row"]) == 1  # the other now-playing program
+
+
+def test_items_no_longer_listed_are_dropped():
+    item = nwff_programs.parse_page(load("nwff_series.html"), "Series")[-1].to_dict()
+    item["listed"] = False
+    out = build.build_features([item], [_shot("nwff", "2026-11-21", "Unstreamable")], TODAY)
+    assert out["row"] == [] and out["lead"] == []

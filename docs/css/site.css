@@ -444,11 +444,13 @@ main {
 .card-grid .card-links a { display: inline-block; padding: 6px 0; }
 .card-grid .updated { margin-top: 10px; }
 
-/* ---------------------------------------------------------------- At the Beacon (added 2026-11-15) */
-/* Modelled on the Articles block: a lead item with side labels, then up to three
-   smaller items in a row, then two heavy rules before the listings. */
+/* ---------------------------------------------------------------- Happening Now (2026-11-15) */
+/* Modelled on the Articles block: a lead item with side labels (rotated by small
+   arrows), then a row of three that pushes one tile right to left every 7 seconds,
+   then two heavy rules before the listings. */
 
-.features[hidden], .features-row[hidden], .double-rule[hidden] { display: none; }
+.features[hidden], .carousel[hidden], .carousel-controls[hidden], .mini-button[hidden],
+.double-rule[hidden] { display: none; }
 
 .features-heading {
   font-size: 30px;
@@ -485,30 +487,58 @@ main {
 
 /* Lead item */
 .feature-lead .feature-title { font-size: 30px; line-height: 36px; margin: 6px 0 20px; }
+.feature-lead .feature-title a { display: inline; }
 .feature-lead .feature-frame {
   display: grid;
-  grid-template-columns: 24px minmax(0, 1fr) 24px; /* full width, matching the row below */
+  grid-template-columns: 24px minmax(0, 1fr) 32px; /* full width, matching the row below */
   column-gap: 8px;
 }
+.feature-lead .side-label.kind { align-self: center; }
+.lead-side { display: flex; flex-direction: column; align-items: center; justify-content: space-between; }
+.lead-side .side-label { align-self: center; margin-top: auto; margin-bottom: auto; }
+.lead-controls { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.lead-count { font-size: 11px; line-height: 14px; white-space: nowrap; }
 .feature-lead .feature-text { max-width: 760px; margin: 22px auto 26px; text-align: center; }
 .feature-lead .feature-description { font-size: 18px; line-height: 25px; }
 .feature-lead .byline { margin-top: 0; }
 .feature-lead .feature-description + .feature-months { margin-top: 14px; }
 
-/* Row of up to three */
-.features-row {
+/* Rotating row: the viewport clips; the track slides. Each tile carries a right-hand
+   rule; the track is 2px wider than the viewport so the last visible rule is hidden. */
+.carousel-viewport { overflow: hidden; border-top: 2px solid var(--black); border-bottom: 2px solid var(--black); }
+.carousel-track {
   list-style: none;
-  margin: 0;
+  margin: 0 -2px 0 0;
   padding: 0;
   display: flex;
-  border-top: 2px solid var(--black);
-  border-bottom: 2px solid var(--black);
+  will-change: transform;
 }
-
-.features-row > li { flex: 1 1 0; min-width: 0; padding: 10px 0 0; display: flex; }
+.carousel-tile {
+  flex: 0 0 calc(100% / 3);
+  min-width: 0;
+  padding: 10px 0 0;
+  display: flex;
+  border-right: 2px solid var(--black);
+}
 .feature-small { display: flex; flex-direction: column; width: 100%; }
 .feature-small .feature-frame { flex: 1 0 auto; }
-.features-row > li + li { border-left: 2px solid var(--black); }
+
+/* Small arrow and pause buttons (solid black triangles and bars, like the date arrows) */
+.carousel-controls { display: flex; justify-content: flex-end; gap: 4px; padding: 4px 0 0; margin-bottom: -8px; }
+.mini-button {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.mini-button::before { content: ""; width: 0; height: 0; border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
+.mini-prev::before { border-right: 9px solid var(--black); }
+.mini-next::before { border-left: 9px solid var(--black); }
+.mini-pause::before { width: 3px; height: 11px; border: 0; border-left: 3px solid var(--black); border-right: 3px solid var(--black); box-sizing: content-box; }
+.mini-pause[aria-pressed="true"]::before { width: 0; height: 0; border-right: 0; border-top: 6px solid transparent; border-bottom: 6px solid transparent; border-left: 9px solid var(--black); }
+
+.feature-small .feature-frame { flex: 1 0 auto; }
 
 .feature-small .feature-frame {
   display: grid;
@@ -605,10 +635,9 @@ main {
   .search-form { flex-wrap: nowrap; }
   .features-heading { font-size: 24px; line-height: 28px; }
   .feature-lead .feature-title { font-size: 24px; line-height: 30px; }
-  .feature-lead .feature-frame,
+  .feature-lead .feature-frame { grid-template-columns: 22px minmax(0, 1fr) 32px; column-gap: 8px; }
   .feature-small .feature-frame { grid-template-columns: 22px minmax(0, 1fr) 22px; column-gap: 8px; }
-  .features-row { flex-direction: column; }
-  .features-row > li + li { border-left: 0; border-top: 2px solid var(--black); }
-  .feature-small .feature-image { display: none; } /* phones: lead image only, so the listings stay near the top */
-  .feature-small .feature-frame { min-height: 0; }
+  .carousel-tile { flex-basis: 100%; } /* phones: one tile at a time, with its image */
+  .carousel-controls .mini-button { width: 44px; height: 44px; }
+  .lead-controls .mini-button { width: 32px; height: 28px; }
 }

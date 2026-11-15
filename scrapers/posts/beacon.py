@@ -144,6 +144,8 @@ def parse_programs(html: str) -> list[Post]:
                 published=f"{year:04d}-{month:02d}-01",
                 date_label=f"{match.group(1).capitalize()} {year}",
                 category="Program",
+                happening=True,
+                venue_label="The Beacon",
                 summary={"now playing": "Now playing.", "coming soon": "Coming soon."}.get(status, ""),
                 now_playing=status == "now playing",
                 image=image,
@@ -172,6 +174,8 @@ def parse_series(html: str) -> list[Post]:
                 published=None,
                 date_label="Now playing",
                 category="Series",
+                happening=True,
+                venue_label="The Beacon",
                 summary=tagline,
                 current=True,
                 now_playing=True,
@@ -213,6 +217,7 @@ def fetch(ctx: Context) -> list[Post]:
         post.description = detail.get("description") or None
         dates = [d for f in films for d in scheduled.get(f, []) if d >= ctx.today.isoformat()]
         post.months = month_range(dates) or (post.date_label if post.category == "Program" else None)
+        post.next_date = min(dates) if dates else None
         if post.category == "Program":
             post.byline = f"{len(films)} films" if len(films) > 1 else ("1 film" if films else None)
     return posts

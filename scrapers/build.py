@@ -91,28 +91,109 @@ def build_posts(posts: list[dict], today: date) -> dict:
     return {"generated_at": now_pacific_iso(), "posts": (current + dated)[:MAX_POSTS]}
 
 
-MAX_FEATURES = 4
+HAPPENING_DAYS = 21  # "happening now" = a screening within the next three weeks
 
 
-def build_features(posts: list[dict]) -> dict:
-    """Up to four Beacon series and programs now playing; series first (SPEC addition 2026-11-15)."""
-    unique = {post["id"]: post for post in posts}.values()
-    now = [p for p in unique if p.get("source") == "beacon" and p.get("now_playing")]
-    series = sorted((p for p in now if p.get("category") == "Series"), key=lambda p: p.get("title", ""))
-    programs = sorted((p for p in now if p.get("category") == "Program"), key=lambda p: p.get("title", ""))
-    programs.sort(key=lambda p: p.get("published") or "", reverse=True)  # newest month first, then A-Z
-    features = [{
-        "title": p["title"],
-        "url": p["url"],
-        "kind": p.get("category"),
-        "when": p.get("date_label") or "",
-        "byline": p.get("byline") or "",
-        "description": p.get("description") or "",
-        "months": p.get("months") or "",
-        "image": p.get("image"),
-        "image_fallback": p.get("image_fallback"),
-    } for p in (series + programs)[:MAX_FEATURES]]
-    return {"generated_at": now_pacific_iso(), "features": features}
+def series_key(text: str) -> str:
+    """Loose key for matching a program's name to a screening's series:
+    'SIFF Book Club' ~ 'Book Club', 'Community Screenings' ~ 'Community Screening'."""
+    words = [w for w in slugify(text or "").split("-") if w and w not in {"siff", "the", "a", "an"}]
+    return "-".join(w[:-1] if len(w) > 3 and w.endswith("s") else w for w in words)
+
+
+def _names_match(a: str, b: str) -> bool:
+    ka, kb = series_key(a), series_key(b)
+    if not ka or not kb:
+        return False
+    if ka == kb:
+        return True
+    short, long_ = sorted((ka, kb), key=len)
+    return short.count("-") >= 1 and long_.startswith(short + "-")  # two+ words: "cinema-italian-style" ~ "…-2026"
+
+
+VENUE_PREFIX = {"SIFF": "siff-", "NWFF": "nwff"}
+
+
+def next_screening(item: dict, screenings: list[dict], today: date) -> str | None:
+    """Next date (within HAPPENING_DAYS) of a screening at this item's theater whose series matches."""
+    prefix = VENUE_PREFIX.get(item.get("venue_label") or "")
+    if not prefix:
+        return None
+    first, last = today.isoformat(), (today + timedelta(days=HAPPENING_DAYS)).isoformat()
+    dates = [s["date"] for s in screenings
+             if s.get("venue_id", "").startswith(prefix) and s.get("series")
+             and first <= s.get("date", "") <= last and _names_match(item["title"], s["series"])]
+    return min(dates) if dates else None
+
+
+def _short_date(iso: str) -> str:
+    months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    return f"{months[int(iso[5:7]) - 1]} {int(iso[8:10])}"
+
+
+def _card(post: dict, when: str) -> dict:
+    return {
+        "title": post["title"],
+        "url": post["url"],
+        "venue": post.get("venue_label") or post.get("source_name") or "",
+        "kind": post.get("category") or "",
+        "when": when,
+        "byline": post.get("byline") or "",
+        "description": post.get("description") or "",
+        "months": post.get("months") or "",
+        "image": post.get("image"),
+        "image_fallback": post.get("image_fallback"),
+    }
+
+
+def build_features(posts: list[dict], screenings: list[dict], today: date) -> dict:
+    """Happening Now (SPEC addition 2026-11-15).
+
+    lead: the Beacon's current series (arrows rotate through them), or its now-playing
+          programs if it has no series.
+    row:  SIFF programs/events and NWFF festivals/series with a matching screening in the
+          next three weeks, plus Beacon now-playing programs; theaters alternate.
+    """
+    unique = list({post["id"]: post for post in posts}.values())
+    today_s = today.isoformat()
+
+    def beacon_when(p: dict) -> str:
+        if p.get("category") == "Program" and p.get("date_label"):
+            return p["date_label"]
+        nxt = p.get("next_date")
+        return f"Next: {_short_date(nxt)}" if nxt and nxt >= today_s else "Now playing"
+
+    beacon_now = [p for p in unique if p.get("source") == "beacon" and p.get("now_playing")]
+    series = sorted((p for p in beacon_now if p.get("category") == "Series"), key=lambda p: p["title"])
+    programs = sorted((p for p in beacon_now if p.get("category") == "Program"), key=lambda p: p["title"])
+
+    if series:
+        lead = [_card(p, "Now playing") for p in series]
+        row_beacon = programs
+    else:
+        lead = [_card(p, beacon_when(p)) for p in programs[:1]]
+        row_beacon = programs[1:]
+
+    def pool(source: str) -> list[dict]:
+        found = []
+        for p in unique:
+            if p.get("source") != source or not p.get("listed", True):
+                continue
+            nxt = next_screening(p, screenings, today)
+            if nxt:
+                found.append((nxt, p["title"], _card(p, f"Next: {_short_date(nxt)}")))
+        return [card for _, _, card in sorted(found, key=lambda t: (t[0], t[1]))]
+
+    queues = [pool("siff_programs"), pool("nwff_programs"),
+              [_card(p, beacon_when(p)) for p in row_beacon]]
+    row: list[dict] = []
+    while any(queues):  # alternate theaters: SIFF, NWFF, Beacon, SIFF, …
+        for queue in queues:
+            if queue:
+                row.append(queue.pop(0))
+    if not lead and row:  # nothing from the Beacon at all: the first row item moves up
+        lead, row = [row[0]], row[1:]
+    return {"generated_at": now_pacific_iso(), "lead": lead, "row": row}
 
 
 def build(data_dir: Path = DATA_DIR, site_data_dir: Path = SITE_DATA_DIR, today: date | None = None) -> None:
@@ -120,8 +201,8 @@ def build(data_dir: Path = DATA_DIR, site_data_dir: Path = SITE_DATA_DIR, today:
     venues = read_json(site_data_dir / "venues.json", [])
     screenings = build_screenings(_load_files(data_dir / "sources", "screenings"), [v["id"] for v in venues], today)
     all_posts = _load_files(data_dir / "posts", "posts")
-    posts = build_posts(all_posts, today)
-    features = build_features(all_posts)
+    posts = build_posts([p for p in all_posts if not p.get("happening")], today)
+    features = build_features(all_posts, screenings["screenings"], today)
     status = read_json(data_dir / "status.json", {})
     status.setdefault("sources", {})
     status.setdefault("posts", {})

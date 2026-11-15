@@ -20,16 +20,25 @@
         <ul>
           <li><a href="index.html" aria-current="page">Listings</a></li>
           <li><a href="venues.html">Venues</a></li>
-          <li><a href="posts.html">Posts</a></li>
+          <li><a href="news.html">News</a></li>
           <li><a href="search.html">Search</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="features" id="features" aria-labelledby="features-heading" hidden>
-        <h2 class="features-heading" id="features-heading">At the Beacon:</h2>
+        <h2 class="features-heading" id="features-heading">Happening Now:</h2>
         <div id="feature-lead"></div>
-        <ul class="features-row" id="feature-row"></ul>
+        <div class="carousel" id="feature-carousel" aria-roledescription="carousel" aria-label="More happening now" hidden>
+          <div class="carousel-viewport">
+            <ul class="carousel-track" id="feature-row"></ul>
+          </div>
+          <div class="carousel-controls" id="row-controls" hidden>
+            <button class="mini-button mini-prev" id="row-prev" type="button" aria-label="Previous"></button>
+            <button class="mini-button mini-pause" id="row-pause" type="button" aria-label="Pause rotation" aria-pressed="false"></button>
+            <button class="mini-button mini-next" id="row-next" type="button" aria-label="Next"></button>
+          </div>
+        </div>
       </section>
       <div class="double-rule" id="features-rule" aria-hidden="true" hidden></div>
       <div class="date-nav">

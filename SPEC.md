@@ -16,10 +16,10 @@ Version 1.0, 2026-11-14. Source of truth for the build. Read BRIEF.md and SURVEY
 | Data | Scrapers write JSON into the repo; the front end fetches it. |
 | Regal | Not scraped in GitHub Actions (Cloudflare blocks it). Regal venues always appear on the Venues page with a link out. Regal listings come from an optional scraper that runs on Elijah's Windows PC (section 8). The site must be complete and correct without it. |
 | North Bend non-film events | Included, labelled "Live event". |
-| Posts feed | Changed 2026-11-15 with Elijah: NWFF news, SIFF blog and press releases, Tasveer's own blog (tasveer.org/feed; not its Press page), and the Beacon's programs (labelled PROGRAM, dated by month) and series (labelled SERIES). Only posts released in the last 6 months; posts with no release date are left out, except Beacon series under Now Playing, which have no dates and lead the feed. Newest first. No Regal, no social media. SIFF press-release dates are read from each release's own page. |
+| News page (was Posts) | Changed 2026-11-15 with Elijah: the Posts page is now News, at news.html; posts.html forwards there. Two sections. "Happening Now": the same items as the Happening Now block. "Latest News": NWFF news, SIFF blog and press releases, Tasveer's own blog (tasveer.org/feed; not its Press page), released in the last 6 months, newest first; posts with no release date are left out. Beacon, SIFF and NWFF series, festivals and programs appear only under Happening Now. No Regal, no social media. SIFF press-release dates are read from each release's own page. |
 | Time zone | `America/Los_Angeles` for every date and time, in scrapers and in the browser. |
 | Branding | Site name "Seattle Screens". No Screen Slate name, wordmark, logo, tagline or anniversary banner anywhere except the required footer line. |
-| At the Beacon block | Added 2026-11-15 with Elijah: top of the listings page, modelled on Screen Slate's Articles block. Up to 4 of the Beacon's Now Playing series and programs (series first). Each links to its Beacon page; images are the Beacon's own card images, loaded from the Beacon's servers (never copied into the repository). The lead item spans the full width and shows the first 1–4 sentences of its Beacon page's description, then "Scheduled <first month> – <last month>": the first and last month its films appear on the Beacon's calendar from today on (the Beacon publishes no start or end dates, and its calendar lists only upcoming screenings). On phones only the lead image shows. Two heavy rules separate it from the listings. Hidden when there is no data. Built from the Beacon posts scraper into docs/data/features.json. |
+| Happening Now block | Changed 2026-11-15 with Elijah (replaces "At the Beacon"; same sizes and spacing): top of the listings page, modelled on Screen Slate's Articles block. Top slot: the Beacon's Now Playing series, changed only with small arrows stacked under the right-hand label with a "1 / 2" counter (hidden for one item); if the Beacon has no series, a Now Playing Beacon program takes the slot. It spans the full width and shows the first 1–4 sentences of the Beacon page's description, then "Scheduled <first month> – <last month>" from the Beacon calendar. Row: three tiles (one on phones, with its image) rotating through SIFF Programs & Events (festivals, series, cinema programs; grants skipped), NWFF festivals and series ("Current" only) and Beacon Now Playing programs, alternating theaters SIFF, NWFF, Beacon. A SIFF or NWFF item counts as happening only if that theater has a screening in the next 3 weeks whose series name matches the item's title (loose match: ignores "SIFF"/"the", plurals, a trailing year; partial matches need two or more words). SIFF's program pages do not list films, so name matching is the method. Every 7 seconds the row pushes one tile right to left within its frame; ◀ ▶ arrows step it; it pauses on hover or keyboard focus, has a pause/play button, and does not move on its own under prefers-reduced-motion. Tile labels: left (purple) theater · type, e.g. "SIFF · SERIES"; right "NEXT: NOV 20" (Beacon programs keep their month). Tile text: the first sentence of the item's blurb (Beacon programs: film count). NWFF's wide banners are cropped to fill 16:9. Every item links to its page on the theater's site; images load from the theaters' servers, never copied into the repository. Two heavy rules separate it from the listings; hidden when there is no data. Built into docs/data/features.json as {lead, row}. |
 | Indexing | `<meta name="robots" content="noindex, nofollow">` on every page. No robots.txt (a project site under `username.github.io/repo/` cannot use one, and blocking crawlers would stop them seeing the noindex tag). |
 
 ---
@@ -59,7 +59,7 @@ seattle-screens/
 ├── docs/                       # the published site (Pages root)
 │   ├── index.html              # listings
 │   ├── venues.html
-│   ├── posts.html
+│   ├── news.html          (posts.html forwards here)
 │   ├── search.html
 │   ├── css/site.css
 │   ├── js/common.js  listings.js  venues.js  posts.js  search.js
@@ -367,7 +367,7 @@ One workflow, two jobs.
 |---|---|
 | `index.html` | Daily listings. Date from `?date=YYYY-MM-DD`, default today (PT). |
 | `venues.html` | All 12 venues: name, neighborhood, address, link, last updated, out-of-date mark. |
-| `posts.html` | Combined feed from posts.json, newest first. |
+| `news.html` | Happening Now items, then Latest News from posts.json, newest first. `posts.html` forwards to it. |
 | `search.html` | Search across screenings dated today or later. `?q=` in the URL. |
 
 Every page: left rail (desktop) or top bar with menu (mobile), noindex meta tag, footer with exactly: **A personal project. Not affiliated with Screen Slate.**
@@ -397,9 +397,9 @@ In order, all centered:
 
 One text input, autofocus. Matches case-insensitively and accent-insensitively on title, directors, series and venue name; every word typed must match somewhere. Results: grouped by date (date as a serif subheading), each row `TIME(S) — Title — VENUE — series`, linking to `index.html?date=…`. Respects nothing from the venue filter (search covers all venues). Empty query shows a one-line prompt; no results shows "No upcoming screenings match."
 
-### 7.5 Posts
+### 7.5 News (was Posts)
 
-A 3-column grid (1 column on mobile) of cells separated by rules: source name (14px uppercase purple), title (20px serif link, new tab), date (14px uppercase), summary (14px sans). No images.
+Two sections, "Happening Now" then "Latest News", each a 3-column grid (1 column on mobile) of cells separated by rules: source or theater · type (14px uppercase purple), title (20px serif link, new tab), date or next screening (14px uppercase), summary or first sentence (14px sans). No images.
 
 ### 7.6 Venues
 

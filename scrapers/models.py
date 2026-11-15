@@ -135,6 +135,11 @@ class Post:
     byline: str | None = None  # series tagline, or "4 films" for a program
     description: str | None = None  # first sentences of the Beacon page's description (lead item)
     months: str | None = None  # "November 2026 – January 2027": first and last scheduled month
+    # Happening Now (2026-11-15): series, festivals and programs rather than news.
+    happening: bool = False  # shown under Happening Now, never in Latest News
+    venue_label: str | None = None  # short theater name for labels: "SIFF", "NWFF", "The Beacon"
+    next_date: str | None = None  # next scheduled screening, when the scraper knows it (Beacon)
+    listed: bool = True  # still on the theater's page in the latest fetch
 
     @property
     def id(self) -> str:
