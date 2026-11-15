@@ -1,0 +1,122 @@
+[
+  {
+    "id": "admiral",
+    "name": "Historic Admiral Theater",
+    "address": "2343 California Ave SW, Seattle, WA 98116",
+    "neighborhood": "West Seattle",
+    "source": "admiral",
+    "url": "https://www.farawayentertainment.com/",
+    "showtimes_url": "https://www.farawayentertainment.com/",
+    "group": "independent"
+  },
+  {
+    "id": "beacon",
+    "name": "The Beacon",
+    "address": "4405 Rainier Ave S, Seattle, WA 98118",
+    "neighborhood": "Columbia City",
+    "source": "beacon",
+    "url": "https://thebeacon.film/calendar",
+    "showtimes_url": "https://thebeacon.film/calendar",
+    "group": "independent"
+  },
+  {
+    "id": "majestic-bay",
+    "name": "Majestic Bay Theatre",
+    "address": "2044 NW Market St, Seattle, WA 98107",
+    "neighborhood": "Ballard",
+    "source": "majestic_bay",
+    "url": "https://www.majesticbay.com/",
+    "showtimes_url": "https://www.majesticbay.com/",
+    "group": "independent"
+  },
+  {
+    "id": "north-bend",
+    "name": "North Bend Theatre",
+    "address": "125 Bendigo Blvd N, North Bend, WA 98045",
+    "neighborhood": "North Bend",
+    "source": "north_bend",
+    "url": "https://www.northbendtheatre.com/",
+    "showtimes_url": "https://tix.northbendtheatre.com/",
+    "group": "independent"
+  },
+  {
+    "id": "nwff",
+    "name": "Northwest Film Forum",
+    "address": "1515 12th Ave, Seattle, WA 98122",
+    "neighborhood": "Capitol Hill",
+    "source": "nwff",
+    "url": "https://nwfilmforum.org/",
+    "showtimes_url": "https://nwfilmforum.org/calendar/",
+    "group": "independent"
+  },
+  {
+    "id": "siff-downtown",
+    "name": "SIFF Cinema Downtown",
+    "address": "2100 4th Ave, Seattle, WA 98121",
+    "neighborhood": "Belltown",
+    "source": "siff",
+    "url": "https://www.siff.net/cinema/cinema-venues/siff-cinema-downtown",
+    "showtimes_url": "https://www.siff.net/calendar",
+    "group": "independent"
+  },
+  {
+    "id": "siff-film-center",
+    "name": "SIFF Film Center",
+    "address": "167 Republican St, Seattle, WA 98109",
+    "neighborhood": "Seattle Center",
+    "source": "siff",
+    "url": "https://www.siff.net/cinema/cinema-venues/siff-film-center",
+    "showtimes_url": "https://www.siff.net/calendar",
+    "group": "independent"
+  },
+  {
+    "id": "siff-uptown",
+    "name": "SIFF Cinema Uptown",
+    "address": "511 Queen Anne Ave N, Seattle, WA 98109",
+    "neighborhood": "Uptown",
+    "source": "siff",
+    "url": "https://www.siff.net/cinema/cinema-venues/siff-cinema-uptown",
+    "showtimes_url": "https://www.siff.net/calendar",
+    "group": "independent"
+  },
+  {
+    "id": "tasveer",
+    "name": "Tasveer Film Center",
+    "address": "4812 Rainier Ave S, Seattle, WA 98118",
+    "neighborhood": "Columbia City",
+    "source": "tasveer",
+    "url": "https://filmcenter.tasveer.org/home/",
+    "showtimes_url": "https://filmcenter.tasveer.org/showtimes/",
+    "group": "independent"
+  },
+  {
+    "id": "regal-thornton",
+    "name": "Regal Thornton Place",
+    "address": "316 NE Thornton Pl, Seattle, WA 98125",
+    "neighborhood": "Northgate",
+    "source": "regal",
+    "url": "https://www.regmovies.com/theatres/regal-thornton-place-1937",
+    "showtimes_url": "https://www.regmovies.com/theatres/regal-thornton-place-1937",
+    "group": "regal"
+  },
+  {
+    "id": "regal-cinebarre",
+    "name": "Regal Cinebarre Mountlake Terrace",
+    "address": "6009 244th St SW, Mountlake Terrace, WA 98043",
+    "neighborhood": "Mountlake Terrace",
+    "source": "regal",
+    "url": "https://www.regmovies.com/theatres/regal-cinebarre-mountlake-1958",
+    "showtimes_url": "https://www.regmovies.com/theatres/regal-cinebarre-mountlake-1958",
+    "group": "regal"
+  },
+  {
+    "id": "regal-meridian",
+    "name": "Regal Meridian",
+    "address": "1501 7th Ave, Seattle, WA 98101",
+    "neighborhood": "Downtown",
+    "source": "regal",
+    "url": "https://www.regmovies.com/theatres/regal-meridian-4dx-1931",
+    "showtimes_url": "https://www.regmovies.com/theatres/regal-meridian-4dx-1931",
+    "group": "regal"
+  }
+]
