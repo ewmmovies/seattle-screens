@@ -61,10 +61,22 @@ class Http:
         raise last_error  # type: ignore[misc]
 
     def get_text(self, url: str, **kwargs) -> str:
-        return self.request("GET", url, **kwargs).text
+        return decoded(self.request("GET", url, **kwargs))
 
     def get_json(self, url: str, **kwargs):
         return self.request("GET", url, **kwargs).json()
 
     def post_text(self, url: str, **kwargs) -> str:
-        return self.request("POST", url, **kwargs).text
+        return decoded(self.request("POST", url, **kwargs))
+
+
+def decoded(response: requests.Response) -> str:
+    """The page's text. When the server names no charset, requests assumes Latin-1 for
+    HTML, which turns UTF-8 curly quotes into "â" junk (seen on the Beacon). Use UTF-8
+    whenever the bytes are valid UTF-8."""
+    if "charset" not in response.headers.get("content-type", "").lower():
+        try:
+            return response.content.decode("utf-8")
+        except UnicodeDecodeError:
+            pass
+    return response.text

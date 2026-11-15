@@ -4,7 +4,10 @@ from datetime import date
 from pathlib import Path
 from types import SimpleNamespace
 
+import requests
+
 from scrapers import run
+from scrapers.http import decoded
 from scrapers.context import Context
 from scrapers.models import Post, Screening, Showtime
 from scrapers.sources import siff
@@ -179,3 +182,13 @@ def test_siff_runs_inside_the_runner(tmp_path):
         siff.parse_day(FixtureHttp().pages["2026-11-17"], TODAY))) == 6
     status = json.loads((tmp_path / "status.json").read_text())["sources"]["siff"]
     assert status["ok"] is True and status["count"] == 6
+
+
+def resp(body, ctype):
+    r = requests.Response(); r._content = body; r.headers["content-type"] = ctype; r.encoding = None
+    return r
+
+
+def test_utf8_without_charset_is_read_as_utf8():
+    assert decoded(resp("it’s".encode(), "text/html")) == "it’s"
+    assert decoded(resp("café".encode("latin-1"), "text/html; charset=ISO-8859-1")) == "café"

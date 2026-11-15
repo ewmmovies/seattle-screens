@@ -1,9 +1,9 @@
 /* Happening Now block on the listings page (reworked 2026-11-15).
 
    Top slot: the Beacon's current series (or a now-playing Beacon program if it has
-   none), changed only with the small arrows under the right-hand label.
+   none), changed only with the small arrows centred under the image.
    Row: SIFF programs/events, NWFF festivals/series and Beacon programs that are on
-   now. Three tiles (one on phones); every 7 seconds the row pushes one tile from
+   now. Three tiles (one on phones); every 10 seconds the row pushes one tile from
    right to left. Arrows step it by hand. It pauses while the pointer or keyboard
    focus is on it, with the pause button, when the tab is hidden, and never moves on
    its own for people whose device asks for reduced motion.
@@ -12,7 +12,7 @@
 
 (() => {
   const { el } = SS;
-  const STEP_MS = 7000;
+  const STEP_MS = 10000;
   const SLIDE_MS = 650;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const phone = window.matchMedia("(max-width: 639px)");
@@ -59,28 +59,29 @@
   let leadItems = [];
   let leadIndex = 0;
 
+  // Every lead item is the same height so nothing jumps when the arrows change it:
+  // the title is one line, the description is held to two lines (longer text ends
+  // with an ellipsis), the months are one line, and the arrow row keeps its space.
   function renderLead() {
     const item = leadItems[leadIndex];
     const many = leadItems.length > 1;
-    const side = el("div", { className: "lead-side" },
-      el("span", { className: "side-label when" }, item.when || ""),
-      many ? el("div", { className: "lead-controls" },
-        el("button", { className: "mini-button mini-prev", type: "button", "aria-label": "Previous series",
-          onclick: () => stepLead(-1) }),
-        el("span", { className: "lead-count", "aria-live": "polite" }, `${leadIndex + 1} / ${leadItems.length}`),
-        el("button", { className: "mini-button mini-next", type: "button", "aria-label": "Next series",
-          onclick: () => stepLead(1) })) : null);
+    const controls = el("div", { className: "lead-controls" },
+      many ? el("button", { className: "mini-button mini-prev", type: "button", "aria-label": "Previous series",
+        onclick: () => stepLead(-1) }) : null,
+      many ? el("span", { className: "lead-count", "aria-live": "polite" }, `${leadIndex + 1} / ${leadItems.length}`) : null,
+      many ? el("button", { className: "mini-button mini-next", type: "button", "aria-label": "Next series",
+        onclick: () => stepLead(1) }) : null);
+    const description = item.description || item.byline || "";
     dom.lead.replaceChildren(el("div", { className: "feature-lead" },
-      el("h3", { className: "feature-title serif" }, link(item, { className: "feature-link" }, item.title)),
+      el("h3", { className: "feature-title serif" }, link(item, { className: "feature-link", title: item.title }, item.title)),
       el("div", { className: "feature-frame" },
         el("span", { className: "side-label kind" }, kindLabel(item)),
-        link(item, { className: "feature-link", tabindex: "-1", "aria-hidden": "true" }, image(item) || el("span")),
-        side),
+        link(item, { className: "feature-link", tabindex: "-1", "aria-hidden": "true" }, image(item) || el("span", { className: "feature-image" })),
+        el("span", { className: "side-label when" }, item.when || "")),
+      controls,
       el("div", { className: "feature-text" },
-        item.description
-          ? el("p", { className: "feature-description serif" }, item.description)
-          : (item.byline ? el("p", { className: "byline" }, item.byline) : null),
-        item.months ? el("p", { className: "byline feature-months" }, `Scheduled ${item.months}`) : null)));
+        el("p", { className: item.description ? "feature-description serif" : "feature-description byline", title: description }, description),
+        el("p", { className: "byline feature-months" }, item.months ? `Scheduled ${item.months}` : ""))));
   }
 
   function stepLead(delta) {

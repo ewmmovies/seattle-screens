@@ -446,7 +446,7 @@ main {
 
 /* ---------------------------------------------------------------- Happening Now (2026-11-15) */
 /* Modelled on the Articles block: a lead item with side labels (rotated by small
-   arrows), then a row of three that pushes one tile right to left every 7 seconds,
+   arrows), then a row of three that pushes one tile right to left every 10 seconds,
    then two heavy rules before the listings. */
 
 .features[hidden], .carousel[hidden], .carousel-controls[hidden], .mini-button[hidden],
@@ -493,15 +493,26 @@ main {
   grid-template-columns: 24px minmax(0, 1fr) 32px; /* full width, matching the row below */
   column-gap: 8px;
 }
-.feature-lead .side-label.kind { align-self: center; }
-.lead-side { display: flex; flex-direction: column; align-items: center; justify-content: space-between; }
-.lead-side .side-label { align-self: center; margin-top: auto; margin-bottom: auto; }
-.lead-controls { display: flex; flex-direction: column; align-items: center; gap: 4px; }
-.lead-count { font-size: 11px; line-height: 14px; white-space: nowrap; }
-.feature-lead .feature-text { max-width: 760px; margin: 22px auto 26px; text-align: center; }
-.feature-lead .feature-description { font-size: 18px; line-height: 25px; }
-.feature-lead .byline { margin-top: 0; }
-.feature-lead .feature-description + .feature-months { margin-top: 14px; }
+.feature-lead .side-label { align-self: center; }
+/* Arrows and counter: centred under the image. The row keeps its height even with a
+   single item, so every lead item is the same height. */
+.lead-controls { display: flex; align-items: center; justify-content: center; gap: 6px; height: 32px; margin-top: 8px; }
+.lead-count { font-size: 11px; line-height: 14px; white-space: nowrap; min-width: 3.5em; text-align: center; }
+.feature-lead .feature-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.feature-lead .feature-text { max-width: 760px; margin: 12px auto 26px; text-align: center; }
+/* Two lines exactly: shorter text keeps the space, longer text ends with an ellipsis. */
+.feature-lead .feature-description {
+  font-size: 18px;
+  line-height: 25px;
+  height: 50px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+.feature-lead .feature-description.byline { font-size: 14px; line-height: 25px; }
+.feature-lead .feature-months { margin-top: 14px; height: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* Rotating row: the viewport clips; the track slides. Each tile carries a right-hand
    rule; the track is 2px wider than the viewport so the last visible rule is hidden. */
@@ -639,5 +650,6 @@ main {
   .feature-small .feature-frame { grid-template-columns: 22px minmax(0, 1fr) 22px; column-gap: 8px; }
   .carousel-tile { flex-basis: 100%; } /* phones: one tile at a time, with its image */
   .carousel-controls .mini-button { width: 44px; height: 44px; }
-  .lead-controls .mini-button { width: 32px; height: 28px; }
+  .lead-controls { height: 44px; margin-top: 4px; }
+  .lead-controls .mini-button { width: 44px; height: 44px; }
 }

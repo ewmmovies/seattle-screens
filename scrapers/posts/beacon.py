@@ -9,8 +9,9 @@
 
 Now-playing series and programs also feed the "At the Beacon" block on the
 listings page (scrapers/build.py writes docs/data/features.json). Each keeps its
-card image URL. Its own page is read (cached a week) for the first sentences of
-its description and its list of films; programs show the film count. The
+card image URL. Its own page is read (cached a week) for the first one or two
+sentences of its description (kept to about two lines on the site; the page
+clamps anything longer with an ellipsis) and its list of films; programs show the film count. The
 "Scheduled" months are the first and last month in which those films appear on
 the Beacon's calendar from today on. The Beacon publishes no start or end dates,
 and the calendar lists only upcoming screenings, so for a series that began
@@ -98,11 +99,28 @@ def first_sentences(text: str, most: int = 4, limit: int = 420) -> str:
     return out if len(out) <= limit + 200 else out[: limit].rsplit(" ", 1)[0] + "…"
 
 
+# The top slot shows at most two lines of description (~85 characters a line on a
+# desktop). A second sentence is added only if both fit in that; a first sentence
+# that is longer on its own is kept whole and the page ends it with an ellipsis.
+LEAD_LIMIT = 165
+
+
+def lead_description(text: str) -> str:
+    """The Beacon's own words: the first sentence, plus the second if both fit in two lines."""
+    sentences = [s.strip() for s in _SENTENCE_END.split(clean_ws(text)) if s.strip()]
+    if not sentences:
+        return ""
+    kept = sentences[0]
+    if len(sentences) > 1 and len(kept) + 1 + len(sentences[1]) <= LEAD_LIMIT:
+        kept += " " + sentences[1]
+    return kept
+
+
 def parse_detail(html: str) -> dict:
-    """Series or program page -> {'description': first sentences, 'films': [calendar URLs]}."""
+    """Series or program page -> {'description': one or two sentences, 'films': [calendar URLs]}."""
     soup = BeautifulSoup(html, "html.parser")
     node = soup.select_one(".entry-description")
-    return {"description": first_sentences(node.get_text(" ")) if node else "", "films": film_urls(html)}
+    return {"description": lead_description(node.get_text(" ")) if node else "", "films": film_urls(html)}
 
 
 def month_range(dates: list[str]) -> str | None:
@@ -212,7 +230,7 @@ def fetch(ctx: Context) -> list[Post]:
             except requests.HTTPError as error:  # only the description and film list are lost
                 print(f"[posts/beacon] page skipped: {error}", file=sys.stderr)
                 return {"description": "", "films": []}
-        detail = ctx.cached("detail:" + post.url, load)
+        detail = ctx.cached("detail2:" + post.url, load)  # "2": re-read after the 2026-11-15 encoding and length fixes
         films = detail.get("films") or []
         post.description = detail.get("description") or None
         dates = [d for f in films for d in scheduled.get(f, []) if d >= ctx.today.isoformat()]

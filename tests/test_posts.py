@@ -119,6 +119,12 @@ def test_beacon_detail_sentences_and_months():
             "It is a style, a mode, a pace. Experiencing time is a symptom of cinema's very essence.")
     kept = beacon.first_sentences(long)
     assert kept.startswith("What happens") and kept.endswith("a pace.")  # four sentences
+    # Top slot: the Beacon's own words, one or two sentences that fit in two lines.
+    assert beacon.lead_description(long) == "What happens after all the time is spent?"  # 2nd would overflow
+    two = "The emotional otherworlds of classic cinema. Unspooling the ribbon of dreams every Sunday afternoon. More."
+    assert beacon.lead_description(two) == two.rsplit(" ", 1)[0]
+    one = "A single very long opening sentence " + "that keeps going " * 12 + "until it ends. Second."
+    assert beacon.lead_description(one) == one.rsplit(" ", 1)[0]  # kept whole; the page adds the ellipsis
     assert beacon.month_range(["2026-12-03", "2026-11-15", "2027-01-04"]) == "November 2026 – January 2027"
     assert beacon.month_range(["2026-11-15"]) == "November 2026" and beacon.month_range([]) is None
 
