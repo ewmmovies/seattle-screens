@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-15T11:33:25-08:00",
+  "scraped_at": "2026-11-15T11:50:35-08:00",
   "posts": [
     {
       "id": "nwff|/news/local-sightings-film-festival-2026-jury-award-winners/",
@@ -11,7 +11,9 @@
       "published": "2026-10-08",
       "category": "News",
       "summary": "Seattle, WA – Northwest Film Forum (NWFF)’s 28th Annual Local Sightings Film Festival (September 18-27, 2026) has wrapped! Local Sightings is NWFF’s annual celebration of filmmaking in the Pacific Northwest, championing emerging and…",
-      "first_seen": "2026-11-15T11:33:25-08:00"
+      "first_seen": "2026-11-15T11:33:25-08:00",
+      "date_label": null,
+      "current": false
     },
     {
       "id": "nwff|/news/nwff-announces-recipients-jurors-for-collective-power-fund-2025/",
@@ -22,7 +24,9 @@
       "published": "2026-01-07",
       "category": "News",
       "summary": "Northwest Film Forum (NWFF)’s Collective Power Fund is delighted to announce the grant recipients for the Collective Power Fund, now in its sixth installment of funding and support visual-based artists in King County. The grant is…",
-      "first_seen": "2026-11-15T11:33:25-08:00"
+      "first_seen": "2026-11-15T11:33:25-08:00",
+      "date_label": null,
+      "current": false
     },
     {
       "id": "nwff|/news/local-sightings-film-festival-2025-announces-award-winners-best-feature-short-films/",
@@ -33,7 +37,9 @@
       "published": "2025-12-03",
       "category": "News",
       "summary": "Seattle, WA – Northwest Film Forum (NWFF)’s 28th Annual Local Sightings Film Festival (September 19-28, 2025) has wrapped! Local Sightings is one of few regional festivals of its kind, which champions emerging and established talent from…",
-      "first_seen": "2026-11-15T11:33:25-08:00"
+      "first_seen": "2026-11-15T11:33:25-08:00",
+      "date_label": null,
+      "current": false
     },
     {
       "id": "nwff|/news/leadership-changes-northwest-film-forum-october-2025/",
@@ -44,7 +50,9 @@
       "published": "2025-10-28",
       "category": "News",
       "summary": "SEATTLE, WA (October 28, 2025) — Hello Forum friends, We’re writing to share a few important leadership updates. Executive Director Derek Edamura is stepping down from his role after nearly three years of dedicated service. Derek’s…",
-      "first_seen": "2026-11-15T11:33:25-08:00"
+      "first_seen": "2026-11-15T11:33:25-08:00",
+      "date_label": null,
+      "current": false
     },
     {
       "id": "nwff|/news/nwff_asib_paccar_2025/",
@@ -55,7 +63,9 @@
       "published": "2025-09-05",
       "category": "News",
       "summary": "SEATTLE, WA (September 5, 2025) — Northwest Film Forum (NWFF) is excited to announce that it will be hosting the Seattle Premiere of Ramona Diaz’s new film “And So It Begins,” on October 10th, 2025 at the PACCAR IMAX Theater at the…",
-      "first_seen": "2026-11-15T11:33:25-08:00"
+      "first_seen": "2026-11-15T11:33:25-08:00",
+      "date_label": null,
+      "current": false
     },
     {
       "id": "nwff|/news/nwff_grants_2025/",
@@ -66,7 +76,9 @@
       "published": "2025-09-04",
       "category": "News",
       "summary": "SEATTLE, WA ( September 2, 2025 ) — Northwest Film Forum (NWFF) is excited to announce the launch of new funding cycles for its two premiere grant programs; Lynn Shelton ‘Of A Certain Age’ Grant and Collective Power Fund. …",
-      "first_seen": "2026-11-15T11:33:25-08:00"
+      "first_seen": "2026-11-15T11:33:25-08:00",
+      "date_label": null,
+      "current": false
     },
     {
       "id": "nwff|/news/new_board_members_2025/",
@@ -77,7 +89,9 @@
       "published": "2025-08-29",
       "category": "News",
       "summary": "Seattle, WA – In June, 2024, Northwest Film Forum Executive Director, Derek Edamura, along with Board President, Becky Bruhn, and Board Members Louise Maxwell and Owen Davies entered The Hilton in Vancouver, Washington for a two-day…",
-      "first_seen": "2026-11-15T11:33:25-08:00"
+      "first_seen": "2026-11-15T11:33:25-08:00",
+      "date_label": null,
+      "current": false
     },
     {
       "id": "nwff|/news/rgpro_2025_workshop_attendance/",
@@ -88,7 +102,9 @@
       "published": "2025-06-23",
       "category": "News",
       "summary": "Seattle, WA – On a gloomy Saturday morning Northwest Film Forum (NWFF) hosts the first day of its 2-day Intro to Camera Intensive Workshop. While the neighborhood was just beginning to wake up, inside the Forum the workshop room was…",
-      "first_seen": "2026-11-15T11:33:25-08:00"
+      "first_seen": "2026-11-15T11:33:25-08:00",
+      "date_label": null,
+      "current": false
     },
     {
       "id": "nwff|/news/gala_2025_forum_raises_125k/",
@@ -99,7 +115,9 @@
       "published": "2025-06-09",
       "category": "News",
       "summary": "Seattle, WA – On May 30th, 2025, Northwest Film Forum celebrated its 30th Anniversary in unforgettable fashion with its annual gala. Given the significance of the milestone, this year’s gala theme was Existential Crisis –a nod to both the…",
-      "first_seen": "2026-11-15T11:33:25-08:00"
+      "first_seen": "2026-11-15T11:33:25-08:00",
+      "date_label": null,
+      "current": false
     },
     {
       "id": "nwff|/news/northwest-film-forum-announces-4th-annual-action-narrative-apprenticeship-program/",
@@ -110,7 +128,9 @@
       "published": "2025-03-26",
       "category": "News",
       "summary": "Seattle, WA – An initiative started by Northwest Film Forum (NWFF) in 2022, ACTION! Narrative Apprenticeship Program (ACTION!) is now celebrating its fourth year. Modelled after the Forum’s Remove the Gap Apprenticeship Program (RGPRO)…",
-      "first_seen": "2026-11-15T11:33:25-08:00"
+      "first_seen": "2026-11-15T11:33:25-08:00",
+      "date_label": null,
+      "current": false
     }
   ]
 }
