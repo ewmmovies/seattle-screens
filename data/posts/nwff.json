@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-15T12:05:27-08:00",
+  "scraped_at": "2026-11-15T12:14:44-08:00",
   "posts": [
     {
       "id": "nwff|/news/local-sightings-film-festival-2026-jury-award-winners/",
@@ -17,7 +17,9 @@
       "now_playing": false,
       "image": null,
       "image_fallback": null,
-      "byline": null
+      "byline": null,
+      "description": null,
+      "months": null
     },
     {
       "id": "nwff|/news/nwff-announces-recipients-jurors-for-collective-power-fund-2025/",
@@ -34,7 +36,9 @@
       "now_playing": false,
       "image": null,
       "image_fallback": null,
-      "byline": null
+      "byline": null,
+      "description": null,
+      "months": null
     },
     {
       "id": "nwff|/news/local-sightings-film-festival-2025-announces-award-winners-best-feature-short-films/",
@@ -51,7 +55,9 @@
       "now_playing": false,
       "image": null,
       "image_fallback": null,
-      "byline": null
+      "byline": null,
+      "description": null,
+      "months": null
     },
     {
       "id": "nwff|/news/leadership-changes-northwest-film-forum-october-2025/",
@@ -68,7 +74,9 @@
       "now_playing": false,
       "image": null,
       "image_fallback": null,
-      "byline": null
+      "byline": null,
+      "description": null,
+      "months": null
     },
     {
       "id": "nwff|/news/nwff_asib_paccar_2025/",
@@ -85,7 +93,9 @@
       "now_playing": false,
       "image": null,
       "image_fallback": null,
-      "byline": null
+      "byline": null,
+      "description": null,
+      "months": null
     },
     {
       "id": "nwff|/news/nwff_grants_2025/",
@@ -102,7 +112,9 @@
       "now_playing": false,
       "image": null,
       "image_fallback": null,
-      "byline": null
+      "byline": null,
+      "description": null,
+      "months": null
     },
     {
       "id": "nwff|/news/new_board_members_2025/",
@@ -119,7 +131,9 @@
       "now_playing": false,
       "image": null,
       "image_fallback": null,
-      "byline": null
+      "byline": null,
+      "description": null,
+      "months": null
     },
     {
       "id": "nwff|/news/rgpro_2025_workshop_attendance/",
@@ -136,7 +150,9 @@
       "now_playing": false,
       "image": null,
       "image_fallback": null,
-      "byline": null
+      "byline": null,
+      "description": null,
+      "months": null
     },
     {
       "id": "nwff|/news/gala_2025_forum_raises_125k/",
@@ -153,7 +169,9 @@
       "now_playing": false,
       "image": null,
       "image_fallback": null,
-      "byline": null
+      "byline": null,
+      "description": null,
+      "months": null
     },
     {
       "id": "nwff|/news/northwest-film-forum-announces-4th-annual-action-narrative-apprenticeship-program/",
@@ -170,7 +188,9 @@
       "now_playing": false,
       "image": null,
       "image_fallback": null,
-      "byline": null
+      "byline": null,
+      "description": null,
+      "months": null
     }
   ]
 }
