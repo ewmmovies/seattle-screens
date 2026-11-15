@@ -444,6 +444,15 @@ main {
 .card-grid .card-links a { display: inline-block; padding: 6px 0; }
 .card-grid .updated { margin-top: 10px; }
 
+/* ---------------------------------------------------------------- posts page (7.5) */
+
+.post-grid { padding-top: 20px; }
+.post-grid .cell-body { margin-bottom: 0; }
+.post-grid .cell { padding-bottom: 24px; }
+.post-source { color: var(--accent); margin-bottom: 6px; }
+.post-date { margin-top: 8px; }
+.post-summary { font-size: 14px; line-height: 18px; margin-top: 10px; }
+
 /* ---------------------------------------------------------------- responsive (9.4) */
 
 @media (max-width: 999px) {

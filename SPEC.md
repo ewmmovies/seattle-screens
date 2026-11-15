@@ -569,4 +569,5 @@ No tokens are needed for the GitHub Actions path. Only the Regal PC scraper need
 - Director and year are missing for Admiral and most North Bend listings. Do not add a third-party film database to fill them.
 - Tasveer publishes about 6 days ahead; North Bend and Regal data are thinner than the rest.
 - Scheduled runs may start late; listings can be several hours behind a venue's last-minute change.
+- Admiral (decided with Elijah 2026-11-15): its server returns 403 to GitHub Actions for both the home page and the showtimes API. The Admiral stays on the Venues page marked out of date and does not appear on Listings. If the Regal PC scraper (stage 8) is built, add the Admiral to it.
 - Multi-film programs (shorts blocks) are shown as a single title, as the venue names them.

@@ -195,7 +195,9 @@ def run_posts(module: ModuleType, *, http: Http, today: date, data_dir: Path, st
     entry["last_attempt"] = now_pacific_iso()
     entry.setdefault("last_success", None)
     entry.setdefault("count", 0)
-    ctx = Context(http=http, today=today, fixtures_dir=(fixtures_root / source_id) if fixtures_root else None)
+    cache_file = data_dir / "cache" / f"posts_{source_id}.json"
+    ctx = Context(http=http, today=today, cache=read_json(cache_file, {}),
+                  fixtures_dir=(fixtures_root / "posts") if fixtures_root else None)
     try:
         posts = module.fetch(ctx)
         if not posts:
@@ -210,6 +212,9 @@ def run_posts(module: ModuleType, *, http: Http, today: date, data_dir: Path, st
         entry["error"] = f"{type(error).__name__}: {error}".splitlines()[0][:300]
         print(f"[posts/{source_id}] FAILED: {entry['error']} (previous posts kept)")
         return False
+    finally:
+        if ctx.cache:
+            write_json(cache_file, ctx.cache)
 
     posts_file = data_dir / "posts" / f"{source_id}.json"
     stored = read_json(posts_file, {}).get("posts", [])
