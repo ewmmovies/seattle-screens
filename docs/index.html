@@ -35,6 +35,17 @@
         <label class="visually-hidden" for="date-input">Date</label>
         <input class="date-input" id="date-input" type="date" tabindex="-1">
       </div>
+      <div class="controls">
+        <label class="checkbox serif"><input type="checkbox" id="on-film"> On Film</label>
+        <button class="button" id="venues-button" type="button" aria-expanded="false" aria-controls="venue-filter">Venues</button>
+      </div>
+      <div class="filter-panel" id="venue-filter" hidden>
+        <div class="filter-shortcuts">
+          <button class="button" id="toggle-regal" type="button">Hide Regal</button>
+          <button class="button" id="show-all" type="button">All</button>
+        </div>
+        <ul class="filter-list" id="venue-checkboxes"></ul>
+      </div>
       <h2 class="section-label">Screenings</h2>
       <div id="listings" aria-live="polite"></div>
       <footer class="site-footer">A personal project. Not affiliated with Screen Slate.</footer>

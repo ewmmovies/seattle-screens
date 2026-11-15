@@ -27,10 +27,17 @@
     </header>
     <main>
       <h1 class="page-title serif"><span>Search</span></h1>
-      <p class="message serif">Not built yet.</p>
+      <form class="search-form" id="search-form" role="search">
+        <label class="visually-hidden" for="q">Search upcoming screenings</label>
+        <input class="search-input" id="q" name="q" type="search" autocomplete="off" autofocus
+               placeholder="Title, director, series or theater">
+        <button class="button" type="submit">Search</button>
+      </form>
+      <div id="results" aria-live="polite"></div>
       <footer class="site-footer">A personal project. Not affiliated with Screen Slate.</footer>
     </main>
   </div>
   <script src="js/common.js"></script>
+  <script src="js/search.js"></script>
 </body>
 </html>

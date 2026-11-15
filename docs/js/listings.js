@@ -4,6 +4,7 @@
 (() => {
   const { el } = SS;
   const PRINT_FORMATS = new Set(["35mm", "70mm", "16mm", "Film"]);
+  const HIDDEN_KEY = "ss.hiddenVenues";
 
   const dom = {
     content: document.getElementById("listings"),
@@ -11,10 +12,100 @@
     next: document.getElementById("next-day"),
     dateButton: document.getElementById("date-button"),
     dateInput: document.getElementById("date-input"),
+    onFilm: document.getElementById("on-film"),
+    venuesButton: document.getElementById("venues-button"),
+    panel: document.getElementById("venue-filter"),
+    venueList: document.getElementById("venue-checkboxes"),
+    regalButton: document.getElementById("toggle-regal"),
+    allButton: document.getElementById("show-all"),
   };
 
   let data = null; // { venues, screenings, status, range }
   let current = null; // "YYYY-MM-DD"
+
+  // ------------------------------------------------------------- filters (7.2)
+  // Hidden venues persist in localStorage when the browser allows it; otherwise
+  // they live in memory for the visit. "On Film" is for this visit only.
+
+  const hidden = loadHidden();
+  let onFilmOnly = false;
+
+  function loadHidden() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(HIDDEN_KEY) || "[]");
+      return new Set(Array.isArray(saved) ? saved.filter((id) => typeof id === "string") : []);
+    } catch {
+      return new Set();
+    }
+  }
+
+  function saveHidden() {
+    try { localStorage.setItem(HIDDEN_KEY, JSON.stringify([...hidden])); } catch { /* memory only */ }
+  }
+
+  function regalIds() {
+    return data.venues.filter((v) => v.group === "regal").map((v) => v.id);
+  }
+
+  function updateFilterControls() {
+    const known = data.venues.filter((v) => hidden.has(v.id)).length;
+    dom.venuesButton.textContent = known ? `Venues (${known} hidden)` : "Venues";
+    for (const box of dom.venueList.querySelectorAll("input")) box.checked = !hidden.has(box.value);
+    const allRegalHidden = regalIds().every((id) => hidden.has(id));
+    dom.regalButton.textContent = allRegalHidden ? "Show Regal" : "Hide Regal";
+  }
+
+  function filtersChanged() {
+    saveHidden();
+    updateFilterControls();
+    render();
+  }
+
+  function initFilters() {
+    dom.venueList.replaceChildren(...data.venues.map((venue) => el("li", {},
+      el("label", { className: "checkbox serif" },
+        el("input", {
+          type: "checkbox",
+          value: venue.id,
+          onchange: (event) => {
+            if (event.target.checked) hidden.delete(venue.id);
+            else hidden.add(venue.id);
+            filtersChanged();
+          },
+        }),
+        venue.name))));
+
+    dom.venuesButton.addEventListener("click", () => {
+      const open = dom.panel.hidden;
+      dom.panel.hidden = !open;
+      dom.venuesButton.setAttribute("aria-expanded", String(open));
+    });
+    dom.panel.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        dom.panel.hidden = true;
+        dom.venuesButton.setAttribute("aria-expanded", "false");
+        dom.venuesButton.focus();
+      }
+    });
+    dom.regalButton.addEventListener("click", () => {
+      const ids = regalIds();
+      const allHidden = ids.every((id) => hidden.has(id));
+      for (const id of ids) {
+        if (allHidden) hidden.delete(id);
+        else hidden.add(id);
+      }
+      filtersChanged();
+    });
+    dom.allButton.addEventListener("click", () => {
+      hidden.clear();
+      filtersChanged();
+    });
+    dom.onFilm.addEventListener("change", () => {
+      onFilmOnly = dom.onFilm.checked;
+      render();
+    });
+    updateFilterControls();
+  }
 
   // ------------------------------------------------------------- one screening
 
@@ -105,9 +196,10 @@
     dom.prev.disabled = current <= data.range.start;
     dom.next.disabled = current >= data.range.end;
 
-    const today = data.screenings.filter((s) => s.date === current);
+    const today = data.screenings.filter((s) => s.date === current && (!onFilmOnly || PRINT_FORMATS.has(s.format)));
     const blocks = [];
     for (const venue of data.venues) {
+      if (hidden.has(venue.id)) continue;
       const own = today.filter((s) => s.venue_id === venue.id && s.showtimes && s.showtimes.length);
       if (own.length) blocks.push(venueBlock(venue, own.sort(byFirstShowtime)));
     }
@@ -144,7 +236,7 @@
     });
     document.addEventListener("keydown", (event) => {
       if (event.altKey || event.ctrlKey || event.metaKey) return;
-      if (event.target.closest("input, textarea, select")) return;
+      if (event.target.closest("input, textarea, select, .filter-panel")) return;
       if (event.key === "ArrowLeft") step(-1);
       if (event.key === "ArrowRight") step(1);
     });
@@ -172,6 +264,7 @@
       return;
     }
     initControls();
+    initFilters();
     render();
   }
 
