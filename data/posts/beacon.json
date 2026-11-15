@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-15T12:14:38-08:00",
+  "scraped_at": "2026-11-15T12:39:11-08:00",
   "posts": [
     {
       "id": "beacon|/series/time-as-a-symptom",
@@ -19,7 +19,11 @@
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_TIMEASASYMPTOM_%281%29.png",
       "byline": "Slow cinema and its reverberations.",
       "description": "What happens after all the time is spent? Rather than spending time like itâs some debased currency, The Beacon Cinema invites you to hold the heavy body of time in your arms, look deep into her eyes and find meaning again. Letâs get one thing out of the way; slow cinema is not a genre or movement. Itâs a style, a mode, a pace that is not limited to a period or place.",
-      "months": "November 2026 – December 2026"
+      "months": "November 2026 – December 2026",
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": "2026-11-29",
+      "listed": true
     },
     {
       "id": "beacon|/series/shadowland",
@@ -38,7 +42,11 @@
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SHADOWLAND2.png",
       "byline": "The emotional otherworlds of classic cinema.",
       "description": "The emotional otherworlds of classic cinema. Unspooling the ribbon of dreams every Sunday afternoon.",
-      "months": "November 2026 – December 2026"
+      "months": "November 2026 – December 2026",
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": "2026-11-15",
+      "listed": true
     },
     {
       "id": "beacon|/programs/surplus-reality",
@@ -57,7 +65,11 @@
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png",
       "byline": "4 films",
       "description": null,
-      "months": "November 2026"
+      "months": "November 2026",
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": "2026-11-17",
+      "listed": true
     },
     {
       "id": "beacon|/programs/the-very-living-end-frank-tashlin-and-the-american-nervous-breakdown",
@@ -76,7 +88,11 @@
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png",
       "byline": "3 films",
       "description": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots. Fortunately, former Looney Tunes animator Frank Tashlin was on hand to document the collapse of Western civilization in the brightest colors Hollywood could manufacture.",
-      "months": "November 2026"
+      "months": "November 2026",
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": "2026-11-17",
+      "listed": true
     },
     {
       "id": "beacon|/programs/love-is-a-country-of-two-and-trespassers-will-be-shot",
@@ -95,7 +111,11 @@
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792950181821-zz.png",
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/the-night-they-all-came-out-of-their-coffins-at-once-monster-crossovers-team-ups-pile-ups",
@@ -114,7 +134,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/god-hath-given-you-one-face-and-you-make-yourselves-another-movies-without-a-face",
@@ -133,7 +157,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/there-is-no-need-to-build-a-labyrinth-when-the-entire-universe-is-one-infinite-recursion-ontological-vertigo-and-the-territory-yielding-to-the-map",
@@ -152,7 +180,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/base-metals-pure-gold-the-scores-of-ennio-morricone",
@@ -171,7 +203,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/gasoline-twilight-all0the-mad-maxes",
@@ -190,7 +226,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/bleak-week-cinema-of-despair",
@@ -209,7 +249,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/in-the-midst-of-the-end-of-the-world-antonio-reis-margarida-cordeiro",
@@ -228,7 +272,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/once-upon-a-time-in-beirut-the-cinema-of-jocelyne-saab",
@@ -247,7 +295,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/heres-your-list-of-friends-in-the-order-they-died-teen-anarchy-japan",
@@ -266,7 +318,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/no-one-gets-laid-until-we-finish-our-movie-late-era-john-waters",
@@ -285,7 +341,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/anything-you-dont-control-can-be-used-as-a-weapon-against-you-radical-blaxploitation",
@@ -304,7 +364,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/a-void-in-the-cosmos-and-from-there-you-sing-early-pasolini",
@@ -323,7 +387,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/super-krime",
@@ -342,7 +410,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/sublime-perversion-4-films-by-joaeo-cesar-monteiro",
@@ -361,7 +433,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/gen-x-files",
@@ -380,7 +456,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/forget-everything-adore-me-and-adore-my-flesh-the-cinema-of-monika-treut",
@@ -399,7 +479,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/destroy-me-more-self-destruction-and-mutual-annihilation-as-a-transcendental-art",
@@ -418,7 +502,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/the-market-has-a-mind-and-its-dreaming-of-you-sex-violence-corporate-cyber-paranoia",
@@ -437,7 +525,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/always-has-been-a-history-of-the-american-sickness",
@@ -456,7 +548,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/obayashi-the-kadokawa-years",
@@ -475,7 +571,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/the-films-of-frederick-wiseman",
@@ -494,7 +594,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/the-absurd-mystery-of-the-strange-forces-of-existence-lynchian-cinema",
@@ -513,7 +617,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/thank-you-for-your-lie-films-by-max-ophuls",
@@ -532,7 +640,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/a-fleeting-wisp-of-glory-once-and-future-kings",
@@ -551,7 +663,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/every-time-we-say-goodbye-films-by-bruce-weber",
@@ -570,7 +686,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/potentially-ill-advised-films-about-assassinating-your-political-leaders",
@@ -589,7 +709,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/films-by-mike-leigh",
@@ -608,7 +732,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/movies-are-not-impossible-to-make-a-case-study",
@@ -627,7 +755,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/against-civilization",
@@ -646,7 +778,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/derek-jarman-do-we-continue-to-grow-marigolds-even-as-the-emergency-sirens-blare",
@@ -665,7 +801,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/the-ten-pillars-of-beacon",
@@ -684,7 +824,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/you-are-receiving-this-broadcast-as-a-dream-john-carpenters-apocalypse-trilogy",
@@ -703,7 +847,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/everyone-is-guilty-patricia-highsmith-adaptations",
@@ -722,7 +870,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/the-revolt-of-the-artist-against-the-real-michelangelo-antonioni",
@@ -741,7 +893,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     },
     {
       "id": "beacon|/programs/the-best-tool-for-outlaws-is-and-always-will-be-cinema-the-films-of-jean-pierre-bekolo",
@@ -760,7 +916,11 @@
       "image_fallback": null,
       "byline": null,
       "description": null,
-      "months": null
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
     }
   ]
 }
