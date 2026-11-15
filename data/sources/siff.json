@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-14T22:06:47-08:00",
+  "scraped_at": "2026-11-15T00:16:41-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-14|godzilla-minus-zero",
@@ -2279,6 +2279,66 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-downtown|2026-12-06|elsinore",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-06",
+      "title": "Elsinore",
+      "showtimes": [
+        {
+          "time": "13:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Simon Stone"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-uptown|2026-12-06|twilight",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-06",
+      "title": "Twilight",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "SIFF Book Club",
+      "directors": [
+        "Catherine Hardwicke"
+      ],
+      "year": 2008,
+      "runtime_min": 127,
+      "format": "35mm",
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/siff-book-club/twilight"
     }
   ]
 }

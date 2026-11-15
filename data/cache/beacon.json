@@ -199,5 +199,25 @@
       "year": 1957,
       "runtime_min": 93
     }
+  },
+  "https://thebeacon.film/calendar/movie/girl-with-hyacinths": {
+    "fetched": "2026-11-15",
+    "data": {
+      "directors": [
+        "Hasse Ekman"
+      ],
+      "year": 1950,
+      "runtime_min": 89
+    }
+  },
+  "https://thebeacon.film/calendar/movie/it-happened-one-night": {
+    "fetched": "2026-11-15",
+    "data": {
+      "directors": [
+        "Frank Capra"
+      ],
+      "year": 1934,
+      "runtime_min": 105
+    }
   }
 }

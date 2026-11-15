@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-14T22:06:05-08:00",
+  "scraped_at": "2026-11-15T00:16:35-08:00",
   "screenings": [
     {
       "id": "beacon|2026-11-15|the-strange-love-of-martha-ivers",
@@ -866,6 +866,54 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/the-living-end"
+    },
+    {
+      "id": "beacon|2026-12-06|it-happened-one-night",
+      "venue_id": "beacon",
+      "date": "2026-12-06",
+      "title": "It Happened One Night",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/it-happened-one-night?showtime=PYBKFBZ6ZSQU3W57D65GO4MX",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Frank Capra"
+      ],
+      "year": 1934,
+      "runtime_min": 105,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/it-happened-one-night"
+    },
+    {
+      "id": "beacon|2026-12-06|girl-with-hyacinths",
+      "venue_id": "beacon",
+      "date": "2026-12-06",
+      "title": "Girl with Hyacinths",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/girl-with-hyacinths?showtime=GSEVHIOWGJQJRZNVHWDRUX3R",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Hasse Ekman"
+      ],
+      "year": 1950,
+      "runtime_min": 89,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/girl-with-hyacinths"
     }
   ]
 }

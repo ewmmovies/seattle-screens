@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14T22:07:08-08:00",
+  "generated_at": "2026-11-15T00:17:03-08:00",
   "range": {
     "start": "2026-11-14",
-    "end": "2026-12-05"
+    "end": "2026-12-06"
   },
   "screenings": [
     {
@@ -1865,12 +1865,6 @@
           "ticket_url": "https://nwfilmforum.eventive.org/films/6a2b255ee1a0f81f6564f4e4",
           "note": null,
           "sold_out": false
-        },
-        {
-          "time": "18:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6a2b255ee1a0f81f6564f4e4",
-          "note": null,
-          "sold_out": false
         }
       ],
       "kind": "film",
@@ -1890,12 +1884,6 @@
       "date": "2026-11-19",
       "title": "November 2026",
       "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6aea322019dc776b5f4a2ff6",
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "19:00",
           "ticket_url": "https://nwfilmforum.eventive.org/films/6aea322019dc776b5f4a2ff6",
@@ -2237,6 +2225,12 @@
           "ticket_url": "https://nwfilmforum.eventive.org/films/6a206600823a0bf897418220",
           "note": null,
           "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6a206600823a0bf897418220",
+          "note": null,
+          "sold_out": false
         }
       ],
       "kind": "film",
@@ -2256,6 +2250,12 @@
       "date": "2026-11-20",
       "title": "My Brother's Wedding",
       "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6ac59417a8f4c4355ebf3d0c",
+          "note": null,
+          "sold_out": false
+        },
         {
           "time": "19:30",
           "ticket_url": "https://nwfilmforum.eventive.org/films/6ac59417a8f4c4355ebf3d0c",
@@ -3794,12 +3794,6 @@
           "ticket_url": "https://nwfilmforum.eventive.org/films/6ae39ca6ab7e65b4368f7d98",
           "note": null,
           "sold_out": false
-        },
-        {
-          "time": "18:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ae39ca6ab7e65b4368f7d98",
-          "note": null,
-          "sold_out": false
         }
       ],
       "kind": "film",
@@ -4640,12 +4634,6 @@
           "ticket_url": "https://nwfilmforum.eventive.org/films/6a7e4f8d73d0e8c76baa40bb",
           "note": null,
           "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6a7e4f8d73d0e8c76baa40bb",
-          "note": null,
-          "sold_out": false
         }
       ],
       "kind": "film",
@@ -4826,6 +4814,12 @@
           "ticket_url": null,
           "note": null,
           "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
         }
       ],
       "kind": "film",
@@ -4845,6 +4839,12 @@
       "date": "2026-12-02",
       "title": "Zero Patience",
       "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6acd35fd8b82727c5b69a9e6",
+          "note": null,
+          "sold_out": false
+        },
         {
           "time": "19:30",
           "ticket_url": "https://nwfilmforum.eventive.org/films/6acd35fd8b82727c5b69a9e6",
@@ -5330,6 +5330,144 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "beacon|2026-12-06|it-happened-one-night",
+      "venue_id": "beacon",
+      "date": "2026-12-06",
+      "title": "It Happened One Night",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/it-happened-one-night?showtime=PYBKFBZ6ZSQU3W57D65GO4MX",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Frank Capra"
+      ],
+      "year": 1934,
+      "runtime_min": 105,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/it-happened-one-night"
+    },
+    {
+      "id": "beacon|2026-12-06|girl-with-hyacinths",
+      "venue_id": "beacon",
+      "date": "2026-12-06",
+      "title": "Girl with Hyacinths",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/girl-with-hyacinths?showtime=GSEVHIOWGJQJRZNVHWDRUX3R",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Hasse Ekman"
+      ],
+      "year": 1950,
+      "runtime_min": 89,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/girl-with-hyacinths"
+    },
+    {
+      "id": "nwff|2026-12-06|zero-patience",
+      "venue_id": "nwff",
+      "date": "2026-12-06",
+      "title": "Zero Patience",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6acd35fd8b82727c5b69a9e6",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6acd35fd8b82727c5b69a9e6",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "John Greyson"
+      ],
+      "year": 1993,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/zero-patience/"
+    },
+    {
+      "id": "siff-downtown|2026-12-06|elsinore",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-06",
+      "title": "Elsinore",
+      "showtimes": [
+        {
+          "time": "13:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Simon Stone"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-uptown|2026-12-06|twilight",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-06",
+      "title": "Twilight",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "SIFF Book Club",
+      "directors": [
+        "Catherine Hardwicke"
+      ],
+      "year": 2008,
+      "runtime_min": 127,
+      "format": "35mm",
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/siff-book-club/twilight"
     }
   ]
 }
