@@ -1,0 +1,224 @@
+{
+  "https://nwfilmforum.org/events/disabled-list-presents-live-comedy-december-2026/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "series": "The Disabled List",
+      "ticket_url": null,
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/events/seattle-film-societys-film-discussion-group/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6a70fb7370e3573a60b19581",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/go-fish-4k-restoration/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "Rose Troche"
+      ],
+      "year": 1994,
+      "runtime_min": 88,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/-6ae114674316a28ce5f1216d",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/la-bola-negra/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "Javier Ambrossi",
+        "Javier Calvo"
+      ],
+      "year": 2026,
+      "runtime_min": 159,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6ae39ca6ab7e65b4368f7d98",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/late-autumn/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "Yasujirō Ozu"
+      ],
+      "year": 1960,
+      "runtime_min": 128,
+      "series": "Waste Not Your Thoughts on Eternity: The Seasonal Films of Yasujirō Ozu",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/69b0524bcfbf8f6f26533619",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/my-brothers-wedding-4k-restoration/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "Charles Burnett"
+      ],
+      "year": 1983,
+      "runtime_min": 81,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6ac59417a8f4c4355ebf3d0c",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/seattle-film-society-presents-locals-november-2026/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "James Andrews",
+        "Nate Fieldson",
+        "Amy Harris",
+        "Kamyar Mohsenin"
+      ],
+      "year": null,
+      "runtime_min": 33,
+      "series": "Seattle Film Society Presents: Locals Only",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6aea322019dc776b5f4a2ff6",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/seattle-lgbtq-center-presents-we-were-here/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "David Weissman"
+      ],
+      "year": 2011,
+      "runtime_min": 90,
+      "series": null,
+      "ticket_url": null,
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/sfcs-10-witch/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "Robert Eggers"
+      ],
+      "year": 2016,
+      "runtime_min": 92,
+      "series": "SFCS at 10: A Decade of Favorites",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6a2b255ee1a0f81f6564f4e4",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/tokyo-story/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "Yasujirō Ozu"
+      ],
+      "year": 1953,
+      "runtime_min": 137,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6acece8ee97f08ff0d753a54",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/truth-to-fiction-the-store/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "Frederick Wiseman"
+      ],
+      "year": 1983,
+      "runtime_min": 118,
+      "series": "Truth To Fiction",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6a285c37b83e44cb52a9ef2d",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/unstreamable-love-streams/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "John Cassavetes"
+      ],
+      "year": 1984,
+      "runtime_min": 140,
+      "series": "Unstreamable",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6a206600823a0bf897418220",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/wtf-with-stuff-kokomo-city/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "D. Smith"
+      ],
+      "year": 2023,
+      "runtime_min": 73,
+      "series": "Seattle Trans Underground Film Fest Presents: Wednesday Trans Film",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6a32c56e98bf14c05494adb5",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/wto-99/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "Ian Bell"
+      ],
+      "year": 2025,
+      "runtime_min": 100,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6a7e4f8d73d0e8c76baa40bb",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/you-sorta-know-its-gonna-end/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "Kalil Haddad",
+        "Ryan Steel"
+      ],
+      "year": 2025,
+      "runtime_min": 62,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6ac6af9b99b9de9d62f8bf77",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/zero-patience/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "John Greyson"
+      ],
+      "year": 1993,
+      "runtime_min": 97,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6acd35fd8b82727c5b69a9e6",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/zi/": {
+    "fetched": "2026-11-14",
+    "data": {
+      "directors": [
+        "Kogonada"
+      ],
+      "year": 2026,
+      "runtime_min": 99,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6ab17144057dcc896cf6c420",
+      "format": null
+    }
+  }
+}

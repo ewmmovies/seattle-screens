@@ -1,0 +1,871 @@
+{
+  "source": "beacon",
+  "scraped_at": "2026-11-14T22:06:05-08:00",
+  "screenings": [
+    {
+      "id": "beacon|2026-11-15|the-strange-love-of-martha-ivers",
+      "venue_id": "beacon",
+      "date": "2026-11-15",
+      "title": "The Strange Love of Martha Ivers",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers?showtime=25THBWWJ3JBGSLHT2WBYKMUX",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Lewis Milestone"
+      ],
+      "year": 1946,
+      "runtime_min": 116,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers"
+    },
+    {
+      "id": "beacon|2026-11-16|the-strange-love-of-martha-ivers",
+      "venue_id": "beacon",
+      "date": "2026-11-16",
+      "title": "The Strange Love of Martha Ivers",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers?showtime=HBPUUN5HQYB7UNOJRHXRMBGX",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Lewis Milestone"
+      ],
+      "year": 1946,
+      "runtime_min": 116,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers"
+    },
+    {
+      "id": "beacon|2026-11-17|will-success-spoil-rock-hunter",
+      "venue_id": "beacon",
+      "date": "2026-11-17",
+      "title": "Will Success Spoil Rock Hunter?",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/will-success-spoil-rock-hunter?showtime=W3GOF7BA3ERTC5V4EQOZSNYV",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Frank Tashlin"
+      ],
+      "year": 1957,
+      "runtime_min": 93,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/will-success-spoil-rock-hunter"
+    },
+    {
+      "id": "beacon|2026-11-17|nationtime",
+      "venue_id": "beacon",
+      "date": "2026-11-17",
+      "title": "Nationtime",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/nationtime?showtime=6YJ6BPOQ2GXTAYJCIHLSEEWC",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "William Greaves"
+      ],
+      "year": 1972,
+      "runtime_min": 80,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/nationtime"
+    },
+    {
+      "id": "beacon|2026-11-18|nationtime",
+      "venue_id": "beacon",
+      "date": "2026-11-18",
+      "title": "Nationtime",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/nationtime?showtime=EE26DF3SAK7CH4HAEKMXP2RD",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "William Greaves"
+      ],
+      "year": 1972,
+      "runtime_min": 80,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/nationtime"
+    },
+    {
+      "id": "beacon|2026-11-18|breathless",
+      "venue_id": "beacon",
+      "date": "2026-11-18",
+      "title": "Breathless",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/breathless?showtime=PUN3TJ3QFT23Z7KUG44JFWGJ",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jim McBride"
+      ],
+      "year": 1983,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/breathless"
+    },
+    {
+      "id": "beacon|2026-11-19|will-success-spoil-rock-hunter",
+      "venue_id": "beacon",
+      "date": "2026-11-19",
+      "title": "Will Success Spoil Rock Hunter?",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/will-success-spoil-rock-hunter?showtime=B2BDYP63YVPTJ64CMBR7UREM",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Frank Tashlin"
+      ],
+      "year": 1957,
+      "runtime_min": 93,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/will-success-spoil-rock-hunter"
+    },
+    {
+      "id": "beacon|2026-11-19|breathless",
+      "venue_id": "beacon",
+      "date": "2026-11-19",
+      "title": "Breathless",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/breathless?showtime=XRDLUAOPGGGKXQ7NRBTKB2P5",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jim McBride"
+      ],
+      "year": 1983,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/breathless"
+    },
+    {
+      "id": "beacon|2026-11-20|once-upon-a-time-in-harlem",
+      "venue_id": "beacon",
+      "date": "2026-11-20",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem?showtime=HBLI6SNSASAUZCMV65TOIPYV",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem"
+    },
+    {
+      "id": "beacon|2026-11-20|devil-story",
+      "venue_id": "beacon",
+      "date": "2026-11-20",
+      "title": "Devil Story",
+      "showtimes": [
+        {
+          "time": "22:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/devil-story?showtime=MOOYA5V3PMBV7NM7LQP7VUYV",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Bernard Launois"
+      ],
+      "year": 1986,
+      "runtime_min": 75,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/devil-story"
+    },
+    {
+      "id": "beacon|2026-11-21|pretty-poison",
+      "venue_id": "beacon",
+      "date": "2026-11-21",
+      "title": "Pretty Poison",
+      "showtimes": [
+        {
+          "time": "22:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/pretty-poison?showtime=IL4XBKYIQBRFWITVN3FPC35N",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Noel Black"
+      ],
+      "year": 1968,
+      "runtime_min": 89,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/pretty-poison"
+    },
+    {
+      "id": "beacon|2026-11-22|clash-by-night",
+      "venue_id": "beacon",
+      "date": "2026-11-22",
+      "title": "Clash by Night",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/clash-by-ight?showtime=4KQCCD3NY5TKSMXLWAMIPB2D",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Fritz Lang"
+      ],
+      "year": 1952,
+      "runtime_min": 105,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/clash-by-ight"
+    },
+    {
+      "id": "beacon|2026-11-22|once-upon-a-time-in-harlem",
+      "venue_id": "beacon",
+      "date": "2026-11-22",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem?showtime=XQS65CX7DTQ64F23ROWUQINV",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem"
+    },
+    {
+      "id": "beacon|2026-11-23|clash-by-night",
+      "venue_id": "beacon",
+      "date": "2026-11-23",
+      "title": "Clash by Night",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/clash-by-ight?showtime=LMP5D6AIYW7XI55EUIJMUFUH",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Fritz Lang"
+      ],
+      "year": 1952,
+      "runtime_min": 105,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/clash-by-ight"
+    },
+    {
+      "id": "beacon|2026-11-23|once-upon-a-time-in-harlem",
+      "venue_id": "beacon",
+      "date": "2026-11-23",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem?showtime=A67CDXV5BZMJSS33NQDAJR7G",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem"
+    },
+    {
+      "id": "beacon|2026-11-24|once-upon-a-time-in-harlem",
+      "venue_id": "beacon",
+      "date": "2026-11-24",
+      "title": "Once Upon a Time in Harlem",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem?showtime=ULZUPD7FUVLSQTZXN363TIQ2",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "William Greaves"
+      ],
+      "year": 2026,
+      "runtime_min": 100,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem"
+    },
+    {
+      "id": "beacon|2026-11-24|buffalo-66",
+      "venue_id": "beacon",
+      "date": "2026-11-24",
+      "title": "Buffalo '66",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/buffalo-66?showtime=6H2EQBEXZNS7XZLAF6G3E5NH",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Vincent Gallo"
+      ],
+      "year": 1998,
+      "runtime_min": 110,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/buffalo-66"
+    },
+    {
+      "id": "beacon|2026-11-25|buffalo-66",
+      "venue_id": "beacon",
+      "date": "2026-11-25",
+      "title": "Buffalo '66",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/buffalo-66?showtime=UC6ARO5YSQHSOCWDDQMITKDR",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Vincent Gallo"
+      ],
+      "year": 1998,
+      "runtime_min": 110,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/buffalo-66"
+    },
+    {
+      "id": "beacon|2026-11-25|blood-rage",
+      "venue_id": "beacon",
+      "date": "2026-11-25",
+      "title": "Blood Rage",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/blood-rage?showtime=T3FSJOVXESFKLUDCIC3ZCXTX",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "John Grissmer"
+      ],
+      "year": 1987,
+      "runtime_min": 82,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/blood-rage"
+    },
+    {
+      "id": "beacon|2026-11-27|five-minutes-to-live",
+      "venue_id": "beacon",
+      "date": "2026-11-27",
+      "title": "Five Minutes to Live!",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/five-minutes-to-live?showtime=BIZZ2DWFWQCWSZC2RMIXIZCS",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "???"
+      ],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/five-minutes-to-live"
+    },
+    {
+      "id": "beacon|2026-11-28|the-burning-of-moses-seattle-unrecognized",
+      "venue_id": "beacon",
+      "date": "2026-11-28",
+      "title": "The Burning of Moses Seattle + Unrecognized",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/the-burning-of-moses-seattle-unrecognized?showtime=NFKDPNGGUYVRL6IQAGFPKB5L",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "BJ Bullert",
+        "David Norman Lewis"
+      ],
+      "year": 2026,
+      "runtime_min": 60,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/the-burning-of-moses-seattle-unrecognized"
+    },
+    {
+      "id": "beacon|2026-11-28|perdita-durango",
+      "venue_id": "beacon",
+      "date": "2026-11-28",
+      "title": "Perdita Durango",
+      "showtimes": [
+        {
+          "time": "22:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/perdita-durango?showtime=HHPE75OGXGGVHBNKTSVRJ3AE",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Ãlex de la Iglesia"
+      ],
+      "year": 1997,
+      "runtime_min": 126,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/perdita-durango"
+    },
+    {
+      "id": "beacon|2026-11-29|all-i-desire",
+      "venue_id": "beacon",
+      "date": "2026-11-29",
+      "title": "All I Desire",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/all-i-desire?showtime=VY76PAJXUVVZ6DEA3JMEZSB2",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Douglas Sirk"
+      ],
+      "year": 1953,
+      "runtime_min": 80,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/all-i-desire"
+    },
+    {
+      "id": "beacon|2026-11-29|baxter-vera-baxter",
+      "venue_id": "beacon",
+      "date": "2026-11-29",
+      "title": "Baxter. Vera Baxter",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/baxter-vera-baxter?showtime=XBWFV4WQHLNJVAHVATLTXKS2",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Marguerite Duras"
+      ],
+      "year": 1977,
+      "runtime_min": 95,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/baxter-vera-baxter"
+    },
+    {
+      "id": "beacon|2026-11-30|all-i-desire",
+      "venue_id": "beacon",
+      "date": "2026-11-30",
+      "title": "All I Desire",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/all-i-desire?showtime=FAXFCR4VNS2IAWXLH37CAL2C",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Douglas Sirk"
+      ],
+      "year": 1953,
+      "runtime_min": 80,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/all-i-desire"
+    },
+    {
+      "id": "beacon|2026-11-30|the-honeymoon-killers",
+      "venue_id": "beacon",
+      "date": "2026-11-30",
+      "title": "The Honeymoon Killers",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/the-honeymoon-killers?showtime=YWCKAVRL5V5JD5SSMPRTI7AC",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Leonard Kastle"
+      ],
+      "year": 1970,
+      "runtime_min": 108,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/the-honeymoon-killers"
+    },
+    {
+      "id": "beacon|2026-12-01|the-honeymoon-killers",
+      "venue_id": "beacon",
+      "date": "2026-12-01",
+      "title": "The Honeymoon Killers",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/the-honeymoon-killers?showtime=AYQWHXIHQ6UTUVDIITIFG565",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Leonard Kastle"
+      ],
+      "year": 1970,
+      "runtime_min": 108,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/the-honeymoon-killers"
+    },
+    {
+      "id": "beacon|2026-12-01|sansho-the-bailiff",
+      "venue_id": "beacon",
+      "date": "2026-12-01",
+      "title": "Sansho the Bailiff",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/sansho-the-bailiff?showtime=KTSJKDBNDEPZCNC4C7U54W3N",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Kenji Mizoguchi"
+      ],
+      "year": 1954,
+      "runtime_min": 124,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/sansho-the-bailiff"
+    },
+    {
+      "id": "beacon|2026-12-02|sansho-the-bailiff",
+      "venue_id": "beacon",
+      "date": "2026-12-02",
+      "title": "Sansho the Bailiff",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/sansho-the-bailiff?showtime=63SLSMQIVZ67XY5J7Z2QXU5L",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Kenji Mizoguchi"
+      ],
+      "year": 1954,
+      "runtime_min": 124,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/sansho-the-bailiff"
+    },
+    {
+      "id": "beacon|2026-12-02|natural-born-killers",
+      "venue_id": "beacon",
+      "date": "2026-12-02",
+      "title": "Natural Born Killers",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/natural-born-killers?showtime=EHE7OXWOICWBZV7JGO33LUM3",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Oliver Stone"
+      ],
+      "year": 1994,
+      "runtime_min": 119,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/natural-born-killers"
+    },
+    {
+      "id": "beacon|2026-12-03|natural-born-killers",
+      "venue_id": "beacon",
+      "date": "2026-12-03",
+      "title": "Natural Born Killers",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/natural-born-killers?showtime=QTDB4B47C35LRLZOGYIN4QFZ",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Oliver Stone"
+      ],
+      "year": 1994,
+      "runtime_min": 119,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/natural-born-killers"
+    },
+    {
+      "id": "beacon|2026-12-03|sansho-the-bailiff",
+      "venue_id": "beacon",
+      "date": "2026-12-03",
+      "title": "Sansho the Bailiff",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/sansho-the-bailiff?showtime=ACDNXOAGZ6TNYV5G5KR32DPU",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Kenji Mizoguchi"
+      ],
+      "year": 1954,
+      "runtime_min": 124,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/sansho-the-bailiff"
+    },
+    {
+      "id": "beacon|2026-12-04|raise-the-red-lantern",
+      "venue_id": "beacon",
+      "date": "2026-12-04",
+      "title": "Raise the Red Lantern",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/raise-the-red-lantern?showtime=HQN6SY5K6O6Q3ICFQMUNULGC",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Zhang Yimou"
+      ],
+      "year": 1991,
+      "runtime_min": 125,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/raise-the-red-lantern"
+    },
+    {
+      "id": "beacon|2026-12-04|the-living-end",
+      "venue_id": "beacon",
+      "date": "2026-12-04",
+      "title": "The Living End",
+      "showtimes": [
+        {
+          "time": "22:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/the-living-end?showtime=AYEUFHE3275G4YVDFVVU4RWM",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Gregg Araki"
+      ],
+      "year": 1992,
+      "runtime_min": 84,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/the-living-end"
+    },
+    {
+      "id": "beacon|2026-12-05|raise-the-red-lantern",
+      "venue_id": "beacon",
+      "date": "2026-12-05",
+      "title": "Raise the Red Lantern",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/raise-the-red-lantern?showtime=BJENFKUF3LSKWWVMQ6VZPYJR",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Zhang Yimou"
+      ],
+      "year": 1991,
+      "runtime_min": 125,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/raise-the-red-lantern"
+    },
+    {
+      "id": "beacon|2026-12-05|the-living-end",
+      "venue_id": "beacon",
+      "date": "2026-12-05",
+      "title": "The Living End",
+      "showtimes": [
+        {
+          "time": "22:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/the-living-end?showtime=7IAVT66KG6GHSHEH5SAMHFZC",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Gregg Araki"
+      ],
+      "year": 1992,
+      "runtime_min": 84,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/the-living-end"
+    }
+  ]
+}
