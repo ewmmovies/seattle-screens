@@ -1,18 +1,18 @@
 {
   "sources": {
     "siff": {
-      "last_attempt": "2026-11-14T21:40:29-08:00",
+      "last_attempt": "2026-11-14T21:51:16-08:00",
       "venue_ids": [
         "siff-uptown",
         "siff-downtown",
         "siff-film-center"
       ],
-      "last_success": "2026-11-14T21:40:29-08:00",
-      "count": 6,
+      "last_success": "2026-11-14T21:51:16-08:00",
+      "count": 82,
       "ok": true,
       "error": null
     }
   },
   "posts": {},
-  "generated_at": "2026-11-14T21:40:29-08:00"
+  "generated_at": "2026-11-14T21:51:37-08:00"
 }
