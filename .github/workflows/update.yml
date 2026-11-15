@@ -1,0 +1,97 @@
+# Scrapes every source, saves the results and publishes the site (SPEC.md section 6).
+#
+#   - Runs four times a day (about 5 AM, 11 AM, 5 PM and 11 PM Seattle time;
+#     GitHub sometimes starts scheduled runs late).
+#   - "Run workflow" button on the Actions tab: runs everything, or one source
+#     if you type its id (for example: siff).
+#   - Any push to main (code changes, or Regal data from the PC) just republishes.
+name: Update listings
+
+on:
+  schedule:
+    - cron: "17 1,7,13,19 * * *"
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "Only this source (for example: siff). Leave empty for all."
+        required: false
+        default: ""
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape, build and save
+        env:
+          SOURCE: ${{ github.event.inputs.source }}
+        run: |
+          # A failing scraper keeps its old data and is marked out of date; the
+          # runner only exits non-zero when every source failed. Either way the
+          # new status is saved and published, then this step reports the result.
+          set +e
+          if [ -n "$SOURCE" ]; then
+            python -m scrapers.run --source "$SOURCE"
+          else
+            python -m scrapers.run
+          fi
+          run_code=$?
+          set -e
+
+          python -m scrapers.build
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs/data
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Update listings $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # If the Regal PC pushed in the meantime, catch up and try once more.
+            git push || { git pull --rebase && git push; }
+          fi
+          exit $run_code
+
+  deploy:
+    needs: scrape
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main # includes the data the scrape job just committed
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs
+
+      - id: deployment
+        uses: actions/deploy-pages@v5

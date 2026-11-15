@@ -1,0 +1,24 @@
+# Runs the offline tests when code is pushed (SPEC.md section 10). Takes about a minute.
+name: Tests
+
+on:
+  push:
+    branches: [main]
+    paths: ["scrapers/**", "tests/**", "requirements.txt"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: pytest -q
