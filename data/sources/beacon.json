@@ -1,31 +1,7 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-15T12:51:34-08:00",
+  "scraped_at": "2026-11-15T18:26:41-08:00",
   "screenings": [
-    {
-      "id": "beacon|2026-11-15|the-strange-love-of-martha-ivers",
-      "venue_id": "beacon",
-      "date": "2026-11-15",
-      "title": "The Strange Love of Martha Ivers",
-      "showtimes": [
-        {
-          "time": "14:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers?showtime=25THBWWJ3JBGSLHT2WBYKMUX",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Lewis Milestone"
-      ],
-      "year": 1946,
-      "runtime_min": 116,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers"
-    },
     {
       "id": "beacon|2026-11-16|the-strange-love-of-martha-ivers",
       "venue_id": "beacon",

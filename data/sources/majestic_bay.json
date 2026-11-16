@@ -1,6 +1,6 @@
 {
   "source": "majestic_bay",
-  "scraped_at": "2026-11-15T12:51:35-08:00",
+  "scraped_at": "2026-11-15T18:26:42-08:00",
   "screenings": [
     {
       "id": "majestic-bay|2026-11-14|you-can-see-everything",
@@ -83,12 +83,6 @@
       "title": "You Can See Everything",
       "showtimes": [
         {
-          "time": "11:30",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36798?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "15:00",
           "ticket_url": "https://ticketing.us.veezi.com/purchase/36801?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
           "note": null,
@@ -114,41 +108,11 @@
       "url": "https://www.majesticbay.com/"
     },
     {
-      "id": "majestic-bay|2026-11-15|godzilla-minus-zero",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-15",
-      "title": "Godzilla Minus Zero",
-      "showtimes": [
-        {
-          "time": "11:45",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36799?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Takashi Yamazaki"
-      ],
-      "year": 2026,
-      "runtime_min": 135,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
       "id": "majestic-bay|2026-11-15|wildwood",
       "venue_id": "majestic-bay",
       "date": "2026-11-15",
       "title": "Wildwood",
       "showtimes": [
-        {
-          "time": "12:00",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36800?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "15:15",
           "ticket_url": "https://ticketing.us.veezi.com/purchase/36804?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",

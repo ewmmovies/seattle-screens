@@ -1,29 +1,7 @@
 {
   "source": "north_bend",
-  "scraped_at": "2026-11-15T12:51:36-08:00",
+  "scraped_at": "2026-11-15T18:26:43-08:00",
   "screenings": [
-    {
-      "id": "north-bend|2026-11-15|mrs-miniver",
-      "venue_id": "north-bend",
-      "date": "2026-11-15",
-      "title": "Mrs. Miniver",
-      "showtimes": [
-        {
-          "time": "15:00",
-          "ticket_url": "https://tix.northbendtheatre.com/event/mrs-miniver-sunday-nov-15th-3pm",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Love & War",
-      "directors": [],
-      "year": 1942,
-      "runtime_min": 134,
-      "format": null,
-      "notes": [],
-      "url": "https://tix.northbendtheatre.com/event/mrs-miniver-sunday-nov-15th-3pm"
-    },
     {
       "id": "north-bend|2026-11-15|godzilla-minus-zero",
       "venue_id": "north-bend",

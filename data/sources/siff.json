@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-15T12:51:40-08:00",
+  "scraped_at": "2026-11-15T18:26:47-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-14|godzilla-minus-zero",
@@ -100,41 +100,11 @@
       "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
     },
     {
-      "id": "siff-downtown|2026-11-15|auntie-mame",
-      "venue_id": "siff-downtown",
-      "date": "2026-11-15",
-      "title": "Auntie Mame",
-      "showtimes": [
-        {
-          "time": "11:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Community Screening",
-      "directors": [
-        "Morton DaCosta"
-      ],
-      "year": 1958,
-      "runtime_min": 145,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/programs-and-events/community-screenings/auntie-mame"
-    },
-    {
       "id": "siff-downtown|2026-11-15|godzilla-minus-zero",
       "venue_id": "siff-downtown",
       "date": "2026-11-15",
       "title": "Godzilla Minus Zero",
       "showtimes": [
-        {
-          "time": "14:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "18:00",
           "ticket_url": null,
@@ -154,30 +124,6 @@
       "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
     },
     {
-      "id": "siff-film-center|2026-11-15|the-joyless-economy",
-      "venue_id": "siff-film-center",
-      "date": "2026-11-15",
-      "title": "The Joyless Economy",
-      "showtimes": [
-        {
-          "time": "15:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "PNW Awards",
-      "directors": [
-        "Marjorie Conrad"
-      ],
-      "year": 2026,
-      "runtime_min": 58,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/programs-and-events/seattle-film-critics-society-pnw-awards-2026/the-joyless-economy"
-    },
-    {
       "id": "siff-film-center|2026-11-15|the-life-we-leave",
       "venue_id": "siff-film-center",
       "date": "2026-11-15",
@@ -187,7 +133,7 @@
           "time": "18:00",
           "ticket_url": null,
           "note": null,
-          "sold_out": false
+          "sold_out": true
         }
       ],
       "kind": "film",
@@ -200,133 +146,6 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/programs-and-events/seattle-film-critics-society-pnw-awards-2026/the-life-we-leave"
-    },
-    {
-      "id": "siff-uptown|2026-11-15|atlas-of-the-universe",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-15",
-      "title": "Atlas of the Universe",
-      "showtimes": [
-        {
-          "time": "11:05",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Romanian Film Festival Seattle",
-      "directors": [],
-      "year": 2026,
-      "runtime_min": 85,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/cinema/in-theaters/romanian-film-festival-seattle-13th-edition/atlas-of-the-universe"
-    },
-    {
-      "id": "siff-uptown|2026-11-15|you-can-see-everything",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-15",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "11:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "17:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 175,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
-    },
-    {
-      "id": "siff-uptown|2026-11-15|the-yellow-tie",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-15",
-      "title": "The Yellow Tie",
-      "showtimes": [
-        {
-          "time": "12:50",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Romanian Film Festival Seattle",
-      "directors": [],
-      "year": 2025,
-      "runtime_min": 145,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/cinema/in-theaters/romanian-film-festival-seattle-13th-edition/the-yellow-tie"
-    },
-    {
-      "id": "siff-uptown|2026-11-15|the-heart-of-the-game-20th-anniversary",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-15",
-      "title": "The Heart of the Game (20th anniversary)",
-      "showtimes": [
-        {
-          "time": "14:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Ward Serrill"
-      ],
-      "year": 2005,
-      "runtime_min": 97,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/the-heart-of-the-game"
-    },
-    {
-      "id": "siff-uptown|2026-11-15|blindsight",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-15",
-      "title": "Blindsight",
-      "showtimes": [
-        {
-          "time": "15:40",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Romanian Film Festival Seattle",
-      "directors": [],
-      "year": 2025,
-      "runtime_min": 91,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/cinema/in-theaters/romanian-film-festival-seattle-13th-edition/blindsight"
     },
     {
       "id": "siff-uptown|2026-11-15|wild-horse-nine",
@@ -357,6 +176,31 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
+      "id": "siff-uptown|2026-11-15|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-15",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "17:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
     },
     {
       "id": "siff-uptown|2026-11-15|the-wall",
