@@ -3,7 +3,7 @@
     python -m scrapers.build
 
 Reads data/sources/*.json (stale ones and regal.json included), data/posts/*.json
-and data/status.json. Writes docs/data/screenings.json, posts.json and
+and data/status.json. Writes docs/data/screenings.json, posts.json, past.json and
 status.json. Never fails because a file is missing (SPEC.md section 4.3).
 """
 from __future__ import annotations
@@ -149,8 +149,8 @@ def _card(post: dict, when: str) -> dict:
 def build_features(posts: list[dict], screenings: list[dict], today: date) -> dict:
     """Happening Now (SPEC addition 2026-11-15).
 
-    lead: the Beacon's current series (arrows rotate through them), or its now-playing
-          programs if it has no series.
+    lead: the Beacon's current series, then its Coming Soon programs (arrows and a
+          21-second rotation move through them); a now-playing program if it has neither.
     row:  SIFF programs/events and NWFF festivals/series with a matching screening in the
           next three weeks, plus Beacon now-playing programs; theaters alternate.
     """
@@ -166,11 +166,14 @@ def build_features(posts: list[dict], screenings: list[dict], today: date) -> di
     beacon_now = [p for p in unique if p.get("source") == "beacon" and p.get("now_playing")]
     series = sorted((p for p in beacon_now if p.get("category") == "Series"), key=lambda p: p["title"])
     programs = sorted((p for p in beacon_now if p.get("category") == "Program"), key=lambda p: p["title"])
+    # Coming Soon programs sit in the top slot after the series; once the Beacon moves
+    # them to Now Playing they join the row like any other program (2026-11-15).
+    coming = sorted((p for p in unique if p.get("source") == "beacon" and p.get("coming_soon")
+                     and not p.get("now_playing")), key=lambda p: (p.get("published") or "", p["title"]))
 
-    if series:
-        lead = [_card(p, "Now playing") for p in series]
-        row_beacon = programs
-    else:
+    lead = [_card(p, "Now playing") for p in series] + [_card(p, "Coming soon") for p in coming]
+    row_beacon = programs
+    if not lead:  # no series and nothing coming: a now-playing program takes the slot
         lead = [_card(p, beacon_when(p)) for p in programs[:1]]
         row_beacon = programs[1:]
 
@@ -196,6 +199,26 @@ def build_features(posts: list[dict], screenings: list[dict], today: date) -> di
     return {"generated_at": now_pacific_iso(), "lead": lead, "row": row}
 
 
+def build_past(posts: list[dict]) -> dict:
+    """Past Programs page (2026-11-15): the Beacon's past programs and past series in one
+    list, newest month first. Only what the Beacon still lists is shown; series that
+    were never seen playing have no month and go last."""
+    unique = {p["id"]: p for p in posts if p.get("source") == "beacon_past" and p.get("listed", True)}.values()
+    dated = sorted((p for p in unique if p.get("published")), key=lambda p: p["published"], reverse=True)  # same month: the Beacon's own order
+    undated = sorted((p for p in unique if not p.get("published")), key=lambda p: p["title"])
+    items = [{
+        "title": p["title"],
+        "url": p["url"],
+        "venue": p.get("venue_label") or "The Beacon",
+        "kind": p.get("category") or "",
+        "when": p.get("date_label") or "",
+        "description": p.get("description") or p.get("summary") or "",
+        "image": p.get("image"),
+        "image_fallback": p.get("image_fallback"),
+    } for p in [*dated, *undated]]
+    return {"generated_at": now_pacific_iso(), "items": items}
+
+
 def build(data_dir: Path = DATA_DIR, site_data_dir: Path = SITE_DATA_DIR, today: date | None = None) -> None:
     today = today or today_pacific()
     venues = read_json(site_data_dir / "venues.json", [])
@@ -203,6 +226,7 @@ def build(data_dir: Path = DATA_DIR, site_data_dir: Path = SITE_DATA_DIR, today:
     all_posts = _load_files(data_dir / "posts", "posts")
     posts = build_posts([p for p in all_posts if not p.get("happening")], today)
     features = build_features(all_posts, screenings["screenings"], today)
+    past = build_past(all_posts)
     status = read_json(data_dir / "status.json", {})
     status.setdefault("sources", {})
     status.setdefault("posts", {})
@@ -211,6 +235,7 @@ def build(data_dir: Path = DATA_DIR, site_data_dir: Path = SITE_DATA_DIR, today:
     write_json(site_data_dir / "screenings.json", screenings)
     write_json(site_data_dir / "posts.json", posts)
     write_json(site_data_dir / "features.json", features)
+    write_json(site_data_dir / "past.json", past)
     write_json(site_data_dir / "status.json", status)
     print(
         f"Built {len(screenings['screenings'])} screenings "

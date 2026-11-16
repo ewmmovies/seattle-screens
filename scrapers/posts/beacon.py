@@ -7,8 +7,8 @@
   no date anywhere, so only the ones under Now Playing are kept, marked as current
   (decided with Elijah 2026-11-15: they lead the feed, past series are left out).
 
-Now-playing series and programs also feed the "At the Beacon" block on the
-listings page (scrapers/build.py writes docs/data/features.json). Each keeps its
+Now-playing series and programs, and programs under Coming Soon, also feed the
+Happening Now block on the listings page (scrapers/build.py writes docs/data/features.json). Each keeps its
 card image URL. Its own page is read (cached a week) for the first one or two
 sentences of its description (kept to about two lines on the site; the page
 clamps anything longer with an ellipsis) and its list of films; programs show the film count. The
@@ -116,11 +116,27 @@ def lead_description(text: str) -> str:
     return kept
 
 
+def page_images(soup) -> tuple[str | None, str | None]:
+    """A series or program page's own picture: (resized copy on thebeacon.film, original
+    file from og:image). Past cards on the listing pages carry no image, so this is where
+    the Past Programs page and Coming Soon programs get theirs. Never copied."""
+    meta = soup.select_one('meta[property="og:image"][content]')
+    original = meta["content"].strip() if meta else None
+    original = original if original and original.startswith("https://") else None
+    img = soup.select_one(".entry img[src]") or soup.select_one("main img[src]")
+    resized = urljoin(BASE_URL + "/", img["src"]) if img else None
+    return resized or original, original if resized else None
+
+
 def parse_detail(html: str) -> dict:
-    """Series or program page -> {'description': one or two sentences, 'films': [calendar URLs]}."""
+    """Series or program page -> {'description': one or two sentences, 'films': [calendar URLs],
+    'first': first sentence, 'image', 'image_fallback'}."""
     soup = BeautifulSoup(html, "html.parser")
     node = soup.select_one(".entry-description")
-    return {"description": lead_description(node.get_text(" ")) if node else "", "films": film_urls(html)}
+    text = node.get_text(" ") if node else ""
+    image, fallback = page_images(soup)
+    return {"description": lead_description(text), "films": film_urls(html),
+            "first": first_sentences(text, most=1) if text else "", "image": image, "image_fallback": fallback}
 
 
 def month_range(dates: list[str]) -> str | None:
@@ -166,6 +182,7 @@ def parse_programs(html: str) -> list[Post]:
                 venue_label="The Beacon",
                 summary={"now playing": "Now playing.", "coming soon": "Coming soon."}.get(status, ""),
                 now_playing=status == "now playing",
+                coming_soon=status == "coming soon",
                 image=image,
                 image_fallback=fallback,
             ))
@@ -210,7 +227,7 @@ def fetch(ctx: Context) -> list[Post]:
     series = ctx.http.get_text(SERIES_URL)
     ctx.save_fixture("beacon_series.html", series)
     posts = parse_series(series) + parse_programs(programs)
-    now = [p for p in posts if p.now_playing]
+    now = [p for p in posts if p.now_playing or p.coming_soon]
     if not now:
         return posts
 
@@ -230,9 +247,11 @@ def fetch(ctx: Context) -> list[Post]:
             except requests.HTTPError as error:  # only the description and film list are lost
                 print(f"[posts/beacon] page skipped: {error}", file=sys.stderr)
                 return {"description": "", "films": []}
-        detail = ctx.cached("detail2:" + post.url, load)  # "2": re-read after the 2026-11-15 encoding and length fixes
+        detail = ctx.cached("detail3:" + post.url, load)  # "3": page images added 2026-11-15
         films = detail.get("films") or []
         post.description = detail.get("description") or None
+        if not post.image:  # Coming Soon cards may have no picture: use the page's own
+            post.image, post.image_fallback = detail.get("image"), detail.get("image_fallback")
         dates = [d for f in films for d in scheduled.get(f, []) if d >= ctx.today.isoformat()]
         post.months = month_range(dates) or (post.date_label if post.category == "Program" else None)
         post.next_date = min(dates) if dates else None

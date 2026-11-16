@@ -497,9 +497,16 @@ main {
 /* Arrows and counter: centred under the image. The row keeps its height even with a
    single item, so every lead item is the same height. */
 .lead-controls { display: flex; align-items: center; justify-content: center; gap: 6px; height: 32px; margin-top: 8px; }
+.lead-controls .mini-pause { margin-left: 10px; }
 .lead-count { font-size: 11px; line-height: 14px; white-space: nowrap; min-width: 3.5em; text-align: center; }
 .feature-lead .feature-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.feature-lead .feature-text { max-width: 760px; margin: 12px auto 26px; text-align: center; }
+/* Top slot slides (2026-11-15): two tracks, picture half and text half, move together
+   with the arrows standing still between them. */
+.lead-viewport { overflow: hidden; }
+.lead-track { display: flex; will-change: transform; }
+.lead-slide { flex: 0 0 100%; min-width: 0; }
+.feature-lead .feature-text { padding: 12px 0 26px; text-align: center; }
+.feature-lead .feature-text > p { max-width: 760px; margin-left: auto; margin-right: auto; }
 /* Two lines exactly: shorter text keeps the space, longer text ends with an ellipsis. */
 .feature-lead .feature-description {
   font-size: 18px;
@@ -574,6 +581,14 @@ main {
 .post-grid { padding-top: 20px; }
 .post-grid .cell-body { margin-bottom: 0; }
 .post-grid .cell { padding-bottom: 24px; }
+
+/* Past Programs page (2026-11-15): News-style blocks with the Beacon's picture at the
+   foot of each, lined up along the row; the first sentence is held to two lines. */
+.past-cell { display: flex; flex-direction: column; }
+.past-grid .cell-body { flex: 1 0 auto; margin-bottom: 14px; }
+.past-summary { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
+.past-image-link { display: block; }
+.past-image { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--white); }
 .post-source { color: var(--accent); margin-bottom: 6px; }
 .post-date { margin-top: 8px; }
 .post-summary { font-size: 14px; line-height: 18px; margin-top: 10px; }

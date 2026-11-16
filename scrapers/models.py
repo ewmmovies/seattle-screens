@@ -130,6 +130,7 @@ class Post:
     current: bool = False  # undated but running now (Beacon series): kept, and listed first
     # Beacon feature block on the listings page (added 2026-11-15):
     now_playing: bool = False  # under "Now Playing" on the Beacon's page
+    coming_soon: bool = False  # under "Coming Soon" on the Beacon's programs page (top slot until it opens)
     image: str | None = None  # the Beacon's own card image, loaded from its servers (not copied)
     image_fallback: str | None = None  # the original file, if the resized copy stops working
     byline: str | None = None  # series tagline, or "4 films" for a program

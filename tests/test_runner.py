@@ -200,3 +200,15 @@ def test_removed_news_sources_are_dropped_from_status(tmp_path):
     (tmp_path / "status.json").write_text(json.dumps({"sources": {}, "posts": {"tasveer": {"ok": False}, "nwff": {"ok": True}}}))
     run.run(sources=[], post_sources=[], data_dir=tmp_path, venue_ids=set(), known_post_ids={"nwff"})
     assert list(json.loads((tmp_path / "status.json").read_text())["posts"]) == ["nwff"]
+
+
+def test_cap_never_drops_what_is_on_now():
+    # The Beacon's archive passed the cap and its undated series fell off (2026-11-15).
+    programs = [Post(source="beacon", source_name="The Beacon", title=f"Program {i}", url=f"https://thebeacon.film/programs/p{i}",
+                     category="Program", published=f"20{10 + i // 12:02d}-{i % 12 + 1:02d}-01") for i in range(run.POSTS_PER_SOURCE + 5)]
+    series = Post(source="beacon", source_name="The Beacon", title="Shadowland", url="https://thebeacon.film/series/shadowland",
+                  category="Series", current=True, now_playing=True)
+    merged = run.merge_posts(programs + [series], [], "2026-11-15T12:00:00-08:00")
+    assert len(merged) == run.POSTS_PER_SOURCE
+    assert "Shadowland" in [p["title"] for p in merged]
+    assert "Program 0" not in [p["title"] for p in merged]  # the oldest program makes room

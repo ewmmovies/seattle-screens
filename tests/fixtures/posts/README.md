@@ -13,3 +13,6 @@ entries of each index page, markup as sent minus images.
 - `beacon_series_shadowland.html`: a series page (description and film links).
 - `siff_programs.html`: https://www.siff.net/programs-and-events (Happening Now).
 - `nwff_series.html`, `nwff_festivals.html`: https://nwfilmforum.org/series/ and /festivals/ (Happening Now).
+- `beacon_program_love-is-a-country.html`: a Coming Soon program page (image, description, films).
+- `beacon_program_in-the-midst.html`, `beacon_series_double-features.html`: a past program and the past
+  series (photo and first sentence for the Past Programs page).

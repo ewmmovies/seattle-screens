@@ -34,6 +34,7 @@ def test_nwff_news():
         "date_label": None,
         "current": False,
         "now_playing": False,
+        "coming_soon": False,
         "image": None,
         "image_fallback": None,
         "byline": None,
@@ -198,7 +199,7 @@ def test_feed_end_to_end(tmp_path):
 
     features = json.loads((site / "features.json").read_text())
     # No SIFF/NWFF screenings in this run, so the row holds only the Beacon's programs.
-    assert [f["title"] for f in features["lead"]] == ["Shadowland", "Time as a Symptom"]
+    assert [f["title"] for f in features["lead"]] == ["Shadowland", "Time as a Symptom", "Love Is a Country of Two and Trespassers Will Be Shot!"]
     assert [f["kind"] for f in features["row"]] == ["Program", "Program"]
     lead = features["lead"][0]
     assert lead["description"] == ("The emotional otherworlds of classic cinema. "
@@ -273,8 +274,10 @@ def test_happening_now_layout():
         _shot("siff-uptown", "2026-11-16", "Unstreamable"),         # wrong theater: does not count for NWFF
     ]
     out = build.build_features(siff_items + nwff_items + beacon_items, screenings, TODAY)
-    assert [c["title"] for c in out["lead"]] == ["Shadowland", "Time as a Symptom"]
+    # Series first, then the Coming Soon program; now-playing programs stay in the row.
+    assert [c["title"] for c in out["lead"]] == ["Shadowland", "Time as a Symptom", "Love Is a Country of Two and Trespassers Will Be Shot!"]
     assert out["lead"][0]["when"] == "Now playing" and out["lead"][0]["kind"] == "Series"
+    assert out["lead"][2]["when"] == "Coming soon" and out["lead"][2]["kind"] == "Program"
     row = [(c["venue"], c["title"], c["when"]) for c in out["row"]]
     assert row == [
         ("SIFF", "Nouvelles Femmes", "Next: Nov 17"),
@@ -288,9 +291,33 @@ def test_happening_now_layout():
 
 def test_no_beacon_series_falls_back_to_a_program():
     programs = [p.to_dict() for p in beacon.parse_programs(load("beacon_programs.html"))]
-    out = build.build_features(programs, [], TODAY)
+    out = build.build_features(programs, [], TODAY)  # no series: the Coming Soon program leads alone
+    assert [c["title"] for c in out["lead"]] == ["Love Is a Country of Two and Trespassers Will Be Shot!"]
+    assert len(out["row"]) == 2  # both now-playing programs
+    playing = [p for p in programs if not p["coming_soon"]]
+    out = build.build_features(playing, [], TODAY)  # nothing coming either: a now-playing program leads
     assert [c["kind"] for c in out["lead"]] == ["Program"]
     assert len(out["row"]) == 1  # the other now-playing program
+
+
+def test_coming_soon_moves_to_the_row_once_it_opens():
+    programs = [p.to_dict() for p in beacon.parse_programs(load("beacon_programs.html"))]
+    love = next(p for p in programs if p["coming_soon"])
+    love.update(coming_soon=False, now_playing=True)  # the Beacon has moved it to Now Playing
+    series = [p.to_dict() for p in beacon.parse_series(load("beacon_series.html"))]
+    out = build.build_features(series + programs, [], TODAY)
+    assert "Love Is a Country of Two and Trespassers Will Be Shot!" not in [c["title"] for c in out["lead"]]
+    assert "Love Is a Country of Two and Trespassers Will Be Shot!" in [c["title"] for c in out["row"]]
+
+
+def test_detail_page_image_and_first_sentence():
+    detail = beacon.parse_detail(load("beacon_program_love-is-a-country.html"))
+    assert detail["image"].startswith("https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44")
+    assert detail["image_fallback"] == "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792950181821-zz.png"
+    assert detail["films"] == ["https://thebeacon.film/calendar/movie/breathless"]
+    past = beacon.parse_detail(load("beacon_program_in-the-midst.html"))
+    assert past["first"] == ("António Reis and Margarida Cordeiro together created one of the most influential "
+                             "bodies of work in the history of Portuguese cinema.")
 
 
 def test_items_no_longer_listed_are_dropped():

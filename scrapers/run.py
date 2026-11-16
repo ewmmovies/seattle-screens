@@ -177,18 +177,29 @@ def run_source(
 # --------------------------------------------------------------------------
 
 
-def merge_posts(new: list[Post], stored: list[dict], seen_at: str) -> list[dict]:
+def merge_posts(new: list[Post], stored: list[dict], seen_at: str, cap: int | None = POSTS_PER_SOURCE) -> list[dict]:
     """Keep stored posts, add new ones by id, cap at POSTS_PER_SOURCE (newest first).
-    Undated posts rank below dated ones, so they never push dated posts out of the cap."""
+    Undated posts rank below dated ones, so they never push dated posts out of the cap;
+    anything on now in today's fetch is kept whatever the cap. cap=None keeps everything
+    (the Beacon's Past Programs archive)."""
     # Only today's fetch decides what is current or now playing.
-    by_id = {post["id"]: {**post, "current": False, "now_playing": False, "listed": False} for post in stored}
+    by_id = {post["id"]: {**post, "current": False, "now_playing": False, "coming_soon": False, "listed": False} for post in stored}
     for post in new:
         data = post.to_dict()
         previous = by_id.get(data["id"])
         data["first_seen"] = (previous or {}).get("first_seen") or seen_at
         by_id[data["id"]] = data
     posts = sorted(by_id.values(), key=lambda p: (bool(p.get("published")), p.get("published") or p["first_seen"][:10]), reverse=True)
-    return posts[:POSTS_PER_SOURCE]
+    # What today's fetch says is on now is always kept: Beacon series and the SIFF/NWFF
+    # programs have no date, so the cap would otherwise drop them first once a
+    # theater's archive passes the limit (happened to the Beacon 2026-11-15).
+    on_now = lambda p: p.get("current") or p.get("now_playing") or p.get("coming_soon") or (p.get("listed") and not p.get("published"))  # noqa: E731
+    live = [p for p in posts if on_now(p)]
+    rest = [p for p in posts if p not in live]
+    if cap is None:
+        return posts
+    keep = live + rest[:max(0, cap - len(live))]
+    return [p for p in posts if p in keep]
 
 
 def run_posts(module: ModuleType, *, http: Http, today: date, data_dir: Path, status: dict, fixtures_root: Path | None = None) -> bool:
@@ -220,7 +231,7 @@ def run_posts(module: ModuleType, *, http: Http, today: date, data_dir: Path, st
 
     posts_file = data_dir / "posts" / f"{source_id}.json"
     stored = read_json(posts_file, {}).get("posts", [])
-    merged = merge_posts(posts, stored, entry["last_attempt"])
+    merged = merge_posts(posts, stored, entry["last_attempt"], getattr(module, "MAX_POSTS", POSTS_PER_SOURCE))
     write_json(posts_file, {"source": source_id, "scraped_at": entry["last_attempt"], "posts": merged})
     entry.update(ok=True, error=None, last_success=entry["last_attempt"], count=len(posts))
     print(f"[posts/{source_id}] ok: {len(posts)} posts")
