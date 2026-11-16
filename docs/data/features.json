@@ -1,56 +1,6 @@
 {
-  "generated_at": "2026-11-15T12:52:19-08:00",
+  "generated_at": "2026-11-15T18:28:10-08:00",
   "lead": [
-    {
-      "title": "Shadowland",
-      "url": "https://thebeacon.film/series/shadowland",
-      "venue": "The Beacon",
-      "kind": "Series",
-      "when": "Now playing",
-      "byline": "The emotional otherworlds of classic cinema.",
-      "description": "The emotional otherworlds of classic cinema. Unspooling the ribbon of dreams every Sunday afternoon.",
-      "months": "November 2026 – December 2026",
-      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_SHADOWLAND2.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
-      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SHADOWLAND2.png"
-    },
-    {
-      "title": "Time as a Symptom",
-      "url": "https://thebeacon.film/series/time-as-a-symptom",
-      "venue": "The Beacon",
-      "kind": "Series",
-      "when": "Now playing",
-      "byline": "Slow cinema and its reverberations.",
-      "description": "What happens after all the time is spent?",
-      "months": "November 2026 – December 2026",
-      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_TIMEASASYMPTOM_%25281%2529.png&w=2048&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
-      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_TIMEASASYMPTOM_%281%29.png"
-    }
-  ],
-  "row": [
-    {
-      "title": "Community Screenings",
-      "url": "https://www.siff.net/programs-and-events/community-screenings",
-      "venue": "SIFF",
-      "kind": "Program",
-      "when": "Next: Nov 15",
-      "byline": "Tickets to this series are available $7 for adults and $5 for children!",
-      "description": "",
-      "months": "",
-      "image": "https://www.siff.net/images/CINEMA/2026/CIN_CommunityScreenings26_1600x900.png",
-      "image_fallback": null
-    },
-    {
-      "title": "Seattle Trans Underground Film Fest Presents: Wednesday Trans Film",
-      "url": "https://nwfilmforum.org/series/seattle-trans-underground-film-fest-presents-wednesday-trans-film/",
-      "venue": "NWFF",
-      "kind": "Series",
-      "when": "Next: Nov 18",
-      "byline": "Join the Seattle Trans Underground Film Festival on the third Wednesday of every month for trans+ films worth watching, past and present!",
-      "description": "",
-      "months": "",
-      "image": "https://nwfilmforum.org/wp-content/uploads/2026/06/STUFF_NWFF_WTF_HeroA_v2-2550x900.png",
-      "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2026/06/STUFF_NWFF_WTF_HeroA_v2-900x318.png"
-    },
     {
       "title": "Surplus Reality: How William Greaves Constructed a Stage, Sabotaged It and Mined Truth Out of the Wreckage",
       "url": "https://thebeacon.film/programs/surplus-reality",
@@ -62,7 +12,9 @@
       "months": "November 2026",
       "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792704250199-tb-greaves.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png"
-    },
+    }
+  ],
+  "row": [
     {
       "title": "PNW Awards",
       "url": "https://www.siff.net/sfcs",
@@ -76,16 +28,16 @@
       "image_fallback": null
     },
     {
-      "title": "SFCS at 10: A Decade of Favorites",
-      "url": "https://nwfilmforum.org/series/sfcs-at-10/",
+      "title": "Seattle Trans Underground Film Fest Presents: Wednesday Trans Film",
+      "url": "https://nwfilmforum.org/series/seattle-trans-underground-film-fest-presents-wednesday-trans-film/",
       "venue": "NWFF",
       "kind": "Series",
-      "when": "Next: Nov 19",
-      "byline": "Seattle Film Critics Society and Northwest Film Forum present a monthly series dedicated to past winners of the SFCS Awards",
+      "when": "Next: Nov 18",
+      "byline": "Join the Seattle Trans Underground Film Festival on the third Wednesday of every month for trans+ films worth watching, past and present!",
       "description": "",
       "months": "",
-      "image": "https://nwfilmforum.org/wp-content/uploads/2026/06/sfcs10_2720x900-2550x844.jpg",
-      "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2026/06/sfcs10_2720x900-900x298.jpg"
+      "image": "https://nwfilmforum.org/wp-content/uploads/2026/06/STUFF_NWFF_WTF_HeroA_v2-2550x900.png",
+      "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2026/06/STUFF_NWFF_WTF_HeroA_v2-900x318.png"
     },
     {
       "title": "The Very Living End: Frank Tashlin and the American Nervous Breakdown",
@@ -112,16 +64,16 @@
       "image_fallback": null
     },
     {
-      "title": "Unstreamable",
-      "url": "https://nwfilmforum.org/series/unstreamable-scarecrow-jas-keimig/",
+      "title": "SFCS at 10: A Decade of Favorites",
+      "url": "https://nwfilmforum.org/series/sfcs-at-10/",
       "venue": "NWFF",
       "kind": "Series",
-      "when": "Next: Nov 20",
-      "byline": "Unstreamable curates weird, horny, forgotten cinema that, for one reason or another, is unavailable on any US streaming service.",
+      "when": "Next: Nov 19",
+      "byline": "Seattle Film Critics Society and Northwest Film Forum present a monthly series dedicated to past winners of the SFCS Awards",
       "description": "",
       "months": "",
-      "image": "https://nwfilmforum.org/wp-content/uploads/2022/06/series_unstreamable_hero-2550x900.jpg",
-      "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2022/06/series_unstreamable_hero-900x318.jpg"
+      "image": "https://nwfilmforum.org/wp-content/uploads/2026/06/sfcs10_2720x900-2550x844.jpg",
+      "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2026/06/sfcs10_2720x900-900x298.jpg"
     },
     {
       "title": "Nouvelles Femmes",
@@ -136,16 +88,16 @@
       "image_fallback": null
     },
     {
-      "title": "Waste Not Your Thoughts on Eternity: The Seasonal Films of Yasujirō Ozu",
-      "url": "https://nwfilmforum.org/series/waste-not-your-thoughts-on-eternity/",
+      "title": "Unstreamable",
+      "url": "https://nwfilmforum.org/series/unstreamable-scarecrow-jas-keimig/",
       "venue": "NWFF",
       "kind": "Series",
-      "when": "Next: Nov 28",
-      "byline": "Northwest Film Forum presents a year-long retrospective of Yasujiro Ozu's seasonally-titled films in their respective times of the year.",
+      "when": "Next: Nov 20",
+      "byline": "Unstreamable curates weird, horny, forgotten cinema that, for one reason or another, is unavailable on any US streaming service.",
       "description": "",
       "months": "",
-      "image": "https://nwfilmforum.org/wp-content/uploads/2026/02/ozuseasons2720-2550x563.png",
-      "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2026/02/ozuseasons2720-900x199.png"
+      "image": "https://nwfilmforum.org/wp-content/uploads/2022/06/series_unstreamable_hero-2550x900.jpg",
+      "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2022/06/series_unstreamable_hero-900x318.jpg"
     },
     {
       "title": "Book Club",
@@ -158,6 +110,18 @@
       "months": "",
       "image": "https://www.siff.net/images/CINEMA/2026/Films%20Jun-Dec/SIFF%20Book%20Club/SIFFBookClub2026_Digital_1600x900-General.png",
       "image_fallback": null
+    },
+    {
+      "title": "Waste Not Your Thoughts on Eternity: The Seasonal Films of Yasujirō Ozu",
+      "url": "https://nwfilmforum.org/series/waste-not-your-thoughts-on-eternity/",
+      "venue": "NWFF",
+      "kind": "Series",
+      "when": "Next: Nov 28",
+      "byline": "Northwest Film Forum presents a year-long retrospective of Yasujiro Ozu's seasonally-titled films in their respective times of the year.",
+      "description": "",
+      "months": "",
+      "image": "https://nwfilmforum.org/wp-content/uploads/2026/02/ozuseasons2720-2550x563.png",
+      "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2026/02/ozuseasons2720-900x199.png"
     },
     {
       "title": "Truth To Fiction",
