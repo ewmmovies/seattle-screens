@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T18:28:10-08:00",
+  "generated_at": "2026-11-15T19:39:00-08:00",
   "range": {
     "start": "2026-11-14",
     "end": "2026-12-06"
@@ -406,36 +406,6 @@
       "url": "https://www.siff.net/programs-and-events/seattle-film-critics-society-pnw-awards-2026/the-life-we-leave"
     },
     {
-      "id": "siff-uptown|2026-11-15|wild-horse-nine",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-15",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "15:50",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 118,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
-    },
-    {
       "id": "siff-uptown|2026-11-15|you-can-see-everything",
       "venue_id": "siff-uptown",
       "date": "2026-11-15",
@@ -483,6 +453,30 @@
         "SIFF year-round passes and vouchers are not valid for this screening."
       ],
       "url": "https://www.siff.net/cinema/in-theaters/romanian-film-festival-seattle-13th-edition/the-wall"
+    },
+    {
+      "id": "siff-uptown|2026-11-15|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-15",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
     },
     {
       "id": "tasveer|2026-11-15|wild-horse-nine",
@@ -1866,7 +1860,7 @@
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style",
+      "series": "Cinema Italian Style 2026",
       "directors": [
         "Margherita Spampinato"
       ],
@@ -2333,7 +2327,7 @@
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style",
+      "series": "Cinema Italian Style 2026",
       "directors": [
         "Leonardo Di Constanzo"
       ],
@@ -2660,12 +2654,6 @@
           "ticket_url": "https://nwfilmforum.eventive.org/films/6a206600823a0bf897418220",
           "note": null,
           "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6a206600823a0bf897418220",
-          "note": null,
-          "sold_out": false
         }
       ],
       "kind": "film",
@@ -2685,12 +2673,6 @@
       "date": "2026-11-20",
       "title": "My Brother's Wedding",
       "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ac59417a8f4c4355ebf3d0c",
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "19:30",
           "ticket_url": "https://nwfilmforum.eventive.org/films/6ac59417a8f4c4355ebf3d0c",
@@ -3192,7 +3174,7 @@
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style",
+      "series": "Cinema Italian Style 2026",
       "directors": [
         "Carolina Cavalli"
       ],
@@ -5443,12 +5425,6 @@
           "ticket_url": null,
           "note": null,
           "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
         }
       ],
       "kind": "film",
@@ -5468,12 +5444,6 @@
       "date": "2026-12-02",
       "title": "Zero Patience",
       "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6acd35fd8b82727c5b69a9e6",
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "19:30",
           "ticket_url": "https://nwfilmforum.eventive.org/films/6acd35fd8b82727c5b69a9e6",

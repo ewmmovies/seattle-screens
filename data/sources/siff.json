@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-15T18:26:47-08:00",
+  "scraped_at": "2026-11-15T19:37:35-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-14|godzilla-minus-zero",
@@ -148,36 +148,6 @@
       "url": "https://www.siff.net/programs-and-events/seattle-film-critics-society-pnw-awards-2026/the-life-we-leave"
     },
     {
-      "id": "siff-uptown|2026-11-15|wild-horse-nine",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-15",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "15:50",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 118,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
-    },
-    {
       "id": "siff-uptown|2026-11-15|you-can-see-everything",
       "venue_id": "siff-uptown",
       "date": "2026-11-15",
@@ -225,6 +195,30 @@
         "SIFF year-round passes and vouchers are not valid for this screening."
       ],
       "url": "https://www.siff.net/cinema/in-theaters/romanian-film-festival-seattle-13th-edition/the-wall"
+    },
+    {
+      "id": "siff-uptown|2026-11-15|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-15",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
     },
     {
       "id": "siff-downtown|2026-11-16|godzilla-minus-zero",
@@ -644,7 +638,7 @@
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style",
+      "series": "Cinema Italian Style 2026",
       "directors": [
         "Margherita Spampinato"
       ],
@@ -786,7 +780,7 @@
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style",
+      "series": "Cinema Italian Style 2026",
       "directors": [
         "Leonardo Di Constanzo"
       ],
@@ -1082,7 +1076,7 @@
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style",
+      "series": "Cinema Italian Style 2026",
       "directors": [
         "Carolina Cavalli"
       ],

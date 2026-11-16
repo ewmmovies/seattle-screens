@@ -1,17 +1,41 @@
 {
-  "generated_at": "2026-11-15T18:28:10-08:00",
+  "generated_at": "2026-11-15T19:39:00-08:00",
   "lead": [
     {
-      "title": "Surplus Reality: How William Greaves Constructed a Stage, Sabotaged It and Mined Truth Out of the Wreckage",
-      "url": "https://thebeacon.film/programs/surplus-reality",
+      "title": "Shadowland",
+      "url": "https://thebeacon.film/series/shadowland",
+      "venue": "The Beacon",
+      "kind": "Series",
+      "when": "Now playing",
+      "byline": "The emotional otherworlds of classic cinema.",
+      "description": "The emotional otherworlds of classic cinema. Unspooling the ribbon of dreams every Sunday afternoon.",
+      "months": "November 2026 – December 2026",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_SHADOWLAND2.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SHADOWLAND2.png"
+    },
+    {
+      "title": "Time as a Symptom",
+      "url": "https://thebeacon.film/series/time-as-a-symptom",
+      "venue": "The Beacon",
+      "kind": "Series",
+      "when": "Now playing",
+      "byline": "Slow cinema and its reverberations.",
+      "description": "What happens after all the time is spent?",
+      "months": "November 2026 – December 2026",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_TIMEASASYMPTOM_%25281%2529.png&w=2048&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_TIMEASASYMPTOM_%281%29.png"
+    },
+    {
+      "title": "Love Is a Country of Two and Trespassers Will Be Shot!",
+      "url": "https://thebeacon.film/programs/love-is-a-country-of-two-and-trespassers-will-be-shot",
       "venue": "The Beacon",
       "kind": "Program",
-      "when": "November 2026",
-      "byline": "4 films",
-      "description": "",
-      "months": "November 2026",
-      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792704250199-tb-greaves.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
-      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png"
+      "when": "Coming soon",
+      "byline": "7 films",
+      "description": "Population: YOU AND ME, BABY . No laws, no extradition treaties, no age of consent for declaring war on the world.",
+      "months": "November 2026 – December 2026",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792950181821-zz.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792950181821-zz.png"
     }
   ],
   "row": [
@@ -40,16 +64,16 @@
       "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2026/06/STUFF_NWFF_WTF_HeroA_v2-900x318.png"
     },
     {
-      "title": "The Very Living End: Frank Tashlin and the American Nervous Breakdown",
-      "url": "https://thebeacon.film/programs/the-very-living-end-frank-tashlin-and-the-american-nervous-breakdown",
+      "title": "Surplus Reality: How William Greaves Constructed a Stage, Sabotaged It and Mined Truth Out of the Wreckage",
+      "url": "https://thebeacon.film/programs/surplus-reality",
       "venue": "The Beacon",
       "kind": "Program",
       "when": "November 2026",
-      "byline": "3 films",
-      "description": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots.",
+      "byline": "4 films",
+      "description": "",
       "months": "November 2026",
-      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792627436888-tb-tashlin.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
-      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png"
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792704250199-tb-greaves.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png"
     },
     {
       "title": "The Open Road",
@@ -74,6 +98,18 @@
       "months": "",
       "image": "https://nwfilmforum.org/wp-content/uploads/2026/06/sfcs10_2720x900-2550x844.jpg",
       "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2026/06/sfcs10_2720x900-900x298.jpg"
+    },
+    {
+      "title": "The Very Living End: Frank Tashlin and the American Nervous Breakdown",
+      "url": "https://thebeacon.film/programs/the-very-living-end-frank-tashlin-and-the-american-nervous-breakdown",
+      "venue": "The Beacon",
+      "kind": "Program",
+      "when": "November 2026",
+      "byline": "3 films",
+      "description": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots.",
+      "months": "November 2026",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792627436888-tb-tashlin.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png"
     },
     {
       "title": "Nouvelles Femmes",

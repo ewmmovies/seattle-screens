@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-15T18:26:44-08:00",
+  "scraped_at": "2026-11-15T19:37:32-08:00",
   "screenings": [
     {
       "id": "nwff|2026-11-15|zi",
@@ -278,12 +278,6 @@
           "ticket_url": "https://nwfilmforum.eventive.org/films/6a206600823a0bf897418220",
           "note": null,
           "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6a206600823a0bf897418220",
-          "note": null,
-          "sold_out": false
         }
       ],
       "kind": "film",
@@ -303,12 +297,6 @@
       "date": "2026-11-20",
       "title": "My Brother's Wedding",
       "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ac59417a8f4c4355ebf3d0c",
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "19:30",
           "ticket_url": "https://nwfilmforum.eventive.org/films/6ac59417a8f4c4355ebf3d0c",
@@ -759,12 +747,6 @@
           "ticket_url": null,
           "note": null,
           "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
         }
       ],
       "kind": "film",
@@ -784,12 +766,6 @@
       "date": "2026-12-02",
       "title": "Zero Patience",
       "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6acd35fd8b82727c5b69a9e6",
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "19:30",
           "ticket_url": "https://nwfilmforum.eventive.org/films/6acd35fd8b82727c5b69a9e6",
