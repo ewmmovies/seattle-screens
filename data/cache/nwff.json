@@ -220,5 +220,18 @@
       "ticket_url": "https://nwfilmforum.eventive.org/films/6ab17144057dcc896cf6c420",
       "format": null
     }
+  },
+  "https://nwfilmforum.org/films/the-apple/": {
+    "fetched": "2026-11-16",
+    "data": {
+      "directors": [
+        "Menahem Golan"
+      ],
+      "year": 1980,
+      "runtime_min": 97,
+      "series": "Snow Day, 1980",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ae039dc8428e25a7d8b1",
+      "format": null
+    }
   }
 }

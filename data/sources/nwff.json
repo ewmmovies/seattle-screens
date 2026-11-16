@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-15T19:37:32-08:00",
+  "scraped_at": "2026-11-16T01:49:59-08:00",
   "screenings": [
     {
       "id": "nwff|2026-11-15|zi",
@@ -915,6 +915,30 @@
       "format": null,
       "notes": [],
       "url": "https://nwfilmforum.org/films/zero-patience/"
+    },
+    {
+      "id": "nwff|2026-12-07|the-apple",
+      "venue_id": "nwff",
+      "date": "2026-12-07",
+      "title": "The Apple",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ae039dc8428e25a7d8b1",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Menahem Golan"
+      ],
+      "year": 1980,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/the-apple/"
     }
   ]
 }

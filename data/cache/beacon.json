@@ -219,5 +219,15 @@
       "year": 1934,
       "runtime_min": 105
     }
+  },
+  "https://thebeacon.film/calendar/movie/blindfold": {
+    "fetched": "2026-11-16",
+    "data": {
+      "directors": [
+        "????"
+      ],
+      "year": null,
+      "runtime_min": null
+    }
   }
 }
