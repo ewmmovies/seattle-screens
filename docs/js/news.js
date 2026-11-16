@@ -1,6 +1,6 @@
 /* News page (was Posts; reworked 2026-11-15).
    1. Happening Now: the same items as the rotating block on Listings (data/features.json).
-   2. Latest News: dated posts from the last six months, newest first (data/posts.json). */
+   2. Latest News: dated posts from the last twelve months, newest first (data/posts.json). */
 "use strict";
 
 (() => {
@@ -50,5 +50,5 @@
   show(happening, "data/features.json", (d) => [...(d.lead || []), ...(d.row || [])], happeningCell,
     "Nothing listed right now.", "Happening Now could not be loaded.");
   show(latest, "data/posts.json", (d) => d.posts || [], postCell,
-    "No news in the last six months.", "News could not be loaded.");
+    "No news in the last twelve months.", "News could not be loaded.");
 })();

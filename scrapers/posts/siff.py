@@ -3,8 +3,9 @@
 - https://www.siff.net/media/blog: div.item with a category label, title, date and excerpt.
 - https://www.siff.net/media/news-x39250: press releases with title and excerpt but no
   date on the index page. Each release's own page prints its date under the title
-  ("9/22/2026"), so that page is read once and remembered; dates do not change. If a
-  release page has no readable date, the post sorts by the date it was first seen.
+  ("9/22/2026", usually followed by a press contact), so that page is read once and
+  remembered; dates do not change. A page with no readable date is tried again after
+  a week, and until then the post sorts by the date it was first seen.
 """
 from __future__ import annotations
 
@@ -79,7 +80,7 @@ def parse_news(html: str) -> list[Post]:
     return posts
 
 
-_SLASH_DATE_RE = re.compile(r"^(\d{1,2})/(\d{1,2})/(\d{4})$")
+_SLASH_DATE_RE = re.compile(r"^(\d{1,2})/(\d{1,2})/(\d{4})\b")  # contact details often follow the date
 
 
 def parse_release_date(html: str) -> str | None:
@@ -106,5 +107,9 @@ def fetch(ctx: Context) -> list[Post]:
             except requests.HTTPError as error:  # a missing page only costs the date
                 print(f"[posts/siff] release page skipped: {error}", file=sys.stderr)
                 return None
-        post.published = ctx.cached(post.url, load, max_age_days=3650)
+        key = "release2:" + post.url  # "2": earlier runs remembered dates they could not read
+        ctx.cache.pop(post.url, None)
+        post.published = ctx.cached(key, load, max_age_days=3650)
+        if post.published is None:  # do not remember a missing date for long
+            post.published = ctx.cached(key, load, max_age_days=7)
     return parse_blog(blog) + releases

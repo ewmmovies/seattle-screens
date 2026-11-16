@@ -71,6 +71,8 @@ def test_siff_press_releases_have_no_date():
 def test_press_release_date_from_its_own_page():
     page = '<div class="col-md-8"><p class="small">\n 9/22/2026\n <br>\n </p><div class="body-copy">x</div></div>'
     assert siff.parse_release_date(page) == "2026-09-22"
+    with_contact = '<p class="small">\n 5/17/2026\n <br>\n press@siff.net</p>'  # most releases look like this
+    assert siff.parse_release_date(with_contact) == "2026-05-17"
     assert siff.parse_release_date("<p class='small'>Photo credit</p>") is None
 
 
@@ -136,10 +138,10 @@ def test_tasveer_feed():
     assert posts[0].url.startswith("https://tasveer.org/desiqueer")
 
 
-def test_six_month_window_and_order():
+def test_twelve_month_window_and_order():
     posts = [
-        {"id": "a", "title": "Old", "published": "2026-05-14"},
-        {"id": "b", "title": "Edge", "published": "2026-05-15"},
+        {"id": "a", "title": "Old", "published": "2025-11-14"},
+        {"id": "b", "title": "Edge", "published": "2025-11-15"},
         {"id": "c", "title": "New", "published": "2026-11-10"},
         {"id": "d", "title": "Undated", "published": None},
         {"id": "e", "title": "Series", "published": None, "current": True},
@@ -161,7 +163,7 @@ def test_series_stop_being_current_when_they_leave_now_playing():
 
 
 def test_feed_end_to_end(tmp_path):
-    """Runner stores every feed; build keeps the last six months, newest first."""
+    """Runner stores every feed; build keeps the last twelve months, newest first."""
     release_dates = {"https://www.siff.net/media/news/pr-doc-grant-awardees-2026": "9/22/2026"}
     pages = {nwff.NEWS_URL: "nwff_news.html", siff.BLOG_URL: "siff_blog.html", siff.NEWS_URL: "siff_news.html",
              beacon.PROGRAMS_URL: "beacon_programs.html", beacon.SERIES_URL: "beacon_series.html",
@@ -197,11 +199,11 @@ def test_feed_end_to_end(tmp_path):
     titles = [p["title"] for p in posts]
     assert "Shadowland" not in titles  # series and programs live under Happening Now
     dated = [p["published"] for p in posts]
-    assert dated == sorted(dated, reverse=True) and min(dated) >= "2026-05-15"
+    assert dated == sorted(dated, reverse=True) and min(dated) >= "2025-11-15"
     assert not any(p["source"] == "tasveer" for p in posts)  # newest Tasveer post is June 2025
     assert not any(p["published"] is None and not p.get("current") for p in posts)  # undated release dropped
     assert "SIFF announces winning projects of 2026 Courageous Documentary Filmmaking Grants" in titles
-    assert "NWFF Announces Recipients, Jurors, for Collective Power Fund 2025" not in titles  # January: too old
+    assert "NWFF Announces Recipients, Jurors, for Collective Power Fund 2025" in titles  # January: inside 12 months
 
     features = json.loads((site / "features.json").read_text())
     # No SIFF/NWFF screenings in this run, so the row holds only the Beacon's programs.
@@ -305,3 +307,38 @@ def test_items_no_longer_listed_are_dropped():
     item["listed"] = False
     out = build.build_features([item], [_shot("nwff", "2026-11-21", "Unstreamable")], TODAY)
     assert out["row"] == [] and out["lead"] == []
+
+
+def test_undated_posts_do_not_push_dated_ones_out_of_the_cap():
+    stored = [{"id": f"siff|/u{i}", "title": f"Undated {i}", "published": None,
+               "first_seen": "2026-11-15T00:00:00-08:00"} for i in range(run.POSTS_PER_SOURCE)]
+    stored.append({"id": "siff|/dated", "title": "Dated", "published": "2026-10-01",
+                   "first_seen": "2026-10-02T00:00:00-07:00"})
+    merged = run.merge_posts([], stored, "2026-11-15T00:00:00-08:00")
+    assert len(merged) == run.POSTS_PER_SOURCE and merged[0]["id"] == "siff|/dated"
+
+
+def test_unreadable_release_date_is_retried_after_a_week():
+    from scrapers.context import Context
+
+    class Http:
+        def __init__(self, release):
+            self.release, self.calls = release, 0
+
+        def get_text(self, url, **kwargs):
+            if url == siff.BLOG_URL:
+                return load("siff_blog.html")
+            if url == siff.NEWS_URL:
+                return load("siff_news.html")
+            self.calls += 1
+            return self.release
+
+    cache = {}
+    first = Http("<p>no date</p>")
+    siff.fetch(Context(http=first, today=date(2026, 11, 15), cache=cache))
+    same_week = Http('<p class="small">5/17/2026 press@siff.net</p>')
+    posts = siff.fetch(Context(http=same_week, today=date(2026, 11, 18), cache=cache))
+    assert same_week.calls == 0 and all(p.published is None for p in posts if p.category == "Press release")
+    later = Http('<p class="small">5/17/2026 press@siff.net</p>')
+    posts = siff.fetch(Context(http=later, today=date(2026, 11, 23), cache=cache))
+    assert later.calls == 2 and all(p.published == "2026-05-17" for p in posts if p.category == "Press release")

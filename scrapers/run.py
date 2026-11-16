@@ -178,7 +178,8 @@ def run_source(
 
 
 def merge_posts(new: list[Post], stored: list[dict], seen_at: str) -> list[dict]:
-    """Keep stored posts, add new ones by id, cap at POSTS_PER_SOURCE (newest first)."""
+    """Keep stored posts, add new ones by id, cap at POSTS_PER_SOURCE (newest first).
+    Undated posts rank below dated ones, so they never push dated posts out of the cap."""
     # Only today's fetch decides what is current or now playing.
     by_id = {post["id"]: {**post, "current": False, "now_playing": False, "listed": False} for post in stored}
     for post in new:
@@ -186,7 +187,7 @@ def merge_posts(new: list[Post], stored: list[dict], seen_at: str) -> list[dict]
         previous = by_id.get(data["id"])
         data["first_seen"] = (previous or {}).get("first_seen") or seen_at
         by_id[data["id"]] = data
-    posts = sorted(by_id.values(), key=lambda p: (p.get("published") or p["first_seen"][:10]), reverse=True)
+    posts = sorted(by_id.values(), key=lambda p: (bool(p.get("published")), p.get("published") or p["first_seen"][:10]), reverse=True)
     return posts[:POSTS_PER_SOURCE]
 
 

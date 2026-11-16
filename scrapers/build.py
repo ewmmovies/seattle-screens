@@ -65,7 +65,7 @@ def build_screenings(records: list[dict], venue_order: list[str], today: date) -
     }
 
 
-POST_MONTHS = 6  # only posts released in the last six months are shown
+POST_MONTHS = 12  # only posts released in the last twelve months are shown
 
 
 def months_before(day: date, months: int) -> date:
@@ -81,7 +81,7 @@ def months_before(day: date, months: int) -> date:
 
 
 def build_posts(posts: list[dict], today: date) -> dict:
-    """Posts released in the last six months, newest first. Undated posts are dropped,
+    """Posts released in the last twelve months, newest first. Undated posts are dropped,
     except series that are running now (current), which lead the feed."""
     cutoff = months_before(today, POST_MONTHS).isoformat()
     unique = {post["id"]: post for post in posts}.values()
