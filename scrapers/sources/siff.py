@@ -232,6 +232,19 @@ def find_repeated_prefixes(items: list[RawItem]) -> set[str]:
     return {prefix for prefix, titles in titles_by_prefix.items() if len(titles) >= 2}
 
 
+_TRAILING_YEAR_RE = re.compile(r"\s+(?:19|20)\d{2}$")
+
+
+def unify_series_names(records: list[Screening]) -> None:
+    """SIFF writes one series two ways ("Cinema Italian Style", "Cinema Italian Style 2026").
+    When both are in a run, every record takes the name with the year."""
+    with_year = {_TRAILING_YEAR_RE.sub("", r.series): r.series
+                 for r in records if r.series and _TRAILING_YEAR_RE.search(r.series)}
+    for record in records:
+        if record.series in with_year:
+            record.series = with_year[record.series]
+
+
 def build_screenings(items: list[RawItem]) -> list[Screening]:
     """Turn every parsed item from the whole run into validated-shape records."""
     repeated = find_repeated_prefixes(items)
@@ -263,6 +276,7 @@ def build_screenings(items: list[RawItem]) -> list[Screening]:
                     showtimes=[Showtime(time=show.time, sold_out=show.sold_out) for show in shows],
                 )
             )
+    unify_series_names(records)
     return merge_screenings(records)
 
 

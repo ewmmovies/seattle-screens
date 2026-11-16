@@ -200,8 +200,13 @@ def build_screenings(items: list[RawItem], details: dict[str, dict]) -> list[Scr
     # Attributes shared by every showing of a title on a day are record notes;
     # ones that only some showings have become showtime notes.
     groups: dict[tuple[str, str], list[RawItem]] = {}
+    seen: set[tuple] = set()
     for item in items:
-        groups.setdefault((item.start.date().isoformat(), item.url or item.name), []).append(item)
+        key = (item.start.date().isoformat(), item.url or item.name)
+        if (key, item.start) in seen:  # two weekly pages can both list the day they meet on
+            continue
+        seen.add((key, item.start))
+        groups.setdefault(key, []).append(item)
 
     records = []
     for (day, _), group in groups.items():

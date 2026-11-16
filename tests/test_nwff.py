@@ -143,3 +143,10 @@ def test_fetch_follows_next_week_links_and_drops_past_days():
                      "https://nwfilmforum.org/calendar/?start=2026-11-20",
                      "https://nwfilmforum.org/calendar/?start=2026-11-27"]
     assert min(r.date for r in records) == "2026-11-15"  # the Nov 13 showing is in the past
+
+
+def test_an_item_listed_on_two_weekly_pages_gets_one_showtime():
+    items, _ = nwff.parse_week(load("calendar_2026-11-20.html"))
+    once = nwff.build_screenings(items, {})
+    twice = nwff.build_screenings(items + items, {})
+    assert [[s.time for s in r.showtimes] for r in twice] == [[s.time for s in r.showtimes] for r in once]

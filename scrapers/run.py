@@ -241,6 +241,7 @@ def run(
     today: date | None = None,
     http: Http | None = None,
     fixtures_root: Path | None = None,
+    known_post_ids: set[str] | None = None,
 ) -> int:
     """Run the given scrapers and return the process exit code."""
     today = today or today_pacific()
@@ -250,6 +251,9 @@ def run(
     status = read_json(status_file, {})
     status.setdefault("sources", {})
     status.setdefault("posts", {})
+    if known_post_ids is not None:  # forget news sources that have been removed
+        for source_id in [s for s in status["posts"] if s not in known_post_ids]:
+            del status["posts"][source_id]
 
     results = []
     for module in sources:
@@ -281,7 +285,8 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     sources = [] if args.posts_only else discover("scrapers.sources")
-    post_sources = [] if args.no_posts else discover("scrapers.posts")
+    all_posts = discover("scrapers.posts")
+    post_sources = [] if args.no_posts else all_posts
     if args.source:
         wanted = set(args.source)
         found = {m.SOURCE_ID for m in sources} | {m.SOURCE_ID for m in post_sources}
@@ -292,7 +297,8 @@ def main(argv: list[str] | None = None) -> int:
         post_sources = [m for m in post_sources if m.SOURCE_ID in wanted]
 
     return run(sources=sources, post_sources=post_sources,
-               fixtures_root=FIXTURES_DIR if args.save_fixtures else None)
+               fixtures_root=FIXTURES_DIR if args.save_fixtures else None,
+               known_post_ids={m.SOURCE_ID for m in all_posts})
 
 
 if __name__ == "__main__":

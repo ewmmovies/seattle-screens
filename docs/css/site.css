@@ -606,7 +606,7 @@ main {
     padding: 0 0 0 10px;
   }
 
-  .site-name { font-size: 18px; padding: 0; }
+  .site-name { font-size: 18px; }
   .site-name span { display: inline; }
   .site-descriptor { display: none; }
 
@@ -640,7 +640,17 @@ main {
     border-right: 0;
   }
 
-  .times > a, .times > span { padding: 13px 0; }
+  .times > a, .times > span { padding: 14px 0; }
+  /* Tap targets at least 44px high (SPEC 9.4). */
+  .site-name { padding: 13px 0; }
+  .title a, .card-grid .address a, .card-links a { display: inline-block; padding: 9px 0; }
+  .card-grid .address a { padding: 13px 0; }
+  .card-grid .address { margin-top: 0; }
+  .venue-name a { display: inline-block; padding: 8px 0; }
+  .venue-name { margin-bottom: 22px; }
+  .card-grid .card-links a { padding: 14px 0; }
+  .checkbox { min-height: 44px; }
+  .feature-lead .feature-title a { display: inline-block; padding: 7px 0; }
   .controls { gap: 10px 20px; }
   .filter-panel { padding: 12px; }
   .search-form { flex-wrap: nowrap; }

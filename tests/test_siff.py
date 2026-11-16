@@ -204,3 +204,16 @@ def test_validation_rejects_bad_records():
     ):
         with pytest.raises(ValidationError):
             Screening(**{**good, **change}).validate({"siff-uptown"})
+
+
+def test_series_written_with_and_without_its_year_takes_the_year():
+    from scrapers.models import Screening, Showtime
+
+    def record(title, series):
+        return Screening(venue_id="siff-uptown", date="2026-11-19", title=title, series=series,
+                         showtimes=[Showtime(time="19:00")])
+
+    records = [record("Elisa", "Cinema Italian Style"), record("Gioia", "Cinema Italian Style 2026"),
+               record("Zi", "The Open Road"), record("X", None)]
+    siff.unify_series_names(records)
+    assert [r.series for r in records] == ["Cinema Italian Style 2026"] * 2 + ["The Open Road", None]

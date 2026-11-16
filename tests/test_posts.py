@@ -8,7 +8,7 @@ import pytest
 from scrapers import build, run
 from datetime import date
 
-from scrapers.posts import beacon, nwff, nwff_programs, siff, siff_programs, tasveer
+from scrapers.posts import beacon, nwff, nwff_programs, siff, siff_programs
 
 FIXTURES = Path(__file__).parent / "fixtures" / "posts"
 
@@ -131,13 +131,6 @@ def test_beacon_detail_sentences_and_months():
     assert beacon.month_range(["2026-11-15"]) == "November 2026" and beacon.month_range([]) is None
 
 
-def test_tasveer_feed():
-    posts = tasveer.parse_feed(load("tasveer_feed.xml"))
-    assert [p.published for p in posts] == ["2025-06-16", "2024-12-03", "2024-02-13"]
-    assert posts[1].title == "19th Tasveer Festival & Market 2024" and posts[0].category == "Blog"
-    assert posts[0].url.startswith("https://tasveer.org/desiqueer")
-
-
 def test_twelve_month_window_and_order():
     posts = [
         {"id": "a", "title": "Old", "published": "2025-11-14"},
@@ -166,8 +159,7 @@ def test_feed_end_to_end(tmp_path):
     """Runner stores every feed; build keeps the last twelve months, newest first."""
     release_dates = {"https://www.siff.net/media/news/pr-doc-grant-awardees-2026": "9/22/2026"}
     pages = {nwff.NEWS_URL: "nwff_news.html", siff.BLOG_URL: "siff_blog.html", siff.NEWS_URL: "siff_news.html",
-             beacon.PROGRAMS_URL: "beacon_programs.html", beacon.SERIES_URL: "beacon_series.html",
-             tasveer.FEED_URL: "tasveer_feed.xml"}
+             beacon.PROGRAMS_URL: "beacon_programs.html", beacon.SERIES_URL: "beacon_series.html"}
 
     class Http:
         request_count = 0
@@ -185,11 +177,11 @@ def test_feed_end_to_end(tmp_path):
                 return (Path(__file__).parent / "fixtures" / "beacon" / "calendar.html").read_text(encoding="utf-8")
             return load(pages[url])
 
-    code = run.run(sources=[], post_sources=[beacon, nwff, siff, tasveer], data_dir=tmp_path / "data",
+    code = run.run(sources=[], post_sources=[beacon, nwff, siff], data_dir=tmp_path / "data",
                    venue_ids=set(), http=Http(), today=TODAY)
     assert code == 0
     status = json.loads((tmp_path / "data" / "status.json").read_text())["posts"]
-    assert all(status[s]["ok"] for s in ("beacon", "nwff", "siff", "tasveer"))
+    assert all(status[s]["ok"] for s in ("beacon", "nwff", "siff"))
     cache = json.loads((tmp_path / "data" / "cache" / "posts_siff.json").read_text())
     assert len(cache) == 2  # release dates are remembered between runs
 
@@ -200,7 +192,6 @@ def test_feed_end_to_end(tmp_path):
     assert "Shadowland" not in titles  # series and programs live under Happening Now
     dated = [p["published"] for p in posts]
     assert dated == sorted(dated, reverse=True) and min(dated) >= "2025-11-15"
-    assert not any(p["source"] == "tasveer" for p in posts)  # newest Tasveer post is June 2025
     assert not any(p["published"] is None and not p.get("current") for p in posts)  # undated release dropped
     assert "SIFF announces winning projects of 2026 Courageous Documentary Filmmaking Grants" in titles
     assert "NWFF Announces Recipients, Jurors, for Collective Power Fund 2025" in titles  # January: inside 12 months

@@ -111,6 +111,12 @@
   const canMove = () => row.count > perView();
   const shift = () => `translateX(${-100 / perView()}%)`;
 
+  // Tiles outside the frame cannot be clicked or reached with the Tab key. Without
+  // this, tabbing to a hidden tile makes the browser scroll the row out of place.
+  function markVisible() {
+    [...dom.track.children].forEach((tile, i) => { tile.inert = i >= perView(); });
+  }
+
   function slide(direction) {
     if (row.busy || !canMove()) return;
     const instant = reduceMotion.matches;
@@ -121,6 +127,7 @@
       track.style.transition = "none";
       track.style.transform = "translateX(0)";
       void track.offsetWidth; // apply before the next move
+      markVisible();
       row.busy = false;
     };
     if (direction < 0) { // bring the last tile in from the left
@@ -128,6 +135,7 @@
       track.insertBefore(track.lastElementChild, track.firstElementChild);
       track.style.transform = shift();
       void track.offsetWidth;
+      markVisible();
     }
     if (instant) {
       if (direction > 0) finish();
@@ -161,6 +169,7 @@
   function initRow(items) {
     row.count = items.length;
     dom.track.replaceChildren(...items.map(tile));
+    markVisible();
     dom.carousel.hidden = !items.length;
     dom.prev.addEventListener("click", () => { slide(-1); restartTimer(); });
     dom.next.addEventListener("click", () => { slide(1); restartTimer(); });
@@ -172,7 +181,7 @@
     dom.carousel.addEventListener("focusout", (event) => {
       if (!dom.carousel.contains(event.relatedTarget)) row.focus = false;
     });
-    phone.addEventListener("change", updateControls);
+    phone.addEventListener("change", () => { markVisible(); updateControls(); });
     reduceMotion.addEventListener("change", updateControls);
     updateControls();
     restartTimer();

@@ -185,10 +185,18 @@ def test_siff_runs_inside_the_runner(tmp_path):
 
 
 def resp(body, ctype):
-    r = requests.Response(); r._content = body; r.headers["content-type"] = ctype; r.encoding = None
+    """A response built the way requests builds one: the encoding comes from the header."""
+    r = requests.Response(); r._content = body; r.headers["content-type"] = ctype
+    r.encoding = requests.utils.get_encoding_from_headers(r.headers)
     return r
 
 
 def test_utf8_without_charset_is_read_as_utf8():
     assert decoded(resp("it’s".encode(), "text/html")) == "it’s"
     assert decoded(resp("café".encode("latin-1"), "text/html; charset=ISO-8859-1")) == "café"
+
+
+def test_removed_news_sources_are_dropped_from_status(tmp_path):
+    (tmp_path / "status.json").write_text(json.dumps({"sources": {}, "posts": {"tasveer": {"ok": False}, "nwff": {"ok": True}}}))
+    run.run(sources=[], post_sources=[], data_dir=tmp_path, venue_ids=set(), known_post_ids={"nwff"})
+    assert list(json.loads((tmp_path / "status.json").read_text())["posts"]) == ["nwff"]
