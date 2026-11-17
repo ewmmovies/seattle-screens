@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:05:11-08:00",
+  "generated_at": "2026-11-16T18:23:44-08:00",
   "range": {
     "start": "2026-11-14",
     "end": "2026-12-07"
@@ -588,30 +588,6 @@
       "format": null,
       "notes": [],
       "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
-    },
-    {
-      "id": "beacon|2026-11-16|the-strange-love-of-martha-ivers",
-      "venue_id": "beacon",
-      "date": "2026-11-16",
-      "title": "The Strange Love of Martha Ivers",
-      "showtimes": [
-        {
-          "time": "17:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers?showtime=HBPUUN5HQYB7UNOJRHXRMBGX",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Lewis Milestone"
-      ],
-      "year": 1946,
-      "runtime_min": 116,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers"
     },
     {
       "id": "majestic-bay|2026-11-16|you-can-see-everything",
@@ -4014,6 +3990,31 @@
       "url": "https://www.majesticbay.com/"
     },
     {
+      "id": "majestic-bay|2026-11-24|you-can-see-everything",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-24",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36833?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
       "id": "nwff|2026-11-24|la-bola-negra",
       "venue_id": "nwff",
       "date": "2026-11-24",
@@ -4191,6 +4192,31 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/blood-rage"
+    },
+    {
+      "id": "majestic-bay|2026-11-25|you-can-see-everything",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-25",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "14:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36734?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
     },
     {
       "id": "majestic-bay|2026-11-25|the-hunger-games-sunrise-on-the-reaping",
@@ -5901,6 +5927,30 @@
       "url": "https://nwfilmforum.org/films/zero-patience/"
     },
     {
+      "id": "nwff|2026-12-05|tokyo-godfathers",
+      "venue_id": "nwff",
+      "date": "2026-12-05",
+      "title": "Tokyo Godfathers",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Evergreens",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
+    },
+    {
       "id": "siff-downtown|2026-12-05|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-12-05",
@@ -5983,6 +6033,36 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/girl-with-hyacinths"
+    },
+    {
+      "id": "nwff|2026-12-06|tokyo-godfathers",
+      "venue_id": "nwff",
+      "date": "2026-12-06",
+      "title": "Tokyo Godfathers",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Evergreens",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
     },
     {
       "id": "nwff|2026-12-06|zero-patience",
@@ -6147,6 +6227,30 @@
       "format": null,
       "notes": [],
       "url": "https://nwfilmforum.org/films/the-apple/"
+    },
+    {
+      "id": "nwff|2026-12-07|tokyo-godfathers",
+      "venue_id": "nwff",
+      "date": "2026-12-07",
+      "title": "Tokyo Godfathers",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Evergreens",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
     },
     {
       "id": "siff-downtown|2026-12-07|elsinore",

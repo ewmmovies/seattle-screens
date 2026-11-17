@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:05:11-08:00",
+  "generated_at": "2026-11-16T18:23:44-08:00",
   "lead": [
     {
       "title": "Shadowland",
@@ -182,6 +182,18 @@
       "months": "",
       "image": "https://nwfilmforum.org/wp-content/uploads/2022/02/events_the-disabled-list-2720x600px_melanie-paul-2550x563.jpg",
       "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2022/02/events_the-disabled-list-2720x600px_melanie-paul-900x199.jpg"
+    },
+    {
+      "title": "Evergreens",
+      "url": "https://nwfilmforum.org/series/evergreens/",
+      "venue": "NWFF",
+      "kind": "Series",
+      "when": "Next: Dec 5",
+      "byline": "We know them, we love them, and they rarely go out of season!",
+      "description": "",
+      "months": "",
+      "image": "https://nwfilmforum.org/wp-content/uploads/2026/07/evergreens2720-2550x844.png",
+      "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2026/07/evergreens2720-900x298.png"
     }
   ]
 }

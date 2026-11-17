@@ -1,6 +1,6 @@
 {
   "source": "majestic_bay",
-  "scraped_at": "2026-11-16T12:04:31-08:00",
+  "scraped_at": "2026-11-16T18:23:02-08:00",
   "screenings": [
     {
       "id": "majestic-bay|2026-11-14|you-can-see-everything",
@@ -1059,6 +1059,56 @@
       ],
       "year": 2026,
       "runtime_min": 109,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-24|you-can-see-everything",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-24",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36833?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-25|you-can-see-everything",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-25",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "14:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36734?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"

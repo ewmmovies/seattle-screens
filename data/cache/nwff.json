@@ -233,5 +233,18 @@
       "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ae039dc8428e25a7d8b1",
       "format": null
     }
+  },
+  "https://nwfilmforum.org/films/tokyo-godfathers/": {
+    "fetched": "2026-11-16",
+    "data": {
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "series": "Evergreens",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+      "format": null
+    }
   }
 }

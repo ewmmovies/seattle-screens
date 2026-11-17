@@ -1,31 +1,7 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-16T12:04:30-08:00",
+  "scraped_at": "2026-11-16T18:23:01-08:00",
   "screenings": [
-    {
-      "id": "beacon|2026-11-16|the-strange-love-of-martha-ivers",
-      "venue_id": "beacon",
-      "date": "2026-11-16",
-      "title": "The Strange Love of Martha Ivers",
-      "showtimes": [
-        {
-          "time": "17:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers?showtime=HBPUUN5HQYB7UNOJRHXRMBGX",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Lewis Milestone"
-      ],
-      "year": 1946,
-      "runtime_min": 116,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers"
-    },
     {
       "id": "beacon|2026-11-17|will-success-spoil-rock-hunter",
       "venue_id": "beacon",

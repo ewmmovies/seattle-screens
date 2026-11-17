@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-16T12:04:33-08:00",
+  "scraped_at": "2026-11-16T18:23:03-08:00",
   "screenings": [
     {
       "id": "nwff|2026-11-15|zi",
@@ -887,6 +887,60 @@
       "url": "https://nwfilmforum.org/films/zero-patience/"
     },
     {
+      "id": "nwff|2026-12-05|tokyo-godfathers",
+      "venue_id": "nwff",
+      "date": "2026-12-05",
+      "title": "Tokyo Godfathers",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Evergreens",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
+    },
+    {
+      "id": "nwff|2026-12-06|tokyo-godfathers",
+      "venue_id": "nwff",
+      "date": "2026-12-06",
+      "title": "Tokyo Godfathers",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Evergreens",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
+    },
+    {
       "id": "nwff|2026-12-06|zero-patience",
       "venue_id": "nwff",
       "date": "2026-12-06",
@@ -939,6 +993,30 @@
       "format": null,
       "notes": [],
       "url": "https://nwfilmforum.org/films/the-apple/"
+    },
+    {
+      "id": "nwff|2026-12-07|tokyo-godfathers",
+      "venue_id": "nwff",
+      "date": "2026-12-07",
+      "title": "Tokyo Godfathers",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Evergreens",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
     }
   ]
 }
