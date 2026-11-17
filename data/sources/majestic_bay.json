@@ -1,6 +1,6 @@
 {
   "source": "majestic_bay",
-  "scraped_at": "2026-11-16T18:23:02-08:00",
+  "scraped_at": "2026-11-17T00:27:12-08:00",
   "screenings": [
     {
       "id": "majestic-bay|2026-11-14|you-can-see-everything",
@@ -1241,12 +1241,6 @@
       "date": "2026-11-26",
       "title": "Disney's Hexed",
       "showtimes": [
-        {
-          "time": "12:15",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36743?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "15:45",
           "ticket_url": "https://ticketing.us.veezi.com/purchase/36746?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",

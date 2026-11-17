@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T18:23:44-08:00",
+  "generated_at": "2026-11-17T00:27:54-08:00",
   "lead": [
     {
       "title": "Shadowland",
@@ -40,15 +40,15 @@
   ],
   "row": [
     {
-      "title": "The Open Road",
-      "url": "https://www.siff.net/programs-and-events/the-open-road",
+      "title": "Nouvelles Femmes",
+      "url": "https://www.siff.net/french-new-wave",
       "venue": "SIFF",
       "kind": "Series",
-      "when": "Next: Nov 16",
-      "byline": "Hitch a ride, toss your bag in the trunk, and gaze out the window as we drift along thousands of miles of existential terrain in this cinematic survey of the mind's highways and byways.",
+      "when": "Next: Nov 17",
+      "byline": "Bursting with exuberant joie de vivre, young 1960s French writer-directors made dazzling, landmark films celebrating love, rebellion, and the alluring pathways of social-cultural-sexual freedom.",
       "description": "",
       "months": "",
-      "image": "https://www.siff.net/images/CINEMA/2026/Films%20Jun-Dec/The%20Open%20Road/OpenRoadSeries_Digital_1600x900.png",
+      "image": "https://www.siff.net/images/CINEMA/2026/Nouvelles%20Femmes/CIN_NouvellesFemmes_Digital_1600x900.png",
       "image_fallback": null
     },
     {
@@ -76,15 +76,15 @@
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png"
     },
     {
-      "title": "Nouvelles Femmes",
-      "url": "https://www.siff.net/french-new-wave",
+      "title": "The Open Road",
+      "url": "https://www.siff.net/programs-and-events/the-open-road",
       "venue": "SIFF",
       "kind": "Series",
-      "when": "Next: Nov 17",
-      "byline": "Bursting with exuberant joie de vivre, young 1960s French writer-directors made dazzling, landmark films celebrating love, rebellion, and the alluring pathways of social-cultural-sexual freedom.",
+      "when": "Next: Nov 19",
+      "byline": "Hitch a ride, toss your bag in the trunk, and gaze out the window as we drift along thousands of miles of existential terrain in this cinematic survey of the mind's highways and byways.",
       "description": "",
       "months": "",
-      "image": "https://www.siff.net/images/CINEMA/2026/Nouvelles%20Femmes/CIN_NouvellesFemmes_Digital_1600x900.png",
+      "image": "https://www.siff.net/images/CINEMA/2026/Films%20Jun-Dec/The%20Open%20Road/OpenRoadSeries_Digital_1600x900.png",
       "image_fallback": null
     },
     {

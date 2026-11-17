@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-16T18:23:08-08:00",
+  "scraped_at": "2026-11-17T00:27:19-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-14|godzilla-minus-zero",
@@ -849,6 +849,30 @@
       "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
     },
     {
+      "id": "siff-uptown|2026-11-20|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-20",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "13:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
       "id": "siff-uptown|2026-11-20|brunello-the-gracious-visionary",
       "venue_id": "siff-uptown",
       "date": "2026-11-20",
@@ -873,6 +897,61 @@
         "SIFF year-round passes and vouchers are not valid for this screening."
       ],
       "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/brunello-the-gracious-visionary"
+    },
+    {
+      "id": "siff-uptown|2026-11-20|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-20",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "15:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
+    },
+    {
+      "id": "siff-uptown|2026-11-20|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-20",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
     },
     {
       "id": "siff-uptown|2026-11-20|gioia",
@@ -1013,6 +1092,67 @@
       "url": "https://www.siff.net/cinema/in-theaters/disorder-(现实是过去的未来)"
     },
     {
+      "id": "siff-uptown|2026-11-21|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-21",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "12:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
+    },
+    {
+      "id": "siff-uptown|2026-11-21|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-21",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "13:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:40",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
+    },
+    {
       "id": "siff-uptown|2026-11-21|where-is-the-fiesta",
       "venue_id": "siff-uptown",
       "date": "2026-11-21",
@@ -1087,6 +1227,30 @@
         "SIFF year-round passes and vouchers are not valid for this screening."
       ],
       "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/the-kidnapping-of-arabella"
+    },
+    {
+      "id": "siff-uptown|2026-11-21|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-21",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
     },
     {
       "id": "siff-uptown|2026-11-21|love-fits-everything",
@@ -1175,6 +1339,30 @@
       "url": "https://www.siff.net/programs-and-events/the-open-road/route-one/usa"
     },
     {
+      "id": "siff-uptown|2026-11-22|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-22",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "12:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
       "id": "siff-uptown|2026-11-22|journey-to-italy",
       "venue_id": "siff-uptown",
       "date": "2026-11-22",
@@ -1247,6 +1435,67 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/beloved"
+    },
+    {
+      "id": "siff-uptown|2026-11-22|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-22",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "15:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
+    },
+    {
+      "id": "siff-uptown|2026-11-22|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-22",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:40",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
     },
     {
       "id": "siff-uptown|2026-11-22|god-forgives-everyone",
@@ -1329,6 +1578,91 @@
       "url": "https://www.siff.net/programs-and-events/the-open-road/taste-of-cherry"
     },
     {
+      "id": "siff-uptown|2026-11-23|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-23",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "15:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
+    },
+    {
+      "id": "siff-uptown|2026-11-23|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-23",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
+      "id": "siff-uptown|2026-11-23|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-23",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
+    },
+    {
       "id": "siff-uptown|2026-11-23|raise-the-red-lantern",
       "venue_id": "siff-uptown",
       "date": "2026-11-23",
@@ -1409,6 +1743,36 @@
       "url": "https://www.siff.net/cinema/in-theaters/beware-the-devils-wrath-special-screening-qanda"
     },
     {
+      "id": "siff-uptown|2026-11-24|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-24",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "15:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
       "id": "siff-uptown|2026-11-24|raise-the-red-lantern",
       "venue_id": "siff-uptown",
       "date": "2026-11-24",
@@ -1431,6 +1795,61 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/raise-the-red-lantern"
+    },
+    {
+      "id": "siff-uptown|2026-11-24|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-24",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
+    },
+    {
+      "id": "siff-uptown|2026-11-24|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-24",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
     },
     {
       "id": "siff-downtown|2026-11-25|elsinore",
@@ -1487,6 +1906,115 @@
       "url": "https://www.siff.net/programs-and-events/the-open-road/taste-of-cherry"
     },
     {
+      "id": "siff-uptown|2026-11-25|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-25",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
+      "id": "siff-uptown|2026-11-25|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-25",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
+    },
+    {
+      "id": "siff-uptown|2026-11-25|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-25",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
+    },
+    {
+      "id": "siff-uptown|2026-11-25|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-25",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
+    },
+    {
       "id": "siff-downtown|2026-11-26|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-11-26",
@@ -1521,6 +2049,133 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-uptown|2026-11-26|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-26",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "12:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
+    },
+    {
+      "id": "siff-uptown|2026-11-26|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-26",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "13:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
+      "id": "siff-uptown|2026-11-26|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-26",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "13:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
+    },
+    {
+      "id": "siff-uptown|2026-11-26|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-26",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "18:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
     },
     {
       "id": "siff-downtown|2026-11-27|elsinore",
@@ -2231,6 +2886,36 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/programs-and-events/siff-movie-club/damnation"
+    },
+    {
+      "id": "siff-downtown|2026-12-08|elsinore",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-08",
+      "title": "Elsinore",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Simon Stone"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/elsinore"
     }
   ]
 }

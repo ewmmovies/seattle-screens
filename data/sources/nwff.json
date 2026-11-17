@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-16T18:23:03-08:00",
+  "scraped_at": "2026-11-17T00:27:14-08:00",
   "screenings": [
     {
       "id": "nwff|2026-11-15|zi",
@@ -998,6 +998,54 @@
       "id": "nwff|2026-12-07|tokyo-godfathers",
       "venue_id": "nwff",
       "date": "2026-12-07",
+      "title": "Tokyo Godfathers",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Evergreens",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
+    },
+    {
+      "id": "nwff|2026-12-08|xanadu",
+      "venue_id": "nwff",
+      "date": "2026-12-08",
+      "title": "Xanadu",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7af4732e78760b9fb8b75",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Robert Greenwald"
+      ],
+      "year": 1980,
+      "runtime_min": 96,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/xanadu/"
+    },
+    {
+      "id": "nwff|2026-12-08|tokyo-godfathers",
+      "venue_id": "nwff",
+      "date": "2026-12-08",
       "title": "Tokyo Godfathers",
       "showtimes": [
         {

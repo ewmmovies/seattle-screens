@@ -246,5 +246,18 @@
       "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
       "format": null
     }
+  },
+  "https://nwfilmforum.org/films/xanadu/": {
+    "fetched": "2026-11-17",
+    "data": {
+      "directors": [
+        "Robert Greenwald"
+      ],
+      "year": 1980,
+      "runtime_min": 96,
+      "series": "Snow Day, 1980",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6af7af4732e78760b9fb8b75",
+      "format": null
+    }
   }
 }
