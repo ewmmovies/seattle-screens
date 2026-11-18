@@ -1,6 +1,6 @@
 {
   "source": "tasveer",
-  "scraped_at": "2026-11-17T18:21:23-08:00",
+  "scraped_at": "2026-11-18T00:26:03-08:00",
   "screenings": [
     {
       "id": "tasveer|2026-11-15|wild-horse-nine",
@@ -1216,6 +1216,80 @@
       "format": null,
       "notes": [],
       "url": "https://filmcenter.tasveer.org/movie/naza-2026-hebrewenglish-subtitled-in-english/"
+    },
+    {
+      "id": "tasveer|2026-12-03|kikuyu-land",
+      "venue_id": "tasveer",
+      "date": "2026-12-03",
+      "title": "Kikuyu Land",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Andrew H. Brown",
+        "Bea Wangondu"
+      ],
+      "year": 2026,
+      "runtime_min": 96,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/kikuyu-land-2026-kenya/"
+    },
+    {
+      "id": "tasveer|2026-12-05|kikuyu-land",
+      "venue_id": "tasveer",
+      "date": "2026-12-05",
+      "title": "Kikuyu Land",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Andrew H. Brown",
+        "Bea Wangondu"
+      ],
+      "year": 2026,
+      "runtime_min": 96,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/kikuyu-land-2026-kenya/"
+    },
+    {
+      "id": "tasveer|2026-12-05|high-ground",
+      "venue_id": "tasveer",
+      "date": "2026-12-05",
+      "title": "High Ground",
+      "showtimes": [
+        {
+          "time": "14:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Daniel Sharp"
+      ],
+      "year": 2026,
+      "runtime_min": 96,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/high-ground-2026-usa-english/"
     }
   ]
 }

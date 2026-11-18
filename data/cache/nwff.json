@@ -259,5 +259,18 @@
       "ticket_url": "https://nwfilmforum.eventive.org/films/6af7af4732e78760b9fb8b75",
       "format": null
     }
+  },
+  "https://nwfilmforum.org/films/sfcs-10-moonlight/": {
+    "fetched": "2026-11-18",
+    "data": {
+      "directors": [
+        "Barry Jenkins"
+      ],
+      "year": 2016,
+      "runtime_min": 111,
+      "series": "SFCS at 10: A Decade of Favorites",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6a2b25b5de85551f2f5e4393",
+      "format": null
+    }
   }
 }

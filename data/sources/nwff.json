@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-17T18:20:58-08:00",
+  "scraped_at": "2026-11-18T00:25:37-08:00",
   "screenings": [
     {
       "id": "nwff|2026-11-15|zi",
@@ -1071,6 +1071,30 @@
       "format": null,
       "notes": [],
       "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
+    },
+    {
+      "id": "nwff|2026-12-09|sfcs-at-10-moonlight",
+      "venue_id": "nwff",
+      "date": "2026-12-09",
+      "title": "SFCS at 10: Moonlight",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6a2b25b5de85551f2f5e4393",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "SFCS at 10: A Decade of Favorites",
+      "directors": [
+        "Barry Jenkins"
+      ],
+      "year": 2016,
+      "runtime_min": 111,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/sfcs-10-moonlight/"
     }
   ]
 }

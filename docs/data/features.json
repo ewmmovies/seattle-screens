@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T18:21:41-08:00",
+  "generated_at": "2026-11-18T00:26:22-08:00",
   "lead": [
     {
       "title": "Shadowland",
@@ -40,15 +40,15 @@
   ],
   "row": [
     {
-      "title": "Nouvelles Femmes",
-      "url": "https://www.siff.net/french-new-wave",
+      "title": "The Open Road",
+      "url": "https://www.siff.net/programs-and-events/the-open-road",
       "venue": "SIFF",
       "kind": "Series",
-      "when": "Next: Nov 17",
-      "byline": "Bursting with exuberant joie de vivre, young 1960s French writer-directors made dazzling, landmark films celebrating love, rebellion, and the alluring pathways of social-cultural-sexual freedom.",
+      "when": "Next: Nov 19",
+      "byline": "Hitch a ride, toss your bag in the trunk, and gaze out the window as we drift along thousands of miles of existential terrain in this cinematic survey of the mind's highways and byways.",
       "description": "",
       "months": "",
-      "image": "https://www.siff.net/images/CINEMA/2026/Nouvelles%20Femmes/CIN_NouvellesFemmes_Digital_1600x900.png",
+      "image": "https://www.siff.net/images/CINEMA/2026/Films%20Jun-Dec/The%20Open%20Road/OpenRoadSeries_Digital_1600x900.png",
       "image_fallback": null
     },
     {
@@ -76,15 +76,15 @@
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png"
     },
     {
-      "title": "The Open Road",
-      "url": "https://www.siff.net/programs-and-events/the-open-road",
+      "title": "Book Club",
+      "url": "https://www.siff.net/programs-and-events/siff-book-club",
       "venue": "SIFF",
-      "kind": "Series",
-      "when": "Next: Nov 19",
-      "byline": "Hitch a ride, toss your bag in the trunk, and gaze out the window as we drift along thousands of miles of existential terrain in this cinematic survey of the mind's highways and byways.",
+      "kind": "Program",
+      "when": "Next: Dec 6",
+      "byline": "Welcome to SIFF Book Club, a bimonthly screening and meetup that combines bookworms and cinephiles.",
       "description": "",
       "months": "",
-      "image": "https://www.siff.net/images/CINEMA/2026/Films%20Jun-Dec/The%20Open%20Road/OpenRoadSeries_Digital_1600x900.png",
+      "image": "https://www.siff.net/images/CINEMA/2026/Films%20Jun-Dec/SIFF%20Book%20Club/SIFFBookClub2026_Digital_1600x900-General.png",
       "image_fallback": null
     },
     {
@@ -112,15 +112,15 @@
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png"
     },
     {
-      "title": "Book Club",
-      "url": "https://www.siff.net/programs-and-events/siff-book-club",
+      "title": "Movie Club",
+      "url": "https://www.siff.net/programs-and-events/siff-movie-club",
       "venue": "SIFF",
       "kind": "Program",
-      "when": "Next: Dec 6",
-      "byline": "Welcome to SIFF Book Club, a bimonthly screening and meetup that combines bookworms and cinephiles.",
+      "when": "Next: Dec 7",
+      "byline": "A monthly meet-up with fellow movie-lovers for classic flicks followed by lively discussion.",
       "description": "",
       "months": "",
-      "image": "https://www.siff.net/images/CINEMA/2026/Films%20Jun-Dec/SIFF%20Book%20Club/SIFFBookClub2026_Digital_1600x900-General.png",
+      "image": "https://www.siff.net/images/Generic_Images/CIN_MovieClubGen_960x520.jpg",
       "image_fallback": null
     },
     {
@@ -134,18 +134,6 @@
       "months": "",
       "image": "https://nwfilmforum.org/wp-content/uploads/2022/06/series_unstreamable_hero-2550x900.jpg",
       "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2022/06/series_unstreamable_hero-900x318.jpg"
-    },
-    {
-      "title": "Movie Club",
-      "url": "https://www.siff.net/programs-and-events/siff-movie-club",
-      "venue": "SIFF",
-      "kind": "Program",
-      "when": "Next: Dec 7",
-      "byline": "A monthly meet-up with fellow movie-lovers for classic flicks followed by lively discussion.",
-      "description": "",
-      "months": "",
-      "image": "https://www.siff.net/images/Generic_Images/CIN_MovieClubGen_960x520.jpg",
-      "image_fallback": null
     },
     {
       "title": "Waste Not Your Thoughts on Eternity: The Seasonal Films of Yasujirō Ozu",

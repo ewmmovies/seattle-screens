@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-17T18:21:01-08:00",
+  "scraped_at": "2026-11-18T00:25:41-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-14|godzilla-minus-zero",
@@ -2916,6 +2916,62 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-downtown|2026-12-09|elsinore",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-09",
+      "title": "Elsinore",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Simon Stone"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-uptown|2026-12-09|mountains-on-stage-winter-edition-2026",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-09",
+      "title": "Mountains on Stage - Winter Edition 2026",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "195 min. (including 10 min intermission)"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [
+        "SIFF year-round passes and vouchers are not valid for this screening."
+      ],
+      "url": "https://www.siff.net/cinema/in-theaters/mountains-on-stage-winter-edition-2026"
     }
   ]
 }

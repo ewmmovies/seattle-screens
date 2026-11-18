@@ -229,5 +229,15 @@
       "year": null,
       "runtime_min": null
     }
+  },
+  "https://thebeacon.film/calendar/movie/paris-pick-up": {
+    "fetched": "2026-11-18",
+    "data": {
+      "directors": [
+        "Marcel Bluwal"
+      ],
+      "year": 1962,
+      "runtime_min": 86
+    }
   }
 }
