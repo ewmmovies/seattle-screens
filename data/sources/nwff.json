@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-18T06:23:17-08:00",
+  "scraped_at": "2026-11-18T12:08:56-08:00",
   "screenings": [
     {
       "id": "nwff|2026-11-15|zi",
@@ -915,6 +915,30 @@
       "format": null,
       "notes": [],
       "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
+    },
+    {
+      "id": "nwff|2026-12-05|carol",
+      "venue_id": "nwff",
+      "date": "2026-12-05",
+      "title": "Carol",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afbaa0e5bd5ef4a4adcb4f3",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Todd Haynes"
+      ],
+      "year": 2015,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/carol/"
     },
     {
       "id": "nwff|2026-12-06|tokyo-godfathers",

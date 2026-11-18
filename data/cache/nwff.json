@@ -272,5 +272,18 @@
       "ticket_url": "https://nwfilmforum.eventive.org/films/6a2b25b5de85551f2f5e4393",
       "format": null
     }
+  },
+  "https://nwfilmforum.org/films/carol/": {
+    "fetched": "2026-11-18",
+    "data": {
+      "directors": [
+        "Todd Haynes"
+      ],
+      "year": 2015,
+      "runtime_min": 118,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6afbaa0e5bd5ef4a4adcb4f3",
+      "format": null
+    }
   }
 }
