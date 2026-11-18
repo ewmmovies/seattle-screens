@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-17T12:15:34-08:00",
+  "generated_at": "2026-11-17T18:21:41-08:00",
   "posts": [
+    {
+      "id": "siff|/media/blog/film-notes-my-night-at-mauds-(1969)",
+      "source": "siff",
+      "source_name": "SIFF",
+      "title": "Film Notes: My Night at Maud's (1969)",
+      "url": "https://www.siff.net/media/blog/film-notes-my-night-at-mauds-(1969)",
+      "published": "2026-11-17",
+      "category": "Cinema",
+      "summary": "My Night at Maud's (1969) film notes by Tova Gannana for the Nouvelles Femmes series, presented by Alliance Française, SIFF, and Greg Olson Productions. Series curated and written by Greg Olson. Inspired by the work of Ericka Knudson…",
+      "first_seen": "2026-11-17T18:21:38-08:00",
+      "date_label": null,
+      "current": false,
+      "now_playing": false,
+      "coming_soon": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null,
+      "description": null,
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
+    },
     {
       "id": "siff|/media/blog/film-notes-pierrot-le-fou-(1965)",
       "source": "siff",
@@ -335,7 +359,7 @@
       "happening": false,
       "venue_label": null,
       "next_date": null,
-      "listed": true
+      "listed": false
     },
     {
       "id": "siff|/media/news/pr-festival-2027-call-for-entries",

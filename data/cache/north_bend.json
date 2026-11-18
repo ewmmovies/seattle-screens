@@ -169,5 +169,23 @@
       "year": 2026,
       "runtime_min": 159
     }
+  },
+  "https://tix.northbendtheatre.com/event/free-birds-tuesday-nov-24th-230pm": {
+    "fetched": "2026-11-17",
+    "data": {
+      "date": "2026-11-24",
+      "time": "14:30",
+      "year": 2013,
+      "runtime_min": 91
+    }
+  },
+  "https://tix.northbendtheatre.com/event/free-birds-wednesday-nov-25th-230pm": {
+    "fetched": "2026-11-17",
+    "data": {
+      "date": "2026-11-25",
+      "time": "14:30",
+      "year": 2013,
+      "runtime_min": 91
+    }
   }
 }

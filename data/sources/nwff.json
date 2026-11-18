@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-17T12:14:51-08:00",
+  "scraped_at": "2026-11-17T18:20:58-08:00",
   "screenings": [
     {
       "id": "nwff|2026-11-15|zi",
@@ -126,6 +126,12 @@
       "showtimes": [
         {
           "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/-6ae114674316a28ce5f1216d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
           "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/-6ae114674316a28ce5f1216d",
           "note": null,
           "sold_out": false
