@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T00:26:22-08:00",
+  "generated_at": "2026-11-18T06:24:01-08:00",
   "range": {
     "start": "2026-11-14",
     "end": "2026-12-09"
@@ -1876,8 +1876,8 @@
       "kind": "film",
       "series": null,
       "directors": [
-        "Javier Calvo",
-        "Javier Ambrossi"
+        "Javier Ambrossi",
+        "Javier Calvo"
       ],
       "year": 2026,
       "runtime_min": 155,
@@ -1907,8 +1907,8 @@
       "kind": "film",
       "series": null,
       "directors": [
-        "David Greaves",
-        "William Greaves"
+        "William Greaves",
+        "David Greaves"
       ],
       "year": 2026,
       "runtime_min": 100,
@@ -2369,8 +2369,8 @@
       "kind": "film",
       "series": null,
       "directors": [
-        "Javier Calvo",
-        "Javier Ambrossi"
+        "Javier Ambrossi",
+        "Javier Calvo"
       ],
       "year": 2026,
       "runtime_min": 155,
@@ -2400,8 +2400,8 @@
       "kind": "film",
       "series": null,
       "directors": [
-        "David Greaves",
-        "William Greaves"
+        "William Greaves",
+        "David Greaves"
       ],
       "year": 2026,
       "runtime_min": 100,
