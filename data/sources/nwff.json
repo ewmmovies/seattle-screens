@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-18T18:20:03-08:00",
+  "scraped_at": "2026-11-19T00:31:03-08:00",
   "screenings": [
     {
       "id": "nwff|2026-11-15|zi",
@@ -1143,6 +1143,30 @@
       "format": null,
       "notes": [],
       "url": "https://nwfilmforum.org/films/sfcs-10-moonlight/"
+    },
+    {
+      "id": "nwff|2026-12-10|cant-stop-the-music",
+      "venue_id": "nwff",
+      "date": "2026-12-10",
+      "title": "Can't Stop The Music",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ad70a8a147c738efb6ab",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Nancy Walker"
+      ],
+      "year": 1980,
+      "runtime_min": 124,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/cant-stop-the-music/"
     }
   ]
 }

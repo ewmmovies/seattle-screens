@@ -1,6 +1,6 @@
 {
   "source": "tasveer",
-  "scraped_at": "2026-11-18T18:20:29-08:00",
+  "scraped_at": "2026-11-19T00:31:27-08:00",
   "screenings": [
     {
       "id": "tasveer|2026-11-15|wild-horse-nine",
@@ -1400,6 +1400,33 @@
       "format": null,
       "notes": [],
       "url": "https://filmcenter.tasveer.org/movie/high-ground-2026-usa-english/"
+    },
+    {
+      "id": "tasveer|2026-12-10|queering-india",
+      "venue_id": "tasveer",
+      "date": "2026-12-10",
+      "title": "Queering India",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Lakhinandan Boruah",
+        "Swapnesh Dubey"
+      ],
+      "year": 2026,
+      "runtime_min": 63,
+      "format": null,
+      "notes": [
+        "With Post-Film Q&A"
+      ],
+      "url": "https://filmcenter.tasveer.org/movie/queering-india-india-2026-with-post-film-qa/"
     }
   ]
 }

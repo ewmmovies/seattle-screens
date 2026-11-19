@@ -250,5 +250,15 @@
       "year": null,
       "runtime_min": 120
     }
+  },
+  "https://thebeacon.film/calendar/movie/perinbaba": {
+    "fetched": "2026-11-19",
+    "data": {
+      "directors": [
+        "Juraj Jakubisko"
+      ],
+      "year": 1985,
+      "runtime_min": 95
+    }
   }
 }

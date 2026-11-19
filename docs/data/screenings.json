@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-18T18:20:49-08:00",
+  "generated_at": "2026-11-19T00:31:47-08:00",
   "range": {
     "start": "2026-11-14",
-    "end": "2026-12-09"
+    "end": "2026-12-10"
   },
   "screenings": [
     {
@@ -8163,6 +8163,135 @@
         "SIFF year-round passes and vouchers are not valid for this screening."
       ],
       "url": "https://www.siff.net/cinema/in-theaters/mountains-on-stage-winter-edition-2026"
+    },
+    {
+      "id": "beacon|2026-12-10|paris-pick-up",
+      "venue_id": "beacon",
+      "date": "2026-12-10",
+      "title": "Paris Pick-Up",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/paris-pick-up?showtime=7PI3G56SOSAEUJ7VAN6B4KHA",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Marcel Bluwal"
+      ],
+      "year": 1962,
+      "runtime_min": 86,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/paris-pick-up"
+    },
+    {
+      "id": "beacon|2026-12-10|perinbaba",
+      "venue_id": "beacon",
+      "date": "2026-12-10",
+      "title": "Perinbaba",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/perinbaba?showtime=F3YNSLYFDXA7UB4NRXE5A3FY",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Juraj Jakubisko"
+      ],
+      "year": 1985,
+      "runtime_min": 95,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/perinbaba"
+    },
+    {
+      "id": "nwff|2026-12-10|cant-stop-the-music",
+      "venue_id": "nwff",
+      "date": "2026-12-10",
+      "title": "Can't Stop The Music",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ad70a8a147c738efb6ab",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Nancy Walker"
+      ],
+      "year": 1980,
+      "runtime_min": 124,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/cant-stop-the-music/"
+    },
+    {
+      "id": "siff-downtown|2026-12-10|elsinore",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-10",
+      "title": "Elsinore",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Simon Stone"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "tasveer|2026-12-10|queering-india",
+      "venue_id": "tasveer",
+      "date": "2026-12-10",
+      "title": "Queering India",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Lakhinandan Boruah",
+        "Swapnesh Dubey"
+      ],
+      "year": 2026,
+      "runtime_min": 63,
+      "format": null,
+      "notes": [
+        "With Post-Film Q&A"
+      ],
+      "url": "https://filmcenter.tasveer.org/movie/queering-india-india-2026-with-post-film-qa/"
     }
   ]
 }

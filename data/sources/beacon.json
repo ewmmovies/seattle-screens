@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-18T18:20:00-08:00",
+  "scraped_at": "2026-11-19T00:31:00-08:00",
   "screenings": [
     {
       "id": "beacon|2026-11-17|nationtime",
@@ -991,6 +991,54 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/paris-pick-up"
+    },
+    {
+      "id": "beacon|2026-12-10|paris-pick-up",
+      "venue_id": "beacon",
+      "date": "2026-12-10",
+      "title": "Paris Pick-Up",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/paris-pick-up?showtime=7PI3G56SOSAEUJ7VAN6B4KHA",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Marcel Bluwal"
+      ],
+      "year": 1962,
+      "runtime_min": 86,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/paris-pick-up"
+    },
+    {
+      "id": "beacon|2026-12-10|perinbaba",
+      "venue_id": "beacon",
+      "date": "2026-12-10",
+      "title": "Perinbaba",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/perinbaba?showtime=F3YNSLYFDXA7UB4NRXE5A3FY",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Juraj Jakubisko"
+      ],
+      "year": 1985,
+      "runtime_min": 95,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/perinbaba"
     }
   ]
 }
