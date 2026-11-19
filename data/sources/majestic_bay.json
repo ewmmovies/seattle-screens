@@ -1,6 +1,6 @@
 {
   "source": "majestic_bay",
-  "scraped_at": "2026-11-19T06:26:23-08:00",
+  "scraped_at": "2026-11-19T12:14:41-08:00",
   "screenings": [
     {
       "id": "majestic-bay|2026-11-14|you-can-see-everything",
@@ -1002,6 +1002,30 @@
       "url": "https://www.majesticbay.com/"
     },
     {
+      "id": "majestic-bay|2026-11-24|wildwood",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-24",
+      "title": "Wildwood",
+      "showtimes": [
+        {
+          "time": "15:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36832?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Travis Knight"
+      ],
+      "year": 2026,
+      "runtime_min": 131,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
       "id": "majestic-bay|2026-11-24|the-hunger-games-sunrise-on-the-reaping",
       "venue_id": "majestic-bay",
       "date": "2026-11-24",
@@ -1058,7 +1082,7 @@
         "Josie Trinidad"
       ],
       "year": 2026,
-      "runtime_min": 103,
+      "runtime_min": 106,
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
@@ -1170,7 +1194,7 @@
         "Josie Trinidad"
       ],
       "year": 2026,
-      "runtime_min": 103,
+      "runtime_min": 106,
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
@@ -1268,7 +1292,7 @@
         "Josie Trinidad"
       ],
       "year": 2026,
-      "runtime_min": 103,
+      "runtime_min": 106,
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
