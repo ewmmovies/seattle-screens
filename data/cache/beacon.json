@@ -239,5 +239,16 @@
       "year": 1962,
       "runtime_min": 86
     }
+  },
+  "https://thebeacon.film/calendar/movie/under-an-olive-tree-the-resistance-of-beita": {
+    "fetched": "2026-11-18",
+    "data": {
+      "directors": [
+        "Zumrut Sonmez",
+        "Sakir Khader"
+      ],
+      "year": null,
+      "runtime_min": 120
+    }
   }
 }

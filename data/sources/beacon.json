@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-18T12:08:53-08:00",
+  "scraped_at": "2026-11-18T18:20:00-08:00",
   "screenings": [
     {
       "id": "beacon|2026-11-17|nationtime",
@@ -11,30 +11,6 @@
         {
           "time": "19:30",
           "ticket_url": "https://thebeacon.film/calendar/movie/nationtime?showtime=6YJ6BPOQ2GXTAYJCIHLSEEWC",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "William Greaves"
-      ],
-      "year": 1972,
-      "runtime_min": 80,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/nationtime"
-    },
-    {
-      "id": "beacon|2026-11-18|nationtime",
-      "venue_id": "beacon",
-      "date": "2026-11-18",
-      "title": "Nationtime",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": "https://thebeacon.film/calendar/movie/nationtime?showtime=EE26DF3SAK7CH4HAEKMXP2RD",
           "note": null,
           "sold_out": false
         }
@@ -698,6 +674,33 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/sansho-the-bailiff"
+    },
+    {
+      "id": "beacon|2026-12-04|under-an-olive-tree-the-resistance-of-beita",
+      "venue_id": "beacon",
+      "date": "2026-12-04",
+      "title": "Under an Olive Tree + The Resistance of Beita",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Zumrut Sonmez",
+        "Sakir Khader"
+      ],
+      "year": null,
+      "runtime_min": 120,
+      "format": null,
+      "notes": [
+        "Free admission"
+      ],
+      "url": "https://thebeacon.film/calendar/movie/under-an-olive-tree-the-resistance-of-beita"
     },
     {
       "id": "beacon|2026-12-04|raise-the-red-lantern",

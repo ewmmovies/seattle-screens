@@ -285,5 +285,18 @@
       "ticket_url": "https://nwfilmforum.eventive.org/films/6afbaa0e5bd5ef4a4adcb4f3",
       "format": null
     }
+  },
+  "https://nwfilmforum.org/films/cant-stop-the-music/": {
+    "fetched": "2026-11-18",
+    "data": {
+      "directors": [
+        "Nancy Walker"
+      ],
+      "year": 1980,
+      "runtime_min": 124,
+      "series": "Snow Day, 1980",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ad70a8a147c738efb6ab",
+      "format": null
+    }
   }
 }

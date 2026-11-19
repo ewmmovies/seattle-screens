@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T12:09:45-08:00",
+  "generated_at": "2026-11-18T18:20:49-08:00",
   "range": {
     "start": "2026-11-14",
     "end": "2026-12-09"
@@ -1442,30 +1442,6 @@
       "format": null,
       "notes": [],
       "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
-    },
-    {
-      "id": "beacon|2026-11-18|nationtime",
-      "venue_id": "beacon",
-      "date": "2026-11-18",
-      "title": "Nationtime",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": "https://thebeacon.film/calendar/movie/nationtime?showtime=EE26DF3SAK7CH4HAEKMXP2RD",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "William Greaves"
-      ],
-      "year": 1972,
-      "runtime_min": 80,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/nationtime"
     },
     {
       "id": "beacon|2026-11-18|breathless",
@@ -5861,6 +5837,116 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
     },
     {
+      "id": "tasveer|2026-11-26|bitter-christmas",
+      "venue_id": "tasveer",
+      "date": "2026-11-26",
+      "title": "Bitter Christmas",
+      "showtimes": [
+        {
+          "time": "16:25",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        },
+        {
+          "time": "19:40",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Pedro Almodóvar"
+      ],
+      "year": 2026,
+      "runtime_min": 111,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/bitter-christmas-amarga-navidad-2026-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-26|naza",
+      "venue_id": "tasveer",
+      "date": "2026-11-26",
+      "title": "Naza",
+      "showtimes": [
+        {
+          "time": "16:35",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Yuval Abraham",
+        "Rachel Szor"
+      ],
+      "year": 2026,
+      "runtime_min": 80,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/naza-2026-hebrewenglish-subtitled-in-english/"
+    },
+    {
+      "id": "tasveer|2026-11-26|i-play-rocky",
+      "venue_id": "tasveer",
+      "date": "2026-11-26",
+      "title": "I Play Rocky",
+      "showtimes": [
+        {
+          "time": "16:50",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Peter Farrelly"
+      ],
+      "year": 2026,
+      "runtime_min": 128,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/i-play-rocky-2026-usa-english/"
+    },
+    {
+      "id": "tasveer|2026-11-26|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-26",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
+    },
+    {
       "id": "beacon|2026-11-27|five-minutes-to-live",
       "venue_id": "beacon",
       "date": "2026-11-27",
@@ -7117,6 +7203,33 @@
       "url": "https://filmcenter.tasveer.org/movie/kikuyu-land-2026-kenya/"
     },
     {
+      "id": "beacon|2026-12-04|under-an-olive-tree-the-resistance-of-beita",
+      "venue_id": "beacon",
+      "date": "2026-12-04",
+      "title": "Under an Olive Tree + The Resistance of Beita",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Zumrut Sonmez",
+        "Sakir Khader"
+      ],
+      "year": null,
+      "runtime_min": 120,
+      "format": null,
+      "notes": [
+        "Free admission"
+      ],
+      "url": "https://thebeacon.film/calendar/movie/under-an-olive-tree-the-resistance-of-beita"
+    },
+    {
       "id": "beacon|2026-12-04|raise-the-red-lantern",
       "venue_id": "beacon",
       "date": "2026-12-04",
@@ -7946,6 +8059,30 @@
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "nwff|2026-12-09|cant-stop-the-music",
+      "venue_id": "nwff",
+      "date": "2026-12-09",
+      "title": "Can't Stop The Music",
+      "showtimes": [
+        {
+          "time": "18:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ad70a8a147c738efb6ab",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Nancy Walker"
+      ],
+      "year": 1980,
+      "runtime_min": 124,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/cant-stop-the-music/"
     },
     {
       "id": "nwff|2026-12-09|sfcs-at-10-moonlight",

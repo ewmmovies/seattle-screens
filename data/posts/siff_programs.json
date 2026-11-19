@@ -1,6 +1,6 @@
 {
   "source": "siff_programs",
-  "scraped_at": "2026-11-18T12:09:44-08:00",
+  "scraped_at": "2026-11-18T18:20:48-08:00",
   "posts": [
     {
       "id": "siff_programs|/programs-and-events/scorsese-ii",
@@ -12,6 +12,30 @@
       "category": "Series",
       "summary": "",
       "first_seen": "2026-11-18T12:09:44-08:00",
+      "date_label": null,
+      "current": false,
+      "now_playing": false,
+      "coming_soon": false,
+      "image": "https://www.siff.net/images/CINEMA/2027/Scorsese%202/ScorseseSeries2_Digital_1600x900.png",
+      "image_fallback": null,
+      "byline": "Eleven films spanning the brilliant career of Martin Scorsese, one of the greatest filmmakers in cinema history, with many presentations restored by Scorsese and long-time editor and collaborator Thelma Schoonmaker.",
+      "description": null,
+      "months": null,
+      "happening": true,
+      "venue_label": "SIFF",
+      "next_date": null,
+      "listed": false
+    },
+    {
+      "id": "siff_programs|/scorsese",
+      "source": "siff_programs",
+      "source_name": "SIFF",
+      "title": "Martin Scorsese: Maestro of Cinema Part II",
+      "url": "https://www.siff.net/scorsese",
+      "published": null,
+      "category": "Series",
+      "summary": "",
+      "first_seen": "2026-11-18T18:20:48-08:00",
       "date_label": null,
       "current": false,
       "now_playing": false,

@@ -1,6 +1,6 @@
 {
   "source": "tasveer",
-  "scraped_at": "2026-11-18T12:09:22-08:00",
+  "scraped_at": "2026-11-18T18:20:29-08:00",
   "screenings": [
     {
       "id": "tasveer|2026-11-15|wild-horse-nine",
@@ -1216,6 +1216,116 @@
       "format": null,
       "notes": [],
       "url": "https://filmcenter.tasveer.org/movie/naza-2026-hebrewenglish-subtitled-in-english/"
+    },
+    {
+      "id": "tasveer|2026-11-26|bitter-christmas",
+      "venue_id": "tasveer",
+      "date": "2026-11-26",
+      "title": "Bitter Christmas",
+      "showtimes": [
+        {
+          "time": "16:25",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        },
+        {
+          "time": "19:40",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Pedro Almodóvar"
+      ],
+      "year": 2026,
+      "runtime_min": 111,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/bitter-christmas-amarga-navidad-2026-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-26|naza",
+      "venue_id": "tasveer",
+      "date": "2026-11-26",
+      "title": "Naza",
+      "showtimes": [
+        {
+          "time": "16:35",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Yuval Abraham",
+        "Rachel Szor"
+      ],
+      "year": 2026,
+      "runtime_min": 80,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/naza-2026-hebrewenglish-subtitled-in-english/"
+    },
+    {
+      "id": "tasveer|2026-11-26|i-play-rocky",
+      "venue_id": "tasveer",
+      "date": "2026-11-26",
+      "title": "I Play Rocky",
+      "showtimes": [
+        {
+          "time": "16:50",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Peter Farrelly"
+      ],
+      "year": 2026,
+      "runtime_min": 128,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/i-play-rocky-2026-usa-english/"
+    },
+    {
+      "id": "tasveer|2026-11-26|you-can-see-everything",
+      "venue_id": "tasveer",
+      "date": "2026-11-26",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
     },
     {
       "id": "tasveer|2026-12-03|kikuyu-land",

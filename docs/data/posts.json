@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-18T12:09:45-08:00",
+  "generated_at": "2026-11-18T18:20:49-08:00",
   "posts": [
+    {
+      "id": "siff|/media/blog/siff-holiday-gift-guide",
+      "source": "siff",
+      "source_name": "SIFF",
+      "title": "SIFF Holiday Gift Guide",
+      "url": "https://www.siff.net/media/blog/siff-holiday-gift-guide",
+      "published": "2026-11-18",
+      "category": "Events",
+      "summary": "All the things you can gift your loved ones this holiday season, from SIFF.",
+      "first_seen": "2026-11-18T18:20:46-08:00",
+      "date_label": null,
+      "current": false,
+      "now_playing": false,
+      "coming_soon": false,
+      "image": null,
+      "image_fallback": null,
+      "byline": null,
+      "description": null,
+      "months": null,
+      "happening": false,
+      "venue_label": null,
+      "next_date": null,
+      "listed": true
+    },
     {
       "id": "siff|/media/blog/martin-scorsese-part-ii-trailer",
       "source": "siff",
@@ -287,7 +311,7 @@
       "happening": false,
       "venue_label": null,
       "next_date": null,
-      "listed": true
+      "listed": false
     },
     {
       "id": "siff|/media/blog/film-notes-cleo-from-5-to-7-(1962)",
