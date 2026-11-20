@@ -260,5 +260,26 @@
       "year": 1985,
       "runtime_min": 95
     }
+  },
+  "https://thebeacon.film/calendar/movie/goodbye-20th-century": {
+    "fetched": "2026-11-20",
+    "data": {
+      "directors": [
+        "Darko Mitrevski",
+        "Aleksandar Popovski"
+      ],
+      "year": 1998,
+      "runtime_min": 83
+    }
+  },
+  "https://thebeacon.film/calendar/movie/seattle-against-war-presents-walker": {
+    "fetched": "2026-11-20",
+    "data": {
+      "directors": [
+        "Alex Cox"
+      ],
+      "year": 1987,
+      "runtime_min": 94
+    }
   }
 }

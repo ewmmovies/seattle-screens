@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T18:21:07-08:00",
+  "generated_at": "2026-11-20T00:26:26-08:00",
   "range": {
     "start": "2026-11-14",
-    "end": "2026-12-10"
+    "end": "2026-12-11"
   },
   "screenings": [
     {
@@ -8484,6 +8484,55 @@
         "With Post-Film Q&A"
       ],
       "url": "https://filmcenter.tasveer.org/movie/queering-india-india-2026-with-post-film-qa/"
+    },
+    {
+      "id": "beacon|2026-12-11|seattle-against-war-presents-walker",
+      "venue_id": "beacon",
+      "date": "2026-12-11",
+      "title": "Seattle Against War Presents Walker",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/seattle-against-war-presents-walker?showtime=SOTTJMATYOFHZTUWUILH57RV",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Alex Cox"
+      ],
+      "year": 1987,
+      "runtime_min": 94,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/seattle-against-war-presents-walker"
+    },
+    {
+      "id": "beacon|2026-12-11|goodbye-20th-century",
+      "venue_id": "beacon",
+      "date": "2026-12-11",
+      "title": "Goodbye, 20Th Century!",
+      "showtimes": [
+        {
+          "time": "22:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/goodbye-20th-century?showtime=EVYGP4P5GRENOTHSR32XWCTI",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Darko Mitrevski",
+        "Aleksandar Popovski"
+      ],
+      "year": 1998,
+      "runtime_min": 83,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/goodbye-20th-century"
     }
   ]
 }
