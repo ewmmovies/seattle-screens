@@ -187,5 +187,14 @@
       "year": 2013,
       "runtime_min": 91
     }
+  },
+  "https://tix.northbendtheatre.com/event/elf-saturday-dec-5th-3pm": {
+    "fetched": "2026-11-20",
+    "data": {
+      "date": "2026-12-05",
+      "time": "15:00",
+      "year": 2003,
+      "runtime_min": 97
+    }
   }
 }

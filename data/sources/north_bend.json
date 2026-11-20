@@ -1,6 +1,6 @@
 {
   "source": "north_bend",
-  "scraped_at": "2026-11-20T06:24:23-08:00",
+  "scraped_at": "2026-11-20T12:10:20-08:00",
   "screenings": [
     {
       "id": "north-bend|2026-11-15|godzilla-minus-zero",
@@ -339,6 +339,30 @@
       "format": null,
       "notes": [],
       "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-29th-7pm"
+    },
+    {
+      "id": "north-bend|2026-12-05|elf",
+      "venue_id": "north-bend",
+      "date": "2026-12-05",
+      "title": "Elf",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/elf-saturday-dec-5th-3pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Holly Days FREE Showing of ELF!",
+      "directors": [],
+      "year": 2003,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [
+        "Free admission"
+      ],
+      "url": "https://tix.northbendtheatre.com/event/elf-saturday-dec-5th-3pm"
     }
   ]
 }

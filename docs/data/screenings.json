@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:25:06-08:00",
+  "generated_at": "2026-11-20T12:11:05-08:00",
   "range": {
     "start": "2026-11-14",
     "end": "2026-12-11"
@@ -4712,8 +4712,7 @@
       "series": null,
       "directors": [
         "Fawn Veerasunthorn",
-        "Jason Hand",
-        "Josie Trinidad"
+        "Jason Hand"
       ],
       "year": 2026,
       "runtime_min": 106,
@@ -5222,8 +5221,7 @@
       "series": null,
       "directors": [
         "Fawn Veerasunthorn",
-        "Jason Hand",
-        "Josie Trinidad"
+        "Jason Hand"
       ],
       "year": 2026,
       "runtime_min": 106,
@@ -5642,8 +5640,7 @@
       "series": null,
       "directors": [
         "Fawn Veerasunthorn",
-        "Jason Hand",
-        "Josie Trinidad"
+        "Jason Hand"
       ],
       "year": 2026,
       "runtime_min": 106,
@@ -7570,6 +7567,30 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/the-living-end"
+    },
+    {
+      "id": "north-bend|2026-12-05|elf",
+      "venue_id": "north-bend",
+      "date": "2026-12-05",
+      "title": "Elf",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/elf-saturday-dec-5th-3pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Holly Days FREE Showing of ELF!",
+      "directors": [],
+      "year": 2003,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [
+        "Free admission"
+      ],
+      "url": "https://tix.northbendtheatre.com/event/elf-saturday-dec-5th-3pm"
     },
     {
       "id": "nwff|2026-12-05|zero-patience",
