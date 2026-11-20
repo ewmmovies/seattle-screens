@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-19T12:14:46-08:00",
+  "scraped_at": "2026-11-19T18:20:24-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-14|godzilla-minus-zero",
@@ -2244,6 +2244,42 @@
       "url": "https://www.siff.net/cinema/in-theaters/hen"
     },
     {
+      "id": "siff-uptown|2026-11-27|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-27",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "13:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
+    },
+    {
       "id": "siff-downtown|2026-11-28|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-11-28",
@@ -2314,6 +2350,42 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/hen"
+    },
+    {
+      "id": "siff-uptown|2026-11-28|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-28",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "13:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
     },
     {
       "id": "siff-downtown|2026-11-29|elsinore",
@@ -2408,6 +2480,42 @@
       "url": "https://www.siff.net/cinema/in-theaters/the-backcourt-documentary-basketballs-best-kept-secret"
     },
     {
+      "id": "siff-uptown|2026-11-29|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-29",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "13:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
+    },
+    {
       "id": "siff-downtown|2026-11-30|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-11-30",
@@ -2468,6 +2576,36 @@
       "url": "https://www.siff.net/cinema/in-theaters/hen"
     },
     {
+      "id": "siff-uptown|2026-11-30|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-30",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
+    },
+    {
       "id": "siff-downtown|2026-12-01|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-12-01",
@@ -2526,6 +2664,30 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/hen"
+    },
+    {
+      "id": "siff-uptown|2026-12-01|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-01",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
     },
     {
       "id": "siff-uptown|2026-12-01|the-oldest-person-in-the-world",
@@ -2628,6 +2790,36 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/the-musical-w/-director-qanda"
+    },
+    {
+      "id": "siff-uptown|2026-12-02|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-02",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
     },
     {
       "id": "siff-downtown|2026-12-03|elsinore",
