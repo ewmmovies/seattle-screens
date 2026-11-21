@@ -1,7 +1,31 @@
 {
   "source": "beacon_past",
-  "scraped_at": "2026-11-20T12:10:59-08:00",
+  "scraped_at": "2026-11-20T18:18:29-08:00",
   "posts": [
+    {
+      "id": "beacon_past|/programs/the-very-living-end-frank-tashlin-and-the-american-nervous-breakdown",
+      "source": "beacon_past",
+      "source_name": "The Beacon",
+      "title": "The Very Living End: Frank Tashlin and the American Nervous Breakdown",
+      "url": "https://thebeacon.film/programs/the-very-living-end-frank-tashlin-and-the-american-nervous-breakdown",
+      "published": "2026-11-01",
+      "category": "Program",
+      "summary": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots.",
+      "first_seen": "2026-11-20T18:18:29-08:00",
+      "date_label": "November 2026",
+      "current": false,
+      "now_playing": false,
+      "coming_soon": false,
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792627436888-tb-tashlin.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png",
+      "byline": null,
+      "description": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots.",
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
+    },
     {
       "id": "beacon_past|/programs/the-night-they-all-came-out-of-their-coffins-at-once-monster-crossovers-team-ups-pile-ups",
       "source": "beacon_past",

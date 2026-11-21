@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:11:05-08:00",
+  "generated_at": "2026-11-20T18:18:37-08:00",
   "range": {
     "start": "2026-11-14",
     "end": "2026-12-11"
@@ -2532,12 +2532,6 @@
       "title": "The Hunger Games: Sunrise on the Reaping",
       "showtimes": [
         {
-          "time": "15:00",
-          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-3pm",
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "19:00",
           "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-7pm",
           "note": null,
@@ -2551,7 +2545,7 @@
       "runtime_min": 159,
       "format": null,
       "notes": [],
-      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-3pm"
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-7pm"
     },
     {
       "id": "nwff|2026-11-20|love-streams",
@@ -2632,56 +2626,6 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
-    },
-    {
-      "id": "siff-uptown|2026-11-20|wild-horse-nine",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-20",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "13:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 118,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
-    },
-    {
-      "id": "siff-uptown|2026-11-20|brunello-the-gracious-visionary",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-20",
-      "title": "Brunello: The Gracious Visionary",
-      "showtimes": [
-        {
-          "time": "15:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Giuseppe Tornatore"
-      ],
-      "year": 2026,
-      "runtime_min": 120,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/brunello-the-gracious-visionary"
     },
     {
       "id": "siff-uptown|2026-11-20|you-can-see-everything",
@@ -5079,7 +5023,7 @@
         {
           "time": "18:45",
           "ticket_url": null,
-          "note": null,
+          "note": "Open captions",
           "sold_out": false
         }
       ],

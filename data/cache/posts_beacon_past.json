@@ -334,5 +334,13 @@
       "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fprograms%2Fbleak-week-cinema-of-despair.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/programs/bleak-week-cinema-of-despair.png"
     }
+  },
+  "past:https://thebeacon.film/programs/the-very-living-end-frank-tashlin-and-the-american-nervous-breakdown": {
+    "fetched": "2026-11-20",
+    "data": {
+      "first": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792627436888-tb-tashlin.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png"
+    }
   }
 }
