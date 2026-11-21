@@ -1,6 +1,6 @@
 {
   "https://thebeacon.film/calendar/movie/all-i-desire": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Douglas Sirk"
@@ -10,7 +10,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/baxter-vera-baxter": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Marguerite Duras"
@@ -20,7 +20,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/blood-rage": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "John Grissmer"
@@ -40,7 +40,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/buffalo-66": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Vincent Gallo"
@@ -50,7 +50,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/clash-by-ight": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Fritz Lang"
@@ -70,7 +70,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/five-minutes-to-live": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "???"
@@ -90,7 +90,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/natural-born-killers": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Oliver Stone"
@@ -100,7 +100,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "William Greaves"
@@ -110,17 +110,17 @@
     }
   },
   "https://thebeacon.film/calendar/movie/perdita-durango": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
-        "Ãlex de la Iglesia"
+        "Álex de la Iglesia"
       ],
       "year": 1997,
       "runtime_min": 126
     }
   },
   "https://thebeacon.film/calendar/movie/pretty-poison": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Noel Black"
@@ -130,7 +130,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/raise-the-red-lantern": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Zhang Yimou"
@@ -140,7 +140,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/sansho-the-bailiff": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Kenji Mizoguchi"
@@ -150,7 +150,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/the-burning-of-moses-seattle-unrecognized": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "BJ Bullert",
@@ -161,7 +161,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/the-honeymoon-killers": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Leonard Kastle"
@@ -171,7 +171,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/the-living-end": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Gregg Araki"

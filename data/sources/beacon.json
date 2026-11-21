@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-20T18:17:49-08:00",
+  "scraped_at": "2026-11-21T00:19:06-08:00",
   "screenings": [
     {
       "id": "beacon|2026-11-17|nationtime",
@@ -403,7 +403,7 @@
       "kind": "film",
       "series": null,
       "directors": [
-        "Ãlex de la Iglesia"
+        "Álex de la Iglesia"
       ],
       "year": 1997,
       "runtime_min": 126,
@@ -1049,6 +1049,31 @@
         {
           "time": "22:00",
           "ticket_url": "https://thebeacon.film/calendar/movie/goodbye-20th-century?showtime=EVYGP4P5GRENOTHSR32XWCTI",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Darko Mitrevski",
+        "Aleksandar Popovski"
+      ],
+      "year": 1998,
+      "runtime_min": 83,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/goodbye-20th-century"
+    },
+    {
+      "id": "beacon|2026-12-12|goodbye-20th-century",
+      "venue_id": "beacon",
+      "date": "2026-12-12",
+      "title": "Goodbye, 20Th Century!",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/goodbye-20th-century?showtime=YAJLRGV6NNZS2XLIIKRUC5DX",
           "note": null,
           "sold_out": false
         }

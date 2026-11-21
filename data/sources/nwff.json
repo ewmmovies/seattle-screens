@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-20T18:17:52-08:00",
+  "scraped_at": "2026-11-21T00:19:23-08:00",
   "screenings": [
     {
       "id": "nwff|2026-11-15|zi",
@@ -1167,6 +1167,102 @@
       "format": null,
       "notes": [],
       "url": "https://nwfilmforum.org/films/cant-stop-the-music/"
+    },
+    {
+      "id": "nwff|2026-12-12|xanadu",
+      "venue_id": "nwff",
+      "date": "2026-12-12",
+      "title": "Xanadu",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7af4732e78760b9fb8b75",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Robert Greenwald"
+      ],
+      "year": 1980,
+      "runtime_min": 96,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/xanadu/"
+    },
+    {
+      "id": "nwff|2026-12-12|castration-movie-3-5-year-of-the-hyaena",
+      "venue_id": "nwff",
+      "date": "2026-12-12",
+      "title": "Castration Movie ⅗ Year of the Hyaena",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6aee46dbcd402002ac9f99e6",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Louise Weard"
+      ],
+      "year": 2026,
+      "runtime_min": 360,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/castration-movie-year-of-the-hyaena/"
+    },
+    {
+      "id": "nwff|2026-12-12|cant-stop-the-music",
+      "venue_id": "nwff",
+      "date": "2026-12-12",
+      "title": "Can't Stop The Music",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ad70a8a147c738efb6ab",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Nancy Walker"
+      ],
+      "year": 1980,
+      "runtime_min": 124,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/cant-stop-the-music/"
+    },
+    {
+      "id": "nwff|2026-12-12|the-apple",
+      "venue_id": "nwff",
+      "date": "2026-12-12",
+      "title": "The Apple",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ae039dc8428e25a7d8b1",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Menahem Golan"
+      ],
+      "year": 1980,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/the-apple/"
     }
   ]
 }

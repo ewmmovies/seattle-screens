@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T18:18:37-08:00",
+  "generated_at": "2026-11-21T00:20:17-08:00",
   "lead": [
     {
       "title": "Shadowland",
@@ -44,7 +44,7 @@
       "url": "https://nwfilmforum.org/series/unstreamable-scarecrow-jas-keimig/",
       "venue": "NWFF",
       "kind": "Series",
-      "when": "Next: Nov 20",
+      "when": "Next: Nov 21",
       "byline": "Unstreamable curates weird, horny, forgotten cinema that, for one reason or another, is unavailable on any US streaming service.",
       "description": "",
       "months": "",
@@ -122,6 +122,18 @@
       "months": "",
       "image": "https://nwfilmforum.org/wp-content/uploads/2025/01/2720-Header-2550x563.png",
       "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2025/01/2720-Header-900x199.png"
+    },
+    {
+      "title": "Holiday Favorites",
+      "url": "https://www.siff.net/programs-and-events/holiday-favorites",
+      "venue": "SIFF",
+      "kind": "Series",
+      "when": "Next: Dec 12",
+      "byline": "Annual selection of holiday movies including sing-along screenings and more.",
+      "description": "",
+      "months": "",
+      "image": "https://www.siff.net/images/CINEMA/2025/Film%20Jun-Dec/CIN_HolidayFavorites25_960x520.jpg",
+      "image_fallback": null
     },
     {
       "title": "The Disabled List",
