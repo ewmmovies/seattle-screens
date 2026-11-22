@@ -1,181 +1,10 @@
 {
-  "generated_at": "2026-11-21T18:19:16-08:00",
+  "generated_at": "2026-11-22T00:19:47-08:00",
   "range": {
-    "start": "2026-11-14",
-    "end": "2026-12-12"
+    "start": "2026-11-15",
+    "end": "2026-12-13"
   },
   "screenings": [
-    {
-      "id": "majestic-bay|2026-11-14|you-can-see-everything",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-14",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "18:30",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36788?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 174,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "majestic-bay|2026-11-14|wildwood",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-14",
-      "title": "Wildwood",
-      "showtimes": [
-        {
-          "time": "18:45",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36795?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Travis Knight"
-      ],
-      "year": 2026,
-      "runtime_min": 131,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "majestic-bay|2026-11-14|wicker",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-14",
-      "title": "Wicker",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36796?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Alex Huston Fischer",
-        "Eleanor Wilson"
-      ],
-      "year": 2026,
-      "runtime_min": 105,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "siff-downtown|2026-11-14|godzilla-minus-zero",
-      "venue_id": "siff-downtown",
-      "date": "2026-11-14",
-      "title": "Godzilla Minus Zero",
-      "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Takashi Yamazaki"
-      ],
-      "year": 2026,
-      "runtime_min": 135,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
-    },
-    {
-      "id": "siff-uptown|2026-11-14|r-m-n",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-14",
-      "title": "R.M.N.",
-      "showtimes": [
-        {
-          "time": "19:05",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Romanian Film Festival Seattle",
-      "directors": [],
-      "year": 2022,
-      "runtime_min": 128,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/cinema/in-theaters/romanian-film-festival-seattle-13th-edition/rmn"
-    },
-    {
-      "id": "siff-uptown|2026-11-14|you-can-see-everything",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-14",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "19:15",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 175,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
-    },
-    {
-      "id": "siff-uptown|2026-11-14|wild-horse-nine",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-14",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "19:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 118,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
-    },
     {
       "id": "majestic-bay|2026-11-15|you-can-see-everything",
       "venue_id": "majestic-bay",
@@ -8568,6 +8397,181 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/programs-and-events/holiday-favorites/the-muppet-christmas-carol"
+    },
+    {
+      "id": "beacon|2026-12-13|bluebeards-eighth-wife",
+      "venue_id": "beacon",
+      "date": "2026-12-13",
+      "title": "Bluebeard's Eighth Wife",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/bluebeard-s-eighth-wife?showtime=LY4ZLUIMF6LPKLTODVS2MMLR",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Ernst Lubitsch"
+      ],
+      "year": 1938,
+      "runtime_min": 80,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/bluebeard-s-eighth-wife"
+    },
+    {
+      "id": "beacon|2026-12-13|2046",
+      "venue_id": "beacon",
+      "date": "2026-12-13",
+      "title": "2046",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/2046?showtime=BY27YNNOLBB24M5AGUWHKXNI",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Wong Kar-wai"
+      ],
+      "year": 2004,
+      "runtime_min": 129,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/2046"
+    },
+    {
+      "id": "north-bend|2026-12-13|warren-millers-days-off",
+      "venue_id": "north-bend",
+      "date": "2026-12-13",
+      "title": "Warren Miller’s Days Off",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/warren-millers-days-off-sunday-dec-13th-3pm",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/warren-millers-days-off-sunday-dec-13th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Mountain Film Festival",
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/warren-millers-days-off-sunday-dec-13th-3pm"
+    },
+    {
+      "id": "nwff|2026-12-13|the-apple",
+      "venue_id": "nwff",
+      "date": "2026-12-13",
+      "title": "The Apple",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ae039dc8428e25a7d8b1",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Menahem Golan"
+      ],
+      "year": 1980,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/the-apple/"
+    },
+    {
+      "id": "nwff|2026-12-13|xanadu",
+      "venue_id": "nwff",
+      "date": "2026-12-13",
+      "title": "Xanadu",
+      "showtimes": [
+        {
+          "time": "15:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7af4732e78760b9fb8b75",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Robert Greenwald"
+      ],
+      "year": 1980,
+      "runtime_min": 96,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/xanadu/"
+    },
+    {
+      "id": "siff-downtown|2026-12-13|singin-in-the-rain",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-13",
+      "title": "Singin’ In the Rain",
+      "showtimes": [
+        {
+          "time": "11:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Community Screening",
+      "directors": [
+        "Stanley Donen",
+        "Gene Kelly"
+      ],
+      "year": 1952,
+      "runtime_min": 103,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/community-screenings/singin-in-the-rain-cs"
+    },
+    {
+      "id": "siff-film-center|2026-12-13|jawbreaker-a-film-about-anti-cimex",
+      "venue_id": "siff-film-center",
+      "date": "2026-12-13",
+      "title": "Jawbreaker: A Film About Anti Cimex",
+      "showtimes": [
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Tomas Haglund and Oskar Sjödin"
+      ],
+      "year": 2025,
+      "runtime_min": 145,
+      "format": null,
+      "notes": [
+        "SIFF year-round passes and vouchers are not valid for this screening."
+      ],
+      "url": "https://www.siff.net/cinema/in-theaters/jawbreaker-a-film-about-anti-cimex"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "source": "north_bend",
-  "scraped_at": "2026-11-21T18:18:33-08:00",
+  "scraped_at": "2026-11-22T00:18:50-08:00",
   "screenings": [
     {
       "id": "north-bend|2026-11-15|godzilla-minus-zero",
@@ -351,6 +351,34 @@
         "Free admission"
       ],
       "url": "https://tix.northbendtheatre.com/event/elf-saturday-dec-5th-3pm"
+    },
+    {
+      "id": "north-bend|2026-12-13|warren-millers-days-off",
+      "venue_id": "north-bend",
+      "date": "2026-12-13",
+      "title": "Warren Miller’s Days Off",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/warren-millers-days-off-sunday-dec-13th-3pm",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/warren-millers-days-off-sunday-dec-13th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Mountain Film Festival",
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/warren-millers-days-off-sunday-dec-13th-3pm"
     }
   ]
 }

@@ -104,7 +104,7 @@
     }
   },
   "detail3:https://thebeacon.film/series/time-as-a-symptom": {
-    "fetched": "2026-11-15",
+    "fetched": "2026-11-22",
     "data": {
       "description": "What happens after all the time is spent?",
       "films": [
@@ -117,11 +117,10 @@
     }
   },
   "detail3:https://thebeacon.film/series/shadowland": {
-    "fetched": "2026-11-15",
+    "fetched": "2026-11-22",
     "data": {
       "description": "The emotional otherworlds of classic cinema. Unspooling the ribbon of dreams every Sunday afternoon.",
       "films": [
-        "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers",
         "https://thebeacon.film/calendar/movie/clash-by-ight",
         "https://thebeacon.film/calendar/movie/all-i-desire",
         "https://thebeacon.film/calendar/movie/it-happened-one-night",
@@ -135,7 +134,7 @@
     }
   },
   "detail3:https://thebeacon.film/programs/surplus-reality": {
-    "fetched": "2026-11-15",
+    "fetched": "2026-11-22",
     "data": {
       "description": "",
       "films": [
@@ -164,7 +163,7 @@
     }
   },
   "detail3:https://thebeacon.film/programs/love-is-a-country-of-two-and-trespassers-will-be-shot": {
-    "fetched": "2026-11-15",
+    "fetched": "2026-11-22",
     "data": {
       "description": "Population: YOU AND ME, BABY . No laws, no extradition treaties, no age of consent for declaring war on the world.",
       "films": [

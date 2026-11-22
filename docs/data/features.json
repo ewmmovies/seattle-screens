@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T18:19:16-08:00",
+  "generated_at": "2026-11-22T00:19:47-08:00",
   "lead": [
     {
       "title": "Shadowland",
@@ -44,7 +44,7 @@
       "url": "https://nwfilmforum.org/series/unstreamable-scarecrow-jas-keimig/",
       "venue": "NWFF",
       "kind": "Series",
-      "when": "Next: Nov 21",
+      "when": "Next: Nov 22",
       "byline": "Unstreamable curates weird, horny, forgotten cinema that, for one reason or another, is unavailable on any US streaming service.",
       "description": "",
       "months": "",
@@ -146,6 +146,18 @@
       "months": "",
       "image": "https://nwfilmforum.org/wp-content/uploads/2022/02/events_the-disabled-list-2720x600px_melanie-paul-2550x563.jpg",
       "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2022/02/events_the-disabled-list-2720x600px_melanie-paul-900x199.jpg"
+    },
+    {
+      "title": "Community Screenings",
+      "url": "https://www.siff.net/programs-and-events/community-screenings",
+      "venue": "SIFF",
+      "kind": "Program",
+      "when": "Next: Dec 13",
+      "byline": "Tickets to this series are available $7 for adults and $5 for children!",
+      "description": "",
+      "months": "",
+      "image": "https://www.siff.net/images/CINEMA/2026/CIN_CommunityScreenings26_1600x900.png",
+      "image_fallback": null
     },
     {
       "title": "Evergreens",

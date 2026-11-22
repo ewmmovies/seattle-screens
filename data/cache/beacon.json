@@ -201,7 +201,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/girl-with-hyacinths": {
-    "fetched": "2026-11-15",
+    "fetched": "2026-11-22",
     "data": {
       "directors": [
         "Hasse Ekman"
@@ -211,7 +211,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/it-happened-one-night": {
-    "fetched": "2026-11-15",
+    "fetched": "2026-11-22",
     "data": {
       "directors": [
         "Frank Capra"
@@ -280,6 +280,26 @@
       ],
       "year": 1987,
       "runtime_min": 94
+    }
+  },
+  "https://thebeacon.film/calendar/movie/2046": {
+    "fetched": "2026-11-22",
+    "data": {
+      "directors": [
+        "Wong Kar-wai"
+      ],
+      "year": 2004,
+      "runtime_min": 129
+    }
+  },
+  "https://thebeacon.film/calendar/movie/bluebeard-s-eighth-wife": {
+    "fetched": "2026-11-22",
+    "data": {
+      "directors": [
+        "Ernst Lubitsch"
+      ],
+      "year": 1938,
+      "runtime_min": 80
     }
   }
 }

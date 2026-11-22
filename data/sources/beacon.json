@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-21T18:18:31-08:00",
+  "scraped_at": "2026-11-22T00:18:45-08:00",
   "screenings": [
     {
       "id": "beacon|2026-11-17|nationtime",
@@ -1089,6 +1089,54 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/goodbye-20th-century"
+    },
+    {
+      "id": "beacon|2026-12-13|bluebeards-eighth-wife",
+      "venue_id": "beacon",
+      "date": "2026-12-13",
+      "title": "Bluebeard's Eighth Wife",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/bluebeard-s-eighth-wife?showtime=LY4ZLUIMF6LPKLTODVS2MMLR",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Ernst Lubitsch"
+      ],
+      "year": 1938,
+      "runtime_min": 80,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/bluebeard-s-eighth-wife"
+    },
+    {
+      "id": "beacon|2026-12-13|2046",
+      "venue_id": "beacon",
+      "date": "2026-12-13",
+      "title": "2046",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/2046?showtime=BY27YNNOLBB24M5AGUWHKXNI",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Wong Kar-wai"
+      ],
+      "year": 2004,
+      "runtime_min": 129,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/2046"
     }
   ]
 }
