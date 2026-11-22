@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-21T11:54:42-08:00",
+  "scraped_at": "2026-11-21T18:18:37-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-14|godzilla-minus-zero",
@@ -986,12 +986,6 @@
       "title": "Godzilla Minus Zero",
       "showtimes": [
         {
-          "time": "12:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "16:00",
           "ticket_url": null,
           "note": null,
@@ -1042,42 +1036,11 @@
       "url": "https://www.siff.net/cinema/in-theaters/disorder-(现实是过去的未来)"
     },
     {
-      "id": "siff-uptown|2026-11-21|you-can-see-everything",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-21",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "12:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 175,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
-    },
-    {
       "id": "siff-uptown|2026-11-21|club-kid",
       "venue_id": "siff-uptown",
       "date": "2026-11-21",
       "title": "Club Kid",
       "showtimes": [
-        {
-          "time": "13:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "16:15",
           "ticket_url": null,
@@ -1101,32 +1064,6 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/club-kid"
-    },
-    {
-      "id": "siff-uptown|2026-11-21|where-is-the-fiesta",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-21",
-      "title": "Where Is the Fiesta?",
-      "showtimes": [
-        {
-          "time": "15:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Niccolò Gentili"
-      ],
-      "year": 2026,
-      "runtime_min": 102,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/where-is-the-fiesta"
     },
     {
       "id": "siff-uptown|2026-11-21|raise-the-red-lantern",

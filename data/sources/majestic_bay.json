@@ -1,6 +1,6 @@
 {
   "source": "majestic_bay",
-  "scraped_at": "2026-11-21T11:54:36-08:00",
+  "scraped_at": "2026-11-21T18:18:32-08:00",
   "screenings": [
     {
       "id": "majestic-bay|2026-11-14|you-can-see-everything",
@@ -771,12 +771,6 @@
       "date": "2026-11-21",
       "title": "Wildwood",
       "showtimes": [
-        {
-          "time": "12:15",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36763?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "15:45",
           "ticket_url": "https://ticketing.us.veezi.com/purchase/36764?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",

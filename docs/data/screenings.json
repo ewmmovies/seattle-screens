@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T11:55:22-08:00",
+  "generated_at": "2026-11-21T18:19:16-08:00",
   "range": {
     "start": "2026-11-14",
     "end": "2026-12-12"
@@ -2972,12 +2972,6 @@
       "title": "Wildwood",
       "showtimes": [
         {
-          "time": "12:15",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36763?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "15:45",
           "ticket_url": "https://ticketing.us.veezi.com/purchase/36764?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
           "note": null,
@@ -3008,12 +3002,6 @@
       "title": "The Hunger Games: Sunrise on the Reaping",
       "showtimes": [
         {
-          "time": "15:00",
-          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-3pm",
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "19:00",
           "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-7pm",
           "note": null,
@@ -3027,7 +3015,7 @@
       "runtime_min": 159,
       "format": null,
       "notes": [],
-      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-3pm"
+      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-21st-7pm"
     },
     {
       "id": "nwff|2026-11-21|love-streams",
@@ -3098,12 +3086,6 @@
       "title": "Godzilla Minus Zero",
       "showtimes": [
         {
-          "time": "12:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "16:00",
           "ticket_url": null,
           "note": null,
@@ -3154,42 +3136,11 @@
       "url": "https://www.siff.net/cinema/in-theaters/disorder-(现实是过去的未来)"
     },
     {
-      "id": "siff-uptown|2026-11-21|you-can-see-everything",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-21",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "12:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 175,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
-    },
-    {
       "id": "siff-uptown|2026-11-21|club-kid",
       "venue_id": "siff-uptown",
       "date": "2026-11-21",
       "title": "Club Kid",
       "showtimes": [
-        {
-          "time": "13:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "16:15",
           "ticket_url": null,
@@ -3213,32 +3164,6 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/club-kid"
-    },
-    {
-      "id": "siff-uptown|2026-11-21|where-is-the-fiesta",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-21",
-      "title": "Where Is the Fiesta?",
-      "showtimes": [
-        {
-          "time": "15:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Niccolò Gentili"
-      ],
-      "year": 2026,
-      "runtime_min": 102,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/where-is-the-fiesta"
     },
     {
       "id": "siff-uptown|2026-11-21|raise-the-red-lantern",
