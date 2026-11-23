@@ -221,7 +221,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/blindfold": {
-    "fetched": "2026-11-16",
+    "fetched": "2026-11-23",
     "data": {
       "directors": [
         "????"
@@ -300,6 +300,16 @@
       ],
       "year": 1938,
       "runtime_min": 80
+    }
+  },
+  "https://thebeacon.film/calendar/movie/hardware": {
+    "fetched": "2026-11-23",
+    "data": {
+      "directors": [
+        "Richard Stanley"
+      ],
+      "year": 1990,
+      "runtime_min": 94
     }
   }
 }

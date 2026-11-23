@@ -222,7 +222,7 @@
     }
   },
   "https://nwfilmforum.org/films/the-apple/": {
-    "fetched": "2026-11-16",
+    "fetched": "2026-11-23",
     "data": {
       "directors": [
         "Menahem Golan"
@@ -235,7 +235,7 @@
     }
   },
   "https://nwfilmforum.org/films/tokyo-godfathers/": {
-    "fetched": "2026-11-16",
+    "fetched": "2026-11-23",
     "data": {
       "directors": [
         "Satoshi Kon"

@@ -1,29 +1,7 @@
 {
   "source": "north_bend",
-  "scraped_at": "2026-11-22T18:22:34-08:00",
+  "scraped_at": "2026-11-23T00:44:38-08:00",
   "screenings": [
-    {
-      "id": "north-bend|2026-11-15|godzilla-minus-zero",
-      "venue_id": "north-bend",
-      "date": "2026-11-15",
-      "title": "Godzilla Minus Zero",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://tix.northbendtheatre.com/event/godzilla-minus-zero-sunday-nov-15th-7pm",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [],
-      "year": 2026,
-      "runtime_min": 135,
-      "format": null,
-      "notes": [],
-      "url": "https://tix.northbendtheatre.com/event/godzilla-minus-zero-sunday-nov-15th-7pm"
-    },
     {
       "id": "north-bend|2026-11-18|alien-private-eye",
       "venue_id": "north-bend",
