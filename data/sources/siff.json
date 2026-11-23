@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-23T06:31:24-08:00",
+  "scraped_at": "2026-11-23T12:12:35-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-16|godzilla-minus-zero",
@@ -1989,32 +1989,6 @@
       "url": "https://www.siff.net/cinema/in-theaters/hen"
     },
     {
-      "id": "siff-film-center|2026-11-29|the-backcourt-documentary-basketballs-best-kept-secret",
-      "venue_id": "siff-film-center",
-      "date": "2026-11-29",
-      "title": "The Backcourt Documentary - Basketball's Best Kept Secret",
-      "showtimes": [
-        {
-          "time": "15:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Marquez Price"
-      ],
-      "year": 2026,
-      "runtime_min": 120,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/cinema/in-theaters/the-backcourt-documentary-basketballs-best-kept-secret"
-    },
-    {
       "id": "siff-uptown|2026-11-29|paper-tiger",
       "venue_id": "siff-uptown",
       "date": "2026-11-29",
@@ -2465,6 +2439,36 @@
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
     },
     {
+      "id": "siff-film-center|2026-12-04|on-the-road",
+      "venue_id": "siff-film-center",
+      "date": "2026-12-04",
+      "title": "On The Road",
+      "showtimes": [
+        {
+          "time": "16:50",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Pablos"
+      ],
+      "year": 2025,
+      "runtime_min": 93,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/on-the-road"
+    },
+    {
       "id": "siff-downtown|2026-12-05|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-12-05",
@@ -2501,6 +2505,42 @@
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
     },
     {
+      "id": "siff-film-center|2026-12-05|on-the-road",
+      "venue_id": "siff-film-center",
+      "date": "2026-12-05",
+      "title": "On The Road",
+      "showtimes": [
+        {
+          "time": "13:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Pablos"
+      ],
+      "year": 2025,
+      "runtime_min": 93,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/on-the-road"
+    },
+    {
       "id": "siff-downtown|2026-12-06|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-12-06",
@@ -2535,6 +2575,42 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-film-center|2026-12-06|on-the-road",
+      "venue_id": "siff-film-center",
+      "date": "2026-12-06",
+      "title": "On The Road",
+      "showtimes": [
+        {
+          "time": "13:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Pablos"
+      ],
+      "year": 2025,
+      "runtime_min": 93,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/on-the-road"
     },
     {
       "id": "siff-uptown|2026-12-06|twilight",
@@ -2731,6 +2807,102 @@
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
     },
     {
+      "id": "siff-downtown|2026-12-11|the-godfather",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-11",
+      "title": "The Godfather",
+      "showtimes": [
+        {
+          "time": "18:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1972,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather"
+    },
+    {
+      "id": "siff-downtown|2026-12-12|the-godfather",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-12",
+      "title": "The Godfather",
+      "showtimes": [
+        {
+          "time": "11:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1972,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather"
+    },
+    {
+      "id": "siff-downtown|2026-12-12|the-godfather-part-ii",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-12",
+      "title": "The Godfather Part II",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1974,
+      "runtime_min": 200,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather-part-ii"
+    },
+    {
+      "id": "siff-downtown|2026-12-12|the-godfather-coda-the-death-of-michael-corleone",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-12",
+      "title": "The Godfather Coda: The Death of Michael Corleone",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1990,
+      "runtime_min": 158,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather-coda-the-death-of-michael-corleone"
+    },
+    {
       "id": "siff-uptown|2026-12-12|the-muppet-christmas-carol",
       "venue_id": "siff-uptown",
       "date": "2026-12-12",
@@ -2780,6 +2952,54 @@
       "url": "https://www.siff.net/programs-and-events/community-screenings/singin-in-the-rain-cs"
     },
     {
+      "id": "siff-downtown|2026-12-13|the-godfather",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-13",
+      "title": "The Godfather",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1972,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather"
+    },
+    {
+      "id": "siff-downtown|2026-12-13|the-godfather-part-ii",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-13",
+      "title": "The Godfather Part II",
+      "showtimes": [
+        {
+          "time": "18:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1974,
+      "runtime_min": 200,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather-part-ii"
+    },
+    {
       "id": "siff-film-center|2026-12-13|jawbreaker-a-film-about-anti-cimex",
       "venue_id": "siff-film-center",
       "date": "2026-12-13",
@@ -2804,6 +3024,30 @@
         "SIFF year-round passes and vouchers are not valid for this screening."
       ],
       "url": "https://www.siff.net/cinema/in-theaters/jawbreaker-a-film-about-anti-cimex"
+    },
+    {
+      "id": "siff-downtown|2026-12-14|the-godfather-part-ii",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-14",
+      "title": "The Godfather Part II",
+      "showtimes": [
+        {
+          "time": "18:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1974,
+      "runtime_min": 200,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather-part-ii"
     },
     {
       "id": "siff-uptown|2026-12-14|the-muppet-christmas-carol",
