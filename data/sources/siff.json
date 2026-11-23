@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-22T11:56:33-08:00",
+  "scraped_at": "2026-11-22T18:22:38-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-15|godzilla-minus-zero",
@@ -1075,18 +1075,6 @@
       "title": "Godzilla Minus Zero",
       "showtimes": [
         {
-          "time": "11:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "15:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "18:30",
           "ticket_url": null,
           "note": null,
@@ -1103,128 +1091,6 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
-    },
-    {
-      "id": "siff-film-center|2026-11-22|route-one-usa",
-      "venue_id": "siff-film-center",
-      "date": "2026-11-22",
-      "title": "Route One/USA",
-      "showtimes": [
-        {
-          "time": "12:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "The Open Road",
-      "directors": [
-        "Robert Kramer"
-      ],
-      "year": 1989,
-      "runtime_min": 254,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/programs-and-events/the-open-road/route-one/usa"
-    },
-    {
-      "id": "siff-uptown|2026-11-22|wild-horse-nine",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-22",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "12:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 118,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
-    },
-    {
-      "id": "siff-uptown|2026-11-22|journey-to-italy",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-22",
-      "title": "Journey to Italy",
-      "showtimes": [
-        {
-          "time": "13:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Roberto Rossellini"
-      ],
-      "year": 1954,
-      "runtime_min": 97,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/journey-to-italy"
-    },
-    {
-      "id": "siff-uptown|2026-11-22|raise-the-red-lantern",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-22",
-      "title": "Raise the Red Lantern",
-      "showtimes": [
-        {
-          "time": "13:20",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Zhang Yimou"
-      ],
-      "year": 1991,
-      "runtime_min": 125,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/raise-the-red-lantern"
-    },
-    {
-      "id": "siff-uptown|2026-11-22|beloved",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-22",
-      "title": "Beloved",
-      "showtimes": [
-        {
-          "time": "15:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Elisa Amoruso"
-      ],
-      "year": 2025,
-      "runtime_min": 100,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/beloved"
     },
     {
       "id": "siff-uptown|2026-11-22|you-can-see-everything",

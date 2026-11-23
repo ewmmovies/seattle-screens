@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-22T11:56:28-08:00",
+  "scraped_at": "2026-11-22T18:22:31-08:00",
   "screenings": [
     {
       "id": "beacon|2026-11-17|nationtime",
@@ -145,54 +145,6 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/pretty-poison"
-    },
-    {
-      "id": "beacon|2026-11-22|clash-by-night",
-      "venue_id": "beacon",
-      "date": "2026-11-22",
-      "title": "Clash by Night",
-      "showtimes": [
-        {
-          "time": "14:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/clash-by-ight?showtime=4KQCCD3NY5TKSMXLWAMIPB2D",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Fritz Lang"
-      ],
-      "year": 1952,
-      "runtime_min": 105,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/clash-by-ight"
-    },
-    {
-      "id": "beacon|2026-11-22|once-upon-a-time-in-harlem",
-      "venue_id": "beacon",
-      "date": "2026-11-22",
-      "title": "Once Upon a Time in Harlem",
-      "showtimes": [
-        {
-          "time": "17:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem?showtime=XQS65CX7DTQ64F23ROWUQINV",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "William Greaves"
-      ],
-      "year": 2026,
-      "runtime_min": 100,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem"
     },
     {
       "id": "beacon|2026-11-23|clash-by-night",
