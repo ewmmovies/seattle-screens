@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-23T12:12:29-08:00",
+  "scraped_at": "2026-11-23T18:23:28-08:00",
   "screenings": [
     {
       "id": "beacon|2026-11-17|nationtime",
@@ -145,30 +145,6 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/pretty-poison"
-    },
-    {
-      "id": "beacon|2026-11-23|clash-by-night",
-      "venue_id": "beacon",
-      "date": "2026-11-23",
-      "title": "Clash by Night",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": "https://thebeacon.film/calendar/movie/clash-by-ight?showtime=LMP5D6AIYW7XI55EUIJMUFUH",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Fritz Lang"
-      ],
-      "year": 1952,
-      "runtime_min": 105,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/clash-by-ight"
     },
     {
       "id": "beacon|2026-11-23|once-upon-a-time-in-harlem",

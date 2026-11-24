@@ -1,6 +1,6 @@
 {
   "source": "majestic_bay",
-  "scraped_at": "2026-11-23T12:12:30-08:00",
+  "scraped_at": "2026-11-23T18:23:28-08:00",
   "screenings": [
     {
       "id": "majestic-bay|2026-11-16|you-can-see-everything",
@@ -1080,6 +1080,30 @@
       "url": "https://www.majesticbay.com/"
     },
     {
+      "id": "majestic-bay|2026-11-26|wildwood",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-26",
+      "title": "Wildwood",
+      "showtimes": [
+        {
+          "time": "12:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36742?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Travis Knight"
+      ],
+      "year": 2026,
+      "runtime_min": 131,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
       "id": "majestic-bay|2026-11-26|disneys-hexed",
       "venue_id": "majestic-bay",
       "date": "2026-11-26",
@@ -1112,6 +1136,745 @@
       ],
       "year": 2026,
       "runtime_min": 106,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-26|you-can-see-everything",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-26",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "15:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36745?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "18:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36748?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-27|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-27",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "12:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36733?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:30",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36725?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36726?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Lawrence"
+      ],
+      "year": 2026,
+      "runtime_min": 158,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-27|wildwood",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-27",
+      "title": "Wildwood",
+      "showtimes": [
+        {
+          "time": "12:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36729?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Travis Knight"
+      ],
+      "year": 2026,
+      "runtime_min": 131,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-27|disneys-hexed",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-27",
+      "title": "Disney's Hexed",
+      "showtimes": [
+        {
+          "time": "12:30",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36732?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36727?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36731?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Fawn Veerasunthorn",
+        "Jason Hand"
+      ],
+      "year": 2026,
+      "runtime_min": 106,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-27|you-can-see-everything",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-27",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "15:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36728?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "18:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36730?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-28|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-28",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "12:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36838?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:30",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36839?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36840?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Lawrence"
+      ],
+      "year": 2026,
+      "runtime_min": 158,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-28|wildwood",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-28",
+      "title": "Wildwood",
+      "showtimes": [
+        {
+          "time": "12:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36844?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Travis Knight"
+      ],
+      "year": 2026,
+      "runtime_min": 131,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-28|disneys-hexed",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-28",
+      "title": "Disney's Hexed",
+      "showtimes": [
+        {
+          "time": "12:30",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36841?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36842?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36843?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Fawn Veerasunthorn",
+        "Jason Hand"
+      ],
+      "year": 2026,
+      "runtime_min": 106,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-28|you-can-see-everything",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-28",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "15:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36845?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "18:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36846?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-29|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-29",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "12:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36847?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:30",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36851?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36854?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Lawrence"
+      ],
+      "year": 2026,
+      "runtime_min": 158,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-29|wildwood",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-29",
+      "title": "Wildwood",
+      "showtimes": [
+        {
+          "time": "12:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36848?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Travis Knight"
+      ],
+      "year": 2026,
+      "runtime_min": 131,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-29|disneys-hexed",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-29",
+      "title": "Disney's Hexed",
+      "showtimes": [
+        {
+          "time": "12:30",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36849?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36852?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36855?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Fawn Veerasunthorn",
+        "Jason Hand"
+      ],
+      "year": 2026,
+      "runtime_min": 106,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-29|you-can-see-everything",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-29",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "15:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36850?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "18:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36853?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-30|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-30",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "15:30",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36856?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36857?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Lawrence"
+      ],
+      "year": 2026,
+      "runtime_min": 158,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-30|wildwood",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-30",
+      "title": "Wildwood",
+      "showtimes": [
+        {
+          "time": "15:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36860?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Travis Knight"
+      ],
+      "year": 2026,
+      "runtime_min": 131,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-30|disneys-hexed",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-30",
+      "title": "Disney's Hexed",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36858?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36859?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Fawn Veerasunthorn",
+        "Jason Hand"
+      ],
+      "year": 2026,
+      "runtime_min": 106,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-11-30|you-can-see-everything",
+      "venue_id": "majestic-bay",
+      "date": "2026-11-30",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36861?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-12-01|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-01",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "15:30",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36862?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36863?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Lawrence"
+      ],
+      "year": 2026,
+      "runtime_min": 158,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-12-01|wildwood",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-01",
+      "title": "Wildwood",
+      "showtimes": [
+        {
+          "time": "15:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36865?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Travis Knight"
+      ],
+      "year": 2026,
+      "runtime_min": 131,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-12-01|disneys-hexed",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-01",
+      "title": "Disney's Hexed",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36864?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36867?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Fawn Veerasunthorn",
+        "Jason Hand"
+      ],
+      "year": 2026,
+      "runtime_min": 106,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-12-01|you-can-see-everything",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-01",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36866?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-12-02|the-hunger-games-sunrise-on-the-reaping",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-02",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36868?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "18:30",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36869?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Lawrence"
+      ],
+      "year": 2026,
+      "runtime_min": 158,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-12-02|wildwood",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-02",
+      "title": "Wildwood",
+      "showtimes": [
+        {
+          "time": "15:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36871?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Travis Knight"
+      ],
+      "year": 2026,
+      "runtime_min": 131,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-12-02|disneys-hexed",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-02",
+      "title": "Disney's Hexed",
+      "showtimes": [
+        {
+          "time": "15:30",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36870?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Fawn Veerasunthorn",
+        "Jason Hand"
+      ],
+      "year": 2026,
+      "runtime_min": 106,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-12-02|you-can-see-everything",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-02",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36872?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 174,
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
