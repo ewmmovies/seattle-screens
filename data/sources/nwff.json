@@ -1,74 +1,7 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-15T18:26:44-08:00",
+  "scraped_at": "2026-11-23T18:23:30-08:00",
   "screenings": [
-    {
-      "id": "nwff|2026-11-15|zi",
-      "venue_id": "nwff",
-      "date": "2026-11-15",
-      "title": "Zi",
-      "showtimes": [
-        {
-          "time": "16:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ab17144057dcc896cf6c420",
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ab17144057dcc896cf6c420",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Kogonada"
-      ],
-      "year": 2026,
-      "runtime_min": 99,
-      "format": null,
-      "notes": [],
-      "url": "https://nwfilmforum.org/films/zi/"
-    },
-    {
-      "id": "nwff|2026-11-15|you-sorta-know-its-gonna-end",
-      "venue_id": "nwff",
-      "date": "2026-11-15",
-      "title": "You Sorta Know It's Gonna End",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ac6af9b99b9de9d62f8bf77",
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "18:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ac6af9b99b9de9d62f8bf77",
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ac6af9b99b9de9d62f8bf77",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Kalil Haddad",
-        "Ryan Steel"
-      ],
-      "year": 2025,
-      "runtime_min": 62,
-      "format": null,
-      "notes": [],
-      "url": "https://nwfilmforum.org/films/you-sorta-know-its-gonna-end/"
-    },
     {
       "id": "nwff|2026-11-16|zi",
       "venue_id": "nwff",
@@ -126,6 +59,12 @@
       "showtimes": [
         {
           "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/-6ae114674316a28ce5f1216d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
           "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/-6ae114674316a28ce5f1216d",
           "note": null,
           "sold_out": false
@@ -278,12 +217,6 @@
           "ticket_url": "https://nwfilmforum.eventive.org/films/6a206600823a0bf897418220",
           "note": null,
           "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6a206600823a0bf897418220",
-          "note": null,
-          "sold_out": false
         }
       ],
       "kind": "film",
@@ -303,12 +236,6 @@
       "date": "2026-11-20",
       "title": "My Brother's Wedding",
       "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ac59417a8f4c4355ebf3d0c",
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "19:30",
           "ticket_url": "https://nwfilmforum.eventive.org/films/6ac59417a8f4c4355ebf3d0c",
@@ -759,12 +686,6 @@
           "ticket_url": null,
           "note": null,
           "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
         }
       ],
       "kind": "film",
@@ -784,12 +705,6 @@
       "date": "2026-12-02",
       "title": "Zero Patience",
       "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6acd35fd8b82727c5b69a9e6",
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "19:30",
           "ticket_url": "https://nwfilmforum.eventive.org/films/6acd35fd8b82727c5b69a9e6",
@@ -911,6 +826,84 @@
       "url": "https://nwfilmforum.org/films/zero-patience/"
     },
     {
+      "id": "nwff|2026-12-05|tokyo-godfathers",
+      "venue_id": "nwff",
+      "date": "2026-12-05",
+      "title": "Tokyo Godfathers",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Evergreens",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
+    },
+    {
+      "id": "nwff|2026-12-05|carol",
+      "venue_id": "nwff",
+      "date": "2026-12-05",
+      "title": "Carol",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afbaa0e5bd5ef4a4adcb4f3",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Todd Haynes"
+      ],
+      "year": 2015,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/carol/"
+    },
+    {
+      "id": "nwff|2026-12-06|tokyo-godfathers",
+      "venue_id": "nwff",
+      "date": "2026-12-06",
+      "title": "Tokyo Godfathers",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Evergreens",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
+    },
+    {
       "id": "nwff|2026-12-06|zero-patience",
       "venue_id": "nwff",
       "date": "2026-12-06",
@@ -939,6 +932,318 @@
       "format": null,
       "notes": [],
       "url": "https://nwfilmforum.org/films/zero-patience/"
+    },
+    {
+      "id": "nwff|2026-12-07|the-apple",
+      "venue_id": "nwff",
+      "date": "2026-12-07",
+      "title": "The Apple",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ae039dc8428e25a7d8b1",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Menahem Golan"
+      ],
+      "year": 1980,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/the-apple/"
+    },
+    {
+      "id": "nwff|2026-12-07|tokyo-godfathers",
+      "venue_id": "nwff",
+      "date": "2026-12-07",
+      "title": "Tokyo Godfathers",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Evergreens",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
+    },
+    {
+      "id": "nwff|2026-12-08|xanadu",
+      "venue_id": "nwff",
+      "date": "2026-12-08",
+      "title": "Xanadu",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7af4732e78760b9fb8b75",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Robert Greenwald"
+      ],
+      "year": 1980,
+      "runtime_min": 96,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/xanadu/"
+    },
+    {
+      "id": "nwff|2026-12-08|tokyo-godfathers",
+      "venue_id": "nwff",
+      "date": "2026-12-08",
+      "title": "Tokyo Godfathers",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Evergreens",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/tokyo-godfathers/"
+    },
+    {
+      "id": "nwff|2026-12-09|cant-stop-the-music",
+      "venue_id": "nwff",
+      "date": "2026-12-09",
+      "title": "Can't Stop The Music",
+      "showtimes": [
+        {
+          "time": "18:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ad70a8a147c738efb6ab",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Nancy Walker"
+      ],
+      "year": 1980,
+      "runtime_min": 124,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/cant-stop-the-music/"
+    },
+    {
+      "id": "nwff|2026-12-09|sfcs-at-10-moonlight",
+      "venue_id": "nwff",
+      "date": "2026-12-09",
+      "title": "SFCS at 10: Moonlight",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6a2b25b5de85551f2f5e4393",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "SFCS at 10: A Decade of Favorites",
+      "directors": [
+        "Barry Jenkins"
+      ],
+      "year": 2016,
+      "runtime_min": 111,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/sfcs-10-moonlight/"
+    },
+    {
+      "id": "nwff|2026-12-10|cant-stop-the-music",
+      "venue_id": "nwff",
+      "date": "2026-12-10",
+      "title": "Can't Stop The Music",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ad70a8a147c738efb6ab",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Nancy Walker"
+      ],
+      "year": 1980,
+      "runtime_min": 124,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/cant-stop-the-music/"
+    },
+    {
+      "id": "nwff|2026-12-12|xanadu",
+      "venue_id": "nwff",
+      "date": "2026-12-12",
+      "title": "Xanadu",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7af4732e78760b9fb8b75",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Robert Greenwald"
+      ],
+      "year": 1980,
+      "runtime_min": 96,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/xanadu/"
+    },
+    {
+      "id": "nwff|2026-12-12|castration-movie-3-5-year-of-the-hyaena",
+      "venue_id": "nwff",
+      "date": "2026-12-12",
+      "title": "Castration Movie ⅗ Year of the Hyaena",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6aee46dbcd402002ac9f99e6",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Louise Weard"
+      ],
+      "year": 2026,
+      "runtime_min": 360,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/castration-movie-year-of-the-hyaena/"
+    },
+    {
+      "id": "nwff|2026-12-12|cant-stop-the-music",
+      "venue_id": "nwff",
+      "date": "2026-12-12",
+      "title": "Can't Stop The Music",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ad70a8a147c738efb6ab",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Nancy Walker"
+      ],
+      "year": 1980,
+      "runtime_min": 124,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/cant-stop-the-music/"
+    },
+    {
+      "id": "nwff|2026-12-12|the-apple",
+      "venue_id": "nwff",
+      "date": "2026-12-12",
+      "title": "The Apple",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ae039dc8428e25a7d8b1",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Menahem Golan"
+      ],
+      "year": 1980,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/the-apple/"
+    },
+    {
+      "id": "nwff|2026-12-13|the-apple",
+      "venue_id": "nwff",
+      "date": "2026-12-13",
+      "title": "The Apple",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ae039dc8428e25a7d8b1",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Menahem Golan"
+      ],
+      "year": 1980,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/the-apple/"
+    },
+    {
+      "id": "nwff|2026-12-13|xanadu",
+      "venue_id": "nwff",
+      "date": "2026-12-13",
+      "title": "Xanadu",
+      "showtimes": [
+        {
+          "time": "15:30",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6af7af4732e78760b9fb8b75",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Snow Day, 1980",
+      "directors": [
+        "Robert Greenwald"
+      ],
+      "year": 1980,
+      "runtime_min": 96,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/xanadu/"
     }
   ]
 }

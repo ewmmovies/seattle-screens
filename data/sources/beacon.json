@@ -1,55 +1,7 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-15T18:26:41-08:00",
+  "scraped_at": "2026-11-23T18:23:28-08:00",
   "screenings": [
-    {
-      "id": "beacon|2026-11-16|the-strange-love-of-martha-ivers",
-      "venue_id": "beacon",
-      "date": "2026-11-16",
-      "title": "The Strange Love of Martha Ivers",
-      "showtimes": [
-        {
-          "time": "17:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers?showtime=HBPUUN5HQYB7UNOJRHXRMBGX",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Lewis Milestone"
-      ],
-      "year": 1946,
-      "runtime_min": 116,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/the-strange-love-of-martha-ivers"
-    },
-    {
-      "id": "beacon|2026-11-17|will-success-spoil-rock-hunter",
-      "venue_id": "beacon",
-      "date": "2026-11-17",
-      "title": "Will Success Spoil Rock Hunter?",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": "https://thebeacon.film/calendar/movie/will-success-spoil-rock-hunter?showtime=W3GOF7BA3ERTC5V4EQOZSNYV",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Frank Tashlin"
-      ],
-      "year": 1957,
-      "runtime_min": 93,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/will-success-spoil-rock-hunter"
-    },
     {
       "id": "beacon|2026-11-17|nationtime",
       "venue_id": "beacon",
@@ -59,30 +11,6 @@
         {
           "time": "19:30",
           "ticket_url": "https://thebeacon.film/calendar/movie/nationtime?showtime=6YJ6BPOQ2GXTAYJCIHLSEEWC",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "William Greaves"
-      ],
-      "year": 1972,
-      "runtime_min": 80,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/nationtime"
-    },
-    {
-      "id": "beacon|2026-11-18|nationtime",
-      "venue_id": "beacon",
-      "date": "2026-11-18",
-      "title": "Nationtime",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": "https://thebeacon.film/calendar/movie/nationtime?showtime=EE26DF3SAK7CH4HAEKMXP2RD",
           "note": null,
           "sold_out": false
         }
@@ -121,30 +49,6 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/breathless"
-    },
-    {
-      "id": "beacon|2026-11-19|will-success-spoil-rock-hunter",
-      "venue_id": "beacon",
-      "date": "2026-11-19",
-      "title": "Will Success Spoil Rock Hunter?",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": "https://thebeacon.film/calendar/movie/will-success-spoil-rock-hunter?showtime=B2BDYP63YVPTJ64CMBR7UREM",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Frank Tashlin"
-      ],
-      "year": 1957,
-      "runtime_min": 93,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/will-success-spoil-rock-hunter"
     },
     {
       "id": "beacon|2026-11-19|breathless",
@@ -241,78 +145,6 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/pretty-poison"
-    },
-    {
-      "id": "beacon|2026-11-22|clash-by-night",
-      "venue_id": "beacon",
-      "date": "2026-11-22",
-      "title": "Clash by Night",
-      "showtimes": [
-        {
-          "time": "14:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/clash-by-ight?showtime=4KQCCD3NY5TKSMXLWAMIPB2D",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Fritz Lang"
-      ],
-      "year": 1952,
-      "runtime_min": 105,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/clash-by-ight"
-    },
-    {
-      "id": "beacon|2026-11-22|once-upon-a-time-in-harlem",
-      "venue_id": "beacon",
-      "date": "2026-11-22",
-      "title": "Once Upon a Time in Harlem",
-      "showtimes": [
-        {
-          "time": "17:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem?showtime=XQS65CX7DTQ64F23ROWUQINV",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "William Greaves"
-      ],
-      "year": 2026,
-      "runtime_min": 100,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem"
-    },
-    {
-      "id": "beacon|2026-11-23|clash-by-night",
-      "venue_id": "beacon",
-      "date": "2026-11-23",
-      "title": "Clash by Night",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": "https://thebeacon.film/calendar/movie/clash-by-ight?showtime=LMP5D6AIYW7XI55EUIJMUFUH",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Fritz Lang"
-      ],
-      "year": 1952,
-      "runtime_min": 105,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/clash-by-ight"
     },
     {
       "id": "beacon|2026-11-23|once-upon-a-time-in-harlem",
@@ -499,7 +331,7 @@
       "kind": "film",
       "series": null,
       "directors": [
-        "Ãlex de la Iglesia"
+        "Álex de la Iglesia"
       ],
       "year": 1997,
       "runtime_min": 126,
@@ -748,6 +580,33 @@
       "url": "https://thebeacon.film/calendar/movie/sansho-the-bailiff"
     },
     {
+      "id": "beacon|2026-12-04|under-an-olive-tree-the-resistance-of-beita",
+      "venue_id": "beacon",
+      "date": "2026-12-04",
+      "title": "Under an Olive Tree + The Resistance of Beita",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Zumrut Sonmez",
+        "Sakir Khader"
+      ],
+      "year": null,
+      "runtime_min": 120,
+      "format": null,
+      "notes": [
+        "Free admission"
+      ],
+      "url": "https://thebeacon.film/calendar/movie/under-an-olive-tree-the-resistance-of-beita"
+    },
+    {
       "id": "beacon|2026-12-04|raise-the-red-lantern",
       "venue_id": "beacon",
       "date": "2026-12-04",
@@ -890,6 +749,370 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/girl-with-hyacinths"
+    },
+    {
+      "id": "beacon|2026-12-07|it-happened-one-night",
+      "venue_id": "beacon",
+      "date": "2026-12-07",
+      "title": "It Happened One Night",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/it-happened-one-night?showtime=G3TLKSMI6RFEUWHLUSS6BCH5",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Frank Capra"
+      ],
+      "year": 1934,
+      "runtime_min": 105,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/it-happened-one-night"
+    },
+    {
+      "id": "beacon|2026-12-07|cinema",
+      "venue_id": "beacon",
+      "date": "2026-12-07",
+      "title": "?????? Cinema",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "????"
+      ],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [
+        "Free admission"
+      ],
+      "url": "https://thebeacon.film/calendar/movie/blindfold"
+    },
+    {
+      "id": "beacon|2026-12-08|raise-the-red-lantern",
+      "venue_id": "beacon",
+      "date": "2026-12-08",
+      "title": "Raise the Red Lantern",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/raise-the-red-lantern?showtime=XWPBHIQKNMDDM4Z7GOSRGV2S",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Zhang Yimou"
+      ],
+      "year": 1991,
+      "runtime_min": 125,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/raise-the-red-lantern"
+    },
+    {
+      "id": "beacon|2026-12-08|girl-with-hyacinths",
+      "venue_id": "beacon",
+      "date": "2026-12-08",
+      "title": "Girl with Hyacinths",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/girl-with-hyacinths?showtime=Z6TD6HSVZ5VEF3AKKN7JM7XT",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Hasse Ekman"
+      ],
+      "year": 1950,
+      "runtime_min": 89,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/girl-with-hyacinths"
+    },
+    {
+      "id": "beacon|2026-12-09|girl-with-hyacinths",
+      "venue_id": "beacon",
+      "date": "2026-12-09",
+      "title": "Girl with Hyacinths",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/girl-with-hyacinths?showtime=VYZZOK6GRQNDB3PVP4VKVXPH",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Hasse Ekman"
+      ],
+      "year": 1950,
+      "runtime_min": 89,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/girl-with-hyacinths"
+    },
+    {
+      "id": "beacon|2026-12-09|paris-pick-up",
+      "venue_id": "beacon",
+      "date": "2026-12-09",
+      "title": "Paris Pick-Up",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/paris-pick-up?showtime=QG7JVJJ66PZTCMXIIZW3Z5BL",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Marcel Bluwal"
+      ],
+      "year": 1962,
+      "runtime_min": 86,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/paris-pick-up"
+    },
+    {
+      "id": "beacon|2026-12-10|paris-pick-up",
+      "venue_id": "beacon",
+      "date": "2026-12-10",
+      "title": "Paris Pick-Up",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/paris-pick-up?showtime=7PI3G56SOSAEUJ7VAN6B4KHA",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Marcel Bluwal"
+      ],
+      "year": 1962,
+      "runtime_min": 86,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/paris-pick-up"
+    },
+    {
+      "id": "beacon|2026-12-10|perinbaba",
+      "venue_id": "beacon",
+      "date": "2026-12-10",
+      "title": "Perinbaba",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/perinbaba?showtime=F3YNSLYFDXA7UB4NRXE5A3FY",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Juraj Jakubisko"
+      ],
+      "year": 1985,
+      "runtime_min": 95,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/perinbaba"
+    },
+    {
+      "id": "beacon|2026-12-11|seattle-against-war-presents-walker",
+      "venue_id": "beacon",
+      "date": "2026-12-11",
+      "title": "Seattle Against War Presents Walker",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/seattle-against-war-presents-walker?showtime=SOTTJMATYOFHZTUWUILH57RV",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Alex Cox"
+      ],
+      "year": 1987,
+      "runtime_min": 94,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/seattle-against-war-presents-walker"
+    },
+    {
+      "id": "beacon|2026-12-11|goodbye-20th-century",
+      "venue_id": "beacon",
+      "date": "2026-12-11",
+      "title": "Goodbye, 20Th Century!",
+      "showtimes": [
+        {
+          "time": "22:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/goodbye-20th-century?showtime=EVYGP4P5GRENOTHSR32XWCTI",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Darko Mitrevski",
+        "Aleksandar Popovski"
+      ],
+      "year": 1998,
+      "runtime_min": 83,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/goodbye-20th-century"
+    },
+    {
+      "id": "beacon|2026-12-12|goodbye-20th-century",
+      "venue_id": "beacon",
+      "date": "2026-12-12",
+      "title": "Goodbye, 20Th Century!",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/goodbye-20th-century?showtime=YAJLRGV6NNZS2XLIIKRUC5DX",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Darko Mitrevski",
+        "Aleksandar Popovski"
+      ],
+      "year": 1998,
+      "runtime_min": 83,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/goodbye-20th-century"
+    },
+    {
+      "id": "beacon|2026-12-13|bluebeards-eighth-wife",
+      "venue_id": "beacon",
+      "date": "2026-12-13",
+      "title": "Bluebeard's Eighth Wife",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/bluebeard-s-eighth-wife?showtime=LY4ZLUIMF6LPKLTODVS2MMLR",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Ernst Lubitsch"
+      ],
+      "year": 1938,
+      "runtime_min": 80,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/bluebeard-s-eighth-wife"
+    },
+    {
+      "id": "beacon|2026-12-13|2046",
+      "venue_id": "beacon",
+      "date": "2026-12-13",
+      "title": "2046",
+      "showtimes": [
+        {
+          "time": "17:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/2046?showtime=BY27YNNOLBB24M5AGUWHKXNI",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Wong Kar-wai"
+      ],
+      "year": 2004,
+      "runtime_min": 129,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/2046"
+    },
+    {
+      "id": "beacon|2026-12-14|bluebeards-eighth-wife",
+      "venue_id": "beacon",
+      "date": "2026-12-14",
+      "title": "Bluebeard's Eighth Wife",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/bluebeard-s-eighth-wife?showtime=TJZ7FKNUBURX5PEXYQ5FNWNO",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Ernst Lubitsch"
+      ],
+      "year": 1938,
+      "runtime_min": 80,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/bluebeard-s-eighth-wife"
+    },
+    {
+      "id": "beacon|2026-12-14|hardware",
+      "venue_id": "beacon",
+      "date": "2026-12-14",
+      "title": "Hardware",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/hardware?showtime=RMCR6GDBK4APRKVZNQCUYNDX",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Richard Stanley"
+      ],
+      "year": 1990,
+      "runtime_min": 94,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/hardware"
     }
   ]
 }

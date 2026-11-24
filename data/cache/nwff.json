@@ -1,6 +1,6 @@
 {
   "https://nwfilmforum.org/events/disabled-list-presents-live-comedy-december-2026/": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [],
       "year": null,
@@ -35,7 +35,7 @@
     }
   },
   "https://nwfilmforum.org/films/la-bola-negra/": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Javier Ambrossi",
@@ -49,7 +49,7 @@
     }
   },
   "https://nwfilmforum.org/films/late-autumn/": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Yasujirō Ozu"
@@ -62,7 +62,7 @@
     }
   },
   "https://nwfilmforum.org/films/my-brothers-wedding-4k-restoration/": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Charles Burnett"
@@ -91,7 +91,7 @@
     }
   },
   "https://nwfilmforum.org/films/seattle-lgbtq-center-presents-we-were-here/": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "David Weissman"
@@ -117,7 +117,7 @@
     }
   },
   "https://nwfilmforum.org/films/tokyo-story/": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Yasujirō Ozu"
@@ -130,7 +130,7 @@
     }
   },
   "https://nwfilmforum.org/films/truth-to-fiction-the-store/": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Frederick Wiseman"
@@ -143,7 +143,7 @@
     }
   },
   "https://nwfilmforum.org/films/unstreamable-love-streams/": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "John Cassavetes"
@@ -169,7 +169,7 @@
     }
   },
   "https://nwfilmforum.org/films/wto-99/": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "Ian Bell"
@@ -196,7 +196,7 @@
     }
   },
   "https://nwfilmforum.org/films/zero-patience/": {
-    "fetched": "2026-11-14",
+    "fetched": "2026-11-21",
     "data": {
       "directors": [
         "John Greyson"
@@ -218,6 +218,97 @@
       "runtime_min": 99,
       "series": null,
       "ticket_url": "https://nwfilmforum.eventive.org/films/6ab17144057dcc896cf6c420",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/the-apple/": {
+    "fetched": "2026-11-23",
+    "data": {
+      "directors": [
+        "Menahem Golan"
+      ],
+      "year": 1980,
+      "runtime_min": 97,
+      "series": "Snow Day, 1980",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ae039dc8428e25a7d8b1",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/tokyo-godfathers/": {
+    "fetched": "2026-11-23",
+    "data": {
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "year": 2003,
+      "runtime_min": 92,
+      "series": "Evergreens",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6afb9334f9da7ba2a08793b4",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/xanadu/": {
+    "fetched": "2026-11-17",
+    "data": {
+      "directors": [
+        "Robert Greenwald"
+      ],
+      "year": 1980,
+      "runtime_min": 96,
+      "series": "Snow Day, 1980",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6af7af4732e78760b9fb8b75",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/sfcs-10-moonlight/": {
+    "fetched": "2026-11-18",
+    "data": {
+      "directors": [
+        "Barry Jenkins"
+      ],
+      "year": 2016,
+      "runtime_min": 111,
+      "series": "SFCS at 10: A Decade of Favorites",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6a2b25b5de85551f2f5e4393",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/carol/": {
+    "fetched": "2026-11-18",
+    "data": {
+      "directors": [
+        "Todd Haynes"
+      ],
+      "year": 2015,
+      "runtime_min": 118,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6afbaa0e5bd5ef4a4adcb4f3",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/cant-stop-the-music/": {
+    "fetched": "2026-11-18",
+    "data": {
+      "directors": [
+        "Nancy Walker"
+      ],
+      "year": 1980,
+      "runtime_min": 124,
+      "series": "Snow Day, 1980",
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6af7ad70a8a147c738efb6ab",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/films/castration-movie-year-of-the-hyaena/": {
+    "fetched": "2026-11-21",
+    "data": {
+      "directors": [
+        "Louise Weard"
+      ],
+      "year": 2026,
+      "runtime_min": 360,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6aee46dbcd402002ac9f99e6",
       "format": null
     }
   }

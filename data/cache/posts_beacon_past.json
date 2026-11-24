@@ -1,0 +1,346 @@
+{
+  "seen:https://thebeacon.film/series/time-as-a-symptom": {
+    "fetched": "2026-11-23",
+    "data": "2026-11-01"
+  },
+  "seen:https://thebeacon.film/series/shadowland": {
+    "fetched": "2026-11-23",
+    "data": "2026-11-01"
+  },
+  "past:https://thebeacon.film/series/double-features": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "Trust us, you've got to see these two together.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_DOUBLEFEATURES.jpeg&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_DOUBLEFEATURES.jpeg"
+    }
+  },
+  "past:https://thebeacon.film/programs/in-the-midst-of-the-end-of-the-world-antonio-reis-margarida-cordeiro": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "António Reis and Margarida Cordeiro together created one of the most influential bodies of work in the history of Portuguese cinema.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_REISCORDEIRO.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_REISCORDEIRO.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/heres-your-list-of-friends-in-the-order-they-died-teen-anarchy-japan": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "or, The Decline of Eastern Civilization.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_TEENANARCHYJAPAN.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_TEENANARCHYJAPAN.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/once-upon-a-time-in-beirut-the-cinema-of-jocelyne-saab": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "Lyrical and uncompromising, the films of Jocelyne Saab (1948-2019) are at once landmark works of Lebanese cinema and masterpieces of the essay film form.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_SAAB.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SAAB.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/no-one-gets-laid-until-we-finish-our-movie-late-era-john-waters": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "\"Contemporary art hates you.\" - John Waters",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_NOBODYGETSLAIDUNTIL.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_NOBODYGETSLAIDUNTIL.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/anything-you-dont-control-can-be-used-as-a-weapon-against-you-radical-blaxploitation": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "\"The first need of a free people is to define their own terms.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_ANYTHINGYOUDONT.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_ANYTHINGYOUDONT.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/a-void-in-the-cosmos-and-from-there-you-sing-early-pasolini": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "One of the most original and controversial thinkers of the twentieth century, Italian artist and intellectual Pier Paolo Pasolini embodied a multitude of often seemingly contradictory ideologies and identities—and he expressed them all in his provocative, lyrical, and indelible films.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_PPPASOLINI.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_PPPASOLINI.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/super-krime": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "When humanity has been driven insane by fear and horror, and when chaos has become supreme law, then the time will have come for the empire of krime!",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_SUPERKRIME6.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SUPERKRIME6.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/sublime-perversion-4-films-by-joaeo-cesar-monteiro": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "This November, Northwest Film Forum and The Beacon are teaming up to bring you four newly restored films from one of Portugal's greatest filmmakers: João César Monteiro.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_MONTIERO.jpg&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_MONTIERO.jpg"
+    }
+  },
+  "past:https://thebeacon.film/programs/gen-x-files": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "Trust no one.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_GENXFILES.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_GENXFILES.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/forget-everything-adore-me-and-adore-my-flesh-the-cinema-of-monika-treut": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "Ever since the release of her debut feature SEDUCTION: THE CRUEL WOMAN in 1985, Hamburg-based filmmaker MONIKA TREUT has devoted herself to depicting and documenting queer lives on screen, exploring the mysteries and ambiguities of gender, and transgressing repressive sexual mores and ideas.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_MONIKATREUT.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_MONIKATREUT.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/destroy-me-more-self-destruction-and-mutual-annihilation-as-a-transcendental-art": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "“A journey toward the estrangement of the self from the self…” —Susan Sontag DESTROY ME MORE is a series of films about self-destruction that go beyond punishment.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_DESTROYMEMORE.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_DESTROYMEMORE.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/the-market-has-a-mind-and-its-dreaming-of-you-sex-violence-corporate-cyber-paranoia": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "a culture of fragmentary sensations, eclectic nostalgia, disposable simulacra, and promiscuous superficiality, in which qualities of depth, coherence, meaning, originality, and authenticity are evacuated or dissolved amid the random swirl of empty signals. reality is empty now. fetishized money is expressive of a pure and simple absence, so it becomes speculative, exponential, itself doomed to crashes and sudden…",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_MARKETDREAMS.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_MARKETDREAMS.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/always-has-been-a-history-of-the-american-sickness": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "“I tremble for my country when I reflect that God is just.” - Thomas Jefferson “This is America, you live in it, you let it happen.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_ALWAYSHASBEEN.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_ALWAYSHASBEEN.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/obayashi-the-kadokawa-years": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "The teenage symphonies of Nobuhiko Obayashi (1938-2020) are wound in a melancholy nostalgia for a period indelibly lost to time—that inexpressible gap between adolescence and adulthood.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_OBAYASHIKADOKAWA.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_OBAYASHIKADOKAWA.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/the-films-of-frederick-wiseman": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "The Beacon Cinema and SIFF team up to celebrate the master of immersive, fly-on-the-wall documentaries—Frederick Wiseman—with THE FILMS OF FREDERICK WISEMAN , a shared ten-film series showcasing his groundbreaking work, all newly restored in stunning 4K.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fhome%2FTB_WISEMAN.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/home/TB_WISEMAN.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/the-absurd-mystery-of-the-strange-forces-of-existence-lynchian-cinema": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "Looking for movies actually made by David Lynch?",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_ABSURDMYSTERY.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_ABSURDMYSTERY.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/thank-you-for-your-lie-films-by-max-ophuls": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "“It is in the four late French films, all of which are mostly centered on women, that Ophuls’s obsession with mobile camera work is allowed its fullest liberty and extravagance.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_MAXOPHULS.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_MAXOPHULS.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/a-fleeting-wisp-of-glory-once-and-future-kings": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "To think on the Middle Ages is to summon the unreal.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_ONCEANDFUTURE.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_ONCEANDFUTURE.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/every-time-we-say-goodbye-films-by-bruce-weber": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "Featuring new 4K restorations courtesty of Kino Lorber!",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_WEBER.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_WEBER.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/potentially-ill-advised-films-about-assassinating-your-political-leaders": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "“The moment of assassination is the moment when power and the ignorance of power come together, with Death as validator.” - Thomas Pynchon \"The best government is a benevolent tyranny tempered by an occasional assassination.\" - Voltaire \"Other than that, Mrs.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_POTENTIALLYILLADVISED.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_POTENTIALLYILLADVISED.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/films-by-mike-leigh": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "The great prickly humanist of British cinema, Mike Leigh has forged a body of work unique in its concern for the struggles of ordinary people and the social fabric of working-class London.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_MIKELEIGH.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_MIKELEIGH.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/movies-are-not-impossible-to-make-a-case-study": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "“You just need to feel like God sometimes.” - Zia Anger One has to be a lunatic to make an independent film.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_MOVIESARENOTIMPOSSIBLE.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_MOVIESARENOTIMPOSSIBLE.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/against-civilization": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "“God first created silence: whole, indivisible, complete.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_AGAINSTCIVILIZATION.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_AGAINSTCIVILIZATION.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/derek-jarman-do-we-continue-to-grow-marigolds-even-as-the-emergency-sirens-blare": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "When Derek Jarman died from AIDs in 1994, the last words in his diary read ‘Birthday.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_JARMAN.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_JARMAN.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/the-ten-pillars-of-beacon": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "When the Beacon first opened, we posed a question: What is a movie?",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_10PILLARSOFB1.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_10PILLARSOFB1.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/you-are-receiving-this-broadcast-as-a-dream-john-carpenters-apocalypse-trilogy": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "Every species can smell its own extinction.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_CARPENTER.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_CARPENTER.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/everyone-is-guilty-patricia-highsmith-adaptations": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "“I am not a whore, that’s just an expression.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_HIGHSMITH.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_HIGHSMITH.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/the-revolt-of-the-artist-against-the-real-michelangelo-antonioni": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "Together with Fellini, Bergman and Kurosawa, Michelangelo Antonioni (1912 – 2007) is credited with defining the modern art film.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_ANTONIONI.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_ANTONIONI.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/the-best-tool-for-outlaws-is-and-always-will-be-cinema-the-films-of-jean-pierre-bekolo": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "Jean-Pierre Bekolo’s stirring futurist cinema creates paradoxes and brand new philosophical inquiries by subverting expectations of African cinema.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_BEKOLO2.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_BEKOLO2.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/wake-up-the-universe-has-ended-nicholas-ray-in-cinemascope": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "\"If it were all in the script, why make the film?\" - Nicholas Ray Canonized as one of postwar American cinema’s supremely gifted and ultimately tragic filmmakers, Nicholas Ray (1911-1979) was an artist whose candle burned from both ends with furious energy and inspiration.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fhome%2FTB_NICHOLASRAYSCOPE.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/home/TB_NICHOLASRAYSCOPE.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/nine-tenths-of-the-law-squatters-cinema": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "In 2019, a radical group calling itself the Cinéma La Clef Revival Collective forced their way into the derelict building which housed La Clef ('The Key'), a '70s-era cinema originally opened and operated by Claude Franck-Forter in Paris's 5th arrondissement.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_NINETENTHS.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_NINETENTHS.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/magnetic-madness-the-citizen-kanes-of-s.o.v": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "SOV = shot on video, aka the only honest way to make a movie.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_MAGNETICMADNESS.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_MAGNETICMADNESS.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/dietrich-von-sternberg-dress-for-the-image": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "\"I dress for the image.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_VONSTERNBERG.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_VONSTERNBERG.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/thou-art-dust-and-food-for-worms-dark-ages": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "Is it not strange that desire should so many years outlive performance?",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_DARKAGES.png&w=1080&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_DARKAGES.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/base-metals-pure-gold-the-scores-of-ennio-morricone": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "ENNIO MORRICONE was one of cinema's great musical inventors, a composer who treated the soundtrack as a laboratory.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fprograms%2Fbase-metals-pure-gold-the-scores-of-ennio-morricone.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/programs/base-metals-pure-gold-the-scores-of-ennio-morricone.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/god-hath-given-you-one-face-and-you-make-yourselves-another-movies-without-a-face": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "\"I'd like to take his face... off\"",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1786675512719-signal-2026-08-13-19-19-23-859.jpg&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1786675512719-signal-2026-08-13-19-19-23-859.jpg"
+    }
+  },
+  "past:https://thebeacon.film/programs/there-is-no-need-to-build-a-labyrinth-when-the-entire-universe-is-one-infinite-recursion-ontological-vertigo-and-the-territory-yielding-to-the-map": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "“A man sets out to draw the world.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1786675162740-signal-2026-08-13-19-24-40-690.jpg&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1786675162740-signal-2026-08-13-19-24-40-690.jpg"
+    }
+  },
+  "past:https://thebeacon.film/programs/gasoline-twilight-all0the-mad-maxes": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "Do not, my friends, become addicted to water.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fprograms%2Fgasoline-twilight-all0the-mad-maxes.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/programs/gasoline-twilight-all0the-mad-maxes.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/the-night-they-all-came-out-of-their-coffins-at-once-monster-crossovers-team-ups-pile-ups": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "There comes a point in every monster’s life when terror is no longer enough.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1789696820474-tb-monsters.jpg&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1789696820474-tb-monsters.jpg"
+    }
+  },
+  "past:https://thebeacon.film/programs/bleak-week-cinema-of-despair": {
+    "fetched": "2026-11-15",
+    "data": {
+      "first": "The Beacon Cinema is thrilled to partner with the American Cinematheque and cinemas around this horrible nation to present BLEAK WEEK , an annual weeklong festival spotlighting some of the greatest films from around the world that explore the darkest sides of humanity, as well as some of the bleakest points in human history.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fprograms%2Fbleak-week-cinema-of-despair.png&w=1200&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/programs/bleak-week-cinema-of-despair.png"
+    }
+  },
+  "past:https://thebeacon.film/programs/the-very-living-end-frank-tashlin-and-the-american-nervous-breakdown": {
+    "fetched": "2026-11-20",
+    "data": {
+      "first": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792627436888-tb-tashlin.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png"
+    }
+  }
+}

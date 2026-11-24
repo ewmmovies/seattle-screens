@@ -1,231 +1,7 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-15T18:26:47-08:00",
+  "scraped_at": "2026-11-23T18:23:33-08:00",
   "screenings": [
-    {
-      "id": "siff-downtown|2026-11-14|godzilla-minus-zero",
-      "venue_id": "siff-downtown",
-      "date": "2026-11-14",
-      "title": "Godzilla Minus Zero",
-      "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Takashi Yamazaki"
-      ],
-      "year": 2026,
-      "runtime_min": 135,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
-    },
-    {
-      "id": "siff-uptown|2026-11-14|r-m-n",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-14",
-      "title": "R.M.N.",
-      "showtimes": [
-        {
-          "time": "19:05",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Romanian Film Festival Seattle",
-      "directors": [],
-      "year": 2022,
-      "runtime_min": 128,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/cinema/in-theaters/romanian-film-festival-seattle-13th-edition/rmn"
-    },
-    {
-      "id": "siff-uptown|2026-11-14|you-can-see-everything",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-14",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "19:15",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 175,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
-    },
-    {
-      "id": "siff-uptown|2026-11-14|wild-horse-nine",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-14",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "19:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 118,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
-    },
-    {
-      "id": "siff-downtown|2026-11-15|godzilla-minus-zero",
-      "venue_id": "siff-downtown",
-      "date": "2026-11-15",
-      "title": "Godzilla Minus Zero",
-      "showtimes": [
-        {
-          "time": "18:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Takashi Yamazaki"
-      ],
-      "year": 2026,
-      "runtime_min": 135,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
-    },
-    {
-      "id": "siff-film-center|2026-11-15|the-life-we-leave",
-      "venue_id": "siff-film-center",
-      "date": "2026-11-15",
-      "title": "The Life We Leave",
-      "showtimes": [
-        {
-          "time": "18:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": true
-        }
-      ],
-      "kind": "film",
-      "series": "PNW Awards",
-      "directors": [
-        "JJ Gerber"
-      ],
-      "year": 2026,
-      "runtime_min": 87,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/programs-and-events/seattle-film-critics-society-pnw-awards-2026/the-life-we-leave"
-    },
-    {
-      "id": "siff-uptown|2026-11-15|wild-horse-nine",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-15",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "15:50",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 118,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
-    },
-    {
-      "id": "siff-uptown|2026-11-15|you-can-see-everything",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-15",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "17:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 175,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
-    },
-    {
-      "id": "siff-uptown|2026-11-15|the-wall",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-15",
-      "title": "The Wall",
-      "showtimes": [
-        {
-          "time": "18:05",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Romanian Film Festival Seattle",
-      "directors": [],
-      "year": 2026,
-      "runtime_min": 96,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/cinema/in-theaters/romanian-film-festival-seattle-13th-edition/the-wall"
-    },
     {
       "id": "siff-downtown|2026-11-16|godzilla-minus-zero",
       "venue_id": "siff-downtown",
@@ -644,7 +420,7 @@
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style",
+      "series": "Cinema Italian Style 2026",
       "directors": [
         "Margherita Spampinato"
       ],
@@ -786,7 +562,7 @@
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style",
+      "series": "Cinema Italian Style 2026",
       "directors": [
         "Leonardo Di Constanzo"
       ],
@@ -855,30 +631,59 @@
       "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
     },
     {
-      "id": "siff-uptown|2026-11-20|brunello-the-gracious-visionary",
+      "id": "siff-uptown|2026-11-20|you-can-see-everything",
       "venue_id": "siff-uptown",
       "date": "2026-11-20",
-      "title": "Brunello: The Gracious Visionary",
+      "title": "You Can See Everything",
       "showtimes": [
         {
-          "time": "15:00",
+          "time": "15:30",
           "ticket_url": null,
           "note": null,
           "sold_out": false
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style 2026",
+      "series": null,
       "directors": [
-        "Giuseppe Tornatore"
+        "Nathan Fielder",
+        "Lance Oppenheim"
       ],
       "year": 2026,
-      "runtime_min": 120,
+      "runtime_min": 175,
       "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
+    },
+    {
+      "id": "siff-uptown|2026-11-20|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-20",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
       ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/brunello-the-gracious-visionary"
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
     },
     {
       "id": "siff-uptown|2026-11-20|gioia",
@@ -963,12 +768,6 @@
       "title": "Godzilla Minus Zero",
       "showtimes": [
         {
-          "time": "12:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "16:00",
           "ticket_url": null,
           "note": null,
@@ -1019,30 +818,34 @@
       "url": "https://www.siff.net/cinema/in-theaters/disorder-(现实是过去的未来)"
     },
     {
-      "id": "siff-uptown|2026-11-21|where-is-the-fiesta",
+      "id": "siff-uptown|2026-11-21|club-kid",
       "venue_id": "siff-uptown",
       "date": "2026-11-21",
-      "title": "Where Is the Fiesta?",
+      "title": "Club Kid",
       "showtimes": [
         {
-          "time": "15:00",
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:40",
           "ticket_url": null,
           "note": null,
           "sold_out": false
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style 2026",
+      "series": null,
       "directors": [
-        "Niccolò Gentili"
+        "Jordan Firstman"
       ],
       "year": 2026,
-      "runtime_min": 102,
+      "runtime_min": 122,
       "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/where-is-the-fiesta"
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
     },
     {
       "id": "siff-uptown|2026-11-21|raise-the-red-lantern",
@@ -1082,7 +885,7 @@
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style",
+      "series": "Cinema Italian Style 2026",
       "directors": [
         "Carolina Cavalli"
       ],
@@ -1093,6 +896,30 @@
         "SIFF year-round passes and vouchers are not valid for this screening."
       ],
       "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/the-kidnapping-of-arabella"
+    },
+    {
+      "id": "siff-uptown|2026-11-21|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-21",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
     },
     {
       "id": "siff-uptown|2026-11-21|love-fits-everything",
@@ -1127,18 +954,6 @@
       "title": "Godzilla Minus Zero",
       "showtimes": [
         {
-          "time": "11:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "15:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "18:30",
           "ticket_url": null,
           "note": null,
@@ -1157,63 +972,19 @@
       "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
     },
     {
-      "id": "siff-film-center|2026-11-22|route-one-usa",
-      "venue_id": "siff-film-center",
+      "id": "siff-uptown|2026-11-22|you-can-see-everything",
+      "venue_id": "siff-uptown",
       "date": "2026-11-22",
-      "title": "Route One/USA",
+      "title": "You Can See Everything",
       "showtimes": [
         {
-          "time": "12:30",
+          "time": "15:30",
           "ticket_url": null,
           "note": null,
           "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "The Open Road",
-      "directors": [
-        "Robert Kramer"
-      ],
-      "year": 1989,
-      "runtime_min": 254,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/programs-and-events/the-open-road/route-one/usa"
-    },
-    {
-      "id": "siff-uptown|2026-11-22|journey-to-italy",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-22",
-      "title": "Journey to Italy",
-      "showtimes": [
+        },
         {
-          "time": "13:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Roberto Rossellini"
-      ],
-      "year": 1954,
-      "runtime_min": 97,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/journey-to-italy"
-    },
-    {
-      "id": "siff-uptown|2026-11-22|raise-the-red-lantern",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-22",
-      "title": "Raise the Red Lantern",
-      "showtimes": [
-        {
-          "time": "13:20",
+          "time": "19:15",
           "ticket_url": null,
           "note": null,
           "sold_out": false
@@ -1222,37 +993,44 @@
       "kind": "film",
       "series": null,
       "directors": [
-        "Zhang Yimou"
+        "Nathan Fielder",
+        "Lance Oppenheim"
       ],
-      "year": 1991,
-      "runtime_min": 125,
+      "year": 2026,
+      "runtime_min": 175,
       "format": null,
       "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/raise-the-red-lantern"
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
     },
     {
-      "id": "siff-uptown|2026-11-22|beloved",
+      "id": "siff-uptown|2026-11-22|club-kid",
       "venue_id": "siff-uptown",
       "date": "2026-11-22",
-      "title": "Beloved",
+      "title": "Club Kid",
       "showtimes": [
         {
-          "time": "15:00",
+          "time": "16:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:40",
           "ticket_url": null,
           "note": null,
           "sold_out": false
         }
       ],
       "kind": "film",
-      "series": "Cinema Italian Style 2026",
+      "series": null,
       "directors": [
-        "Elisa Amoruso"
+        "Jordan Firstman"
       ],
-      "year": 2025,
-      "runtime_min": 100,
+      "year": 2026,
+      "runtime_min": 122,
       "format": null,
       "notes": [],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/beloved"
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
     },
     {
       "id": "siff-uptown|2026-11-22|god-forgives-everyone",
@@ -1335,6 +1113,91 @@
       "url": "https://www.siff.net/programs-and-events/the-open-road/taste-of-cherry"
     },
     {
+      "id": "siff-uptown|2026-11-23|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-23",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "15:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
+    },
+    {
+      "id": "siff-uptown|2026-11-23|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-23",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
+      "id": "siff-uptown|2026-11-23|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-23",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
+    },
+    {
       "id": "siff-uptown|2026-11-23|raise-the-red-lantern",
       "venue_id": "siff-uptown",
       "date": "2026-11-23",
@@ -1415,6 +1278,36 @@
       "url": "https://www.siff.net/cinema/in-theaters/beware-the-devils-wrath-special-screening-qanda"
     },
     {
+      "id": "siff-uptown|2026-11-24|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-24",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "15:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
       "id": "siff-uptown|2026-11-24|raise-the-red-lantern",
       "venue_id": "siff-uptown",
       "date": "2026-11-24",
@@ -1437,6 +1330,61 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/raise-the-red-lantern"
+    },
+    {
+      "id": "siff-uptown|2026-11-24|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-24",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
+    },
+    {
+      "id": "siff-uptown|2026-11-24|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-24",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
     },
     {
       "id": "siff-downtown|2026-11-25|elsinore",
@@ -1493,6 +1441,115 @@
       "url": "https://www.siff.net/programs-and-events/the-open-road/taste-of-cherry"
     },
     {
+      "id": "siff-uptown|2026-11-25|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-25",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
+      "id": "siff-uptown|2026-11-25|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-25",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
+    },
+    {
+      "id": "siff-uptown|2026-11-25|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-25",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
+    },
+    {
+      "id": "siff-uptown|2026-11-25|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-25",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
+    },
+    {
       "id": "siff-downtown|2026-11-26|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-11-26",
@@ -1527,6 +1584,133 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-uptown|2026-11-26|club-kid",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-26",
+      "title": "Club Kid",
+      "showtimes": [
+        {
+          "time": "12:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Jordan Firstman"
+      ],
+      "year": 2026,
+      "runtime_min": 122,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
+    },
+    {
+      "id": "siff-uptown|2026-11-26|wild-horse-nine",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-26",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "13:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 118,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
+      "id": "siff-uptown|2026-11-26|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-26",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "13:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
+    },
+    {
+      "id": "siff-uptown|2026-11-26|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-26",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "18:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
     },
     {
       "id": "siff-downtown|2026-11-27|elsinore",
@@ -1593,6 +1777,42 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/hen"
+    },
+    {
+      "id": "siff-uptown|2026-11-27|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-27",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "13:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
     },
     {
       "id": "siff-downtown|2026-11-28|elsinore",
@@ -1667,6 +1887,42 @@
       "url": "https://www.siff.net/cinema/in-theaters/hen"
     },
     {
+      "id": "siff-uptown|2026-11-28|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-28",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "13:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
+    },
+    {
       "id": "siff-downtown|2026-11-29|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-11-29",
@@ -1733,13 +1989,25 @@
       "url": "https://www.siff.net/cinema/in-theaters/hen"
     },
     {
-      "id": "siff-film-center|2026-11-29|the-backcourt-documentary-basketballs-best-kept-secret",
-      "venue_id": "siff-film-center",
+      "id": "siff-uptown|2026-11-29|paper-tiger",
+      "venue_id": "siff-uptown",
       "date": "2026-11-29",
-      "title": "The Backcourt Documentary - Basketball's Best Kept Secret",
+      "title": "Paper Tiger",
       "showtimes": [
         {
-          "time": "15:30",
+          "time": "13:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
           "ticket_url": null,
           "note": null,
           "sold_out": false
@@ -1748,15 +2016,13 @@
       "kind": "film",
       "series": null,
       "directors": [
-        "Marquez Price"
+        "James Gray"
       ],
       "year": 2026,
-      "runtime_min": 120,
+      "runtime_min": 114,
       "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/cinema/in-theaters/the-backcourt-documentary-basketballs-best-kept-secret"
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
     },
     {
       "id": "siff-downtown|2026-11-30|elsinore",
@@ -1819,6 +2085,36 @@
       "url": "https://www.siff.net/cinema/in-theaters/hen"
     },
     {
+      "id": "siff-uptown|2026-11-30|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-30",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
+    },
+    {
       "id": "siff-downtown|2026-12-01|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-12-01",
@@ -1877,6 +2173,30 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/hen"
+    },
+    {
+      "id": "siff-uptown|2026-12-01|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-01",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
     },
     {
       "id": "siff-uptown|2026-12-01|the-oldest-person-in-the-world",
@@ -1979,6 +2299,36 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/the-musical-w/-director-qanda"
+    },
+    {
+      "id": "siff-uptown|2026-12-02|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-02",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
     },
     {
       "id": "siff-downtown|2026-12-03|elsinore",
@@ -2089,6 +2439,36 @@
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
     },
     {
+      "id": "siff-film-center|2026-12-04|on-the-road",
+      "venue_id": "siff-film-center",
+      "date": "2026-12-04",
+      "title": "On The Road",
+      "showtimes": [
+        {
+          "time": "16:50",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Pablos"
+      ],
+      "year": 2025,
+      "runtime_min": 93,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/on-the-road"
+    },
+    {
       "id": "siff-downtown|2026-12-05|elsinore",
       "venue_id": "siff-downtown",
       "date": "2026-12-05",
@@ -2123,6 +2503,42 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-film-center|2026-12-05|on-the-road",
+      "venue_id": "siff-film-center",
+      "date": "2026-12-05",
+      "title": "On The Road",
+      "showtimes": [
+        {
+          "time": "13:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Pablos"
+      ],
+      "year": 2025,
+      "runtime_min": 93,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/on-the-road"
     },
     {
       "id": "siff-downtown|2026-12-06|elsinore",
@@ -2161,6 +2577,42 @@
       "url": "https://www.siff.net/cinema/in-theaters/elsinore"
     },
     {
+      "id": "siff-film-center|2026-12-06|on-the-road",
+      "venue_id": "siff-film-center",
+      "date": "2026-12-06",
+      "title": "On The Road",
+      "showtimes": [
+        {
+          "time": "13:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "16:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "David Pablos"
+      ],
+      "year": 2025,
+      "runtime_min": 93,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/on-the-road"
+    },
+    {
       "id": "siff-uptown|2026-12-06|twilight",
       "venue_id": "siff-uptown",
       "date": "2026-12-06",
@@ -2183,6 +2635,443 @@
       "format": "35mm",
       "notes": [],
       "url": "https://www.siff.net/programs-and-events/siff-book-club/twilight"
+    },
+    {
+      "id": "siff-downtown|2026-12-07|elsinore",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-07",
+      "title": "Elsinore",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Simon Stone"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-uptown|2026-12-07|damnation",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-07",
+      "title": "Damnation",
+      "showtimes": [
+        {
+          "time": "18:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "SIFF Movie Club",
+      "directors": [
+        "Béla Tarr"
+      ],
+      "year": 1988,
+      "runtime_min": 116,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/siff-movie-club/damnation"
+    },
+    {
+      "id": "siff-downtown|2026-12-08|elsinore",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-08",
+      "title": "Elsinore",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Simon Stone"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-downtown|2026-12-09|elsinore",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-09",
+      "title": "Elsinore",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Simon Stone"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-uptown|2026-12-09|mountains-on-stage-winter-edition-2026",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-09",
+      "title": "Mountains on Stage - Winter Edition 2026",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "195 min. (including 10 min intermission)"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [
+        "SIFF year-round passes and vouchers are not valid for this screening."
+      ],
+      "url": "https://www.siff.net/cinema/in-theaters/mountains-on-stage-winter-edition-2026"
+    },
+    {
+      "id": "siff-downtown|2026-12-10|elsinore",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-10",
+      "title": "Elsinore",
+      "showtimes": [
+        {
+          "time": "16:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Simon Stone"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/elsinore"
+    },
+    {
+      "id": "siff-downtown|2026-12-11|the-godfather",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-11",
+      "title": "The Godfather",
+      "showtimes": [
+        {
+          "time": "18:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1972,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather"
+    },
+    {
+      "id": "siff-downtown|2026-12-12|the-godfather",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-12",
+      "title": "The Godfather",
+      "showtimes": [
+        {
+          "time": "11:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1972,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather"
+    },
+    {
+      "id": "siff-downtown|2026-12-12|the-godfather-part-ii",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-12",
+      "title": "The Godfather Part II",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1974,
+      "runtime_min": 200,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather-part-ii"
+    },
+    {
+      "id": "siff-downtown|2026-12-12|the-godfather-coda-the-death-of-michael-corleone",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-12",
+      "title": "The Godfather Coda: The Death of Michael Corleone",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1990,
+      "runtime_min": 158,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather-coda-the-death-of-michael-corleone"
+    },
+    {
+      "id": "siff-uptown|2026-12-12|the-muppet-christmas-carol",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-12",
+      "title": "The Muppet Christmas Carol",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Holiday Favorites",
+      "directors": [
+        "Brian Henson"
+      ],
+      "year": 1992,
+      "runtime_min": 85,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/holiday-favorites/the-muppet-christmas-carol"
+    },
+    {
+      "id": "siff-downtown|2026-12-13|singin-in-the-rain",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-13",
+      "title": "Singin’ In the Rain",
+      "showtimes": [
+        {
+          "time": "11:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Community Screening",
+      "directors": [
+        "Stanley Donen",
+        "Gene Kelly"
+      ],
+      "year": 1952,
+      "runtime_min": 103,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/community-screenings/singin-in-the-rain-cs"
+    },
+    {
+      "id": "siff-downtown|2026-12-13|the-godfather",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-13",
+      "title": "The Godfather",
+      "showtimes": [
+        {
+          "time": "14:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1972,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather"
+    },
+    {
+      "id": "siff-downtown|2026-12-13|the-godfather-part-ii",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-13",
+      "title": "The Godfather Part II",
+      "showtimes": [
+        {
+          "time": "18:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1974,
+      "runtime_min": 200,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather-part-ii"
+    },
+    {
+      "id": "siff-film-center|2026-12-13|jawbreaker-a-film-about-anti-cimex",
+      "venue_id": "siff-film-center",
+      "date": "2026-12-13",
+      "title": "Jawbreaker: A Film About Anti Cimex",
+      "showtimes": [
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Tomas Haglund and Oskar Sjödin"
+      ],
+      "year": 2025,
+      "runtime_min": 145,
+      "format": null,
+      "notes": [
+        "SIFF year-round passes and vouchers are not valid for this screening."
+      ],
+      "url": "https://www.siff.net/cinema/in-theaters/jawbreaker-a-film-about-anti-cimex"
+    },
+    {
+      "id": "siff-downtown|2026-12-14|the-godfather-part-ii",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-14",
+      "title": "The Godfather Part II",
+      "showtimes": [
+        {
+          "time": "18:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "year": 1974,
+      "runtime_min": 200,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/the-godfather-trilogy/the-godfather-part-ii"
+    },
+    {
+      "id": "siff-uptown|2026-12-14|the-muppet-christmas-carol",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-14",
+      "title": "The Muppet Christmas Carol",
+      "showtimes": [
+        {
+          "time": "18:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Holiday Favorites",
+      "directors": [
+        "Brian Henson"
+      ],
+      "year": 1992,
+      "runtime_min": 85,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/programs-and-events/holiday-favorites/the-muppet-christmas-carol"
     }
   ]
 }

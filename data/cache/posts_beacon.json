@@ -102,5 +102,82 @@
         "https://thebeacon.film/calendar/movie/will-success-spoil-rock-hunter"
       ]
     }
+  },
+  "detail3:https://thebeacon.film/series/time-as-a-symptom": {
+    "fetched": "2026-11-22",
+    "data": {
+      "description": "What happens after all the time is spent?",
+      "films": [
+        "https://thebeacon.film/calendar/movie/baxter-vera-baxter",
+        "https://thebeacon.film/calendar/movie/11-x-14"
+      ],
+      "first": "What happens after all the time is spent?",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_TIMEASASYMPTOM_%25281%2529.png&w=2048&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_TIMEASASYMPTOM_%281%29.png"
+    }
+  },
+  "detail3:https://thebeacon.film/series/shadowland": {
+    "fetched": "2026-11-22",
+    "data": {
+      "description": "The emotional otherworlds of classic cinema. Unspooling the ribbon of dreams every Sunday afternoon.",
+      "films": [
+        "https://thebeacon.film/calendar/movie/clash-by-ight",
+        "https://thebeacon.film/calendar/movie/all-i-desire",
+        "https://thebeacon.film/calendar/movie/it-happened-one-night",
+        "https://thebeacon.film/calendar/movie/bluebeard-s-eighth-wife",
+        "https://thebeacon.film/calendar/movie/midnight",
+        "https://thebeacon.film/calendar/movie/the-palm-beach-story"
+      ],
+      "first": "The emotional otherworlds of classic cinema.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fbeacon%2Fcommon%2FTB_SHADOWLAND2.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/beacon/common/TB_SHADOWLAND2.png"
+    }
+  },
+  "detail3:https://thebeacon.film/programs/surplus-reality": {
+    "fetched": "2026-11-22",
+    "data": {
+      "description": "",
+      "films": [
+        "https://thebeacon.film/calendar/movie/symbiopsychotaxiplasm-take-one",
+        "https://thebeacon.film/calendar/movie/surplus-operations-and-instruments-experiments-in-cin-ma-v-rit-and-psychodrama",
+        "https://thebeacon.film/calendar/movie/nationtime",
+        "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem"
+      ],
+      "first": "",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792704250199-tb-greaves.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png"
+    }
+  },
+  "detail3:https://thebeacon.film/programs/the-very-living-end-frank-tashlin-and-the-american-nervous-breakdown": {
+    "fetched": "2026-11-15",
+    "data": {
+      "description": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots.",
+      "films": [
+        "https://thebeacon.film/calendar/movie/artists-and-models",
+        "https://thebeacon.film/calendar/movie/the-girl-can-t-help-it",
+        "https://thebeacon.film/calendar/movie/will-success-spoil-rock-hunter"
+      ],
+      "first": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots.",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792627436888-tb-tashlin.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png"
+    }
+  },
+  "detail3:https://thebeacon.film/programs/love-is-a-country-of-two-and-trespassers-will-be-shot": {
+    "fetched": "2026-11-22",
+    "data": {
+      "description": "Population: YOU AND ME, BABY . No laws, no extradition treaties, no age of consent for declaring war on the world.",
+      "films": [
+        "https://thebeacon.film/calendar/movie/breathless",
+        "https://thebeacon.film/calendar/movie/pretty-poison",
+        "https://thebeacon.film/calendar/movie/buffalo-66",
+        "https://thebeacon.film/calendar/movie/perdita-durango",
+        "https://thebeacon.film/calendar/movie/the-honeymoon-killers",
+        "https://thebeacon.film/calendar/movie/natural-born-killers",
+        "https://thebeacon.film/calendar/movie/the-living-end"
+      ],
+      "first": "Population: YOU AND ME, BABY .",
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792950181821-zz.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792950181821-zz.png"
+    }
   }
 }
