@@ -1,31 +1,7 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-24T18:25:17-08:00",
+  "scraped_at": "2026-11-25T00:39:27-08:00",
   "screenings": [
-    {
-      "id": "beacon|2026-11-17|nationtime",
-      "venue_id": "beacon",
-      "date": "2026-11-17",
-      "title": "Nationtime",
-      "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://thebeacon.film/calendar/movie/nationtime?showtime=6YJ6BPOQ2GXTAYJCIHLSEEWC",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "William Greaves"
-      ],
-      "year": 1972,
-      "runtime_min": 80,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/nationtime"
-    },
     {
       "id": "beacon|2026-11-18|breathless",
       "venue_id": "beacon",
@@ -1099,6 +1075,54 @@
         {
           "time": "19:30",
           "ticket_url": "https://thebeacon.film/calendar/movie/morvern-callar?showtime=3MEMTWRLIYWPJPGIEAT725F6",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Lynne Ramsay"
+      ],
+      "year": null,
+      "runtime_min": 97,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/morvern-callar"
+    },
+    {
+      "id": "beacon|2026-12-16|hardware",
+      "venue_id": "beacon",
+      "date": "2026-12-16",
+      "title": "Hardware",
+      "showtimes": [
+        {
+          "time": "16:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/hardware?showtime=TUAL4UPQMBJPM2U4RVX3LY2W",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Richard Stanley"
+      ],
+      "year": 1990,
+      "runtime_min": 94,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/hardware"
+    },
+    {
+      "id": "beacon|2026-12-16|morvern-callar",
+      "venue_id": "beacon",
+      "date": "2026-12-16",
+      "title": "Morvern Callar",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/morvern-callar?showtime=DPTF7EXBAVNFIZ3F4SSDOSOD",
           "note": null,
           "sold_out": false
         }

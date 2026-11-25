@@ -1,39 +1,7 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-24T18:25:21-08:00",
+  "scraped_at": "2026-11-25T00:39:32-08:00",
   "screenings": [
-    {
-      "id": "nwff|2026-11-17|go-fish",
-      "venue_id": "nwff",
-      "date": "2026-11-17",
-      "title": "Go Fish",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/-6ae114674316a28ce5f1216d",
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:15",
-          "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/-6ae114674316a28ce5f1216d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Rose Troche"
-      ],
-      "year": 1994,
-      "runtime_min": 88,
-      "format": null,
-      "notes": [
-        "4K restoration"
-      ],
-      "url": "https://nwfilmforum.org/films/go-fish-4k-restoration/"
-    },
     {
       "id": "nwff|2026-11-18|seattle-film-societys-film-discussion-group",
       "venue_id": "nwff",

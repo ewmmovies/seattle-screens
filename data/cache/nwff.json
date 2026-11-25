@@ -261,7 +261,7 @@
     }
   },
   "https://nwfilmforum.org/films/sfcs-10-moonlight/": {
-    "fetched": "2026-11-18",
+    "fetched": "2026-11-25",
     "data": {
       "directors": [
         "Barry Jenkins"
@@ -274,7 +274,7 @@
     }
   },
   "https://nwfilmforum.org/films/carol/": {
-    "fetched": "2026-11-18",
+    "fetched": "2026-11-25",
     "data": {
       "directors": [
         "Todd Haynes"
@@ -287,7 +287,7 @@
     }
   },
   "https://nwfilmforum.org/films/cant-stop-the-music/": {
-    "fetched": "2026-11-18",
+    "fetched": "2026-11-25",
     "data": {
       "directors": [
         "Nancy Walker"
