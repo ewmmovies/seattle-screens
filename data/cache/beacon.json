@@ -311,5 +311,15 @@
       "year": 1990,
       "runtime_min": 94
     }
+  },
+  "https://thebeacon.film/calendar/movie/morvern-callar": {
+    "fetched": "2026-11-24",
+    "data": {
+      "directors": [
+        "Lynne Ramsay"
+      ],
+      "year": null,
+      "runtime_min": 97
+    }
   }
 }

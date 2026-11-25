@@ -248,7 +248,7 @@
     }
   },
   "https://nwfilmforum.org/films/xanadu/": {
-    "fetched": "2026-11-17",
+    "fetched": "2026-11-24",
     "data": {
       "directors": [
         "Robert Greenwald"
@@ -309,6 +309,17 @@
       "runtime_min": 360,
       "series": null,
       "ticket_url": "https://nwfilmforum.eventive.org/films/6aee46dbcd402002ac9f99e6",
+      "format": null
+    }
+  },
+  "https://nwfilmforum.org/events/open-arthouse-the-annual-nwff-holiday-party/": {
+    "fetched": "2026-11-24",
+    "data": {
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "series": "Open Arthouse",
+      "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/6b06373b071cd981783198a5",
       "format": null
     }
   }

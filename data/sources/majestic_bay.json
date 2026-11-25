@@ -1,111 +1,7 @@
 {
   "source": "majestic_bay",
-  "scraped_at": "2026-11-23T18:23:28-08:00",
+  "scraped_at": "2026-11-24T18:25:18-08:00",
   "screenings": [
-    {
-      "id": "majestic-bay|2026-11-16|you-can-see-everything",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-16",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "15:00",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36810?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "18:45",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36809?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 174,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "majestic-bay|2026-11-16|wicker",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-16",
-      "title": "Wicker",
-      "showtimes": [
-        {
-          "time": "15:15",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36808?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Alex Huston Fischer",
-        "Eleanor Wilson"
-      ],
-      "year": 2026,
-      "runtime_min": 105,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "majestic-bay|2026-11-16|godzilla-minus-zero",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-16",
-      "title": "Godzilla Minus Zero",
-      "showtimes": [
-        {
-          "time": "15:30",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36811?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Takashi Yamazaki"
-      ],
-      "year": 2026,
-      "runtime_min": 135,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "majestic-bay|2026-11-16|wildwood",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-16",
-      "title": "Wildwood",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36812?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Travis Knight"
-      ],
-      "year": 2026,
-      "runtime_min": 131,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
     {
       "id": "majestic-bay|2026-11-17|you-can-see-everything",
       "venue_id": "majestic-bay",
@@ -739,12 +635,6 @@
       "title": "You Can See Everything",
       "showtimes": [
         {
-          "time": "15:15",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36776?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "18:45",
           "ticket_url": "https://ticketing.us.veezi.com/purchase/36779?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
           "note": null,
@@ -770,12 +660,6 @@
       "title": "The Hunger Games: Sunrise on the Reaping",
       "showtimes": [
         {
-          "time": "15:30",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36777?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "19:00",
           "ticket_url": "https://ticketing.us.veezi.com/purchase/36780?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
           "note": null,
@@ -799,12 +683,6 @@
       "date": "2026-11-23",
       "title": "Wildwood",
       "showtimes": [
-        {
-          "time": "15:45",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36778?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "19:15",
           "ticket_url": "https://ticketing.us.veezi.com/purchase/36781?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",

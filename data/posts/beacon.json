@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-23T18:24:02-08:00",
+  "scraped_at": "2026-11-24T18:25:58-08:00",
   "posts": [
     {
       "id": "beacon|/programs/surplus-reality",
@@ -23,7 +23,7 @@
       "months": "November 2026",
       "happening": true,
       "venue_label": "The Beacon",
-      "next_date": "2026-11-23",
+      "next_date": null,
       "listed": true
     },
     {

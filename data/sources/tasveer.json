@@ -1,118 +1,7 @@
 {
   "source": "tasveer",
-  "scraped_at": "2026-11-23T18:23:54-08:00",
+  "scraped_at": "2026-11-24T18:25:46-08:00",
   "screenings": [
-    {
-      "id": "tasveer|2026-11-16|wild-horse-nine",
-      "venue_id": "tasveer",
-      "date": "2026-11-16",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "16:15",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 117,
-      "format": null,
-      "notes": [],
-      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
-    },
-    {
-      "id": "tasveer|2026-11-16|la-bola-negra",
-      "venue_id": "tasveer",
-      "date": "2026-11-16",
-      "title": "La Bola Negra",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": null,
-          "note": "English subtitles",
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Javier Calvo",
-        "Javier Ambrossi"
-      ],
-      "year": 2026,
-      "runtime_min": 155,
-      "format": null,
-      "notes": [],
-      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
-    },
-    {
-      "id": "tasveer|2026-11-16|once-upon-a-time-in-harlem",
-      "venue_id": "tasveer",
-      "date": "2026-11-16",
-      "title": "Once Upon a Time in Harlem",
-      "showtimes": [
-        {
-          "time": "17:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "David Greaves",
-        "William Greaves"
-      ],
-      "year": 2026,
-      "runtime_min": 100,
-      "format": null,
-      "notes": [],
-      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
-    },
-    {
-      "id": "tasveer|2026-11-16|you-can-see-everything",
-      "venue_id": "tasveer",
-      "date": "2026-11-16",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "18:50",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 174,
-      "format": null,
-      "notes": [],
-      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
-    },
     {
       "id": "tasveer|2026-11-17|wild-horse-nine",
       "venue_id": "tasveer",
@@ -1219,6 +1108,630 @@
       "format": null,
       "notes": [],
       "url": "https://filmcenter.tasveer.org/movie/i-play-rocky-2026-usa-english/"
+    },
+    {
+      "id": "tasveer|2026-11-27|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-27",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:25",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-27|i-play-rocky",
+      "venue_id": "tasveer",
+      "date": "2026-11-27",
+      "title": "I Play Rocky",
+      "showtimes": [
+        {
+          "time": "16:35",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:05",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Peter Farrelly"
+      ],
+      "year": 2026,
+      "runtime_min": 128,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/i-play-rocky-2026-usa-english/"
+    },
+    {
+      "id": "tasveer|2026-11-27|bitter-christmas",
+      "venue_id": "tasveer",
+      "date": "2026-11-27",
+      "title": "Bitter Christmas",
+      "showtimes": [
+        {
+          "time": "16:55",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Pedro Almodóvar"
+      ],
+      "year": 2026,
+      "runtime_min": 111,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/bitter-christmas-amarga-navidad-2026-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-28|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-28",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:25",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-28|i-play-rocky",
+      "venue_id": "tasveer",
+      "date": "2026-11-28",
+      "title": "I Play Rocky",
+      "showtimes": [
+        {
+          "time": "16:35",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:05",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Peter Farrelly"
+      ],
+      "year": 2026,
+      "runtime_min": 128,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/i-play-rocky-2026-usa-english/"
+    },
+    {
+      "id": "tasveer|2026-11-28|bitter-christmas",
+      "venue_id": "tasveer",
+      "date": "2026-11-28",
+      "title": "Bitter Christmas",
+      "showtimes": [
+        {
+          "time": "16:55",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Pedro Almodóvar"
+      ],
+      "year": 2026,
+      "runtime_min": 111,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/bitter-christmas-amarga-navidad-2026-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-29|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-29",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "13:20",
+          "ticket_url": null,
+          "note": "Open captions",
+          "sold_out": false
+        },
+        {
+          "time": "16:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-29|i-play-rocky",
+      "venue_id": "tasveer",
+      "date": "2026-11-29",
+      "title": "I Play Rocky",
+      "showtimes": [
+        {
+          "time": "13:30",
+          "ticket_url": null,
+          "note": "Open captions",
+          "sold_out": false
+        },
+        {
+          "time": "16:05",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Peter Farrelly"
+      ],
+      "year": 2026,
+      "runtime_min": 128,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/i-play-rocky-2026-usa-english/"
+    },
+    {
+      "id": "tasveer|2026-11-29|bitter-christmas",
+      "venue_id": "tasveer",
+      "date": "2026-11-29",
+      "title": "Bitter Christmas",
+      "showtimes": [
+        {
+          "time": "13:40",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        },
+        {
+          "time": "16:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Pedro Almodóvar"
+      ],
+      "year": 2026,
+      "runtime_min": 111,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/bitter-christmas-amarga-navidad-2026-spanish/"
+    },
+    {
+      "id": "tasveer|2026-11-30|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-11-30",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:25",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-11-30|i-play-rocky",
+      "venue_id": "tasveer",
+      "date": "2026-11-30",
+      "title": "I Play Rocky",
+      "showtimes": [
+        {
+          "time": "16:35",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:05",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Peter Farrelly"
+      ],
+      "year": 2026,
+      "runtime_min": 128,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/i-play-rocky-2026-usa-english/"
+    },
+    {
+      "id": "tasveer|2026-11-30|bitter-christmas",
+      "venue_id": "tasveer",
+      "date": "2026-11-30",
+      "title": "Bitter Christmas",
+      "showtimes": [
+        {
+          "time": "16:55",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Pedro Almodóvar"
+      ],
+      "year": 2026,
+      "runtime_min": 111,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/bitter-christmas-amarga-navidad-2026-spanish/"
+    },
+    {
+      "id": "tasveer|2026-12-01|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-12-01",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:25",
+          "ticket_url": null,
+          "note": "Open captions",
+          "sold_out": false
+        },
+        {
+          "time": "19:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-12-01|i-play-rocky",
+      "venue_id": "tasveer",
+      "date": "2026-12-01",
+      "title": "I Play Rocky",
+      "showtimes": [
+        {
+          "time": "16:35",
+          "ticket_url": null,
+          "note": "Open captions",
+          "sold_out": false
+        },
+        {
+          "time": "19:05",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Peter Farrelly"
+      ],
+      "year": 2026,
+      "runtime_min": 128,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/i-play-rocky-2026-usa-english/"
+    },
+    {
+      "id": "tasveer|2026-12-01|bitter-christmas",
+      "venue_id": "tasveer",
+      "date": "2026-12-01",
+      "title": "Bitter Christmas",
+      "showtimes": [
+        {
+          "time": "16:55",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Pedro Almodóvar"
+      ],
+      "year": 2026,
+      "runtime_min": 111,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/bitter-christmas-amarga-navidad-2026-spanish/"
+    },
+    {
+      "id": "tasveer|2026-12-02|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-12-02",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:25",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-12-02|i-play-rocky",
+      "venue_id": "tasveer",
+      "date": "2026-12-02",
+      "title": "I Play Rocky",
+      "showtimes": [
+        {
+          "time": "16:35",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:05",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Peter Farrelly"
+      ],
+      "year": 2026,
+      "runtime_min": 128,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/i-play-rocky-2026-usa-english/"
+    },
+    {
+      "id": "tasveer|2026-12-02|bitter-christmas",
+      "venue_id": "tasveer",
+      "date": "2026-12-02",
+      "title": "Bitter Christmas",
+      "showtimes": [
+        {
+          "time": "16:55",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Pedro Almodóvar"
+      ],
+      "year": 2026,
+      "runtime_min": 111,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/bitter-christmas-amarga-navidad-2026-spanish/"
+    },
+    {
+      "id": "tasveer|2026-12-03|i-play-rocky",
+      "venue_id": "tasveer",
+      "date": "2026-12-03",
+      "title": "I Play Rocky",
+      "showtimes": [
+        {
+          "time": "16:35",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Peter Farrelly"
+      ],
+      "year": 2026,
+      "runtime_min": 128,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/i-play-rocky-2026-usa-english/"
+    },
+    {
+      "id": "tasveer|2026-12-03|wild-horse-nine",
+      "venue_id": "tasveer",
+      "date": "2026-12-03",
+      "title": "Wild Horse Nine",
+      "showtimes": [
+        {
+          "time": "16:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:20",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Martin McDonagh"
+      ],
+      "year": 2026,
+      "runtime_min": 117,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
+    },
+    {
+      "id": "tasveer|2026-12-03|bitter-christmas",
+      "venue_id": "tasveer",
+      "date": "2026-12-03",
+      "title": "Bitter Christmas",
+      "showtimes": [
+        {
+          "time": "17:05",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        },
+        {
+          "time": "19:45",
+          "ticket_url": null,
+          "note": "English subtitles",
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Pedro Almodóvar"
+      ],
+      "year": 2026,
+      "runtime_min": 111,
+      "format": null,
+      "notes": [],
+      "url": "https://filmcenter.tasveer.org/movie/bitter-christmas-amarga-navidad-2026-spanish/"
     },
     {
       "id": "tasveer|2026-12-03|kikuyu-land",

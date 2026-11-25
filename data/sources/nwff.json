@@ -1,56 +1,7 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-23T18:23:30-08:00",
+  "scraped_at": "2026-11-24T18:25:21-08:00",
   "screenings": [
-    {
-      "id": "nwff|2026-11-16|zi",
-      "venue_id": "nwff",
-      "date": "2026-11-16",
-      "title": "Zi",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ab17144057dcc896cf6c420",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Kogonada"
-      ],
-      "year": 2026,
-      "runtime_min": 99,
-      "format": null,
-      "notes": [],
-      "url": "https://nwfilmforum.org/films/zi/"
-    },
-    {
-      "id": "nwff|2026-11-16|you-sorta-know-its-gonna-end",
-      "venue_id": "nwff",
-      "date": "2026-11-16",
-      "title": "You Sorta Know It's Gonna End",
-      "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ac6af9b99b9de9d62f8bf77",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Kalil Haddad",
-        "Ryan Steel"
-      ],
-      "year": 2025,
-      "runtime_min": 62,
-      "format": null,
-      "notes": [],
-      "url": "https://nwfilmforum.org/films/you-sorta-know-its-gonna-end/"
-    },
     {
       "id": "nwff|2026-11-17|go-fish",
       "venue_id": "nwff",
@@ -1100,6 +1051,28 @@
       "format": null,
       "notes": [],
       "url": "https://nwfilmforum.org/films/cant-stop-the-music/"
+    },
+    {
+      "id": "nwff|2026-12-11|the-annual-nwff-holiday-party",
+      "venue_id": "nwff",
+      "date": "2026-12-11",
+      "title": "The Annual NWFF Holiday Party!",
+      "showtimes": [
+        {
+          "time": "18:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/6b06373b071cd981783198a5",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "event",
+      "series": "Open Arthouse",
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/events/open-arthouse-the-annual-nwff-holiday-party/"
     },
     {
       "id": "nwff|2026-12-12|xanadu",
