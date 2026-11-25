@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-24T12:12:23-08:00",
+  "scraped_at": "2026-11-24T18:25:21-08:00",
   "screenings": [
     {
       "id": "nwff|2026-11-17|go-fish",
@@ -1051,6 +1051,28 @@
       "format": null,
       "notes": [],
       "url": "https://nwfilmforum.org/films/cant-stop-the-music/"
+    },
+    {
+      "id": "nwff|2026-12-11|the-annual-nwff-holiday-party",
+      "venue_id": "nwff",
+      "date": "2026-12-11",
+      "title": "The Annual NWFF Holiday Party!",
+      "showtimes": [
+        {
+          "time": "18:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/6b06373b071cd981783198a5",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "event",
+      "series": "Open Arthouse",
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/events/open-arthouse-the-annual-nwff-holiday-party/"
     },
     {
       "id": "nwff|2026-12-12|xanadu",

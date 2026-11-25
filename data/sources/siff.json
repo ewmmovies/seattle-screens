@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-24T12:12:26-08:00",
+  "scraped_at": "2026-11-24T18:25:25-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-17|godzilla-minus-zero",
@@ -1820,6 +1820,12 @@
       "showtimes": [
         {
           "time": "12:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:15",
           "ticket_url": null,
           "note": null,
           "sold_out": false

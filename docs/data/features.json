@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T12:13:10-08:00",
+  "generated_at": "2026-11-24T18:26:09-08:00",
   "lead": [
     {
       "title": "Shadowland",
@@ -170,6 +170,18 @@
       "months": "",
       "image": "https://nwfilmforum.org/wp-content/uploads/2026/06/sfcs10_2720x900-2550x844.jpg",
       "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2026/06/sfcs10_2720x900-900x298.jpg"
+    },
+    {
+      "title": "Open Arthouse",
+      "url": "https://nwfilmforum.org/series/open-arthouse/",
+      "venue": "NWFF",
+      "kind": "Series",
+      "when": "Next: Dec 11",
+      "byline": "Every quarter, visit Northwest Film Forum for an open house featuring different activities, social hours, and opportunities to learn how to be more involved in Seattle's film scene!",
+      "description": "",
+      "months": "",
+      "image": "https://nwfilmforum.org/wp-content/uploads/2026/10/openarthouse2720-2550x563.png",
+      "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2026/10/openarthouse2720-900x199.png"
     }
   ]
 }

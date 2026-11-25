@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T12:13:10-08:00",
+  "generated_at": "2026-11-24T18:26:09-08:00",
   "range": {
     "start": "2026-11-17",
     "end": "2026-12-15"
@@ -3187,30 +3187,6 @@
       "url": "https://filmcenter.tasveer.org/movie/naza-2026-hebrewenglish-subtitled-in-english/"
     },
     {
-      "id": "beacon|2026-11-24|once-upon-a-time-in-harlem",
-      "venue_id": "beacon",
-      "date": "2026-11-24",
-      "title": "Once Upon a Time in Harlem",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem?showtime=ULZUPD7FUVLSQTZXN363TIQ2",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "William Greaves"
-      ],
-      "year": 2026,
-      "runtime_min": 100,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem"
-    },
-    {
       "id": "beacon|2026-11-24|buffalo-66",
       "venue_id": "beacon",
       "date": "2026-11-24",
@@ -3343,30 +3319,6 @@
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "north-bend|2026-11-24|free-birds",
-      "venue_id": "north-bend",
-      "date": "2026-11-24",
-      "title": "Free Birds",
-      "showtimes": [
-        {
-          "time": "14:30",
-          "ticket_url": "https://tix.northbendtheatre.com/event/free-birds-tuesday-nov-24th-230pm",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Free Birds FREE Matinees",
-      "directors": [],
-      "year": 2013,
-      "runtime_min": 91,
-      "format": null,
-      "notes": [
-        "Free admission"
-      ],
-      "url": "https://tix.northbendtheatre.com/event/free-birds-tuesday-nov-24th-230pm"
     },
     {
       "id": "nwff|2026-11-24|la-bola-negra",
@@ -5760,6 +5712,12 @@
       "showtimes": [
         {
           "time": "12:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:15",
           "ticket_url": null,
           "note": null,
           "sold_out": false
@@ -8620,6 +8578,28 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/goodbye-20th-century"
+    },
+    {
+      "id": "nwff|2026-12-11|the-annual-nwff-holiday-party",
+      "venue_id": "nwff",
+      "date": "2026-12-11",
+      "title": "The Annual NWFF Holiday Party!",
+      "showtimes": [
+        {
+          "time": "18:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/6b06373b071cd981783198a5",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "event",
+      "series": "Open Arthouse",
+      "directors": [],
+      "year": null,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/events/open-arthouse-the-annual-nwff-holiday-party/"
     },
     {
       "id": "siff-downtown|2026-12-11|the-godfather",
