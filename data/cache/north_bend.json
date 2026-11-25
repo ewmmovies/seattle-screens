@@ -196,5 +196,14 @@
       "year": 2003,
       "runtime_min": 97
     }
+  },
+  "https://tix.northbendtheatre.com/event/the-thing-wednesday-dec-16th-7pm-": {
+    "fetched": "2026-11-25",
+    "data": {
+      "date": "2026-12-16",
+      "time": "19:00",
+      "year": 1982,
+      "runtime_min": 109
+    }
   }
 }

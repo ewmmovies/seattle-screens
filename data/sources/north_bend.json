@@ -1,6 +1,6 @@
 {
   "source": "north_bend",
-  "scraped_at": "2026-11-25T06:29:54-08:00",
+  "scraped_at": "2026-11-25T12:06:08-08:00",
   "screenings": [
     {
       "id": "north-bend|2026-11-18|alien-private-eye",
@@ -311,6 +311,30 @@
       "format": null,
       "notes": [],
       "url": "https://tix.northbendtheatre.com/event/warren-millers-days-off-sunday-dec-13th-3pm"
+    },
+    {
+      "id": "north-bend|2026-12-16|the-thing",
+      "venue_id": "north-bend",
+      "date": "2026-12-16",
+      "title": "The Thing",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/the-thing-wednesday-dec-16th-7pm-",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": "Essential Cinema",
+      "directors": [],
+      "year": 1982,
+      "runtime_min": 109,
+      "format": null,
+      "notes": [
+        "Free admission"
+      ],
+      "url": "https://tix.northbendtheatre.com/event/the-thing-wednesday-dec-16th-7pm-"
     }
   ]
 }
