@@ -1,6 +1,6 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-25T12:06:10-08:00",
+  "scraped_at": "2026-11-25T18:24:10-08:00",
   "screenings": [
     {
       "id": "nwff|2026-11-18|seattle-film-societys-film-discussion-group",
@@ -1185,6 +1185,30 @@
       "format": null,
       "notes": [],
       "url": "https://nwfilmforum.org/films/xanadu/"
+    },
+    {
+      "id": "nwff|2026-12-13|tr-nny-jackass",
+      "venue_id": "nwff",
+      "date": "2026-12-13",
+      "title": "Tr*nny Jackass",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://nwfilmforum.eventive.org/films/6b071dd95f9dcd7ae12d9751",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Rhyme Kickflips"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [],
+      "url": "https://nwfilmforum.org/films/trnny-jackass/"
     }
   ]
 }

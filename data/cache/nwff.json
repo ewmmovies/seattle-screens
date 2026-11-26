@@ -322,5 +322,18 @@
       "ticket_url": "https://nwfilmforum.eventive.org/Now_playing/6b06373b071cd981783198a5",
       "format": null
     }
+  },
+  "https://nwfilmforum.org/films/trnny-jackass/": {
+    "fetched": "2026-11-25",
+    "data": {
+      "directors": [
+        "Rhyme Kickflips"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "series": null,
+      "ticket_url": "https://nwfilmforum.eventive.org/films/6b071dd95f9dcd7ae12d9751",
+      "format": null
+    }
   }
 }

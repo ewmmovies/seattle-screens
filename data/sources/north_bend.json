@@ -1,6 +1,6 @@
 {
   "source": "north_bend",
-  "scraped_at": "2026-11-25T12:06:08-08:00",
+  "scraped_at": "2026-11-25T18:24:09-08:00",
   "screenings": [
     {
       "id": "north-bend|2026-11-18|alien-private-eye",
@@ -113,30 +113,6 @@
       "format": null,
       "notes": [],
       "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-22nd-7pm"
-    },
-    {
-      "id": "north-bend|2026-11-25|free-birds",
-      "venue_id": "north-bend",
-      "date": "2026-11-25",
-      "title": "Free Birds",
-      "showtimes": [
-        {
-          "time": "14:30",
-          "ticket_url": "https://tix.northbendtheatre.com/event/free-birds-wednesday-nov-25th-230pm",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Free Birds FREE Matinees",
-      "directors": [],
-      "year": 2013,
-      "runtime_min": 91,
-      "format": null,
-      "notes": [
-        "Free admission"
-      ],
-      "url": "https://tix.northbendtheatre.com/event/free-birds-wednesday-nov-25th-230pm"
     },
     {
       "id": "north-bend|2026-11-26|the-hunger-games-sunrise-on-the-reaping",

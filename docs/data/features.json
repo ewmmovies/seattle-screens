@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:06:54-08:00",
+  "generated_at": "2026-11-25T18:25:02-08:00",
   "lead": [
     {
       "title": "Shadowland",
@@ -86,18 +86,6 @@
       "months": "",
       "image": "https://nwfilmforum.org/wp-content/uploads/2025/01/2720-Header-2550x563.png",
       "image_fallback": "https://nwfilmforum.org/wp-content/uploads/2025/01/2720-Header-900x199.png"
-    },
-    {
-      "title": "Surplus Reality: How William Greaves Constructed a Stage, Sabotaged It and Mined Truth Out of the Wreckage",
-      "url": "https://thebeacon.film/programs/surplus-reality",
-      "venue": "The Beacon",
-      "kind": "Program",
-      "when": "November 2026",
-      "byline": "4 films",
-      "description": "",
-      "months": "November 2026",
-      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792704250199-tb-greaves.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
-      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png"
     },
     {
       "title": "Movie Club",

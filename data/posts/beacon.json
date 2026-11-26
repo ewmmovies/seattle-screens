@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-25T12:06:45-08:00",
+  "scraped_at": "2026-11-25T18:24:48-08:00",
   "posts": [
     {
       "id": "beacon|/programs/surplus-reality",
@@ -10,17 +10,17 @@
       "url": "https://thebeacon.film/programs/surplus-reality",
       "published": "2026-11-01",
       "category": "Program",
-      "summary": "Now playing.",
+      "summary": "",
       "first_seen": "2026-11-15T11:50:34-08:00",
       "date_label": "November 2026",
       "current": false,
-      "now_playing": true,
+      "now_playing": false,
       "coming_soon": false,
-      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792704250199-tb-greaves.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
-      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png",
-      "byline": "4 films",
+      "image": null,
+      "image_fallback": null,
+      "byline": null,
       "description": null,
-      "months": "November 2026",
+      "months": null,
       "happening": true,
       "venue_label": "The Beacon",
       "next_date": null,
@@ -71,7 +71,7 @@
       "months": "November 2026 – December 2026",
       "happening": true,
       "venue_label": "The Beacon",
-      "next_date": "2026-11-25",
+      "next_date": "2026-11-28",
       "listed": true
     },
     {

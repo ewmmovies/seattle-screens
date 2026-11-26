@@ -1,6 +1,6 @@
 {
   "source": "beacon_past",
-  "scraped_at": "2026-11-25T12:06:47-08:00",
+  "scraped_at": "2026-11-25T18:24:55-08:00",
   "posts": [
     {
       "id": "beacon_past|/programs/the-very-living-end-frank-tashlin-and-the-american-nervous-breakdown",
@@ -20,6 +20,30 @@
       "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792627436888-tb-tashlin.png",
       "byline": null,
       "description": "In the 1950s, America was facing an unprecedented national emergency: comic books were turning children into perverts, rock and roll was turning teenagers into sex maniacs, and advertising was turning everybody else into idiots.",
+      "months": null,
+      "happening": true,
+      "venue_label": "The Beacon",
+      "next_date": null,
+      "listed": true
+    },
+    {
+      "id": "beacon_past|/programs/surplus-reality",
+      "source": "beacon_past",
+      "source_name": "The Beacon",
+      "title": "Surplus Reality: How William Greaves Constructed a Stage, Sabotaged It and Mined Truth Out of the Wreckage",
+      "url": "https://thebeacon.film/programs/surplus-reality",
+      "published": "2026-11-01",
+      "category": "Program",
+      "summary": "",
+      "first_seen": "2026-11-25T18:24:55-08:00",
+      "date_label": "November 2026",
+      "current": false,
+      "now_playing": false,
+      "coming_soon": false,
+      "image": "https://thebeacon.film/_vercel/image?url=https%3A%2F%2Fv4sbluaw4a7zyg44.public.blob.vercel-storage.com%2Fprograms%2F1792704250199-tb-greaves.png&w=1920&q=78&dpl=dpl_5qcamuCPnGAeaZE5f9ddUz7NM7zs",
+      "image_fallback": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/programs/1792704250199-tb-greaves.png",
+      "byline": null,
+      "description": null,
       "months": null,
       "happening": true,
       "venue_label": "The Beacon",
