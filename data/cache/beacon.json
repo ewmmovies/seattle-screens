@@ -252,7 +252,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/perinbaba": {
-    "fetched": "2026-11-19",
+    "fetched": "2026-11-26",
     "data": {
       "directors": [
         "Juraj Jakubisko"
@@ -320,6 +320,16 @@
       ],
       "year": null,
       "runtime_min": 97
+    }
+  },
+  "https://thebeacon.film/calendar/movie/peregrine-falcon": {
+    "fetched": "2026-11-26",
+    "data": {
+      "directors": [
+        "Alsea Diana"
+      ],
+      "year": 2026,
+      "runtime_min": 75
     }
   }
 }

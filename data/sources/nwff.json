@@ -1,77 +1,7 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-25T18:24:10-08:00",
+  "scraped_at": "2026-11-26T00:37:38-08:00",
   "screenings": [
-    {
-      "id": "nwff|2026-11-18|seattle-film-societys-film-discussion-group",
-      "venue_id": "nwff",
-      "date": "2026-11-18",
-      "title": "Seattle Film Society's Film Discussion Group",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6a70fb7370e3573a60b19581",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "event",
-      "series": null,
-      "directors": [],
-      "year": null,
-      "runtime_min": null,
-      "format": null,
-      "notes": [],
-      "url": "https://nwfilmforum.org/events/seattle-film-societys-film-discussion-group/"
-    },
-    {
-      "id": "nwff|2026-11-18|wtf-with-stuff-kokomo-city",
-      "venue_id": "nwff",
-      "date": "2026-11-18",
-      "title": "WTF with STUFF - Kokomo City",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6a32c56e98bf14c05494adb5",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Seattle Trans Underground Film Fest Presents: Wednesday Trans Film",
-      "directors": [
-        "D. Smith"
-      ],
-      "year": 2023,
-      "runtime_min": 73,
-      "format": null,
-      "notes": [],
-      "url": "https://nwfilmforum.org/films/wtf-with-stuff-kokomo-city/"
-    },
-    {
-      "id": "nwff|2026-11-18|zi",
-      "venue_id": "nwff",
-      "date": "2026-11-18",
-      "title": "Zi",
-      "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ab17144057dcc896cf6c420",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Kogonada"
-      ],
-      "year": 2026,
-      "runtime_min": 99,
-      "format": null,
-      "notes": [],
-      "url": "https://nwfilmforum.org/films/zi/"
-    },
     {
       "id": "nwff|2026-11-19|sfcs-at-10-the-witch",
       "venue_id": "nwff",

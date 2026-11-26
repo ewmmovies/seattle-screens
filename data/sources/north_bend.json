@@ -1,31 +1,7 @@
 {
   "source": "north_bend",
-  "scraped_at": "2026-11-25T18:24:09-08:00",
+  "scraped_at": "2026-11-26T00:37:37-08:00",
   "screenings": [
-    {
-      "id": "north-bend|2026-11-18|alien-private-eye",
-      "venue_id": "north-bend",
-      "date": "2026-11-18",
-      "title": "Alien Private Eye",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://tix.northbendtheatre.com/event/alien-private-eye-wednesday-nov-18th-7pm",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Analog Anomalies",
-      "directors": [],
-      "year": null,
-      "runtime_min": null,
-      "format": null,
-      "notes": [
-        "Free admission"
-      ],
-      "url": "https://tix.northbendtheatre.com/event/alien-private-eye-wednesday-nov-18th-7pm"
-    },
     {
       "id": "north-bend|2026-11-19|the-hunger-games-sunrise-on-the-reaping",
       "venue_id": "north-bend",
