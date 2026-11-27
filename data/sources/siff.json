@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-26T12:15:36-08:00",
+  "scraped_at": "2026-11-26T18:25:07-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-19|godzilla-minus-zero",
@@ -1126,12 +1126,6 @@
       "title": "Elsinore",
       "showtimes": [
         {
-          "time": "13:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "16:00",
           "ticket_url": null,
           "note": null,
@@ -1162,12 +1156,6 @@
       "title": "Club Kid",
       "showtimes": [
         {
-          "time": "12:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "15:45",
           "ticket_url": null,
           "note": null,
@@ -1190,66 +1178,6 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/club-kid"
-    },
-    {
-      "id": "siff-uptown|2026-11-26|wild-horse-nine",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-26",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "13:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 118,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
-    },
-    {
-      "id": "siff-uptown|2026-11-26|paper-tiger",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-26",
-      "title": "Paper Tiger",
-      "showtimes": [
-        {
-          "time": "13:15",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "16:15",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:15",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "James Gray"
-      ],
-      "year": 2026,
-      "runtime_min": 114,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
     },
     {
       "id": "siff-uptown|2026-11-26|you-can-see-everything",
@@ -1281,6 +1209,36 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
+    },
+    {
+      "id": "siff-uptown|2026-11-26|paper-tiger",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-26",
+      "title": "Paper Tiger",
+      "showtimes": [
+        {
+          "time": "16:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:15",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "James Gray"
+      ],
+      "year": 2026,
+      "runtime_min": 114,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/paper-tiger"
     },
     {
       "id": "siff-downtown|2026-11-27|elsinore",
