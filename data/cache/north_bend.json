@@ -205,5 +205,176 @@
       "year": 1982,
       "runtime_min": 109
     }
+  },
+  "https://tix.northbendtheatre.com/event/accessibility-screening-avengers-doomsday-sunday-dec-27th-3pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-27",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-friday-dec-18th-3pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-18",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-friday-dec-18th-7pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-18",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-friday-jan-1st-3pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2027-01-01",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-friday-jan-1st-7pm-": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2027-01-01",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-saturday-dec-19th-3pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-19",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-saturday-dec-19th-7pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-19",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-saturday-dec-26th-3pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-26",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-saturday-dec-26th-7pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-26",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-saturday-jan-2nd-3pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2027-01-02",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-saturday-jan-2nd-7pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2027-01-02",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-sunday-dec-20th-3pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-20",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-sunday-dec-20th-7pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-20",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-sunday-dec-27th-7pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-27",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-sunday-jan-3rd-3pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2027-01-03",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-thursday-dec-24th-3pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-24",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-thursday-dec-31st-7pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-31",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/avengers-doomsday-wednesday-dec-23rd-3pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2026-12-23",
+      "time": "15:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
+  },
+  "https://tix.northbendtheatre.com/event/last-show-avengers-doomsday-sunday-jan-3rd-7pm": {
+    "fetched": "2026-11-27",
+    "data": {
+      "date": "2027-01-03",
+      "time": "19:00",
+      "year": 2026,
+      "runtime_min": 150
+    }
   }
 }

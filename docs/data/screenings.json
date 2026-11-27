@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T06:26:51-08:00",
+  "generated_at": "2026-11-27T12:09:55-08:00",
   "range": {
     "start": "2026-11-20",
     "end": "2026-12-18"
@@ -8797,6 +8797,34 @@
       "format": "Digital",
       "notes": [],
       "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "north-bend|2026-12-18|avengers-doomsday",
+      "venue_id": "north-bend",
+      "date": "2026-12-18",
+      "title": "Avengers: Doomsday",
+      "showtimes": [
+        {
+          "time": "15:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/avengers-doomsday-friday-dec-18th-3pm",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": "https://tix.northbendtheatre.com/event/avengers-doomsday-friday-dec-18th-7pm",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [],
+      "year": 2026,
+      "runtime_min": 150,
+      "format": null,
+      "notes": [],
+      "url": "https://tix.northbendtheatre.com/event/avengers-doomsday-friday-dec-18th-3pm"
     },
     {
       "id": "siff-downtown|2026-12-18|dune-part-three",
