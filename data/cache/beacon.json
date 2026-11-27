@@ -262,7 +262,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/goodbye-20th-century": {
-    "fetched": "2026-11-20",
+    "fetched": "2026-11-27",
     "data": {
       "directors": [
         "Darko Mitrevski",
@@ -273,7 +273,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/seattle-against-war-presents-walker": {
-    "fetched": "2026-11-20",
+    "fetched": "2026-11-27",
     "data": {
       "directors": [
         "Alex Cox"
@@ -330,6 +330,26 @@
       ],
       "year": 2026,
       "runtime_min": 75
+    }
+  },
+  "https://thebeacon.film/calendar/movie/a-pistol-for-ringo": {
+    "fetched": "2026-11-27",
+    "data": {
+      "directors": [
+        "Duccio Tessari"
+      ],
+      "year": 1965,
+      "runtime_min": 98
+    }
+  },
+  "https://thebeacon.film/calendar/movie/detective-bureau-2-3-go-to-hell-bastards": {
+    "fetched": "2026-11-27",
+    "data": {
+      "directors": [
+        "Seijun Suzuki"
+      ],
+      "year": 1963,
+      "runtime_min": 89
     }
   }
 }

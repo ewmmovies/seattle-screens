@@ -1,29 +1,7 @@
 {
   "source": "north_bend",
-  "scraped_at": "2026-11-26T18:25:03-08:00",
+  "scraped_at": "2026-11-27T00:36:47-08:00",
   "screenings": [
-    {
-      "id": "north-bend|2026-11-19|the-hunger-games-sunrise-on-the-reaping",
-      "venue_id": "north-bend",
-      "date": "2026-11-19",
-      "title": "The Hunger Games: Sunrise on the Reaping",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-19th-7pm",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [],
-      "year": 2026,
-      "runtime_min": 159,
-      "format": null,
-      "notes": [],
-      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-19th-7pm"
-    },
     {
       "id": "north-bend|2026-11-20|the-hunger-games-sunrise-on-the-reaping",
       "venue_id": "north-bend",

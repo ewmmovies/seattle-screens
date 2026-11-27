@@ -1,60 +1,7 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-26T18:25:04-08:00",
+  "scraped_at": "2026-11-27T00:36:48-08:00",
   "screenings": [
-    {
-      "id": "nwff|2026-11-19|sfcs-at-10-the-witch",
-      "venue_id": "nwff",
-      "date": "2026-11-19",
-      "title": "SFCS at 10: The Witch",
-      "showtimes": [
-        {
-          "time": "18:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6a2b255ee1a0f81f6564f4e4",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "SFCS at 10: A Decade of Favorites",
-      "directors": [
-        "Robert Eggers"
-      ],
-      "year": 2016,
-      "runtime_min": 92,
-      "format": null,
-      "notes": [],
-      "url": "https://nwfilmforum.org/films/sfcs-10-witch/"
-    },
-    {
-      "id": "nwff|2026-11-19|november-2026",
-      "venue_id": "nwff",
-      "date": "2026-11-19",
-      "title": "November 2026",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6aea322019dc776b5f4a2ff6",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Seattle Film Society Presents: Locals Only",
-      "directors": [
-        "James Andrews",
-        "Nate Fieldson",
-        "Amy Harris",
-        "Kamyar Mohsenin"
-      ],
-      "year": null,
-      "runtime_min": 33,
-      "format": null,
-      "notes": [
-        "Visiting artist"
-      ],
-      "url": "https://nwfilmforum.org/films/seattle-film-society-presents-locals-november-2026/"
-    },
     {
       "id": "nwff|2026-11-20|love-streams",
       "venue_id": "nwff",

@@ -1,479 +1,10 @@
 {
-  "generated_at": "2026-11-26T18:25:47-08:00",
+  "generated_at": "2026-11-27T00:37:30-08:00",
   "range": {
-    "start": "2026-11-19",
-    "end": "2026-12-17"
+    "start": "2026-11-20",
+    "end": "2026-12-18"
   },
   "screenings": [
-    {
-      "id": "beacon|2026-11-19|breathless",
-      "venue_id": "beacon",
-      "date": "2026-11-19",
-      "title": "Breathless",
-      "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://thebeacon.film/calendar/movie/breathless?showtime=XRDLUAOPGGGKXQ7NRBTKB2P5",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Jim McBride"
-      ],
-      "year": 1983,
-      "runtime_min": 97,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/breathless"
-    },
-    {
-      "id": "majestic-bay|2026-11-19|you-can-see-everything",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-19",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "15:15",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36751?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "18:45",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36752?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 174,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "majestic-bay|2026-11-19|the-hunger-games-sunrise-on-the-reaping",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-19",
-      "title": "The Hunger Games: Sunrise on the Reaping",
-      "showtimes": [
-        {
-          "time": "15:30",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36753?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36755?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Francis Lawrence"
-      ],
-      "year": 2026,
-      "runtime_min": 158,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "majestic-bay|2026-11-19|wildwood",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-19",
-      "title": "Wildwood",
-      "showtimes": [
-        {
-          "time": "15:45",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36754?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:15",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36756?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Travis Knight"
-      ],
-      "year": 2026,
-      "runtime_min": 131,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "north-bend|2026-11-19|the-hunger-games-sunrise-on-the-reaping",
-      "venue_id": "north-bend",
-      "date": "2026-11-19",
-      "title": "The Hunger Games: Sunrise on the Reaping",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-19th-7pm",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [],
-      "year": 2026,
-      "runtime_min": 159,
-      "format": null,
-      "notes": [],
-      "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-19th-7pm"
-    },
-    {
-      "id": "nwff|2026-11-19|sfcs-at-10-the-witch",
-      "venue_id": "nwff",
-      "date": "2026-11-19",
-      "title": "SFCS at 10: The Witch",
-      "showtimes": [
-        {
-          "time": "18:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6a2b255ee1a0f81f6564f4e4",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "SFCS at 10: A Decade of Favorites",
-      "directors": [
-        "Robert Eggers"
-      ],
-      "year": 2016,
-      "runtime_min": 92,
-      "format": null,
-      "notes": [],
-      "url": "https://nwfilmforum.org/films/sfcs-10-witch/"
-    },
-    {
-      "id": "nwff|2026-11-19|november-2026",
-      "venue_id": "nwff",
-      "date": "2026-11-19",
-      "title": "November 2026",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6aea322019dc776b5f4a2ff6",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Seattle Film Society Presents: Locals Only",
-      "directors": [
-        "James Andrews",
-        "Nate Fieldson",
-        "Amy Harris",
-        "Kamyar Mohsenin"
-      ],
-      "year": null,
-      "runtime_min": 33,
-      "format": null,
-      "notes": [
-        "Visiting artist"
-      ],
-      "url": "https://nwfilmforum.org/films/seattle-film-society-presents-locals-november-2026/"
-    },
-    {
-      "id": "siff-downtown|2026-11-19|godzilla-minus-zero",
-      "venue_id": "siff-downtown",
-      "date": "2026-11-19",
-      "title": "Godzilla Minus Zero",
-      "showtimes": [
-        {
-          "time": "16:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Takashi Yamazaki"
-      ],
-      "year": 2026,
-      "runtime_min": 135,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
-    },
-    {
-      "id": "siff-film-center|2026-11-19|wild-boys-of-the-road",
-      "venue_id": "siff-film-center",
-      "date": "2026-11-19",
-      "title": "Wild Boys of the Road",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "The Open Road",
-      "directors": [
-        "feature: 67 min. short: 20 min.",
-        "William Wellman"
-      ],
-      "year": 1933,
-      "runtime_min": null,
-      "format": "35mm",
-      "notes": [],
-      "url": "https://www.siff.net/programs-and-events/the-open-road/wild-boys-of-the-road"
-    },
-    {
-      "id": "siff-uptown|2026-11-19|you-can-see-everything",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-19",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "15:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 175,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
-    },
-    {
-      "id": "siff-uptown|2026-11-19|wild-horse-nine",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-19",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "16:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 118,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
-    },
-    {
-      "id": "siff-uptown|2026-11-19|elisa",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-19",
-      "title": "Elisa",
-      "showtimes": [
-        {
-          "time": "17:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Leonardo Di Constanzo"
-      ],
-      "year": 2025,
-      "runtime_min": 105,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/elisa"
-    },
-    {
-      "id": "siff-uptown|2026-11-19|a-year-of-school",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-19",
-      "title": "A Year of School",
-      "showtimes": [
-        {
-          "time": "20:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Laura Samani"
-      ],
-      "year": 2025,
-      "runtime_min": 102,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/a-year-of-school"
-    },
-    {
-      "id": "tasveer|2026-11-19|wild-horse-nine",
-      "venue_id": "tasveer",
-      "date": "2026-11-19",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "16:15",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 117,
-      "format": null,
-      "notes": [],
-      "url": "https://filmcenter.tasveer.org/movie/wild-horse-nine-2/"
-    },
-    {
-      "id": "tasveer|2026-11-19|la-bola-negra",
-      "venue_id": "tasveer",
-      "date": "2026-11-19",
-      "title": "La Bola Negra",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": null,
-          "note": "English subtitles",
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Javier Calvo",
-        "Javier Ambrossi"
-      ],
-      "year": 2026,
-      "runtime_min": 155,
-      "format": null,
-      "notes": [],
-      "url": "https://filmcenter.tasveer.org/movie/la-bola-negra-2026-spain-spanish/"
-    },
-    {
-      "id": "tasveer|2026-11-19|once-upon-a-time-in-harlem",
-      "venue_id": "tasveer",
-      "date": "2026-11-19",
-      "title": "Once Upon a Time in Harlem",
-      "showtimes": [
-        {
-          "time": "17:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "William Greaves",
-        "David Greaves"
-      ],
-      "year": 2026,
-      "runtime_min": 100,
-      "format": null,
-      "notes": [],
-      "url": "https://filmcenter.tasveer.org/movie/once-upon-a-time-in-harlem/"
-    },
-    {
-      "id": "tasveer|2026-11-19|you-can-see-everything",
-      "venue_id": "tasveer",
-      "date": "2026-11-19",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "18:50",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 174,
-      "format": null,
-      "notes": [],
-      "url": "https://filmcenter.tasveer.org/movie/you-can-see-everything-2026-usa/"
-    },
     {
       "id": "beacon|2026-11-20|once-upon-a-time-in-harlem",
       "venue_id": "beacon",
@@ -9128,6 +8659,187 @@
       "date": "2026-12-17",
       "title": "All of a Sudden",
       "showtimes": [
+        {
+          "time": "18:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Ryusuke Hamaguchi"
+      ],
+      "year": 2026,
+      "runtime_min": 196,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/all-of-a-sudden"
+    },
+    {
+      "id": "beacon|2026-12-18|a-pistol-for-ringo",
+      "venue_id": "beacon",
+      "date": "2026-12-18",
+      "title": "A Pistol for Ringo",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/a-pistol-for-ringo?showtime=AS6JWEOFOQQ6M5A2YBPT4Y7S",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Duccio Tessari"
+      ],
+      "year": 1965,
+      "runtime_min": 98,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/a-pistol-for-ringo"
+    },
+    {
+      "id": "beacon|2026-12-18|detective-bureau-2-3-go-to-hell-bastards",
+      "venue_id": "beacon",
+      "date": "2026-12-18",
+      "title": "Detective Bureau 2-3: Go to Hell Bastards!",
+      "showtimes": [
+        {
+          "time": "21:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/detective-bureau-2-3-go-to-hell-bastards?showtime=IGJRQI2VWUKAEFVGXWQDVZNL",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Seijun Suzuki"
+      ],
+      "year": 1963,
+      "runtime_min": 89,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/detective-bureau-2-3-go-to-hell-bastards"
+    },
+    {
+      "id": "majestic-bay|2026-12-18|avengers-doomsday",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-18",
+      "title": "Avengers: Doomsday",
+      "showtimes": [
+        {
+          "time": "14:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36642?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "18:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36639?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "22:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36707?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Joe Russo",
+        "Anthony Russo"
+      ],
+      "year": 2026,
+      "runtime_min": 151,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-12-18|dune-part-three",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-18",
+      "title": "Dune: Part Three",
+      "showtimes": [
+        {
+          "time": "14:35",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36641?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "18:35",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36640?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "22:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36708?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Denis Villeneuve"
+      ],
+      "year": 2026,
+      "runtime_min": 150,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "siff-downtown|2026-12-18|dune-part-three",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-18",
+      "title": "Dune: Part Three",
+      "showtimes": [
+        {
+          "time": "15:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Denis Villeneuve"
+      ],
+      "year": 2026,
+      "runtime_min": 150,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/dune-part-three"
+    },
+    {
+      "id": "siff-uptown|2026-12-18|all-of-a-sudden",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-18",
+      "title": "All of a Sudden",
+      "showtimes": [
+        {
+          "time": "15:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
         {
           "time": "18:45",
           "ticket_url": null,

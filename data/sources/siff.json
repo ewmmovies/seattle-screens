@@ -1,175 +1,7 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-26T18:25:07-08:00",
+  "scraped_at": "2026-11-27T00:36:51-08:00",
   "screenings": [
-    {
-      "id": "siff-downtown|2026-11-19|godzilla-minus-zero",
-      "venue_id": "siff-downtown",
-      "date": "2026-11-19",
-      "title": "Godzilla Minus Zero",
-      "showtimes": [
-        {
-          "time": "16:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Takashi Yamazaki"
-      ],
-      "year": 2026,
-      "runtime_min": 135,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
-    },
-    {
-      "id": "siff-film-center|2026-11-19|wild-boys-of-the-road",
-      "venue_id": "siff-film-center",
-      "date": "2026-11-19",
-      "title": "Wild Boys of the Road",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "The Open Road",
-      "directors": [
-        "feature: 67 min. short: 20 min.",
-        "William Wellman"
-      ],
-      "year": 1933,
-      "runtime_min": null,
-      "format": "35mm",
-      "notes": [],
-      "url": "https://www.siff.net/programs-and-events/the-open-road/wild-boys-of-the-road"
-    },
-    {
-      "id": "siff-uptown|2026-11-19|you-can-see-everything",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-19",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "15:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 175,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
-    },
-    {
-      "id": "siff-uptown|2026-11-19|wild-horse-nine",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-19",
-      "title": "Wild Horse Nine",
-      "showtimes": [
-        {
-          "time": "16:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Martin McDonagh"
-      ],
-      "year": 2026,
-      "runtime_min": 118,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
-    },
-    {
-      "id": "siff-uptown|2026-11-19|elisa",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-19",
-      "title": "Elisa",
-      "showtimes": [
-        {
-          "time": "17:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Leonardo Di Constanzo"
-      ],
-      "year": 2025,
-      "runtime_min": 105,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/elisa"
-    },
-    {
-      "id": "siff-uptown|2026-11-19|a-year-of-school",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-19",
-      "title": "A Year of School",
-      "showtimes": [
-        {
-          "time": "20:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Laura Samani"
-      ],
-      "year": 2025,
-      "runtime_min": 102,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/a-year-of-school"
-    },
     {
       "id": "siff-downtown|2026-11-20|godzilla-minus-zero",
       "venue_id": "siff-downtown",
@@ -3334,6 +3166,66 @@
       "date": "2026-12-17",
       "title": "All of a Sudden",
       "showtimes": [
+        {
+          "time": "18:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Ryusuke Hamaguchi"
+      ],
+      "year": 2026,
+      "runtime_min": 196,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/all-of-a-sudden"
+    },
+    {
+      "id": "siff-downtown|2026-12-18|dune-part-three",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-18",
+      "title": "Dune: Part Three",
+      "showtimes": [
+        {
+          "time": "15:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Denis Villeneuve"
+      ],
+      "year": 2026,
+      "runtime_min": 150,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/dune-part-three"
+    },
+    {
+      "id": "siff-uptown|2026-12-18|all-of-a-sudden",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-18",
+      "title": "All of a Sudden",
+      "showtimes": [
+        {
+          "time": "15:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
         {
           "time": "18:45",
           "ticket_url": null,

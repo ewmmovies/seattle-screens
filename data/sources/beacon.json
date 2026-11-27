@@ -1,31 +1,7 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-26T18:25:01-08:00",
+  "scraped_at": "2026-11-27T00:36:41-08:00",
   "screenings": [
-    {
-      "id": "beacon|2026-11-19|breathless",
-      "venue_id": "beacon",
-      "date": "2026-11-19",
-      "title": "Breathless",
-      "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://thebeacon.film/calendar/movie/breathless?showtime=XRDLUAOPGGGKXQ7NRBTKB2P5",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Jim McBride"
-      ],
-      "year": 1983,
-      "runtime_min": 97,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/breathless"
-    },
     {
       "id": "beacon|2026-11-20|once-upon-a-time-in-harlem",
       "venue_id": "beacon",
@@ -1137,6 +1113,54 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/peregrine-falcon"
+    },
+    {
+      "id": "beacon|2026-12-18|a-pistol-for-ringo",
+      "venue_id": "beacon",
+      "date": "2026-12-18",
+      "title": "A Pistol for Ringo",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/a-pistol-for-ringo?showtime=AS6JWEOFOQQ6M5A2YBPT4Y7S",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Duccio Tessari"
+      ],
+      "year": 1965,
+      "runtime_min": 98,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/a-pistol-for-ringo"
+    },
+    {
+      "id": "beacon|2026-12-18|detective-bureau-2-3-go-to-hell-bastards",
+      "venue_id": "beacon",
+      "date": "2026-12-18",
+      "title": "Detective Bureau 2-3: Go to Hell Bastards!",
+      "showtimes": [
+        {
+          "time": "21:30",
+          "ticket_url": "https://thebeacon.film/calendar/movie/detective-bureau-2-3-go-to-hell-bastards?showtime=IGJRQI2VWUKAEFVGXWQDVZNL",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Seijun Suzuki"
+      ],
+      "year": 1963,
+      "runtime_min": 89,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/detective-bureau-2-3-go-to-hell-bastards"
     }
   ]
 }
