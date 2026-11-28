@@ -1,55 +1,7 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-27T18:21:31-08:00",
+  "scraped_at": "2026-11-28T00:20:11-08:00",
   "screenings": [
-    {
-      "id": "beacon|2026-11-20|once-upon-a-time-in-harlem",
-      "venue_id": "beacon",
-      "date": "2026-11-20",
-      "title": "Once Upon a Time in Harlem",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem?showtime=HBLI6SNSASAUZCMV65TOIPYV",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "William Greaves"
-      ],
-      "year": 2026,
-      "runtime_min": 100,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/once-upon-a-time-in-harlem"
-    },
-    {
-      "id": "beacon|2026-11-20|devil-story",
-      "venue_id": "beacon",
-      "date": "2026-11-20",
-      "title": "Devil Story",
-      "showtimes": [
-        {
-          "time": "22:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/devil-story?showtime=MOOYA5V3PMBV7NM7LQP7VUYV",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Bernard Launois"
-      ],
-      "year": 1986,
-      "runtime_min": 75,
-      "format": null,
-      "notes": [],
-      "url": "https://thebeacon.film/calendar/movie/devil-story"
-    },
     {
       "id": "beacon|2026-11-21|pretty-poison",
       "venue_id": "beacon",
@@ -1161,6 +1113,54 @@
       "format": null,
       "notes": [],
       "url": "https://thebeacon.film/calendar/movie/detective-bureau-2-3-go-to-hell-bastards"
+    },
+    {
+      "id": "beacon|2026-12-19|meet-me-in-st-louis",
+      "venue_id": "beacon",
+      "date": "2026-12-19",
+      "title": "Meet Me in St. Louis",
+      "showtimes": [
+        {
+          "time": "19:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/meet-me-in-st-louis?showtime=6CNJGEUNVXFPRNLQYQOOQWCJ",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Vincente Minnelli"
+      ],
+      "year": 1944,
+      "runtime_min": 113,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/meet-me-in-st-louis"
+    },
+    {
+      "id": "beacon|2026-12-19|vhs-uber-alles-presents",
+      "venue_id": "beacon",
+      "date": "2026-12-19",
+      "title": "Vhs Über Alles Presents",
+      "showtimes": [
+        {
+          "time": "22:00",
+          "ticket_url": "https://thebeacon.film/calendar/movie/vhs-ber-alles-presents?showtime=2IXCOYFPVTAF6EY33UEJKB6F",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "???"
+      ],
+      "year": 1989,
+      "runtime_min": 89,
+      "format": null,
+      "notes": [],
+      "url": "https://thebeacon.film/calendar/movie/vhs-ber-alles-presents"
     }
   ]
 }

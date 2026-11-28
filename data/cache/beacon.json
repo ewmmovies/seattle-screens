@@ -1,6 +1,6 @@
 {
   "https://thebeacon.film/calendar/movie/all-i-desire": {
-    "fetched": "2026-11-21",
+    "fetched": "2026-11-28",
     "data": {
       "directors": [
         "Douglas Sirk"
@@ -10,7 +10,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/baxter-vera-baxter": {
-    "fetched": "2026-11-21",
+    "fetched": "2026-11-28",
     "data": {
       "directors": [
         "Marguerite Duras"
@@ -90,7 +90,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/natural-born-killers": {
-    "fetched": "2026-11-21",
+    "fetched": "2026-11-28",
     "data": {
       "directors": [
         "Oliver Stone"
@@ -110,7 +110,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/perdita-durango": {
-    "fetched": "2026-11-21",
+    "fetched": "2026-11-28",
     "data": {
       "directors": [
         "Álex de la Iglesia"
@@ -130,7 +130,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/raise-the-red-lantern": {
-    "fetched": "2026-11-21",
+    "fetched": "2026-11-28",
     "data": {
       "directors": [
         "Zhang Yimou"
@@ -140,7 +140,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/sansho-the-bailiff": {
-    "fetched": "2026-11-21",
+    "fetched": "2026-11-28",
     "data": {
       "directors": [
         "Kenji Mizoguchi"
@@ -150,7 +150,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/the-burning-of-moses-seattle-unrecognized": {
-    "fetched": "2026-11-21",
+    "fetched": "2026-11-28",
     "data": {
       "directors": [
         "BJ Bullert",
@@ -161,7 +161,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/the-honeymoon-killers": {
-    "fetched": "2026-11-21",
+    "fetched": "2026-11-28",
     "data": {
       "directors": [
         "Leonard Kastle"
@@ -171,7 +171,7 @@
     }
   },
   "https://thebeacon.film/calendar/movie/the-living-end": {
-    "fetched": "2026-11-21",
+    "fetched": "2026-11-28",
     "data": {
       "directors": [
         "Gregg Araki"
@@ -349,6 +349,26 @@
         "Seijun Suzuki"
       ],
       "year": 1963,
+      "runtime_min": 89
+    }
+  },
+  "https://thebeacon.film/calendar/movie/meet-me-in-st-louis": {
+    "fetched": "2026-11-28",
+    "data": {
+      "directors": [
+        "Vincente Minnelli"
+      ],
+      "year": 1944,
+      "runtime_min": 113
+    }
+  },
+  "https://thebeacon.film/calendar/movie/vhs-ber-alles-presents": {
+    "fetched": "2026-11-28",
+    "data": {
+      "directors": [
+        "???"
+      ],
+      "year": 1989,
       "runtime_min": 89
     }
   }

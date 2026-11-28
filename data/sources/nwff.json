@@ -1,57 +1,7 @@
 {
   "source": "nwff",
-  "scraped_at": "2026-11-27T18:21:33-08:00",
+  "scraped_at": "2026-11-28T00:20:25-08:00",
   "screenings": [
-    {
-      "id": "nwff|2026-11-20|love-streams",
-      "venue_id": "nwff",
-      "date": "2026-11-20",
-      "title": "Love Streams",
-      "showtimes": [
-        {
-          "time": "19:00",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6a206600823a0bf897418220",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Unstreamable",
-      "directors": [
-        "John Cassavetes"
-      ],
-      "year": 1984,
-      "runtime_min": 140,
-      "format": null,
-      "notes": [],
-      "url": "https://nwfilmforum.org/films/unstreamable-love-streams/"
-    },
-    {
-      "id": "nwff|2026-11-20|my-brothers-wedding",
-      "venue_id": "nwff",
-      "date": "2026-11-20",
-      "title": "My Brother's Wedding",
-      "showtimes": [
-        {
-          "time": "19:30",
-          "ticket_url": "https://nwfilmforum.eventive.org/films/6ac59417a8f4c4355ebf3d0c",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Charles Burnett"
-      ],
-      "year": 1983,
-      "runtime_min": 81,
-      "format": null,
-      "notes": [
-        "4K restoration"
-      ],
-      "url": "https://nwfilmforum.org/films/my-brothers-wedding-4k-restoration/"
-    },
     {
       "id": "nwff|2026-11-21|love-streams",
       "venue_id": "nwff",

@@ -1,98 +1,7 @@
 {
   "source": "majestic_bay",
-  "scraped_at": "2026-11-27T18:21:31-08:00",
+  "scraped_at": "2026-11-28T00:20:23-08:00",
   "screenings": [
-    {
-      "id": "majestic-bay|2026-11-20|you-can-see-everything",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-20",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "15:15",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36721?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "18:45",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36722?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 174,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "majestic-bay|2026-11-20|the-hunger-games-sunrise-on-the-reaping",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-20",
-      "title": "The Hunger Games: Sunrise on the Reaping",
-      "showtimes": [
-        {
-          "time": "15:30",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36719?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:00",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36720?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Francis Lawrence"
-      ],
-      "year": 2026,
-      "runtime_min": 158,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
-    {
-      "id": "majestic-bay|2026-11-20|wildwood",
-      "venue_id": "majestic-bay",
-      "date": "2026-11-20",
-      "title": "Wildwood",
-      "showtimes": [
-        {
-          "time": "15:45",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36723?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:15",
-          "ticket_url": "https://ticketing.us.veezi.com/purchase/36724?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Travis Knight"
-      ],
-      "year": 2026,
-      "runtime_min": 131,
-      "format": "Digital",
-      "notes": [],
-      "url": "https://www.majesticbay.com/"
-    },
     {
       "id": "majestic-bay|2026-11-21|you-can-see-everything",
       "venue_id": "majestic-bay",
@@ -1535,6 +1444,91 @@
         {
           "time": "22:15",
           "ticket_url": "https://ticketing.us.veezi.com/purchase/36708?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Denis Villeneuve"
+      ],
+      "year": 2026,
+      "runtime_min": 150,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-12-19|avengers-doomsday",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-19",
+      "title": "Avengers: Doomsday",
+      "showtimes": [
+        {
+          "time": "10:30",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36683?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "14:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36684?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "18:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36685?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "22:00",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36711?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Joe Russo",
+        "Anthony Russo"
+      ],
+      "year": 2026,
+      "runtime_min": 151,
+      "format": "Digital",
+      "notes": [],
+      "url": "https://www.majesticbay.com/"
+    },
+    {
+      "id": "majestic-bay|2026-12-19|dune-part-three",
+      "venue_id": "majestic-bay",
+      "date": "2026-12-19",
+      "title": "Dune: Part Three",
+      "showtimes": [
+        {
+          "time": "10:45",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36686?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "14:35",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36687?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "18:35",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36688?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "22:15",
+          "ticket_url": "https://ticketing.us.veezi.com/purchase/36712?siteToken=Z6qUv91cr0aCDg%2bCM%2bZ7zQ%3d%3d",
           "note": null,
           "sold_out": false
         }

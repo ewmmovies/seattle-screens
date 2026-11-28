@@ -1,168 +1,7 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-27T18:21:37-08:00",
+  "scraped_at": "2026-11-28T00:20:36-08:00",
   "screenings": [
-    {
-      "id": "siff-downtown|2026-11-20|godzilla-minus-zero",
-      "venue_id": "siff-downtown",
-      "date": "2026-11-20",
-      "title": "Godzilla Minus Zero",
-      "showtimes": [
-        {
-          "time": "16:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Takashi Yamazaki"
-      ],
-      "year": 2026,
-      "runtime_min": 135,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/godzilla-minus-zero"
-    },
-    {
-      "id": "siff-uptown|2026-11-20|you-can-see-everything",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-20",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "15:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 175,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
-    },
-    {
-      "id": "siff-uptown|2026-11-20|club-kid",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-20",
-      "title": "Club Kid",
-      "showtimes": [
-        {
-          "time": "16:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "19:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Jordan Firstman"
-      ],
-      "year": 2026,
-      "runtime_min": 122,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/club-kid"
-    },
-    {
-      "id": "siff-uptown|2026-11-20|gioia",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-20",
-      "title": "Gioia",
-      "showtimes": [
-        {
-          "time": "17:30",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Nicolangelo Gelormini"
-      ],
-      "year": 2025,
-      "runtime_min": 108,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/gioia"
-    },
-    {
-      "id": "siff-uptown|2026-11-20|raise-the-red-lantern",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-20",
-      "title": "Raise the Red Lantern",
-      "showtimes": [
-        {
-          "time": "19:15",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Zhang Yimou"
-      ],
-      "year": 1991,
-      "runtime_min": 125,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/raise-the-red-lantern"
-    },
-    {
-      "id": "siff-uptown|2026-11-20|the-last-one-for-the-road",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-20",
-      "title": "The Last One for the Road",
-      "showtimes": [
-        {
-          "time": "20:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": "Cinema Italian Style 2026",
-      "directors": [
-        "Francesco Sossai"
-      ],
-      "year": 2025,
-      "runtime_min": 98,
-      "format": null,
-      "notes": [
-        "SIFF year-round passes and vouchers are not valid for this screening."
-      ],
-      "url": "https://www.siff.net/programs-and-events/cinema-italian-style-2026/the-last-one-for-the-road"
-    },
     {
       "id": "siff-downtown|2026-11-21|godzilla-minus-zero",
       "venue_id": "siff-downtown",
@@ -3219,6 +3058,105 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/all-of-a-sudden"
+    },
+    {
+      "id": "siff-downtown|2026-12-19|dune-part-three",
+      "venue_id": "siff-downtown",
+      "date": "2026-12-19",
+      "title": "Dune: Part Three",
+      "showtimes": [
+        {
+          "time": "12:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Denis Villeneuve"
+      ],
+      "year": 2026,
+      "runtime_min": 150,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/dune-part-three"
+    },
+    {
+      "id": "siff-uptown|2026-12-19|all-of-a-sudden",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-19",
+      "title": "All of a Sudden",
+      "showtimes": [
+        {
+          "time": "11:40",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "15:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        },
+        {
+          "time": "19:00",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Ryusuke Hamaguchi"
+      ],
+      "year": 2026,
+      "runtime_min": 196,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/all-of-a-sudden"
+    },
+    {
+      "id": "siff-uptown|2026-12-19|christmas-pop-up",
+      "venue_id": "siff-uptown",
+      "date": "2026-12-19",
+      "title": "Christmas Pop-Up",
+      "showtimes": [
+        {
+          "time": "19:30",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "film: 93 minutes / event: 3 hours",
+        "Molly Muse"
+      ],
+      "year": 2026,
+      "runtime_min": null,
+      "format": null,
+      "notes": [
+        "SIFF year-round passes and vouchers are not valid for this screening."
+      ],
+      "url": "https://www.siff.net/cinema/in-theaters/christmas-pop-up"
     }
   ]
 }
