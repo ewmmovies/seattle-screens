@@ -1,6 +1,6 @@
 {
   "source": "beacon",
-  "scraped_at": "2026-11-27T12:08:49-08:00",
+  "scraped_at": "2026-11-27T18:21:31-08:00",
   "screenings": [
     {
       "id": "beacon|2026-11-20|once-upon-a-time-in-harlem",
@@ -130,9 +130,9 @@
       "showtimes": [
         {
           "time": "19:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/five-minutes-to-live?showtime=BIZZ2DWFWQCWSZC2RMIXIZCS",
+          "ticket_url": null,
           "note": null,
-          "sold_out": false
+          "sold_out": true
         }
       ],
       "kind": "film",
@@ -154,9 +154,9 @@
       "showtimes": [
         {
           "time": "19:00",
-          "ticket_url": "https://thebeacon.film/calendar/movie/the-burning-of-moses-seattle-unrecognized?showtime=NFKDPNGGUYVRL6IQAGFPKB5L",
+          "ticket_url": null,
           "note": null,
-          "sold_out": false
+          "sold_out": true
         }
       ],
       "kind": "film",

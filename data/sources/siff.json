@@ -1,6 +1,6 @@
 {
   "source": "siff",
-  "scraped_at": "2026-11-27T12:09:14-08:00",
+  "scraped_at": "2026-11-27T18:21:37-08:00",
   "screenings": [
     {
       "id": "siff-downtown|2026-11-20|godzilla-minus-zero",
@@ -1079,12 +1079,6 @@
       "title": "Elsinore",
       "showtimes": [
         {
-          "time": "13:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "16:00",
           "ticket_url": null,
           "note": null,
@@ -1145,12 +1139,6 @@
       "title": "Club Kid",
       "showtimes": [
         {
-          "time": "12:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
           "time": "15:45",
           "ticket_url": null,
           "note": null,
@@ -1175,48 +1163,11 @@
       "url": "https://www.siff.net/cinema/in-theaters/club-kid"
     },
     {
-      "id": "siff-uptown|2026-11-27|you-can-see-everything",
-      "venue_id": "siff-uptown",
-      "date": "2026-11-27",
-      "title": "You Can See Everything",
-      "showtimes": [
-        {
-          "time": "13:00",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
-        {
-          "time": "18:45",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        }
-      ],
-      "kind": "film",
-      "series": null,
-      "directors": [
-        "Nathan Fielder",
-        "Lance Oppenheim"
-      ],
-      "year": 2026,
-      "runtime_min": 175,
-      "format": null,
-      "notes": [],
-      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
-    },
-    {
       "id": "siff-uptown|2026-11-27|paper-tiger",
       "venue_id": "siff-uptown",
       "date": "2026-11-27",
       "title": "Paper Tiger",
       "showtimes": [
-        {
-          "time": "13:15",
-          "ticket_url": null,
-          "note": null,
-          "sold_out": false
-        },
         {
           "time": "16:15",
           "ticket_url": null,
@@ -1264,6 +1215,31 @@
       "format": null,
       "notes": [],
       "url": "https://www.siff.net/cinema/in-theaters/wild-horse-nine"
+    },
+    {
+      "id": "siff-uptown|2026-11-27|you-can-see-everything",
+      "venue_id": "siff-uptown",
+      "date": "2026-11-27",
+      "title": "You Can See Everything",
+      "showtimes": [
+        {
+          "time": "18:45",
+          "ticket_url": null,
+          "note": null,
+          "sold_out": false
+        }
+      ],
+      "kind": "film",
+      "series": null,
+      "directors": [
+        "Nathan Fielder",
+        "Lance Oppenheim"
+      ],
+      "year": 2026,
+      "runtime_min": 175,
+      "format": null,
+      "notes": [],
+      "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything"
     },
     {
       "id": "siff-downtown|2026-11-28|elsinore",
